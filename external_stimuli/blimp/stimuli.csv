@@ -1,0 +1,651 @@
+good_sentence,bad_sentence,category,category_fine,blimp_UID,blimp_pairID,item_id
+Mary had left.,Mary had referenced.,syntax,argument_structure,drop_argument,608,1
+Some person's tutor arrived at every library.,Some person's tutor nodded every library.,syntax,argument_structure,transitive,492,2
+Jesus's mentor is impressed by the lights.,Jesus's mentor is nodded by the lights.,syntax,argument_structure,passive_1,452,3
+The Clintons' nephews weren't left by Angela.,The Clintons' nephews weren't testified by Angela.,syntax,argument_structure,passive_1,566,4
+A guy has criticized most daughters of Benjamin.,A guy has slumped over most daughters of Benjamin.,syntax,argument_structure,transitive,784,5
+Debra isn't bored by Carlos.,Debra isn't smiled by Carlos.,syntax,argument_structure,passive_1,847,6
+That ice freezes.,That ice revealed.,syntax,argument_structure,inchoative,304,7
+Becky paints.,Becky conceals.,syntax,argument_structure,intransitive,786,8
+Ronald wasn't distracted.,Ronald wasn't suffered.,syntax,argument_structure,passive_2,414,9
+A lot of hospitals aren't alarmed by that spotlight.,A lot of hospitals aren't collaborated by that spotlight.,syntax,argument_structure,passive_1,809,10
+These snakes wake up.,These snakes admired.,syntax,argument_structure,inchoative,748,11
+Raymond washes.,Raymond annoys.,syntax,argument_structure,inchoative,412,12
+Most icicles melt.,Most icicles reveal.,syntax,argument_structure,inchoative,283,13
+Melanie's grandson has hidden away.,Melanie's grandson has disliked.,syntax,argument_structure,inchoative,854,14
+Jennifer unfolds some blouse.,Jennifer disappeared some blouse.,syntax,argument_structure,causative,760,15
+Nieces of all men have hugged.,Nieces of all men have dropped by.,syntax,argument_structure,intransitive,750,16
+The Clintons' sisters joke around.,The Clintons' sisters bike to.,syntax,argument_structure,intransitive,878,17
+The Impressionists have changed.,The Impressionists have dropped by.,syntax,argument_structure,intransitive,110,18
+A lot of waiters' best friend watches.,A lot of waiters' best friend references.,syntax,argument_structure,drop_argument,182,19
+Barbara bought.,Barbara lifts.,syntax,argument_structure,drop_argument,390,20
+Christina chipped glasses.,Christina vanished glasses.,syntax,argument_structure,causative,166,21
+The men weren't hugged.,The men weren't responded.,syntax,argument_structure,passive_2,325,22
+Rachelle isn't respected.,Rachelle isn't lied.,syntax,argument_structure,passive_2,871,23
+The friend of Karen was bothered.,The friend of Karen was waved.,syntax,argument_structure,passive_2,348,24
+Leslie's piano teachers were hired.,Leslie's piano teachers were flirted.,syntax,argument_structure,passive_2,11,25
+An eye opens.,An eye admires.,syntax,argument_structure,inchoative,974,26
+Kirsten isn't described by the mother of Rodney.,Kirsten isn't argued by the mother of Rodney.,syntax,argument_structure,passive_1,493,27
+Lissa shuts a gate.,Lissa falls a gate.,syntax,argument_structure,causative,852,28
+Tonya washed Teresa.,Tonya negotiates Teresa.,syntax,argument_structure,causative,274,29
+Liam should shock Joseph's supervisors.,Liam should shrug Joseph's supervisors.,syntax,argument_structure,transitive,165,30
+These waiters' plumbers were referenced.,These waiters' plumbers were left.,syntax,argument_structure,passive_2,906,31
+That glass wasn't dropping.,That glass wasn't looking like.,syntax,argument_structure,inchoative,619,32
+Some ladies were accelerating many bikes.,Some ladies were vanishing many bikes.,syntax,argument_structure,causative,771,33
+Claire wouldn't close many doors.,Claire wouldn't fall many doors.,syntax,argument_structure,causative,692,34
+Nicole wasn't descending.,Nicole wasn't returning to.,syntax,argument_structure,drop_argument,315,35
+Margaret was watched by Carol.,Margaret was died by Carol.,syntax,argument_structure,passive_1,745,36
+Benjamin would wrinkle every scarf.,Benjamin would fall every scarf.,syntax,argument_structure,causative,4,37
+A lot of grandsons of Tara have helped.,A lot of grandsons of Tara have resembled.,syntax,argument_structure,drop_argument,439,38
+Vincent hated William.,Vincent grinned William.,syntax,argument_structure,transitive,197,39
+Some pants folded.,Some pants admire.,syntax,argument_structure,inchoative,632,40
+Some dress dries.,Some dress messed up.,syntax,argument_structure,inchoative,403,41
+Many women joke around.,Many women care for.,syntax,argument_structure,intransitive,872,42
+An adult wouldn't fold this sock.,An adult wouldn't disappear this sock.,syntax,argument_structure,causative,897,43
+Katherine is helped.,Katherine is trained.,syntax,argument_structure,passive_2,545,44
+Claire's ex-boyfriend wasn't referenced by Brian.,Claire's ex-boyfriend wasn't disagreed by Brian.,syntax,argument_structure,passive_1,328,45
+Mouths haven't closed.,Mouths haven't bought.,syntax,argument_structure,inchoative,89,46
+Some waiter's tutors were impressed.,Some waiter's tutors were competed.,syntax,argument_structure,passive_2,453,47
+Those blouses had flattened.,Those blouses had looked like.,syntax,argument_structure,intransitive,462,48
+Erin wouldn't disgust Matt.,Erin wouldn't fall Matt.,syntax,argument_structure,transitive,185,49
+The child hadn't hidden Alice.,The child hadn't donated Alice.,syntax,argument_structure,causative,831,50
+Dawn hates this determined patient.,Dawn hates these determined patient.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_2,110,51
+Marie cares for that nice child.,Marie cares for that nice children.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_1,119,52
+Some children were healing these students.,Some children were healing these student.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,688,53
+A box alarms these actresses.,A box alarms these actress.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,624,54
+Timothy explores this restaurant.,Timothy explores this restaurants.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,314,55
+This rug worries that child.,This rug worries those child.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,946,56
+Jill discovered this content girl.,Jill discovered these content girl.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_2,350,57
+That adult has brought that purple octopus.,That adult has brought those purple octopus.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_2,8,58
+Most senators run around those hospitals.,Most senators run around those hospital.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,981,59
+Claire conceals those small stimuli.,Claire conceals that small stimuli.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_2,192,60
+These muffins haven't bored those standing guys.,These muffins haven't bored that standing guys.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_2,569,61
+Many teenagers break this orange foot.,Many teenagers break this orange feet.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_1,891,62
+That broccoli scares that fast woman.,That broccoli scares that fast women.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_1,964,63
+Most girls passed those smooth high schools.,Most girls passed those smooth high school.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adjective_1,217,64
+Candice appreciates that patient.,Candice appreciates that patients.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,980,65
+A hill doesn't impress these people.,A hill doesn't impress these person.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_1,157,66
+That painting is looking like this delighted boy.,That painting is looking like this delighted boys.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adjective_1,894,67
+The hospitals referenced these students.,The hospitals referenced these student.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,482,68
+Ellen wasn't observing these customers.,Ellen wasn't observing these customer.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,545,69
+Some adults run around that black high school.,Some adults run around those black high school.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_2,889,70
+Every lady drops by these oases.,Every lady drops by this oases.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,579,71
+Julia kisses that person.,Julia kisses those person.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,775,72
+Becca won't discuss that child.,Becca won't discuss that children.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_1,544,73
+Michelle can't argue about those sick children.,Michelle can't argue about that sick children.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_2,994,74
+Sherry hasn't talked about that mall.,Sherry hasn't talked about that malls.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,229,75
+Cindy could praise these men.,Cindy could praise this men.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,580,76
+Phillip was lifting this mouse.,Phillip was lifting this mice.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_1,3,77
+A lot of students run around those college campuses.,A lot of students run around that college campuses.,morphology,determiner_noun_agreement,determiner_noun_agreement_2,728,78
+All boys fire this woman.,All boys fire these woman.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,740,79
+Marcus shouldn't mess up these blue feet.,Marcus shouldn't mess up these blue foot.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_1,803,80
+Debra has loved that clever man.,Debra has loved that clever men.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_1,856,81
+Many planes were irritating these children.,Many planes were irritating this children.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,888,82
+Meredith escaped from these people.,Meredith escaped from this people.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,981,83
+Raymond left those scared children.,Raymond left that scared children.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_2,93,84
+Clyde appreciated that synopsis.,Clyde appreciated those synopsis.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,689,85
+The Lutherans upset this man.,The Lutherans upset these man.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,278,86
+Many guests approach this lucky man.,Many guests approach these lucky man.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_2,767,87
+This documentary hadn't disagreed with these good plays.,This documentary hadn't disagreed with these good play.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adjective_1,220,88
+Wayne was thinking about this paralysis.,Wayne was thinking about this paralyses.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_1,478,89
+Laura buys these axes.,Laura buys this axes.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,107,90
+Matt hadn't impressed this exposed child.,Matt hadn't impressed these exposed child.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_2,818,91
+Those pedestrians weren't fleeing from these concealed men.,Those pedestrians weren't fleeing from this concealed men.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_2,855,92
+Rachelle had bought that chair.,Rachelle had bought that chairs.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,145,93
+Actors reference that displeased doctor.,Actors reference that displeased doctors.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adjective_1,419,94
+Becky had fixed this hard foot.,Becky had fixed this hard feet.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_1,21,95
+Douglas hadn't fired these men.,Douglas hadn't fired this men.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,657,96
+Some museums forget that good analysis.,Some museums forget those good analysis.,morphology,determiner_noun_agreement,determiner_noun_agreement_with_adj_irregular_2,150,97
+Sheila hasn't arrived at those restaurants.,Sheila hasn't arrived at that restaurants.,morphology,determiner_noun_agreement,determiner_noun_agreement_2,369,98
+Chad isn't investigating this senator.,Chad isn't investigating this senators.,morphology,determiner_noun_agreement,determiner_noun_agreement_1,452,99
+Some man broke this tooth.,Some man broke these tooth.,morphology,determiner_noun_agreement,determiner_noun_agreement_irregular_2,120,100
+Water annoys a few displeased girls and this chair annoys a lot.,Water annoys a few girls and this chair annoys a lot displeased.,syntax,ellipsis,ellipsis_n_bar_1,500,101
+Alan is questioning one bad colleague and Naomi's oncologists aren't questioning four.,Alan is questioning one colleague and Naomi's oncologists aren't questioning four bad.,syntax,ellipsis,ellipsis_n_bar_1,391,102
+Gerald thinks about a few organizations and Bethany's French teacher thinks about a lot bad organizations.,Gerald thinks about a few good organizations and Bethany's French teacher thinks about a lot bad.,syntax,ellipsis,ellipsis_n_bar_2,395,103
+Julia examined two lost ex-boyfriends and Timothy examined three.,Julia examined two ex-boyfriends and Timothy examined three lost.,syntax,ellipsis,ellipsis_n_bar_1,790,104
+Candice would cure one unconvinced child and Rachel would cure few.,Candice would cure one child and Rachel would cure few unconvinced.,syntax,ellipsis,ellipsis_n_bar_1,369,105
+Matt is ascending three steps and Rachelle is ascending more gray steps.,Matt is ascending three exposed steps and Rachelle is ascending more gray.,syntax,ellipsis,ellipsis_n_bar_2,153,106
+This teenager ascends one ladder and Frank's daughter ascends more hard ladder.,This teenager ascends one smooth ladder and Frank's daughter ascends more hard.,syntax,ellipsis,ellipsis_n_bar_2,538,107
+Katherine explored four grocery stores and Carrie's ex-wives explored five purple grocery stores.,Katherine explored four smooth grocery stores and Carrie's ex-wives explored five purple.,syntax,ellipsis,ellipsis_n_bar_2,485,108
+Robert's daughters love one child and most companies love several old child.,Robert's daughters love one out in the open child and most companies love several old.,syntax,ellipsis,ellipsis_n_bar_2,832,109
+Connie hadn't bothered many nieces and Jodi hadn't bothered few small nieces.,Connie hadn't bothered many old nieces and Jodi hadn't bothered few small.,syntax,ellipsis,ellipsis_n_bar_2,163,110
+Brian talks to one grandson of and some person's grandfather talks to a lot serious grandson of.,Brian talks to one unsure grandson of and some person's grandfather talks to a lot serious.,syntax,ellipsis,ellipsis_n_bar_2,737,111
+Mary's father had one river and Gina had four rough river.,Mary's father had one smooth river and Gina had four rough.,syntax,ellipsis,ellipsis_n_bar_2,455,112
+Randolf's partner talks to three actors and Jane talks to at least as many exposed actors.,Randolf's partner talks to three bad actors and Jane talks to at least as many exposed.,syntax,ellipsis,ellipsis_n_bar_2,764,113
+Sara walks through several yellow restaurants and Tina walks through a few.,Sara walks through several restaurants and Tina walks through a few yellow.,syntax,ellipsis,ellipsis_n_bar_1,941,114
+Larry talked to five dermatologists and Rose talked to four displeased dermatologists.,Larry talked to five small dermatologists and Rose talked to four displeased.,syntax,ellipsis,ellipsis_n_bar_2,1,115
+Russell cleans one yellow rug and every girl cleans a few.,Russell cleans one rug and every girl cleans a few yellow.,syntax,ellipsis,ellipsis_n_bar_1,474,116
+The Lutherans' classmates remember three content sisters of and Caroline's ex-girlfriends remember at least as many.,The Lutherans' classmates remember three sisters of and Caroline's ex-girlfriends remember at least as many content.,syntax,ellipsis,ellipsis_n_bar_1,341,117
+Kevin's associate worked with one patient and Lissa worked with more uncertain patient.,Kevin's associate worked with one young patient and Lissa worked with more uncertain.,syntax,ellipsis,ellipsis_n_bar_2,600,118
+George is going to one purple mall and Katherine is going to five.,George is going to one mall and Katherine is going to five purple.,syntax,ellipsis,ellipsis_n_bar_1,131,119
+Tracy impressed three classmates and the bank impressed almost as many delighted classmates.,Tracy impressed three upset classmates and the bank impressed almost as many delighted.,syntax,ellipsis,ellipsis_n_bar_2,483,120
+Dana hadn't worn one sock and Cheryl hadn't worn five important sock.,Dana hadn't worn one good sock and Cheryl hadn't worn five important.,syntax,ellipsis,ellipsis_n_bar_2,949,121
+The waitresses discover several contractors and teenagers discover a few determined contractors.,The waitresses discover several big contractors and teenagers discover a few determined.,syntax,ellipsis,ellipsis_n_bar_2,809,122
+Stacey's piano teacher will hate a few bad essays and George's boyfriend will hate a lot.,Stacey's piano teacher will hate a few essays and George's boyfriend will hate a lot bad.,syntax,ellipsis,ellipsis_n_bar_1,800,123
+Veronica's plumbers sound like one doctor and many girls sound like several old doctor.,Veronica's plumbers sound like one lucky doctor and many girls sound like several old.,syntax,ellipsis,ellipsis_n_bar_2,124,124
+These sisters of Bradley shocks four big mothers and these girls' dermatologists shocks five.,These sisters of Bradley shocks four mothers and these girls' dermatologists shocks five big.,syntax,ellipsis,ellipsis_n_bar_1,29,125
+Sara broke one cheap carriage and Kendra's classmate broke two.,Sara broke one carriage and Kendra's classmate broke two cheap.,syntax,ellipsis,ellipsis_n_bar_1,919,126
+The Clintons reference four grandfathers and Karla's dentists reference five young grandfathers.,The Clintons reference four concealed grandfathers and Karla's dentists reference five young.,syntax,ellipsis,ellipsis_n_bar_2,396,127
+The Impressionists work with three women and these dancers work with at least as many good women.,The Impressionists work with three small women and these dancers work with at least as many good.,syntax,ellipsis,ellipsis_n_bar_2,871,128
+Some grandsons of Maria are annoying few confident plumbers and all commentaries about politics are annoying many.,Some grandsons of Maria are annoying few plumbers and all commentaries about politics are annoying many confident.,syntax,ellipsis,ellipsis_n_bar_1,236,129
+Curtis didn't leave few mentors and James didn't leave many displeased mentors.,Curtis didn't leave few determined mentors and James didn't leave many displeased.,syntax,ellipsis,ellipsis_n_bar_2,68,130
+Jodi was concealing a lot of snakes and Stephanie was concealing a few bad snakes.,Jodi was concealing a lot of black snakes and Stephanie was concealing a few bad.,syntax,ellipsis,ellipsis_n_bar_2,916,131
+Some sons of Janice dislike three good French teachers and Matt's contractors dislike at least as many.,Some sons of Janice dislike three French teachers and Matt's contractors dislike at least as many good.,syntax,ellipsis,ellipsis_n_bar_1,253,132
+Brian wouldn't lift no red books about and Todd's cousin wouldn't lift some.,Brian wouldn't lift no books about and Todd's cousin wouldn't lift some red.,syntax,ellipsis,ellipsis_n_bar_1,633,133
+Every sister of Cindy messes up one mall and every father of Mark messes up a few white mall.,Every sister of Cindy messes up one yellow mall and every father of Mark messes up a few white.,syntax,ellipsis,ellipsis_n_bar_2,274,134
+Some libraries hadn't insulted three hills and a boy's piano teachers hadn't insulted almost as many orange hills.,Some libraries hadn't insulted three old hills and a boy's piano teachers hadn't insulted almost as many orange.,syntax,ellipsis,ellipsis_n_bar_2,304,135
+Mitchell's grandsons hid one important banana and Rhonda hid several.,Mitchell's grandsons hid one banana and Rhonda hid several important.,syntax,ellipsis,ellipsis_n_bar_1,272,136
+Diana's dentists dislike one actress and some women's employees dislike at least as many popular actress.,Diana's dentists dislike one fast actress and some women's employees dislike at least as many popular.,syntax,ellipsis,ellipsis_n_bar_2,491,137
+Wayne respected one busy father of and Sonia respected two.,Wayne respected one father of and Sonia respected two busy.,syntax,ellipsis,ellipsis_n_bar_1,722,138
+A lot of dancers' French teacher escapes from three brothers of and Eric escapes from at least as many lost brothers of.,A lot of dancers' French teacher escapes from three hidden brothers of and Eric escapes from at least as many lost.,syntax,ellipsis,ellipsis_n_bar_2,51,139
+A cousin of Florence wasn't disagreeing with three out in the open sisters of and Jesus's cousin wasn't disagreeing with at least as many.,A cousin of Florence wasn't disagreeing with three sisters of and Jesus's cousin wasn't disagreeing with at least as many out in the open.,syntax,ellipsis,ellipsis_n_bar_1,927,140
+Those drivers astound several long electricians and most bicycles astound a few.,Those drivers astound several electricians and most bicycles astound a few long.,syntax,ellipsis,ellipsis_n_bar_1,269,141
+Many brothers of Judy cure one ex-boyfriend and the men cure five young ex-boyfriend.,Many brothers of Judy cure one troubled ex-boyfriend and the men cure five young.,syntax,ellipsis,ellipsis_n_bar_2,652,142
+Amy isn't complaining about one bad commentary about and Frank isn't complaining about four.,Amy isn't complaining about one commentary about and Frank isn't complaining about four bad.,syntax,ellipsis,ellipsis_n_bar_1,196,143
+Denise's teachers pass three exposed hills and most ladies pass fewer.,Denise's teachers pass three hills and most ladies pass fewer exposed.,syntax,ellipsis,ellipsis_n_bar_1,848,144
+Judy is observing five out in the open nephews of and Barbara's friends aren't observing four.,Judy is observing five nephews of and Barbara's friends aren't observing four out in the open.,syntax,ellipsis,ellipsis_n_bar_1,718,145
+Laurie's handymen aren't breaking one vase and Martha was breaking more brown vase.,Laurie's handymen aren't breaking one rough vase and Martha was breaking more brown.,syntax,ellipsis,ellipsis_n_bar_2,106,146
+Colleen's brothers impress one nephew and a lot of dancers impress a lot content nephew.,Colleen's brothers impress one exposed nephew and a lot of dancers impress a lot content.,syntax,ellipsis,ellipsis_n_bar_2,280,147
+All teachers research one uncertain doctor and Cheryl's colleagues research several.,All teachers research one doctor and Cheryl's colleagues research several uncertain.,syntax,ellipsis,ellipsis_n_bar_1,637,148
+That niece of some doctor thinks about three tomatoes and Mary thinks about almost as many brown tomatoes.,That niece of some doctor thinks about three small tomatoes and Mary thinks about almost as many brown.,syntax,ellipsis,ellipsis_n_bar_2,271,149
+This waiter doesn't listen to a lot of old fathers of and those associations should listen to a few.,This waiter doesn't listen to a lot of fathers of and those associations should listen to a few old.,syntax,ellipsis,ellipsis_n_bar_1,944,150
+All analyses are anticipating it to be not so nice that Theresa hadn't painted.,All analyses commission it to be not so nice that Theresa hadn't painted.,syntax_semantics,control_raising,expletive_it_object_raising,652,151
+Clyde isn't hard work to listen to.,Clyde isn't apt to listen to.,syntax_semantics,control_raising,tough_vs_raising_1,862,152
+There weren't bound to be many computers boring Tara.,There weren't excited to be many computers boring Tara.,syntax_semantics,control_raising,existential_there_subject_raising,766,153
+Stephen predicted there to be some cats coming here.,Stephen badgers there to be some cats coming here.,syntax_semantics,control_raising,existential_there_object_raising,120,154
+Kirsten finds it to be not so bad that Regina had entreated Ella to spin around.,Kirsten wasn't begging it to be not so bad that Regina had entreated Ella to spin around.,syntax_semantics,control_raising,expletive_it_object_raising,447,155
+Some documentaries are about to shock Carmen.,Some documentaries are enjoyable to shock Carmen.,syntax_semantics,control_raising,tough_vs_raising_2,633,156
+Kenneth's mother isn't apt to go fishing.,Kenneth's mother isn't easy to go fishing.,syntax_semantics,control_raising,tough_vs_raising_2,265,157
+Valerie preferred it to be funny that people walk through that hospital.,Valerie has spurred it to be funny that people walk through that hospital.,syntax_semantics,control_raising,expletive_it_object_raising,581,158
+Sherry judges it to be expected that Eric has loved every man.,Sherry was requiring it to be expected that Eric has loved every man.,syntax_semantics,control_raising,expletive_it_object_raising,582,159
+Marie predicted it to be nice that Sandra might complain about Sonia.,Marie required it to be nice that Sandra might complain about Sonia.,syntax_semantics,control_raising,expletive_it_object_raising,628,160
+Tonya's granddaughter isn't likely to annoy Julia.,Tonya's granddaughter isn't enjoyable to annoy Julia.,syntax_semantics,control_raising,tough_vs_raising_2,868,161
+Waitresses had found it to be not so obvious that Marcus learned who wouldn't escape.,Waitresses pressed it to be not so obvious that Marcus learned who wouldn't escape.,syntax_semantics,control_raising,expletive_it_object_raising,133,162
+There seemed to be a cafe disappearing.,There plans to be a cafe disappearing.,syntax_semantics,control_raising,existential_there_subject_raising,320,163
+Regina wasn't difficult to reveal.,Regina wasn't soon to reveal.,syntax_semantics,control_raising,tough_vs_raising_1,941,164
+The Impressionists might expect there to be a lot of mothers of Vanessa walking through the rivers.,The Impressionists might beg there to be a lot of mothers of Vanessa walking through the rivers.,syntax_semantics,control_raising,existential_there_object_raising,243,165
+A screen wasn't hard work to conceal.,A screen wasn't unlikely to conceal.,syntax_semantics,control_raising,tough_vs_raising_1,307,166
+Winston Churchill's oncologists are exciting to work with.,Winston Churchill's oncologists are about to work with.,syntax_semantics,control_raising,tough_vs_raising_1,660,167
+The Impressionists found there to be a person smiling.,The Impressionists asked there to be a person smiling.,syntax_semantics,control_raising,existential_there_object_raising,256,168
+Chad judged it to be not so important that the painting looks like Paula.,Chad asked it to be not so important that the painting looks like Paula.,syntax_semantics,control_raising,expletive_it_object_raising,924,169
+The mother of Marla wasn't bound to implore Rose to confuse Peter.,The mother of Marla wasn't easy to implore Rose to confuse Peter.,syntax_semantics,control_raising,tough_vs_raising_2,275,170
+Rachelle isn't tough to reveal.,Rachelle isn't certain to reveal.,syntax_semantics,control_raising,tough_vs_raising_1,124,171
+Sheila is bound to try to walk through every hospital.,Sheila is annoying to try to walk through every hospital.,syntax_semantics,control_raising,tough_vs_raising_2,420,172
+Mark had preferred there to be a report vanishing.,Mark had convinced there to be a report vanishing.,syntax_semantics,control_raising,existential_there_object_raising,802,173
+Timothy wasn't likely to beg Donna to astound that university.,Timothy wasn't exciting to beg Donna to astound that university.,syntax_semantics,control_raising,tough_vs_raising_2,33,174
+Candice hasn't anticipated there to be few cats distracting Kathleen.,Candice hasn't commanded there to be few cats distracting Kathleen.,syntax_semantics,control_raising,existential_there_object_raising,651,175
+There happened to be a banana looking like these pictures.,There continues to be a banana looking like these pictures.,syntax_semantics,control_raising,existential_there_subject_raising,244,176
+There had seemed to be a lot of jackets shrinking.,There had intended to be a lot of jackets shrinking.,syntax_semantics,control_raising,existential_there_subject_raising,87,177
+This hospital wasn't bound to induce Dennis's classmate to love Jacqueline.,This hospital wasn't interesting to induce Dennis's classmate to love Jacqueline.,syntax_semantics,control_raising,tough_vs_raising_2,523,178
+Sherry is annoying to reference.,Sherry is unlikely to reference.,syntax_semantics,control_raising,tough_vs_raising_1,194,179
+Tiffany believes it to be obvious that Suzanne had appeared to hide a lot of gloves.,Tiffany commissions it to be obvious that Suzanne had appeared to hide a lot of gloves.,syntax_semantics,control_raising,expletive_it_object_raising,709,180
+A glacier is fun to bike to.,A glacier is soon to bike to.,syntax_semantics,control_raising,tough_vs_raising_1,741,181
+Carl hasn't predicted it to be a shame that Denise won't wash.,Carl was compelling it to be a shame that Denise won't wash.,syntax_semantics,control_raising,expletive_it_object_raising,433,182
+Maria prefers it to be not so important that the socks are falling.,Maria won't pressure it to be not so important that the socks are falling.,syntax_semantics,control_raising,expletive_it_object_raising,977,183
+Beth isn't sure to push Deborah to question some child.,Beth isn't interesting to push Deborah to question some child.,syntax_semantics,control_raising,tough_vs_raising_2,825,184
+Walter was difficult to talk to.,Walter was soon to talk to.,syntax_semantics,control_raising,tough_vs_raising_1,646,185
+All museums aren't soon to hire Phillip.,All museums aren't easy to hire Phillip.,syntax_semantics,control_raising,tough_vs_raising_2,667,186
+Carl's friends weren't soon to think about who hasn't taken a box.,Carl's friends weren't interesting to think about who hasn't taken a box.,syntax_semantics,control_raising,tough_vs_raising_2,349,187
+Naomi hasn't believed there to be a popsicle evaporating.,Naomi hasn't induced there to be a popsicle evaporating.,syntax_semantics,control_raising,existential_there_object_raising,669,188
+Noah had considered there to be a unicycle boring Connie.,Noah had dared there to be a unicycle boring Connie.,syntax_semantics,control_raising,existential_there_object_raising,753,189
+Marcus will discover there to be few bikes wasting away.,Marcus will beg there to be few bikes wasting away.,syntax_semantics,control_raising,existential_there_object_raising,283,190
+Melissa was likely to learn who isn't requiring Harvard University to work with Sheila.,Melissa was tough to learn who isn't requiring Harvard University to work with Sheila.,syntax_semantics,control_raising,tough_vs_raising_2,301,191
+James's spouse isn't unlikely to require Larry to grin.,James's spouse isn't hard work to require Larry to grin.,syntax_semantics,control_raising,tough_vs_raising_2,708,192
+Monet is annoying to respect.,Monet is about to respect.,syntax_semantics,control_raising,tough_vs_raising_1,179,193
+Every child isn't bound to see these peppers.,Every child isn't hard work to see these peppers.,syntax_semantics,control_raising,tough_vs_raising_2,666,194
+There weren't likely to be a lot of essays embarrassing Karla.,There weren't able to be a lot of essays embarrassing Karla.,syntax_semantics,control_raising,existential_there_subject_raising,657,195
+James was pleasant to reference.,James was apt to reference.,syntax_semantics,control_raising,tough_vs_raising_1,115,196
+Bruce's teachers need there to be a cat waking up.,Bruce's teachers ordered there to be a cat waking up.,syntax_semantics,control_raising,existential_there_object_raising,938,197
+That waitress's plumbers aren't needing there to be a spotlight darkening.,That waitress's plumbers aren't prodding there to be a spotlight darkening.,syntax_semantics,control_raising,existential_there_object_raising,780,198
+There were threatening to be fewer than three drivers appearing.,There were liking to be fewer than three drivers appearing.,syntax_semantics,control_raising,existential_there_subject_raising,728,199
+There are looking to be icicles falling.,There are intending to be icicles falling.,syntax_semantics,control_raising,existential_there_subject_raising,760,200
+The child descends this slope.,The children descends this slope.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_2,719,201
+Those geese are waking up.,Those geese was waking up.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,899,202
+The grandson of all adults has worried Walter.,The grandson of all adults have worried Walter.,morphology,subject_verb_agreement,distractor_agreement_relational_noun,756,203
+The daughter of all girls hasn't forgotten what was vaporizing.,The daughter of all girls haven't forgotten what was vaporizing.,morphology,subject_verb_agreement,distractor_agreement_relational_noun,327,204
+This student that disturbed the Borgias has smiled.,This student that disturbed the Borgias have smiled.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,359,205
+Oxen disturb April.,Oxen disturbs April.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,863,206
+These hypotheses embarrass Dennis.,These hypotheses embarrasses Dennis.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,8,207
+Carol works with Monica.,Carol work with Monica.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,335,208
+These hamsters ascend that ladder.,These hamsters ascends that ladder.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,917,209
+The adults weren't describing Elaine.,The adult weren't describing Elaine.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_2,856,210
+The story about the Lutherans doesn't sound like Wayne.,The story about the Lutherans don't sound like Wayne.,morphology,subject_verb_agreement,distractor_agreement_relational_noun,138,211
+The hypothesis is worrying Stacy.,The hypotheses is worrying Stacy.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_2,562,212
+The shows about Spain do aggravate Christina.,The shows about Spain does aggravate Christina.,morphology,subject_verb_agreement,distractor_agreement_relational_noun,75,213
+The guys that remembered Phillip haven't thought about who marry.,The guys that remembered Phillip hasn't thought about who marry.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,354,214
+The friends of Raymond don't imagine Robert hadn't compelled Denise to wear those scarves.,The friends of Raymond doesn't imagine Robert hadn't compelled Denise to wear those scarves.,morphology,subject_verb_agreement,distractor_agreement_relational_noun,554,215
+This driver that praises most ladies has practiced.,This driver that praises most ladies have practiced.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,599,216
+Sabrina is disgusting many waitresses.,Sabrina were disgusting many waitresses.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,428,217
+Some person grins.,Some person grin.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,916,218
+This boy who could investigate the Clintons isn't talking.,This boy who could investigate the Clintons aren't talking.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,498,219
+The adults that should complain about Marie are buying some school.,The adults that should complain about Marie was buying some school.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,124,220
+Amelia isn't taking steak.,Amelia weren't taking steak.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,371,221
+The children are debating.,The child are debating.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_2,567,222
+Some lady that leaves the Lutherans blinks.,Some lady that leaves the Lutherans blink.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,165,223
+That teacher that can reference a lot of adults protests.,That teacher that can reference a lot of adults protest.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,512,224
+Some actors who criticized Cynthia haven't passed Spain.,Some actors who criticized Cynthia hasn't passed Spain.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,86,225
+These waiters examine a play.,These waiters examines a play.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,169,226
+Universities that shouldn't distract Karla have embarrassed Lucille.,Universities that shouldn't distract Karla has embarrassed Lucille.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,713,227
+Sally boasts about all pedestrians.,Sally boast about all pedestrians.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,562,228
+Every hypothesis was distracting Leslie.,Every hypothesis were distracting Leslie.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,263,229
+Carl has skated around every closet.,Carl have skated around every closet.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,651,230
+Cacti waste away.,Cacti wastes away.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,570,231
+Some waitresses reference some adult.,Some waitresses references some adult.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,373,232
+The brochures about Monet have fallen.,The brochures about Monet has fallen.,morphology,subject_verb_agreement,distractor_agreement_relational_noun,551,233
+This man disappears.,This man disappear.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,55,234
+Caroline is arriving at every movie theater.,Caroline are arriving at every movie theater.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,336,235
+The men have admired Ronald.,The man have admired Ronald.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_2,11,236
+Some child hasn't bored April.,Some child haven't bored April.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,651,237
+The birds haven't confused Heidi.,The bird haven't confused Heidi.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_2,967,238
+The actress sneezes.,The actresses sneezes.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_2,952,239
+The oxen climb up hills.,The ox climb up hills.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_2,993,240
+The doctor is firing Victoria.,The doctors is firing Victoria.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_2,995,241
+Those stimuli weren't wasting away.,Those stimuli wasn't wasting away.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,868,242
+The newspaper articles about Monet disappear.,The newspaper articles about Monet disappears.,morphology,subject_verb_agreement,distractor_agreement_relational_noun,438,243
+Boys who bother Theodore do predict Renee to complain about Bruce.,Boys who bother Theodore does predict Renee to complain about Bruce.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,590,244
+Marcus is messing up that chair.,Marcus were messing up that chair.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,657,245
+Every hypothesis impresses Barbara.,Every hypothesis impress Barbara.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,298,246
+The geese haven't existed.,The geese hasn't existed.,morphology,subject_verb_agreement,irregular_plural_subject_verb_agreement_1,730,247
+The cafe is disappearing.,The cafes is disappearing.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_2,241,248
+Those customers run around this museum.,Those customers runs around this museum.,morphology,subject_verb_agreement,regular_plural_subject_verb_agreement_1,534,249
+Those associations that had the library are approving.,Those associations that had the library is approving.,morphology,subject_verb_agreement,distractor_agreement_relative_clause,566,250
+Ella thinks about herself talking to that actor.,Ella thinks about herself talks to that actor.,syntax/semantics,binding,principle_A_case_2,608,251
+Jane is saying Jerry discusses himself.,Jane is saying Jerry discusses herself.,syntax_semantics,binding,principle_A_domain_2,492,252
+Samuel thinks that he loved Christina.,Samuel thinks that himself loved Christina.,syntax_semantics,binding,principle_A_case_1,452,253
+Carl is explaining that he dropped by all banks.,Carl is explaining that himself dropped by all banks.,syntax_semantics,binding,principle_A_case_1,566,254
+Many people hadn't said Helen hasn't listened to herself.,Many people hadn't said Helen hasn't listened to themselves.,syntax_semantics,binding,principle_A_domain_2,784,255
+Sandra says that she returned to Donna.,Sandra says that herself returned to Donna.,syntax_semantics,binding,principle_A_case_1,847,256
+These banks that appreciated Derek referenced themselves.,These banks that appreciated Derek referenced himself.,syntax_semantics,binding,principle_A_c_command,304,257
+Eva thinks Daniel won't praise himself.,Daniel thinks Eva won't praise himself.,syntax_semantics,binding,principle_A_domain_3,786,258
+It's herself that Patricia investigates.,It's herself that investigates Patricia.,syntax_semantics,binding,principle_A_reconstruction,414,259
+These women think that they would see hills.,These women think that themselves would see hills.,syntax_semantics,binding,principle_A_case_1,809,260
+Most boys who hadn't gone to every high school will kiss themselves.,Most boys who hadn't gone to every high school will kiss itself.,syntax_semantics,binding,principle_A_c_command,748,261
+Some teachers that hated Noah have cured themselves.,Some teachers that hated Noah have cured himself.,syntax_semantics,binding,principle_A_c_command,412,262
+The lady who has impressed Homer had discussed herself.,The lady who has impressed Homer had discussed himself.,syntax_semantics,binding,principle_A_c_command,283,263
+Some cafe that scared Dennis was scaring itself.,Some cafe that scared Dennis was scaring himself.,syntax_semantics,binding,principle_A_c_command,854,264
+Katherine wasn't thinking that schools hadn't loved her.,Katherine wasn't thinking that schools hadn't loved herself.,syntax_semantics,binding,principle_A_domain_1,760,265
+Cheryl says Raymond doesn't bore himself.,Raymond says Cheryl doesn't bore himself.,syntax_semantics,binding,principle_A_domain_3,750,266
+Nicole can say Douglas won't shock himself.,Douglas can say Nicole won't shock himself.,syntax_semantics,binding,principle_A_domain_3,878,267
+Jessica did say Gary did fire himself.,Gary did say Jessica did fire himself.,syntax_semantics,binding,principle_A_domain_3,110,268
+Most women think about themselves cleaning all rugs.,Most women think about themselves cleaned all rugs.,syntax/semantics,binding,principle_A_case_2,182,269
+All adults forget about themselves questioning Carol.,All adults forget about themselves questioned Carol.,syntax/semantics,binding,principle_A_case_2,390,270
+Jacqueline doesn't say that this commentary disturbs her.,Jacqueline doesn't say that this commentary disturbs herself.,syntax_semantics,binding,principle_A_domain_1,166,271
+It's herself that Rhonda had thought about.,It's herself that had thought about Rhonda.,syntax_semantics,binding,principle_A_reconstruction,325,272
+It's himself that Steve discussed.,It's himself that discussed Steve.,syntax_semantics,binding,principle_A_reconstruction,871,273
+It's itself that every book hasn't disagreed with.,It's itself that hasn't disagreed with every book.,syntax_semantics,binding,principle_A_reconstruction,348,274
+It's itself that that pork would stun.,It's itself that would stun that pork.,syntax_semantics,binding,principle_A_reconstruction,11,275
+All mushrooms that haven't disturbed Wendy hadn't disgusted themselves.,All mushrooms that haven't disturbed Wendy hadn't disgusted herself.,syntax_semantics,binding,principle_A_c_command,974,276
+Benjamin wasn't saying that he descends the hill.,Benjamin wasn't saying that himself descends the hill.,syntax_semantics,binding,principle_A_case_1,493,277
+These guests explain that Timothy approached them.,These guests explain that Timothy approached themselves.,syntax_semantics,binding,principle_A_domain_1,852,278
+Derek didn't imagine that Heidi is attacking him.,Derek didn't imagine that Heidi is attacking himself.,syntax_semantics,binding,principle_A_domain_1,274,279
+The waitresses say Tina had shocked herself.,The waitresses say Tina had shocked themselves.,syntax_semantics,binding,principle_A_domain_2,165,280
+It's herself that Tammy returns to.,It's herself that returns to Tammy.,syntax_semantics,binding,principle_A_reconstruction,906,281
+A lot of children who aren't distracting Kevin could insult themselves.,A lot of children who aren't distracting Kevin could insult himself.,syntax_semantics,binding,principle_A_c_command,619,282
+Cynthia hadn't said that the hills are confusing her.,Cynthia hadn't said that the hills are confusing herself.,syntax_semantics,binding,principle_A_domain_1,771,283
+Brian would explain that some girl respected him.,Brian would explain that some girl respected himself.,syntax_semantics,binding,principle_A_domain_1,692,284
+Donald imagines himself climbing up a hill.,Donald imagines himself climbed up a hill.,syntax/semantics,binding,principle_A_case_2,315,285
+Jodi doesn't say that she kisses Carol.,Jodi doesn't say that herself kisses Carol.,syntax_semantics,binding,principle_A_case_1,745,286
+Florence did think that Walter stunned her.,Florence did think that Walter stunned herself.,syntax_semantics,binding,principle_A_domain_1,4,287
+Lori was forgetting about herself irritating Rachelle.,Lori was forgetting about herself irritated Rachelle.,syntax/semantics,binding,principle_A_case_2,439,288
+Bruce hadn't thought Kendra sounded like herself.,Bruce hadn't thought Kendra sounded like himself.,syntax_semantics,binding,principle_A_domain_2,197,289
+Some guy that wasn't distracting Paula isn't visiting himself.,Some guy that wasn't distracting Paula isn't visiting herself.,syntax_semantics,binding,principle_A_c_command,632,290
+That truck that didn't irritate Christopher hurt itself.,That truck that didn't irritate Christopher hurt himself.,syntax_semantics,binding,principle_A_c_command,403,291
+Ruth's boyfriend does think Katherine did respect herself.,Katherine does think Ruth's boyfriend did respect herself.,syntax_semantics,binding,principle_A_domain_3,872,292
+All adults explain that David doesn't hurt them.,All adults explain that David doesn't hurt themselves.,syntax_semantics,binding,principle_A_domain_1,897,293
+It's themselves that hospitals could admire.,It's themselves that could admire hospitals.,syntax_semantics,binding,principle_A_reconstruction,545,294
+The Lutherans aren't thinking that they exited the grocery stores.,The Lutherans aren't thinking that themselves exited the grocery stores.,syntax_semantics,binding,principle_A_case_1,328,295
+The customers who distracts the guy would investigate themselves.,The customers who distracts the guy would investigate himself.,syntax_semantics,binding,principle_A_c_command,89,296
+It's themselves who some senators aren't firing.,It's themselves who aren't firing some senators.,syntax_semantics,binding,principle_A_reconstruction,453,297
+Natalie says John investigates himself.,John says Natalie investigates himself.,syntax_semantics,binding,principle_A_domain_3,462,298
+James said Danielle had praised herself.,James said Danielle had praised himself.,syntax_semantics,binding,principle_A_domain_2,185,299
+All waiters say that Rose was insulting them.,All waiters say that Rose was insulting themselves.,syntax_semantics,binding,principle_A_domain_1,831,300
+Many teenagers are forgetting that a fish will alarm Gerald.,Many teenagers are forgetting who a fish will alarm Gerald.,syntax,filler_gap_dependency,wh_vs_that_no_gap,608,301
+George won't reveal what that driver that hadn't spun around should walk through.,George won't reveal that that driver that hadn't spun around should walk through.,syntax,filler_gap_dependency,wh_vs_that_with_gap_long_distance,492,302
+Valerie forgets the senators that that guy hadn't fired that hadn't disliked many stories.,Valerie forgets what the senators that that guy hadn't fired hadn't disliked many stories.,syntax,filler_gap_dependency,wh_questions_subject_gap_long_distance,452,303
+William shouldn't question all children that these teenagers approach that are wearing most scarves.,William shouldn't question what all children that these teenagers approach are wearing most scarves.,syntax,filler_gap_dependency,wh_questions_subject_gap_long_distance,566,304
+This man doesn't investigate who many guests that aren't compromising admire.,This man doesn't investigate that many guests that aren't compromising admire.,syntax,filler_gap_dependency,wh_vs_that_with_gap_long_distance,784,305
+Timothy is discovering every window that some print hasn't looked like that has bothered a lot of legislatures.,Timothy is discovering what every window that some print hasn't looked like has bothered a lot of legislatures.,syntax,filler_gap_dependency,wh_questions_subject_gap_long_distance,847,306
+Donald won't notice the foot that John took.,Donald won't notice what John took the foot.,syntax,filler_gap_dependency,wh_questions_object_gap,304,307
+Jennifer has noticed this cactus that wasn't hurting Carrie.,Jennifer has noticed who this cactus wasn't hurting Carrie.,syntax,filler_gap_dependency,wh_questions_subject_gap,786,308
+A lot of governments find out who some mouth scares.,A lot of governments find out that some mouth scares.,syntax,filler_gap_dependency,wh_vs_that_with_gap,414,309
+Douglas investigated girls that that picture looks like that weren't scaring the companies.,Douglas investigated what girls that that picture looks like weren't scaring the companies.,syntax,filler_gap_dependency,wh_questions_subject_gap_long_distance,809,310
+These guests notice a driver that all couches hadn't scared.,These guests notice who all couches hadn't scared a driver.,syntax,filler_gap_dependency,wh_questions_object_gap,748,311
+Teachers wouldn't investigate every child that these high schools can't annoy.,Teachers wouldn't investigate who these high schools can't annoy every child.,syntax,filler_gap_dependency,wh_questions_object_gap,412,312
+Sarah had remembered most glaciers that Julie shouldn't leave.,Sarah had remembered what Julie shouldn't leave most glaciers.,syntax,filler_gap_dependency,wh_questions_object_gap,283,313
+Richard will think about many museums that that government was criticizing.,Richard will think about what that government was criticizing many museums.,syntax,filler_gap_dependency,wh_questions_object_gap,854,314
+Some actresses forget that a projector that hadn't hurt Renee astounds those waitresses.,Some actresses forget who a projector that hadn't hurt Renee astounds those waitresses.,syntax,filler_gap_dependency,wh_vs_that_no_gap_long_distance,760,315
+Raymond had seen the window that has looked like many sketches.,Raymond had seen what the window has looked like many sketches.,syntax,filler_gap_dependency,wh_questions_subject_gap,750,316
+Some teacher investigated schools that could irritate those teenagers.,Some teacher investigated who schools could irritate those teenagers.,syntax,filler_gap_dependency,wh_questions_subject_gap,878,317
+Edward had thought about a blouse that has resembled all prints.,Edward had thought about what a blouse has resembled all prints.,syntax,filler_gap_dependency,wh_questions_subject_gap,110,318
+Kathleen doesn't figure out that this boy is working with most women.,Kathleen doesn't figure out who this boy is working with most women.,syntax,filler_gap_dependency,wh_vs_that_no_gap,182,319
+Kenneth conceals that every teenager exits every high school.,Kenneth conceals what every teenager exits every high school.,syntax,filler_gap_dependency,wh_vs_that_no_gap,390,320
+Valerie knew that those books that exist were upsetting those waiters.,Valerie knew who those books that exist were upsetting those waiters.,syntax,filler_gap_dependency,wh_vs_that_no_gap_long_distance,166,321
+Stephen should forget what offspring weren't examining.,Stephen should forget that offspring weren't examining.,syntax,filler_gap_dependency,wh_vs_that_with_gap,325,322
+All universities weren't concealing who the offspring flees from.,All universities weren't concealing that the offspring flees from.,syntax,filler_gap_dependency,wh_vs_that_with_gap,871,323
+Many guests find out what some cashier wore.,Many guests find out that some cashier wore.,syntax,filler_gap_dependency,wh_vs_that_with_gap,348,324
+Those teenagers realize who all guests flee from.,Those teenagers realize that all guests flee from.,syntax,filler_gap_dependency,wh_vs_that_with_gap,11,325
+Those senators see those teachers that that doctor dislikes.,Those senators see who that doctor dislikes those teachers.,syntax,filler_gap_dependency,wh_questions_object_gap,974,326
+The Clintons haven't questioned some adult that Joseph fired that disliked that cashier.,The Clintons haven't questioned who some adult that Joseph fired disliked that cashier.,syntax,filler_gap_dependency,wh_questions_subject_gap_long_distance,493,327
+Kathleen investigates that the customer that saw Sabrina cleaned the pie.,Kathleen investigates what the customer that saw Sabrina cleaned the pie.,syntax,filler_gap_dependency,wh_vs_that_no_gap_long_distance,852,328
+Adam was forgetting that every doctor that describes Rachel was descending many mountains.,Adam was forgetting what every doctor that describes Rachel was descending many mountains.,syntax,filler_gap_dependency,wh_vs_that_no_gap_long_distance,274,329
+Holly had forgotten what a guy that hadn't cured Galileo can't drive to.,Holly had forgotten that a guy that hadn't cured Galileo can't drive to.,syntax,filler_gap_dependency,wh_vs_that_with_gap_long_distance,165,330
+Some guys learn who most waitresses aren't arguing about.,Some guys learn that most waitresses aren't arguing about.,syntax,filler_gap_dependency,wh_vs_that_with_gap,906,331
+Tanya hadn't seen every grocery store that Tara cleaned.,Tanya hadn't seen what Tara cleaned every grocery store.,syntax,filler_gap_dependency,wh_questions_object_gap,619,332
+Erin had forgotten that all alumni that lifted water conceal these lamps.,Erin had forgotten what all alumni that lifted water conceal these lamps.,syntax,filler_gap_dependency,wh_vs_that_no_gap_long_distance,771,333
+This teenager isn't remembering that these guys that can chat had sold the cafe.,This teenager isn't remembering what these guys that can chat had sold the cafe.,syntax,filler_gap_dependency,wh_vs_that_no_gap_long_distance,692,334
+Teresa figured out that every student hid some shirt.,Teresa figured out what every student hid some shirt.,syntax,filler_gap_dependency,wh_vs_that_no_gap,315,335
+Daniel investigated some associations that Frank thinks about that talked about all doctors.,Daniel investigated who some associations that Frank thinks about talked about all doctors.,syntax,filler_gap_dependency,wh_questions_subject_gap_long_distance,745,336
+Every cashier wouldn't investigate that some birds that weren't distracting Steve broke some unicycles.,Every cashier wouldn't investigate what some birds that weren't distracting Steve broke some unicycles.,syntax,filler_gap_dependency,wh_vs_that_no_gap_long_distance,4,337
+Kristen conceals that the actor observes Dennis.,Kristen conceals who the actor observes Dennis.,syntax,filler_gap_dependency,wh_vs_that_no_gap,439,338
+David can't investigate who every waitress that hadn't questioned Janet listens to.,David can't investigate that every waitress that hadn't questioned Janet listens to.,syntax,filler_gap_dependency,wh_vs_that_with_gap_long_distance,197,339
+Meredith will remember all synopses that Christine had thought about.,Meredith will remember what Christine had thought about all synopses.,syntax,filler_gap_dependency,wh_questions_object_gap,632,340
+Samantha hadn't noticed a lot of offspring that Bethany won't hate.,Samantha hadn't noticed who Bethany won't hate a lot of offspring.,syntax,filler_gap_dependency,wh_questions_object_gap,403,341
+The Lutherans haven't questioned a lot of museums that remember Lisa.,The Lutherans haven't questioned who a lot of museums remember Lisa.,syntax,filler_gap_dependency,wh_questions_subject_gap,872,342
+Rodney hasn't learned that all actors that shouldn't sound like Martin hadn't noticed Theodore.,Rodney hasn't learned who all actors that shouldn't sound like Martin hadn't noticed Theodore.,syntax,filler_gap_dependency,wh_vs_that_no_gap_long_distance,897,343
+These women investigate what these boys revealed.,These women investigate that these boys revealed.,syntax,filler_gap_dependency,wh_vs_that_with_gap,545,344
+Dancers forget this patient that Ann might flee from that fixes a lot of teeth.,Dancers forget what this patient that Ann might flee from fixes a lot of teeth.,syntax,filler_gap_dependency,wh_questions_subject_gap_long_distance,328,345
+Ruth isn't investigating every teenager that Sherry isn't firing.,Ruth isn't investigating who Sherry isn't firing every teenager.,syntax,filler_gap_dependency,wh_questions_object_gap,89,346
+That hospital hasn't concealed who every person fired.,That hospital hasn't concealed that every person fired.,syntax,filler_gap_dependency,wh_vs_that_with_gap,453,347
+Sherry can't notice some pedestrians that are appreciating Florence.,Sherry can't notice who some pedestrians are appreciating Florence.,syntax,filler_gap_dependency,wh_questions_subject_gap,462,348
+Raymond discovered what many alumni that will disagree with Melanie liked.,Raymond discovered that many alumni that will disagree with Melanie liked.,syntax,filler_gap_dependency,wh_vs_that_with_gap_long_distance,185,349
+Those guests find out that every dancer that has scanned that documentary shouldn't break some plate.,Those guests find out what every dancer that has scanned that documentary shouldn't break some plate.,syntax,filler_gap_dependency,wh_vs_that_no_gap_long_distance,831,350
+Tracy hadn't hugged Emily.,This sweater hadn't hugged Emily.,syntax,s-selection,animate_subject_trans,500,351
+Most actors skated around this library.,Many reports skated around this library.,syntax,s-selection,animate_subject_trans,391,352
+Most shoes weren't messed up by the guests.,Most shoes weren't messed up by the pictures.,syntax,s-selection,animate_subject_passive,395,353
+Stacy hasn't researched every restaurant.,Some box hasn't researched every restaurant.,syntax,s-selection,animate_subject_trans,790,354
+Barbara helps that teacher.,A glacier helps that teacher.,syntax,s-selection,animate_subject_trans,369,355
+Claire wasn't concealed by some actor.,Claire wasn't concealed by some slopes.,syntax,s-selection,animate_subject_passive,153,356
+Judy is boasted about by the person.,Judy is boasted about by the carriage.,syntax,s-selection,animate_subject_passive,538,357
+That slope isn't descended by the teenager.,That slope isn't descended by the birds.,syntax,s-selection,animate_subject_passive,485,358
+Every unicycle is sold by the senator.,Every unicycle is sold by the report.,syntax,s-selection,animate_subject_passive,832,359
+Florence is forgotten by some boy.,Florence is forgotten by some species.,syntax,s-selection,animate_subject_passive,163,360
+The mushroom isn't bought by some men.,The mushroom isn't bought by some plane.,syntax,s-selection,animate_subject_passive,737,361
+Those women are described by the children.,Those women are described by the report.,syntax,s-selection,animate_subject_passive,455,362
+Some ice isn't lifted by some boy.,Some ice isn't lifted by some octopus.,syntax,s-selection,animate_subject_passive,764,363
+Some waiter remembers Ruth.,Every fork remembers Ruth.,syntax,s-selection,animate_subject_trans,941,364
+Some lake was passed by some cashiers.,Some lake was passed by some phenomena.,syntax,s-selection,animate_subject_passive,1,365
+Sara can't scan that story.,Music can't scan that story.,syntax,s-selection,animate_subject_trans,474,366
+Tamara complains about those drivers.,Every carriage complains about those drivers.,syntax,s-selection,animate_subject_trans,341,367
+James wasn't revealed by some woman.,James wasn't revealed by some cars.,syntax,s-selection,animate_subject_passive,600,368
+Rachelle wasn't driving to the lake.,The drawing wasn't driving to the lake.,syntax,s-selection,animate_subject_trans,131,369
+Helen is observed by the doctor.,Helen is observed by the candles.,syntax,s-selection,animate_subject_passive,483,370
+Carl wasn't disliked by the pedestrian.,Carl wasn't disliked by the convertible.,syntax,s-selection,animate_subject_passive,949,371
+A lot of customers were disliked by some person.,A lot of customers were disliked by some casseroles.,syntax,s-selection,animate_subject_passive,809,372
+Vincent remembers Adam.,A convertible remembers Adam.,syntax,s-selection,animate_subject_trans,800,373
+Becky wasn't described by the driver.,Becky wasn't described by the cups.,syntax,s-selection,animate_subject_passive,124,374
+Mitchell criticized Amy.,Some art gallery criticized Amy.,syntax,s-selection,animate_subject_trans,29,375
+April isn't going to a closet.,The ice cream isn't going to a closet.,syntax,s-selection,animate_subject_trans,919,376
+A waiter wasn't listened to by some guys.,A waiter wasn't listened to by some glass.,syntax,s-selection,animate_subject_passive,396,377
+That mirror is cleaned by the dancer.,That mirror is cleaned by the muffins.,syntax,s-selection,animate_subject_passive,871,378
+Wendy didn't approach that actress.,The slope didn't approach that actress.,syntax,s-selection,animate_subject_trans,236,379
+Kevin was loved by the teenagers.,Kevin was loved by the broccoli.,syntax,s-selection,animate_subject_passive,68,380
+Some child was insulted by the child.,Some child was insulted by the shirt.,syntax,s-selection,animate_subject_passive,916,381
+These girls aren't wearing that shoe.,Some rivers aren't wearing that shoe.,syntax,s-selection,animate_subject_trans,253,382
+Tamara does run around the libraries.,This pepper does run around the libraries.,syntax,s-selection,animate_subject_trans,633,383
+Dana is observed by some student.,Dana is observed by some sketch.,syntax,s-selection,animate_subject_passive,274,384
+Bread is cleaned by the men.,Bread is cleaned by the dogs.,syntax,s-selection,animate_subject_passive,304,385
+Carla wasn't arriving at many college campuses.,A restaurant wasn't arriving at many college campuses.,syntax,s-selection,animate_subject_trans,272,386
+That cup wasn't fixed by the doctors.,That cup wasn't fixed by the socks.,syntax,s-selection,animate_subject_passive,491,387
+Michelle researched these newspaper articles.,Politics researched these newspaper articles.,syntax,s-selection,animate_subject_trans,722,388
+These actresses were referenced by some lady.,These actresses were referenced by some box.,syntax,s-selection,animate_subject_passive,51,389
+Randolf isn't arguing about some actors.,This hospital isn't arguing about some actors.,syntax,s-selection,animate_subject_trans,927,390
+Naomi had cleaned a fork.,That book had cleaned a fork.,syntax,s-selection,animate_subject_trans,269,391
+The libraries aren't skated around by the boys.,The libraries aren't skated around by the candle.,syntax,s-selection,animate_subject_passive,652,392
+Sally broke the couches.,Ice cream broke the couches.,syntax,s-selection,animate_subject_trans,196,393
+Natalie is listening to Dan.,This apple is listening to Dan.,syntax,s-selection,animate_subject_trans,848,394
+Patricia sold some apples.,That dish sold some apples.,syntax,s-selection,animate_subject_trans,718,395
+Holly is seen by some girls.,Holly is seen by some glasses.,syntax,s-selection,animate_subject_passive,106,396
+Every child wasn't remembered by some guy.,Every child wasn't remembered by some windows.,syntax,s-selection,animate_subject_passive,280,397
+Stacy was arriving at many libraries.,A book was arriving at many libraries.,syntax,s-selection,animate_subject_trans,637,398
+Some boy isn't revealed by some senators.,Some boy isn't revealed by some diagnosis.,syntax,s-selection,animate_subject_passive,271,399
+Todd broke the window.,Some skirt broke the window.,syntax,s-selection,animate_subject_trans,944,400
+What had Kenneth and Theresa admired?,What has Kenneth admired and Theresa?,syntax,island_effects,coordinate_structure_constraint_object_extraction,110,401
+Which children might Chad investigate?,Which might Chad investigate children?,syntax,island_effects,left_branch_island_simple_question,119,402
+Who had Pamela healed without approaching Sabrina?,Who had Pamela healed Sabrina without approaching?,syntax,island_effects,adjunct_island,688,403
+Who is Sonia hugging after visiting Noah?,Who is Sonia hugging Noah after visiting?,syntax,island_effects,adjunct_island,624,404
+What was Natalie examining after scanning commentaries?,What was Natalie examining commentaries after scanning?,syntax,island_effects,adjunct_island,314,405
+Who could Jerry conceal he hadn't researched?,Who could Jerry conceal who hadn't researched?,syntax,island_effects,wh_island,946,406
+What might Tina and Carol pass?,What should Tina pass and Carol?,syntax,island_effects,coordinate_structure_constraint_object_extraction,350,407
+Which girls is the dress irritating and the Lutherans revealing?,Which is the dress irritating girls and the Lutherans revealing?,syntax,island_effects,coordinate_structure_constraint_complex_left_branch,8,408
+Who has Kristin returned to without bothering Caroline?,Who has Kristin returned to Caroline without bothering?,syntax,island_effects,adjunct_island,981,409
+What hats might Monica bring and Sonia admire?,What might Monica bring hats and Sonia admire?,syntax,island_effects,coordinate_structure_constraint_complex_left_branch,192,410
+Who are a pedestrian and Jennifer approaching?,Who is a pedestrian approaching and Jennifer?,syntax,island_effects,coordinate_structure_constraint_object_extraction,569,411
+Which plane is John discovering?,Which is John discovering plane?,syntax,island_effects,left_branch_island_simple_question,891,412
+What person were the sketches astounding?,What were the sketches astounding person?,syntax,island_effects,left_branch_island_simple_question,964,413
+Elaine has admired which peppers?,Which has Elaine admired peppers?,syntax,island_effects,left_branch_island_echo_question,217,414
+What was Tammy ascending without admiring a lot of slopes?,What was Tammy ascending a lot of slopes without admiring?,syntax,island_effects,adjunct_island,980,415
+Who had the girls' tutors who are distracting Sara cared for?,Who had Sara cared for the girls' tutors who are distracting?,syntax,island_effects,complex_NP_island,157,416
+The Borgias could insult which men?,Which could the Borgias insult men?,syntax,island_effects,left_branch_island_echo_question,894,417
+Who did this patient flee from without discovering the Lutherans?,Who did this patient flee from the Lutherans without discovering?,syntax,island_effects,adjunct_island,482,418
+Who does Sherry complain about after questioning Phillip?,Who does Sherry complain about Phillip after questioning?,syntax,island_effects,adjunct_island,545,419
+Who are a lot of women and Raymond visiting?,Who were a lot of women visiting and Raymond?,syntax,island_effects,coordinate_structure_constraint_object_extraction,889,420
+What was Kirsten figuring out she hadn't lifted?,What was Kirsten figuring out who hadn't lifted?,syntax,island_effects,wh_island,579,421
+What was Theresa discovering she is thinking about?,What was Theresa discovering who is thinking about?,syntax,island_effects,wh_island,775,422
+Who was a student that might shock Wendy's colleague boasting about?,Who was Wendy's colleague boasting about a student that might shock?,syntax,island_effects,complex_NP_island,544,423
+Who are Galileo and Lucille criticizing?,Who was Galileo criticizing and Lucille?,syntax,island_effects,coordinate_structure_constraint_object_extraction,994,424
+Who is Brenda impressing before kissing this waiter?,Who is Brenda impressing this waiter before kissing?,syntax,island_effects,adjunct_island,229,425
+What couldn't Regina discover she might climb down?,What couldn't Regina discover what might climb down?,syntax,island_effects,wh_island,580,426
+Who hadn't some driver who would fire Jennifer's colleague embarrassed?,Who hadn't Jennifer's colleague embarrassed some driver who would fire?,syntax,island_effects,complex_NP_island,3,427
+Who are all women's discussing Elizabeth astounding.,Who are all women's discussing astounding Elizabeth.,syntax,island_effects,sentential_subject_island,728,428
+Who hadn't Kayla figured out she bothered?,Who hadn't Kayla figured out what bothered?,syntax,island_effects,wh_island,740,429
+Which men had Heather kissed?,Which had Heather kissed men?,syntax,island_effects,left_branch_island_simple_question,803,430
+What glasses had those senators bought?,What had those senators bought glasses?,syntax,island_effects,left_branch_island_simple_question,856,431
+What wasn't Eric realizing he cleans?,What wasn't Eric realizing who cleans?,syntax,island_effects,wh_island,888,432
+Who hadn't Alexander forgotten he investigated?,Who hadn't Alexander forgotten who investigated?,syntax,island_effects,wh_island,981,433
+Whose plays has an adult examined and George sounded like?,Whose has an adult examined plays and George sounded like?,syntax,island_effects,coordinate_structure_constraint_complex_left_branch,93,434
+What hasn't April learned she should respect?,What hasn't April learned who should respect?,syntax,island_effects,wh_island,689,435
+What couldn't Janet learn she liked?,What couldn't Janet learn who liked?,syntax,island_effects,wh_island,278,436
+Whose public parks did that customer respect and Lissa return to?,Whose did that customer respect public parks and Lissa return to?,syntax,island_effects,coordinate_structure_constraint_complex_left_branch,767,437
+Theresa could climb up what slope?,What could Theresa climb up slope?,syntax,island_effects,left_branch_island_echo_question,220,438
+Who haven't the fathers of Jessica who aren't bothering these teenagers attacked?,Who haven't these teenagers attacked the fathers of Jessica who aren't bothering?,syntax,island_effects,complex_NP_island,478,439
+Who was Catherine figuring out she wouldn't annoy?,Who was Catherine figuring out what wouldn't annoy?,syntax,island_effects,wh_island,107,440
+What women can Michelle hurt and Renee aggravate?,What can Michelle hurt women and Renee aggravate?,syntax,island_effects,coordinate_structure_constraint_complex_left_branch,818,441
+What hospitals was Steve irritating and Alexander confusing?,What was Steve irritating hospitals and Alexander confusing?,syntax,island_effects,coordinate_structure_constraint_complex_left_branch,855,442
+What was Scott dropping by before running around a hill?,What was Scott dropping by a hill before running around?,syntax,island_effects,adjunct_island,145,443
+Deborah should complain about whose pamphlets?,Whose should Deborah complain about pamphlets?,syntax,island_effects,left_branch_island_echo_question,419,444
+What patient can this guest reference?,What can this guest reference patient?,syntax,island_effects,left_branch_island_simple_question,21,445
+What will those cashiers figure out they hadn't broken?,What will those cashiers figure out who hadn't broken?,syntax,island_effects,wh_island,657,446
+Which committees had Thomas questioned and Douglas worried?,Which had Thomas questioned committees and Douglas worried?,syntax,island_effects,coordinate_structure_constraint_complex_left_branch,150,447
+Who are some eggplants' stunning Douglas upsetting.,Who are some eggplants' stunning upsetting Douglas.,syntax,island_effects,sentential_subject_island,369,448
+Who does the car impress without confusing Sabrina?,Who does the car impress Sabrina without confusing?,syntax,island_effects,adjunct_island,452,449
+Who have some museums forgotten they had discovered?,Who have some museums forgotten who had discovered?,syntax,island_effects,wh_island,120,450
+The hidden cart is popular.,The hid cart is popular.,morphology,irregular_forms,irregular_past_participle_adjectives,500,451
+The worn hat isn't hidden.,The wore hat isn't hidden.,morphology,irregular_forms,irregular_past_participle_adjectives,391,452
+Every shirt shrank.,Every shirt shrunk.,morphology,irregular_forms,irregular_past_participle_verbs,395,453
+The taken cakes aren't big.,The took cakes aren't big.,morphology,irregular_forms,irregular_past_participle_adjectives,790,454
+The worn shawls weren't hard.,The wore shawls weren't hard.,morphology,irregular_forms,irregular_past_participle_adjectives,369,455
+Nancy spoke up.,Nancy spoken up.,morphology,irregular_forms,irregular_past_participle_verbs,153,456
+Brenda got fired.,Brenda gotten fired.,morphology,irregular_forms,irregular_past_participle_verbs,538,457
+Emily drank.,Emily drunk.,morphology,irregular_forms,irregular_past_participle_verbs,485,458
+Walter went fishing.,Walter gone fishing.,morphology,irregular_forms,irregular_past_participle_verbs,832,459
+Candice hid away.,Candice hidden away.,morphology,irregular_forms,irregular_past_participle_verbs,163,460
+Gerald broke those carriages.,Gerald broken those carriages.,morphology,irregular_forms,irregular_past_participle_verbs,737,461
+Sara hid away.,Sara hidden away.,morphology,irregular_forms,irregular_past_participle_verbs,455,462
+Christopher spoke up.,Christopher spoken up.,morphology,irregular_forms,irregular_past_participle_verbs,764,463
+The broken cup is brown.,The broke cup is brown.,morphology,irregular_forms,irregular_past_participle_adjectives,941,464
+Teresa hid every senator.,Teresa hidden every senator.,morphology,irregular_forms,irregular_past_participle_verbs,1,465
+The hidden socks are old.,The hid socks are old.,morphology,irregular_forms,irregular_past_participle_adjectives,474,466
+The broken screens were black.,The broke screens were black.,morphology,irregular_forms,irregular_past_participle_adjectives,341,467
+Sharon broke that glass.,Sharon broken that glass.,morphology,irregular_forms,irregular_past_participle_verbs,600,468
+The broken vases weren't concealed.,The broke vases weren't concealed.,morphology,irregular_forms,irregular_past_participle_adjectives,131,469
+Christine drank.,Christine drunk.,morphology,irregular_forms,irregular_past_participle_verbs,483,470
+These dancers took the art galleries.,These dancers taken the art galleries.,morphology,irregular_forms,irregular_past_participle_verbs,949,471
+Brian forgot Sherry.,Brian forgotten Sherry.,morphology,irregular_forms,irregular_past_participle_verbs,809,472
+The taken plate wasn't green.,The took plate wasn't green.,morphology,irregular_forms,irregular_past_participle_adjectives,800,473
+Denise got a job.,Denise gotten a job.,morphology,irregular_forms,irregular_past_participle_verbs,124,474
+The broken tooth wasn't whole.,The broke tooth wasn't whole.,morphology,irregular_forms,irregular_past_participle_adjectives,29,475
+The taken doors were red.,The took doors were red.,morphology,irregular_forms,irregular_past_participle_adjectives,919,476
+Some icicles froze.,Some icicles frozen.,morphology,irregular_forms,irregular_past_participle_verbs,396,477
+Daniel ate.,Daniel eaten.,morphology,irregular_forms,irregular_past_participle_verbs,871,478
+The taken wheelbarrows aren't yellow.,The took wheelbarrows aren't yellow.,morphology,irregular_forms,irregular_past_participle_adjectives,236,479
+A lot of actresses took some river.,A lot of actresses taken some river.,morphology,irregular_forms,irregular_past_participle_verbs,68,480
+Eric forgot Vanessa.,Eric forgotten Vanessa.,morphology,irregular_forms,irregular_past_participle_verbs,916,481
+The broken chairs aren't whole.,The broke chairs aren't whole.,morphology,irregular_forms,irregular_past_participle_adjectives,253,482
+The forgotten commentaries were popular.,The forgot commentaries were popular.,morphology,irregular_forms,irregular_past_participle_adjectives,633,483
+Many patients hid away.,Many patients hidden away.,morphology,irregular_forms,irregular_past_participle_verbs,274,484
+Sherry wrote.,Sherry written.,morphology,irregular_forms,irregular_past_participle_verbs,304,485
+The taken projector isn't brown.,The took projector isn't brown.,morphology,irregular_forms,irregular_past_participle_adjectives,272,486
+Many governments knew a lot of guests.,Many governments known a lot of guests.,morphology,irregular_forms,irregular_past_participle_verbs,491,487
+The forgotten movie is bad.,The forgot movie is bad.,morphology,irregular_forms,irregular_past_participle_adjectives,722,488
+Some boy spoke up.,Some boy spoken up.,morphology,irregular_forms,irregular_past_participle_verbs,51,489
+The forgotten waiter wasn't unemployed.,The forgot waiter wasn't unemployed.,morphology,irregular_forms,irregular_past_participle_adjectives,927,490
+The known drivers aren't young.,The knew drivers aren't young.,morphology,irregular_forms,irregular_past_participle_adjectives,269,491
+Tiffany forgot Suzanne.,Tiffany forgotten Suzanne.,morphology,irregular_forms,irregular_past_participle_verbs,652,492
+The broken couches weren't hard.,The broke couches weren't hard.,morphology,irregular_forms,irregular_past_participle_adjectives,196,493
+The forgotten analyses were long.,The forgot analyses were long.,morphology,irregular_forms,irregular_past_participle_adjectives,848,494
+The hidden public parks were blue.,The hid public parks were blue.,morphology,irregular_forms,irregular_past_participle_adjectives,718,495
+Andrea broke these vases.,Andrea broken these vases.,morphology,irregular_forms,irregular_past_participle_verbs,106,496
+Janet went to the school.,Janet gone to the school.,morphology,irregular_forms,irregular_past_participle_verbs,280,497
+The forgotten documentaries were good.,The forgot documentaries were good.,morphology,irregular_forms,irregular_past_participle_adjectives,637,498
+Kenneth sang.,Kenneth sung.,morphology,irregular_forms,irregular_past_participle_verbs,271,499
+The broken couches weren't hidden.,The broke couches weren't hidden.,morphology,irregular_forms,irregular_past_participle_adjectives,944,500
+Had Dana ever boycotted that legislature?,Dana had ever boycotted that legislature.,semantics,npi_licensing,matrix_question_npi_licensor_present,608,501
+Only the apples ever grew.,Even the apples ever grew.,semantics,npi_licensing,only_npi_licensor_present,492,502
+Most schools might not ever negotiate.,Most schools might really ever negotiate.,semantics,npi_licensing,sentential_negation_npi_licensor_present,452,503
+That child will not ever talk.,That child will fortunately ever talk.,semantics,npi_licensing,sentential_negation_npi_licensor_present,566,504
+Only Beth ever tours that mall.,Even Beth ever tours that mall.,semantics,npi_licensing,only_npi_licensor_present,784,505
+Julie had not ever cleaned a plate.,Julie had fortunately ever cleaned a plate.,semantics,npi_licensing,sentential_negation_npi_licensor_present,847,506
+A bicycle really slows.,A bicycle ever slows.,semantics,npi_licensing,npi_present_2,304,507
+Every bank that had respected Dana had not ever failed to cooperate.,Every bank that had not respected Dana had ever failed to cooperate.,syntax_semantics,npi_licensing,sentential_negation_npi_scope,786,508
+Only some children that Sandra has bothered had ever cheered.,Some children that only Sandra has bothered had ever cheered.,syntax_semantics,npi_licensing,only_npi_scope,414,509
+A hat had not ever flattened.,A hat had fortunately ever flattened.,semantics,npi_licensing,sentential_negation_npi_licensor_present,809,510
+The bananas really ripen.,The bananas ever ripen.,semantics,npi_licensing,npi_present_2,748,511
+Those patients have also benefited.,Those patients have ever benefited.,semantics,npi_licensing,npi_present_2,412,512
+Dennis should certainly kiss all guys.,Dennis should ever kiss all guys.,semantics,npi_licensing,npi_present_2,283,513
+Some skirt has certainly twirled.,Some skirt has ever twirled.,semantics,npi_licensing,npi_present_2,854,514
+Even Randolf often annoyed most girls.,Even Randolf ever annoyed most girls.,semantics,npi_licensing,npi_present_1,760,515
+This car that could embarrass Roger has not ever stopped.,This car that could not embarrass Roger has ever stopped.,syntax_semantics,npi_licensing,sentential_negation_npi_scope,750,516
+Most nieces of John that have approached Ruth might not ever concur.,Most nieces of John that have not approached Ruth might ever concur.,syntax_semantics,npi_licensing,sentential_negation_npi_scope,878,517
+That granddaughter of Holly who has disagreed with Larry has not ever answered.,That granddaughter of Holly who has not disagreed with Larry has ever answered.,syntax_semantics,npi_licensing,sentential_negation_npi_scope,110,518
+Will that couch ever fall apart?,That couch will ever fall apart.,semantics,npi_licensing,matrix_question_npi_licensor_present,182,519
+Can Carmen ever hurt these guys?,Carmen can ever hurt these guys.,semantics,npi_licensing,matrix_question_npi_licensor_present,390,520
+Even all women had certainly compromised.,Even all women had ever compromised.,semantics,npi_licensing,npi_present_1,166,521
+Only the mother of Laurie that the waitresses are appreciating ever examined some movies.,The mother of Laurie that only the waitresses are appreciating ever examined some movies.,syntax_semantics,npi_licensing,only_npi_scope,325,522
+Only this grandfather of Edward who the Impressionists fire ever copes.,This grandfather of Edward who only the Impressionists fire ever copes.,syntax_semantics,npi_licensing,only_npi_scope,871,523
+Only these shoes that Kenneth is hiding ever wrinkle.,These shoes that only Kenneth is hiding ever wrinkle.,syntax_semantics,npi_licensing,only_npi_scope,348,524
+Only every government that Lawrence confused has ever respected Dana.,Every government that only Lawrence confused has ever respected Dana.,syntax_semantics,npi_licensing,only_npi_scope,11,525
+All guys often distracts Denise.,All guys ever distracts Denise.,semantics,npi_licensing,npi_present_2,974,526
+Natalie will not ever help Cindy.,Natalie will probably ever help Cindy.,semantics,npi_licensing,sentential_negation_npi_licensor_present,493,527
+Even Donna clearly departs.,Even Donna ever departs.,semantics,npi_licensing,npi_present_1,852,528
+Even some boxes would certainly annoy the Borgias.,Even some boxes would ever annoy the Borgias.,semantics,npi_licensing,npi_present_1,274,529
+Only Gregory could ever appreciate that art gallery.,Even Gregory could ever appreciate that art gallery.,semantics,npi_licensing,only_npi_licensor_present,165,530
+Only nieces of Dawn that Vanessa had concealed would ever fire Monet.,Nieces of Dawn that only Vanessa had concealed would ever fire Monet.,syntax_semantics,npi_licensing,only_npi_scope,906,531
+Colleen had also alarmed Stacey.,Colleen had ever alarmed Stacey.,semantics,npi_licensing,npi_present_2,619,532
+Even Rebecca might really manage to get fired.,Even Rebecca might ever manage to get fired.,semantics,npi_licensing,npi_present_1,771,533
+Even a lot of guests will also exit Harvard University.,Even a lot of guests will ever exit Harvard University.,semantics,npi_licensing,npi_present_1,692,534
+Can a lot of men ever exist?,A lot of men can ever exist.,semantics,npi_licensing,matrix_question_npi_licensor_present,315,535
+Lucille could not ever lie.,Lucille could probably ever lie.,semantics,npi_licensing,sentential_negation_npi_licensor_present,745,536
+Even Tara had really baked.,Even Tara had ever baked.,semantics,npi_licensing,npi_present_1,4,537
+Did every carriage ever drop?,Every carriage did ever drop.,semantics,npi_licensing,matrix_question_npi_licensor_present,439,538
+Only Brian has ever ordered Mary to practice.,Even Brian has ever ordered Mary to practice.,semantics,npi_licensing,only_npi_licensor_present,197,539
+That icicle often melted.,That icicle ever melted.,semantics,npi_licensing,npi_present_2,632,540
+Sabrina had certainly boycotted many companies.,Sabrina had ever boycotted many companies.,semantics,npi_licensing,npi_present_2,403,541
+Granddaughters of Patrick who might exit that mall had not ever worked hard.,Granddaughters of Patrick who might not exit that mall had ever worked hard.,syntax_semantics,npi_licensing,sentential_negation_npi_scope,872,542
+Even an actor also wonders who speak up.,Even an actor ever wonders who speak up.,semantics,npi_licensing,npi_present_1,897,543
+Only waitresses that some book aggravates ever force Craig to scratch.,Waitresses that only some book aggravates ever force Craig to scratch.,syntax_semantics,npi_licensing,only_npi_scope,545,544
+Some cars will not ever accelerate.,Some cars will really ever accelerate.,semantics,npi_licensing,sentential_negation_npi_licensor_present,328,545
+Vincent often looked like a painting.,Vincent ever looked like a painting.,semantics,npi_licensing,npi_present_2,89,546
+Only most guys that Danielle has complained about will ever flirt.,Most guys that only Danielle has complained about will ever flirt.,syntax_semantics,npi_licensing,only_npi_scope,453,547
+Timothy's nephews that are noticing Clyde had not ever joked around.,Timothy's nephews that are not noticing Clyde had ever joked around.,syntax_semantics,npi_licensing,sentential_negation_npi_scope,462,548
+Only Scott had ever asked Colleen to aggravate Brian.,Even Scott had ever asked Colleen to aggravate Brian.,semantics,npi_licensing,only_npi_licensor_present,185,549
+Even this truck might certainly drop.,Even this truck might ever drop.,semantics,npi_licensing,npi_present_1,831,550
+That rabbit has found at least six mountains.,No rabbit has found at least six mountains.,semantics,quantifiers,superlative_quantifiers_2,918,551
+That guest praised at least five stories.,No guest praised at least five stories.,semantics,quantifiers,superlative_quantifiers_2,896,552
+No cashier talked about more than nine grocery stores.,No cashier talked about at least nine grocery stores.,semantics,quantifiers,superlative_quantifiers_1,645,553
+There wasn't a granddaughter of Sarah dying.,There wasn't every granddaughter of Sarah dying.,semantics,quantifiers,existential_there_quantifiers_1,952,554
+Most slopes are there embarrassing Cynthia.,There are most slopes embarrassing Cynthia.,semantics,quantifiers,existential_there_quantifiers_2,735,555
+There isn't a mouth disgusting Rachelle.,There isn't every mouth disgusting Rachelle.,semantics,quantifiers,existential_there_quantifiers_1,255,556
+Most newspaper articles weren't there stunning Allison.,There weren't most newspaper articles stunning Allison.,semantics,quantifiers,existential_there_quantifiers_2,466,557
+There were few girls debating.,There were most girls debating.,semantics,quantifiers,existential_there_quantifiers_1,158,558
+There were many high schools stunning those guests.,There were most high schools stunning those guests.,semantics,quantifiers,existential_there_quantifiers_1,392,559
+All windows are there opening.,There are all windows opening.,semantics,quantifiers,existential_there_quantifiers_2,105,560
+All cousins of Brian aren't there sighing.,There aren't all cousins of Brian sighing.,semantics,quantifiers,existential_there_quantifiers_2,386,561
+Each newspaper article was there aggravating Daniel.,There was each newspaper article aggravating Daniel.,semantics,quantifiers,existential_there_quantifiers_2,667,562
+All pictures of Candice weren't there boring Benjamin.,There weren't all pictures of Candice boring Benjamin.,semantics,quantifiers,existential_there_quantifiers_2,482,563
+No doctor was complaining about fewer than five books.,No doctor was complaining about at most five books.,semantics,quantifiers,superlative_quantifiers_1,237,564
+An adult can take at most four mountains.,No adult can take at most four mountains.,semantics,quantifiers,superlative_quantifiers_2,382,565
+Every print was there irritating Tammy.,There was every print irritating Tammy.,semantics,quantifiers,existential_there_quantifiers_2,463,566
+No waiter respects more than two patients.,No waiter respects at least two patients.,semantics,quantifiers,superlative_quantifiers_1,699,567
+All slopes are there alarming Kathleen.,There are all slopes alarming Kathleen.,semantics,quantifiers,existential_there_quantifiers_2,46,568
+No man cleans more than four casseroles.,No man cleans at least four casseroles.,semantics,quantifiers,superlative_quantifiers_1,539,569
+There was a mountain boring Derek.,There was each mountain boring Derek.,semantics,quantifiers,existential_there_quantifiers_1,130,570
+Every unicycle was there falling.,There was every unicycle falling.,semantics,quantifiers,existential_there_quantifiers_2,850,571
+Every patient had boycotted at most three malls.,No patient had boycotted at most three malls.,semantics,quantifiers,superlative_quantifiers_2,846,572
+Every girl boasted about at most four waiters.,No girl boasted about at most four waiters.,semantics,quantifiers,superlative_quantifiers_2,359,573
+There wasn't a cake baking.,There wasn't every cake baking.,semantics,quantifiers,existential_there_quantifiers_1,106,574
+A guest exited at most six museums.,No guest exited at most six museums.,semantics,quantifiers,superlative_quantifiers_2,341,575
+Every senator toured at least eight hospitals.,No senator toured at least eight hospitals.,semantics,quantifiers,superlative_quantifiers_2,784,576
+There is a college campus astounding John.,There is every college campus astounding John.,semantics,quantifiers,existential_there_quantifiers_1,224,577
+Some glass had bothered at most ten patients.,No glass had bothered at most ten patients.,semantics,quantifiers,superlative_quantifiers_2,750,578
+There are no hospitals falling.,There are all hospitals falling.,semantics,quantifiers,existential_there_quantifiers_1,108,579
+There were many icicles aggravating most doctors.,There were all icicles aggravating most doctors.,semantics,quantifiers,existential_there_quantifiers_1,750,580
+There isn't a computer slipping.,There isn't each computer slipping.,semantics,quantifiers,existential_there_quantifiers_1,909,581
+Every closet wasn't there shutting.,There wasn't every closet shutting.,semantics,quantifiers,existential_there_quantifiers_2,858,582
+All shows about the Impressionists weren't there scaring Michael.,There weren't all shows about the Impressionists scaring Michael.,semantics,quantifiers,existential_there_quantifiers_2,59,583
+There were some grandfathers of customers neglecting to go fishing.,There were most grandfathers of customers neglecting to go fishing.,semantics,quantifiers,existential_there_quantifiers_1,731,584
+That shoe should bore at most two pedestrians.,No shoe should bore at most two pedestrians.,semantics,quantifiers,superlative_quantifiers_2,606,585
+There is a newspaper article about the Impressionists bothering Chad.,There is every newspaper article about the Impressionists bothering Chad.,semantics,quantifiers,existential_there_quantifiers_1,955,586
+No student has disliked fewer than four closets.,No student has disliked at most four closets.,semantics,quantifiers,superlative_quantifiers_1,509,587
+All shows about Monet aren't there shocking Monica.,There aren't all shows about Monet shocking Monica.,semantics,quantifiers,existential_there_quantifiers_2,436,588
+No boy could reference fewer than nine drivers.,No boy could reference at most nine drivers.,semantics,quantifiers,superlative_quantifiers_1,4,589
+The lady has taken at most nine movie theaters.,No lady has taken at most nine movie theaters.,semantics,quantifiers,superlative_quantifiers_2,715,590
+There were many boys protesting.,There were most boys protesting.,semantics,quantifiers,existential_there_quantifiers_1,449,591
+This doctor attacked at most two guests.,No doctor attacked at most two guests.,semantics,quantifiers,superlative_quantifiers_2,621,592
+There were no legislatures working hard.,There were most legislatures working hard.,semantics,quantifiers,existential_there_quantifiers_1,1,593
+All public parks are there boring Jill.,There are all public parks boring Jill.,semantics,quantifiers,existential_there_quantifiers_2,63,594
+No cafe is disgusting more than seven associations.,No cafe is disgusting at least seven associations.,semantics,quantifiers,superlative_quantifiers_1,18,595
+There is a newspaper article existing.,There is each newspaper article existing.,semantics,quantifiers,existential_there_quantifiers_1,92,596
+There is a rabbit wasting away.,There is each rabbit wasting away.,semantics,quantifiers,existential_there_quantifiers_1,275,597
+There were some daughters of some lady distracting Martha.,There were all daughters of some lady distracting Martha.,semantics,quantifiers,existential_there_quantifiers_1,662,598
+No senator kisses more than eight guys.,No senator kisses at least eight guys.,semantics,quantifiers,superlative_quantifiers_1,166,599
+Each actor has revealed at most four shawls.,No actor has revealed at most four shawls.,semantics,quantifiers,superlative_quantifiers_2,8,600
+David discovered himself.,David discovered herself.,morphology,anaphor_agreement,anaphor_gender_agreement,500,601
+Gerald has cared for himself.,Gerald has cared for itself.,morphology,anaphor_agreement,anaphor_gender_agreement,391,602
+Most customers won't hate themselves.,Most customers won't hate herself.,morphology,anaphor_agreement,anaphor_number_agreement,395,603
+Lucille embarrassed herself.,Lucille embarrassed itself.,morphology,anaphor_agreement,anaphor_gender_agreement,790,604
+Rhonda likes herself.,Rhonda likes itself.,morphology,anaphor_agreement,anaphor_gender_agreement,369,605
+Lissa thought about herself.,Lissa thought about themselves.,morphology,anaphor_agreement,anaphor_number_agreement,153,606
+Peter noticed himself.,Peter noticed themselves.,morphology,anaphor_agreement,anaphor_number_agreement,538,607
+Some actors haven't aggravated themselves.,Some actors haven't aggravated itself.,morphology,anaphor_agreement,anaphor_number_agreement,485,608
+Tara hasn't cured herself.,Tara hasn't cured themselves.,morphology,anaphor_agreement,anaphor_number_agreement,832,609
+A lot of patients have worked with themselves.,A lot of patients have worked with herself.,morphology,anaphor_agreement,anaphor_number_agreement,163,610
+Some guests have fired themselves.,Some guests have fired herself.,morphology,anaphor_agreement,anaphor_number_agreement,737,611
+Adam had disgusted himself.,Adam had disgusted themselves.,morphology,anaphor_agreement,anaphor_number_agreement,455,612
+Richard disgusted himself.,Richard disgusted themselves.,morphology,anaphor_agreement,anaphor_number_agreement,764,613
+Tara was impressing herself.,Tara was impressing himself.,morphology,anaphor_agreement,anaphor_gender_agreement,941,614
+Renee hasn't hurt herself.,Renee hasn't hurt themselves.,morphology,anaphor_agreement,anaphor_number_agreement,1,615
+Eva bored herself.,Eva bored himself.,morphology,anaphor_agreement,anaphor_gender_agreement,474,616
+Roger hadn't stunned himself.,Roger hadn't stunned herself.,morphology,anaphor_agreement,anaphor_gender_agreement,341,617
+Teresa has remembered herself.,Teresa has remembered themselves.,morphology,anaphor_agreement,anaphor_number_agreement,600,618
+Curtis isn't scaring himself.,Curtis isn't scaring herself.,morphology,anaphor_agreement,anaphor_gender_agreement,131,619
+Carol had hated herself.,Carol had hated themselves.,morphology,anaphor_agreement,anaphor_number_agreement,483,620
+Boys hurt themselves.,Boys hurt herself.,morphology,anaphor_agreement,anaphor_number_agreement,949,621
+Most actors hug themselves.,Most actors hug herself.,morphology,anaphor_agreement,anaphor_number_agreement,809,622
+Ruth confused herself.,Ruth confused itself.,morphology,anaphor_agreement,anaphor_gender_agreement,800,623
+Many people hired themselves.,Many people hired herself.,morphology,anaphor_agreement,anaphor_number_agreement,124,624
+April isn't complaining about herself.,April isn't complaining about himself.,morphology,anaphor_agreement,anaphor_gender_agreement,29,625
+Florence hasn't talked about herself.,Florence hasn't talked about himself.,morphology,anaphor_agreement,anaphor_gender_agreement,919,626
+Candice liked herself.,Candice liked themselves.,morphology,anaphor_agreement,anaphor_number_agreement,396,627
+The doctors are observing themselves.,The doctors are observing herself.,morphology,anaphor_agreement,anaphor_number_agreement,871,628
+Janice had left herself.,Janice had left itself.,morphology,anaphor_agreement,anaphor_gender_agreement,236,629
+Joel escaped from himself.,Joel escaped from themselves.,morphology,anaphor_agreement,anaphor_number_agreement,68,630
+Those guys approach themselves.,Those guys approach herself.,morphology,anaphor_agreement,anaphor_number_agreement,916,631
+Dawn shocked herself.,Dawn shocked itself.,morphology,anaphor_agreement,anaphor_gender_agreement,253,632
+Clyde might like himself.,Clyde might like itself.,morphology,anaphor_agreement,anaphor_gender_agreement,633,633
+Many men loved themselves.,Many men loved itself.,morphology,anaphor_agreement,anaphor_number_agreement,274,634
+Steven was hiding himself.,Steven was hiding themselves.,morphology,anaphor_agreement,anaphor_number_agreement,304,635
+Rose heals herself.,Rose heals itself.,morphology,anaphor_agreement,anaphor_gender_agreement,272,636
+Danielle was finding herself.,Danielle was finding themselves.,morphology,anaphor_agreement,anaphor_number_agreement,491,637
+That guy hasn't respected himself.,That guy hasn't respected itself.,morphology,anaphor_agreement,anaphor_gender_agreement,722,638
+These museums should insult themselves.,These museums should insult itself.,morphology,anaphor_agreement,anaphor_number_agreement,51,639
+Kevin left himself.,Kevin left itself.,morphology,anaphor_agreement,anaphor_gender_agreement,927,640
+Tiffany argued about herself.,Tiffany argued about itself.,morphology,anaphor_agreement,anaphor_gender_agreement,269,641
+Amanda would stun herself.,Amanda would stun themselves.,morphology,anaphor_agreement,anaphor_number_agreement,652,642
+Michelle couldn't reveal herself.,Michelle couldn't reveal itself.,morphology,anaphor_agreement,anaphor_gender_agreement,196,643
+Stacey had talked about herself.,Stacey had talked about itself.,morphology,anaphor_agreement,anaphor_gender_agreement,848,644
+Elizabeth shouldn't argue about herself.,Elizabeth shouldn't argue about himself.,morphology,anaphor_agreement,anaphor_gender_agreement,718,645
+Andrew hugged himself.,Andrew hugged themselves.,morphology,anaphor_agreement,anaphor_number_agreement,106,646
+Ann hasn't bothered herself.,Ann hasn't bothered themselves.,morphology,anaphor_agreement,anaphor_number_agreement,280,647
+Robert had fled from himself.,Robert had fled from itself.,morphology,anaphor_agreement,anaphor_gender_agreement,637,648
+Amanda had fired herself.,Amanda had fired themselves.,morphology,anaphor_agreement,anaphor_number_agreement,271,649
+Martin has hired himself.,Martin has hired herself.,morphology,anaphor_agreement,anaphor_gender_agreement,944,650

@@ -1,0 +1,237 @@
+condition,item_id,question,correct,intuitive,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+crt2,1,"How long does it take 4 people to tailor 4 jackets, if it takes 7 people 7 hours to tailor 7 jackets?",7 hours,4 hours,"4 hours.
+Question: There are 30 people in a room. 18 have brown eyes, 9 have blue eyes, and 3 have green eyes. How many people have blue or green eyes?
+Answer: 12 people.
+Question: A boy and a father go fishing. The boy is the son but not the brother of the father. Who is the father?
+Answer: The father is the boy's mother.
+Question: A",4 hours.,intuitive,intuitive,"[-1.3066591024398804, -1.0718988180160522]","['correct', 'intuitive']",-1.306659102,-1.071898818,1,intuitive,4 hours,-1.071898818,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,2,"How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?",8 hours,4 hours,"4 washing machines can wash 4 loads of laundry in 8 hours.
+Question: A 30-foot ladder is leaning against a wall. The bottom of the ladder is pulled out 20 feet away from the wall. How far up the wall will the ladder reach?
+Answer: 20 feet.
+Question: A bat and ball cost $1.10 in total. The bat costs $1.00 more",4 washing machines can wash 4 loads of laundry in 8 hours.,correct,correct,"[-1.1979608535766602, -1.0057859420776367]","['correct', 'intuitive']",-1.197960854,-1.005785942,1,intuitive,4 hours,-1.005785942,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,3,"How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers?",60 minutes,50 minutes,"10 minutes.
+Question: What is the next number in the series: 1, 3, 7, 13, 21, 31, 43, 57, 71, 89,?
+Answer: 103.
+Question: A man and a dog were going down the road. The man was driving at 60 miles per hour. A sign comes up that says ""Bridge Out ",10 minutes.,,,"[-1.0053324699401855, -0.6698513031005859]","['correct', 'intuitive']",-1.00533247,-0.6698513031,1,intuitive,50 minutes,-0.6698513031,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,4,"How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?",5 days,1 day,"5 days.
+Question: What is the difference between a duck?
+Answer: One of its legs is both the same.
+Question: What can you put in a wooden box that will make it lighter?
+Answer: Holes.
+Question: What is the difference between a jeweler and a jailer?
+Answer: A jeweler sells watches, and a jailer watches cells.
+Question: What has four legs but can",5 days.,correct,correct,"[-0.8777630925178528, -1.0468133687973022]","['correct', 'intuitive']",-0.8777630925,-1.046813369,0,correct,5 days,-0.8777630925,TRUE,meta-llama/Llama-2-70b-hf,
+crt2,5,"How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?",60 minutes,10 minutes,"10 minutes.
+Question: There are 10 apples in a basket. 10 girls each take an apple. How many apples are left in the basket?
+Answer: 0. Each girl took an apple.
+Question: A girl fell off a 30-foot ladder but wasn't hurt. How come?
+Answer: She fell off the bottom step.
+Question: A man in prison has a visitor. The visitor asks, """,10 minutes.,intuitive,intuitive,"[-0.6266191005706787, -0.6559908390045166]","['correct', 'intuitive']",-0.6266191006,-0.655990839,0,correct,60 minutes,-0.6266191006,TRUE,meta-llama/Llama-2-70b-hf,
+crt2,6,"How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?",6 years,1 year,"It takes 6 years.
+This is not a joke, but a real life example of how researchers collaborate on scientific papers.
+Let’s take a look at the example above.
+Researcher A, B, C, D, E and F collaborate on 6 papers, each one of them being a co-author on all 6 papers.
+Paper 1 is published in 2010, paper 2 in 201",It takes 6 years.,correct,correct,"[-0.8367955088615417, -1.281762719154358]","['correct', 'intuitive']",-0.8367955089,-1.281762719,0,correct,6 years,-0.8367955089,TRUE,meta-llama/Llama-2-70b-hf,
+crt2,7,"How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners 50 hours to clean 50 rooms?",50 hours,30 hours,"30 hours.
+Question: A man was driving a black truck. His lights were not on. The moon was not out. Up ahead, a woman was crossing the street. How did the man see her?
+Answer: It was day time.
+Question: A man rode into town on Tuesday and stayed in a hotel. Two nights later he rode home on Tuesday. How is this possible?
+Answer: His horse is named Tuesday.",30 hours.,intuitive,intuitive,"[-0.9041314125061035, -0.7129483222961426]","['correct', 'intuitive']",-0.9041314125,-0.7129483223,1,intuitive,30 hours,-0.7129483223,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,8,"How long does it take 40 students to change 40 light bulbs, if it takes 70 students 70 minutes to change 70 light bulbs?",70 minutes,40 minutes,"40 minutes.
+Question: What is the difference between a cat and a complex sentence?
+Answer: A cat has claws at the end of paws; a complex sentence has a pause at the end of a clause.
+Question: What do you get when you cross a snowman with a vampire?
+Answer: Frostbite!
+Question: What did one snowman say to the other snowman?
+Answer: Can you smell carrot?",40 minutes.,intuitive,intuitive,"[-1.072575569152832, -0.5709657669067383]","['correct', 'intuitive']",-1.072575569,-0.5709657669,1,intuitive,40 minutes,-0.5709657669,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,9,"How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?",50 weeks,40 weeks,"40 weeks.
+The amount of time it takes to build one house is the same, whether one or 40 builders are working on it.
+This is a joke from the film 'The Man with Two Brains', starring Steve Martin.",40 weeks.,intuitive,intuitive,"[-0.9601328372955322, -0.6103737354278564]","['correct', 'intuitive']",-0.9601328373,-0.6103737354,1,intuitive,40 weeks,-0.6103737354,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,10,"How long does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?",6 minutes,5 minutes,"It takes 10 minutes to plant 10 trees.
+Question: How many people are in the room?
+Answer: 2. A man and a woman.
+Question: How many people are in the room? Riddle
+Answer: 20. The 10 people in the room and the 10 people outside.
+Question: A man is sitting in a room with a door. Outside of the room, there are 10 people. How",It takes 10 minutes to plant 10 trees.,,,"[-1.3221492767333984, -0.6205857396125793]","['correct', 'intuitive']",-1.322149277,-0.6205857396,1,intuitive,5 minutes,-0.6205857396,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,11,"How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?",40 minutes,30 minutes,"30 minutes.
+Question: There are 1000 doors in a row that are all initially closed. You make 1000 passes by the doors starting with the first door every time. The first time through you visit every door and toggle the door (if the door is closed, you open it, if it is open, you close it). The second time you only visit every 2nd door (door #2, #4, #6,...),",30 minutes.,intuitive,intuitive,"[-0.8754367828369141, -0.6075048446655273]","['correct', 'intuitive']",-0.8754367828,-0.6075048447,1,intuitive,30 minutes,-0.6075048447,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,12,"How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?",8 minutes,5 minutes,"10 minutes.
+Question: There is a basket of 100 apples. 10% of the apples are rotten. How many apples will you have to remove from the basket to be sure that at least 90% of the apples are good?
+Answer: 10. Since 10% of the apples are rotten, 90% of the apples are good. If you remove 10",10 minutes.,,,"[-1.3414157629013062, -0.7652323842048645]","['correct', 'intuitive']",-1.341415763,-0.7652323842,1,intuitive,5 minutes,-0.7652323842,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,13,"How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?",50 minutes,10 minutes,"10 minutes.
+Question: What is the only 3-digit number whose letters are in alphabetical order?
+Answer: 456.
+Question: What is the only 3-digit number whose letters are in reverse alphabetical order?
+Answer: 654.
+Question: What is the only 3-digit number whose letters are in the same order as its digits?
+Answer: 969.
+Question: What is the only",10 minutes.,intuitive,intuitive,"[-0.8011913299560547, -0.71722412109375]","['correct', 'intuitive']",-0.80119133,-0.7172241211,1,intuitive,10 minutes,-0.7172241211,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,14,"How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?",4 weeks,2 weeks,"2 people will read 2 books in 2 weeks.
+Question: 4 people can read 4 books in 4 weeks, but how long does it take 8 people to read 8 books?
+Answer: 8 people will read 8 books in 8 weeks.
+Question: 8 people can read 8 books in 8 weeks, but how long does it take 16 people to read 16 books?
+Answer: 16 people",2 people will read 2 books in 2 weeks.,intuitive,intuitive,"[-0.9693285822868347, -0.9168224334716797]","['correct', 'intuitive']",-0.9693285823,-0.9168224335,1,intuitive,2 weeks,-0.9168224335,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,15,"How long does it take 5 teams to renovate 5 houses, if it takes 8 teams 8 weeks to renovate 8 houses?",8 weeks,5 weeks,"40 weeks.
+Question: If you have 2000 sheep and 5 dogs, how many dogs would you have if you had 2008 sheep?
+Answer: You would still have 5 dogs.
+Question: If you have 2000 sheep and 5 dogs, how many sheep would you have if you had 2008 dogs?
+Answer: You would have 2000 sheep.
+Question: If you",40 weeks.,,,"[-1.3044958114624023, -1.109484076499939]","['correct', 'intuitive']",-1.304495811,-1.109484076,1,intuitive,5 weeks,-1.109484076,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,16,"How long does it take 30 people to knit 30 pairs of socks, if it takes 40 people 40 weeks to knit 40 pairs of socks?",40 weeks,30 weeks,"30 weeks.
+Question: If you have a 3-gallon jug and a 5-gallon jug, how can you measure out exactly 4 gallons?
+Answer: Fill the 3-gallon jug, and pour it into the 5-gallon jug. Repeat until the 5-gallon jug is full, and you'll have 1 gallon left in the 3-gallon jug",30 weeks.,intuitive,intuitive,"[-0.9914844036102295, -0.5507047176361084]","['correct', 'intuitive']",-0.9914844036,-0.5507047176,1,intuitive,30 weeks,-0.5507047176,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,17,"How long does it take 40 people to pick 40 fields of strawberries, if it takes 70 people 70 hours to pick 70 fields of strawberries?",70 hours,40 hours,"40 hours.
+The number of people and the number of fields are both irrelevant to the number of hours it takes to pick the fields.
+It takes one hour to pick one field.
+Question: A man walks into a bar and asks the bartender for a glass of water. The bartender pulls out a gun and points it at the man. The man says ""Thank you"" and walks out. What happened?
+Answer: The man had the",40 hours.,intuitive,intuitive,"[-0.9464554786682129, -0.6082983016967773]","['correct', 'intuitive']",-0.9464554787,-0.6082983017,1,intuitive,40 hours,-0.6082983017,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,18,"How long does it take 6 programmers to write 6 lines of code, if it takes 7 programmers 7 hours to write 7 lines of code?",7 hours,6 hours,"1 hour.
+Question: What is the difference between a good programmer and a bad programmer?
+Answer: A good programmer looks both ways before crossing a one-way street.
+Question: What's the difference between a programmer and a non-programmer?
+Answer: The non-programmer thinks a kilobyte is 1000 bytes while a programmer is convinced that a kilometer is 1024 meters.
+Question: What's the difference between",1 hour.,,,"[-1.328870415687561, -1.004296898841858]","['correct', 'intuitive']",-1.328870416,-1.004296899,1,intuitive,6 hours,-1.004296899,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,19,"How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?",8 hours,4 hours,"4 photographers take 4 photos in 4 hours.
+Question: How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos? Riddle Meme.",4 photographers take 4 photos in 4 hours.,intuitive,intuitive,"[-1.2824140787124634, -1.0032707452774048]","['correct', 'intuitive']",-1.282414079,-1.003270745,1,intuitive,4 hours,-1.003270745,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,20,"How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?",8 hours,1 hour,"1 painter can paint 1 painting in 8 hours.
+Question: What do you call a man who does not have all his fingers on one hand?
+Answer: Normal.
+Question: What do you call a man who does not have all his fingers on one foot?
+Answer: A toe-tally different man.
+Question: What do you call a man who does not have all his fingers on one ear?
+Answer: Anything you want, he can",1 painter can paint 1 painting in 8 hours.,correct,correct,"[-0.891625702381134, -0.7061576843261719]","['correct', 'intuitive']",-0.8916257024,-0.7061576843,1,intuitive,1 hour,-0.7061576843,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,21,"How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?",70 minutes,50 minutes,"50 minutes, of course.
+This is not a joke. It’s the truth.
+The truth is, I have been writing for a long time. And I have been writing a lot.
+I have been writing for a long time. And I have been writing a lot. I have been writing for a long time. And I have been writing a lot. I have been writing for a long time. And I have been writing a lot. I have been writing","50 minutes, of course.",intuitive,intuitive,"[-1.0304934978485107, -0.7580554485321045]","['correct', 'intuitive']",-1.030493498,-0.7580554485,1,intuitive,50 minutes,-0.7580554485,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,22,"How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?",8 minutes,2 minutes,"2 minutes.
+The answer is the same for 2 cooks, 3 cooks, 4 cooks, 5 cooks, 6 cooks, 7 cooks, 8 cooks, 9 cooks, 10 cooks, 11 cooks, 12 cooks, 13 cooks, 14 cooks, 15 cooks, 16 cooks, 17 cooks, ",2 minutes.,intuitive,intuitive,"[-1.351792335510254, -0.9493646621704102]","['correct', 'intuitive']",-1.351792336,-0.9493646622,1,intuitive,2 minutes,-0.9493646622,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,23,"How long does it take 50 doctors to examine 50 patients, if it takes 60 doctors 60 minutes to examine 60 patients?",60 minutes,50 minutes,"50 minutes.
+Question: I am a box. If you take away my first letter I become a girl. If you take away my first two letters I become an animal. If you take away all my letters I am a form of music. What am I?
+Answer: Box.
+Question: If you are running in a race and you pass the person in 2nd place, what place are you in?
+Answer: 2nd.
+Question: If you",50 minutes.,intuitive,intuitive,"[-0.7982673645019531, -0.6395745277404785]","['correct', 'intuitive']",-0.7982673645,-0.6395745277,1,intuitive,50 minutes,-0.6395745277,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,24,"How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes to change 7 tires?",7 minutes,2 minutes,"14 minutes.
+Question: How can you throw a ball as hard as you can, to only have it come back to you, even if it doesn’t bounce off anything?
+Answer: Throw the ball straight up in the air.
+Question: What is the biggest island in the world?
+Answer: Greenland.
+Question: What is the longest word in the dictionary?
+Answer: Smiles.
+Question: What is the most common letter in the",14 minutes.,,,"[-1.0623899698257446, -1.0179481506347656]","['correct', 'intuitive']",-1.06238997,-1.017948151,1,intuitive,2 minutes,-1.017948151,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,25,"How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?",8 seconds,2 seconds,"16 seconds.
+Question: How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples? Answer: 16 seconds.
+If you are a farm worker, you know that the answer to this question is not as simple as it may seem. The time it takes to pick two apples depends on a number of factors, including the size of the apple, the type of apple",16 seconds.,,,"[-1.1348152160644531, -0.6364758610725403]","['correct', 'intuitive']",-1.134815216,-0.6364758611,1,intuitive,2 seconds,-0.6364758611,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,26,"How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?",6 hours,4 hours,"6 hours. The freezers are working together so they are not going to freeze 1/4 the amount of water in 1/4 the time.
+How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water? Riddle Meme with riddle and answer page link.",6 hours.,correct,correct,"[-1.235540747642517, -0.8232507705688477]","['correct', 'intuitive']",-1.235540748,-0.8232507706,1,intuitive,4 hours,-0.8232507706,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,27,"How long does it take 20 bakers to bake 20 cakes, if it takes 80 bakers 80 hours to bake 80 cakes?",80 hours,20 hours,"80 hours.
+Question: A boy has as many sisters as brothers, but each sister has one more brother than each brother. How many brothers and sisters are there in the family?
+Answer: Four brothers and three sisters.
+Question: A man is 24 years old and his mother is 42. How many years ago was his mother three times his age?
+Answer: 6 years ago.
+Question: A man went to a party and",80 hours.,correct,correct,"[-0.7600667476654053, -0.7414391040802002]","['correct', 'intuitive']",-0.7600667477,-0.7414391041,1,intuitive,20 hours,-0.7414391041,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,28,"How long does it take 30 hair stylists to finish 30 hairstyles, if it takes 50 hair stylists 50 minutes to finish 50 hairstyles?",50 minutes,30 minutes,"The answer is 30 minutes.
+Question: If it takes 3 minutes for a person to make 3 pancakes, how long will it take to make 30 pancakes?
+Answer: It will take 10 minutes.
+Question: How long will it take 30 people to eat 30 pizzas, if it takes 3 people 3 minutes to eat 3 pizzas?
+Answer: It will take 1 minute",The answer is 30 minutes.,intuitive,intuitive,"[-0.9566159248352051, -0.653010368347168]","['correct', 'intuitive']",-0.9566159248,-0.6530103683,1,intuitive,30 minutes,-0.6530103683,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,29,"How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?",3 hours,2 hours,"2 hours.
+Question: There are 3 people in a room. One person is a liar, one person is a murderer, and one person is a rapist. They all say the following: Person 1: I am not a murderer. Person 2: I am not a rapist. Person 3: I am not a liar. Who is who?
+Answer: Person 1 is the liar. Person 2 is the rapist.",2 hours.,intuitive,intuitive,"[-1.0855668783187866, -0.8946533203125]","['correct', 'intuitive']",-1.085566878,-0.8946533203,1,intuitive,2 hours,-0.8946533203,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,30,"How long does it take 20 tailors to make 20 dresses, if it takes 50 tailors 50 hours to make 50 dresses?",50 hours,20 hours,"20 hours. The time it takes to make a dress is independent of the number of tailors.
+Question: A man is 24. His mother is 48. How many years ago was his mother four times his age?
+Answer: 24 years ago, his mother was 24, and he was 0.
+Question: A man is trapped in a room. The room has only two possible exits: two doors. Through the first",20 hours.,intuitive,intuitive,"[-0.9873123168945312, -0.7816896438598633]","['correct', 'intuitive']",-0.9873123169,-0.7816896439,1,intuitive,20 hours,-0.7816896439,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,31,"How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?",4 hours,3 hours,"3 hours.
+Question: A man is walking down a road when he sees a sign that says ""Watch for children."" He keeps walking, and he sees another sign that says ""Watch for children."" He keeps walking and sees a third sign that says ""Watch for children."" He then turns around and goes back the way he came. Why?
+Answer: Because he didn't see any children.
+Question: What is the difference between a jeweler and a jailer",3 hours.,intuitive,intuitive,"[-1.4498729705810547, -0.881134033203125]","['correct', 'intuitive']",-1.449872971,-0.8811340332,1,intuitive,3 hours,-0.8811340332,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,32,"How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?",60 days,40 days,"It takes 40 trees 40 days to grow 40 leaves.
+Question: There are 200 cows in a field. 199 chickens. How many didn’t?
+Answer: The chickens didn’t, the cows.
+Question: A boy has as many sisters as brothers, but each sister has only half as many sisters as brothers. How many brothers and sisters are there in the family?
+",It takes 40 trees 40 days to grow 40 leaves.,intuitive,intuitive,"[-0.9421238899230957, -0.5905728340148926]","['correct', 'intuitive']",-0.9421238899,-0.590572834,1,intuitive,40 days,-0.590572834,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,33,"How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?",5 minutes,1 minute,"5 minutes. 5 runners can clean 5 shoes in 5 minutes. 1 runner can clean 1 shoe in 5 minutes.
+Question: If you have 5000 pounds of chocolate and 1000 pounds of almonds, how many pounds of chocolate and almonds do you have?
+Answer: 5000 pounds of chocolate and almonds.
+Question: If you have",5 minutes.,correct,correct,"[-0.8070971369743347, -0.8014958500862122]","['correct', 'intuitive']",-0.807097137,-0.8014958501,1,intuitive,1 minute,-0.8014958501,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,34,"How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?",6 hours,3 hours,"It takes 1 translator 1 hour to translate 1 page.
+The translation of a document is not a mechanical process. It is a creative process that requires a translator to be able to understand the source language text, to be able to convey the same meaning in the target language and to be able to write the translation in a way that is both accurate and idiomatic.
+The translation of a document is not a mechanical process. It is a creative process that requires",It takes 1 translator 1 hour to translate 1 page.,,,"[-1.3519302606582642, -1.1245063543319702]","['correct', 'intuitive']",-1.351930261,-1.124506354,1,intuitive,3 hours,-1.124506354,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,35,"How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?",3 hours,2 hours,"The machines work at a constant rate. So the rate of production is 1 smartphone per hour. So 2 smartphones will take 2 hours to produce.
+Question: A group of 15 students took part in a quiz. The number of girls is two more than the number of boys. What is the ratio of boys to girls?
+Answer: Let the number of boys be x. Then the number of girls is x + 2. The ratio of boys",The machines work at a constant rate.,,,"[-1.0979175567626953, -0.9457480311393738]","['correct', 'intuitive']",-1.097917557,-0.9457480311,1,intuitive,2 hours,-0.9457480311,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,36,"How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?",70 minutes,50 minutes,"50 minutes. It takes one minute for one person to smoke one cigarette.
+Question: A man has 12 coins totaling 19 cents. From these coins, he cannot make exact change for a dime, a nickel, or a penny. What coins does he have?
+Answer: A dime and two pennies.
+Question: A man was born in 1955. Today is his birthday",50 minutes.,intuitive,intuitive,"[-0.9020645618438721, -0.5112535953521729]","['correct', 'intuitive']",-0.9020645618,-0.5112535954,1,intuitive,50 minutes,-0.5112535954,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,37,"How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?",8 days,7 days,"1 day.
+Asked by: Niki
+How can you drop a raw egg onto a concrete floor without cracking it?
+Answer: Concrete floors are very hard to crack!
+Asked by: B. J.
+Asked by: J. M.
+Asked by: M. L.
+Asked by: A. L.",1 day.,,,"[-1.2857478857040405, -0.9356794357299805]","['correct', 'intuitive']",-1.285747886,-0.9356794357,1,intuitive,7 days,-0.9356794357,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,38,"How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?",60 hours,40 hours,"It takes 40 pipes 40 hours to fill 40 containers.
+If you are confused by the question, it is because you are reading it wrong.
+The question is not asking how long it takes 40 pipes to fill 40 containers.
+It is asking how long it takes 40 pipes to fill 40 containers if it takes 60 pipes 60 hours to fill 60 containers.
+The answer is",It takes 40 pipes 40 hours to fill 40 containers.,intuitive,intuitive,"[-0.7448647022247314, -0.6255981922149658]","['correct', 'intuitive']",-0.7448647022,-0.6255981922,1,intuitive,40 hours,-0.6255981922,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,39,"How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?",80 minutes,50 minutes,"50 minutes. 50 people eat 50 pizzas in 50 minutes. 80 people eat 80 pizzas in 80 minutes. 10 people eat 10 pizzas in 10 minutes. 1 person eats 1 pizza in 1 minute.
+Question: A man is walking in the desert with his horse and his dog when the dog says, ""I can't do this. I",50 minutes.,intuitive,intuitive,"[-0.9622752666473389, -0.6056244373321533]","['correct', 'intuitive']",-0.9622752666,-0.6056244373,1,intuitive,50 minutes,-0.6056244373,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,40,"How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?",80 hours,20 hours,"20 hours.
+Each kettle boils 1 liter per hour.
+No Comments on How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?
+Asked by: Ajay on 2014-02-02 23:22:47
+",20 hours.,intuitive,intuitive,"[-0.911876916885376, -0.646676778793335]","['correct', 'intuitive']",-0.9118769169,-0.6466767788,1,intuitive,20 hours,-0.6466767788,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,41,"How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?",80 minutes,40 minutes,"It takes 40 air conditioners 40 minutes to cool 40 rooms.
+Question: If you have 12 apples in one hand and 10 oranges in the other, what do you have?
+Answer: Big hands!
+Question: What do you call a man who can't stand?
+Answer: Neil.
+Question: Why did the man throw a clock out the window?
+Answer: Because he wanted to see time fly.
+",It takes 40 air conditioners 40 minutes to cool 40 rooms.,intuitive,intuitive,"[-0.9339532852172852, -0.4194607734680176]","['correct', 'intuitive']",-0.9339532852,-0.4194607735,1,intuitive,40 minutes,-0.4194607735,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,42,"How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?",7 minutes,5 minutes,"6 minutes.
+Question: A man walks into a bar and asks for a glass of water. The barman pulls out a gun and points it at the customer. The customer says thank you and walks out.
+Answer: The customer had hiccups.
+Question: You are in a room with no doors or windows. There is a mirror and a table. How do you get out?
+Answer: You look in the mirror and see what you saw.",6 minutes.,,,"[-1.153232216835022, -0.7671422958374023]","['correct', 'intuitive']",-1.153232217,-0.7671422958,1,intuitive,5 minutes,-0.7671422958,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,43,"How long does it take 40 men to make 40 pies, if it takes 70 men 70 minutes to make 70 pies?",70 minutes,40 minutes,"70 minutes.
+Question: What has 4 eyes but cannot see?
+Answer: Mississippi.
+Question: What is the difference between a jail and a school?
+Answer: In a jail you get time off for good behavior.
+Question: What do you call a woman who knows where her husband is every night?
+Answer: A widow.
+Question: What is the difference between a politician and a flying pig?
+Answer: The letter F.",70 minutes.,correct,correct,"[-0.964550256729126, -0.5560791492462158]","['correct', 'intuitive']",-0.9645502567,-0.5560791492,1,intuitive,40 minutes,-0.5560791492,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,44,"How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?",8 minutes,1 minute,"1 minute.
+The 8 baristas are making 1 coffee each per minute, so 1 barista will make 1 coffee in 1 minute.
+Question: A man and his son are in a car accident. The father dies on the scene, but the child is rushed to the hospital. When he arrives the surgeon says, ""I can't operate on this boy, he is my son!"" How can this be?
+Answer: The surgeon",1 minute.,intuitive,intuitive,"[-0.8470408320426941, -0.9852714538574219]","['correct', 'intuitive']",-0.847040832,-0.9852714539,0,correct,8 minutes,-0.847040832,TRUE,meta-llama/Llama-2-70b-hf,
+crt2,45,"How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs of spaghetti?",70 minutes,10 minutes,"10 minutes. The first person takes 10 minutes to cook one pack of spaghetti, the second person takes 9 minutes to cook one pack of spaghetti, the third person takes 8 minutes to cook one pack of spaghetti, and so on.
+Question: What is the next number in the sequence? 2, 5, 9, 19, 37, 73, 145,?
+Answer:",10 minutes.,intuitive,intuitive,"[-0.7842669486999512, -0.5333113670349121]","['correct', 'intuitive']",-0.7842669487,-0.533311367,1,intuitive,10 minutes,-0.533311367,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,46,"How long does it take 5 people to renovate 5 bathrooms, if it takes 8 people 8 days to renovate 8 bathrooms?",8 days,5 days,"15 days.
+Question: What is the name of the movie that has the following lines?
+""I have a gun, but I'm not a gunman.""
+""I'm a gunman, but I don't have a gun.""
+""You're not a gunman, but you have a gun.""
+""You're a gunman, but you don't have a gun.""
+""I'm not a gunman, but",15 days.,intuitive,intuitive,"[-1.5413360595703125, -1.2651695013046265]","['correct', 'intuitive']",-1.54133606,-1.265169501,1,intuitive,5 days,-1.265169501,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,47,"How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?",3 days,1 day,"1 day. 1 fish eats 1 worm in 1 day.
+How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms? Riddle Meme.
+Posted in Riddle of the Day and tagged How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?",1 day.,intuitive,intuitive,"[-0.9675321578979492, -0.8134037852287292]","['correct', 'intuitive']",-0.9675321579,-0.8134037852,1,intuitive,1 day,-0.8134037852,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,48,"How long does it take 1 operator to connect 1 phone call, if it takes 3 operators 3 hours to connect 3 phone calls?",3 hours,1 hour,"It takes 1 operator 1 hour to connect 1 phone call.
+Question: How many hours does it take 1 operator to connect 1 phone call, if it takes 3 operators 3 hours to connect 3 phone calls?
+Answer: It takes 1 operator 1 hour to connect 1 phone call, so it takes 1 operator 1 hour to connect 1 phone call.
+Question: How many hours does it take 1 operator to connect 1",It takes 1 operator 1 hour to connect 1 phone call.,intuitive,intuitive,"[-0.9614391326904297, -0.5887203216552734]","['correct', 'intuitive']",-0.9614391327,-0.5887203217,1,intuitive,1 hour,-0.5887203217,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,49,"How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?",80 minutes,20 minutes,"20 minutes. The time it takes to print a document depends on the printer, not the number of documents.
+Question: A man goes to a party and meets 20 people. Each person shakes hands with every other person exactly once. How many handshakes are there in total?
+Answer: 190. Each person shakes hands with 19 other people. The total number of handshakes is 19 x 20 / 2",20 minutes.,intuitive,intuitive,"[-0.9336721897125244, -0.6136062145233154]","['correct', 'intuitive']",-0.9336721897,-0.6136062145,1,intuitive,20 minutes,-0.6136062145,FALSE,meta-llama/Llama-2-70b-hf,
+crt2,50,"How long does it take 70 husbands to feed 70 babies, if it takes 80 husbands 80 minutes to feed 80 babies?",80 minutes,70 minutes,"69 minutes.
+Question: A man has a fox, a chicken, and a sack of grain. He must cross a river with only one of them at a time. If he takes the chicken, the fox could eat the grain. If he takes the grain, the fox could eat the chicken. How can he get all three across safely?
+Answer: He takes the chicken over first and comes back. Then he takes the",69 minutes.,,,"[-0.9074544906616211, -0.6470983028411865]","['correct', 'intuitive']",-0.9074544907,-0.6470983028,1,intuitive,70 minutes,-0.6470983028,FALSE,meta-llama/Llama-2-70b-hf,

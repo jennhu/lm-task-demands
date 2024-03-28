@@ -1,0 +1,5 @@
+
+task: crt
+model: EleutherAI/pythia-1b-deduped
+condition: crt2
+max_new_tokens: 100

@@ -1,0 +1,323 @@
+condition,item_id,question,correct,intuitive,t,generated_response_raw,generated_response,generated_response_naive_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+crt3,1,"In a city, a virus is spreading, causing the total number of infected individuals to double each day. If it takes 6 days for the entire city's population to be infected, how many days would it require for half of the people to become infected?",5 days,3 days,6 days,"
+
+Question: In a city, a virus is spreading, causing the total number of infected individuals to double each day. If it takes 6 days for the entire city's population to be infected, how many days would it require for half of the people to become infected?
+Answer:
+
+Question: In a city, a virus is spreading, causing the total number of infected individuals to double each day. If it takes 6 days for the entire city's population to be infected, how many",.,,"[-3.421875, -2.69140625, -1.90625]","['correct', 'intuitive', 't']",-3.421875,-2.69140625,2,t,6 days,-1.90625,False,EleutherAI/pythia-12b-deduped,
+crt3,2,"A pandemic is occurring in a state where the total number of infected individuals doubles daily. If it takes 10 days for the entire state's population to become infected, how many days would it take for half of the state's population to be infected?",9 days,5 days,10 days,"
+
+Question: A pandemic is occurring in a state where the total number of infected individuals doubles daily. If it takes 10 days for the entire state's population to become infected, how many days would it take for half of the state's population to be infected?
+Answer:
+
+Question: A pandemic is occurring in a state where the total number of infected individuals doubles daily. If it takes 10 days for the entire state's population to become infected, how many days would it take for half",.,,"[-3.359375, -2.73828125, -2.0625]","['correct', 'intuitive', 't']",-3.359375,-2.73828125,2,t,10 days,-2.0625,False,EleutherAI/pythia-12b-deduped,
+crt3,3,"People are escaping from war. Each day, the total count of refugees doubles. If it takes 22 days for the entire population to evacuate, how long would it take for half of the population to do so?",21 days,11 days,22 days,"
+
+Question: People are escaping from war. Each day, the total count of refugees doubles. If it takes 22 days for the entire population to evacuate, how long would it take for half of the population to do so?
+Answer:
+
+Question: People are escaping from war. Each day, the total count of refugees doubles. If it takes 22 days for the entire population to evacuate, how long would it take for half of the population to do so?
+Answer:",.,,"[-3.2734375, -3.00390625, -2.171875]","['correct', 'intuitive', 't']",-3.2734375,-3.00390625,2,t,22 days,-2.171875,False,EleutherAI/pythia-12b-deduped,
+crt3,4,"A farmer is plowing a field. Each hour, the total plowed area doubles. If it takes 10 hours for the entire field to be plowed, how long would it take for half of the field to be plowed?",9 hours,5 hours,10 hours,"
+
+Question: A farmer is plowing a field. Each hour, the total plowed area doubles. If it takes 10 hours for the entire field to be plowed, how long would it take for half of the field to be plowed?
+Answer:
+
+Question: A farmer is plowing a field. Each hour, the total plowed area doubles. If it takes 10 hours for the entire field to be plowed, how long would it take for half of the field",.,,"[-2.9453125, -2.15234375, -1.8203125]","['correct', 'intuitive', 't']",-2.9453125,-2.15234375,2,t,10 hours,-1.8203125,False,EleutherAI/pythia-12b-deduped,
+crt3,5,"The apples are dropping from an apple tree, with the total count of fallen apples doubling each day. If it requires 16 days for all the apples to drop, how many days would it take for half the apples to fall?",15 days,8 days,16 days,"
+
+Question: The apples are dropping from an apple tree, with the total count of fallen apples doubling each day. If it requires 16 days for all the apples to drop, how many days would it take for half the apples to fall?
+Answer:
+
+Question: The apples are dropping from an apple tree, with the total count of fallen apples doubling each day. If it requires 16 days for all the apples to drop, how many days would it take for half the apples to fall",.,,"[-3.6640625, -3.03515625, -2.4140625]","['correct', 'intuitive', 't']",-3.6640625,-3.03515625,2,t,16 days,-2.4140625,False,EleutherAI/pythia-12b-deduped,
+crt3,6,"Fish are migrating and each day, the total distance they cover doubles. If it takes the fish 18 days to reach their destination, how many days would it take for them to cover half the distance?",17 days,9 days,18 days,"
+
+Question: A man walks at a rate of 3 miles per hour. If he walks for 2 hours, how many miles does he walk?
+Answer:
+
+Question: A man walks at a rate of 3 miles per hour. If he walks for 2 hours, how many miles does he walk?
+Answer:
+
+Question: A man walks at a rate of 3 miles per hour. If he walks for 2 hours, how many miles does he walk?
+Answer:
+",.,,"[-3.72265625, -3.1875, -2.03515625]","['correct', 'intuitive', 't']",-3.72265625,-3.1875,2,t,18 days,-2.03515625,False,EleutherAI/pythia-12b-deduped,
+crt3,7,"A tree branch is falling, and with each passing second, the total distance it covered doubles. If it takes 6 seconds for the branch to reach the ground, how long would it take for it to cover one-half of the total distance?",5 seconds,3 seconds,6 seconds,"
+
+Question: A tree branch is falling, and with each passing second, the total distance it covered doubles. If it takes 6 seconds for the branch to reach the ground, how long would it take for it to cover one-half of the total distance?
+Answer:
+
+Question: A tree branch is falling, and with each passing second, the total distance it covered doubles. If it takes 6 seconds for the branch to reach the ground, how long would it take for it to",.,,"[-3.05859375, -2.5546875, -1.5859375]","['correct', 'intuitive', 't']",-3.05859375,-2.5546875,2,t,6 seconds,-1.5859375,False,EleutherAI/pythia-12b-deduped,
+crt3,8,"A fly is traveling from point A to point B. With each passing hour, the total distance it covered doubles. If the fly reaches point B in 12 hours, how long does it take for the fly to cover half of the distance?",11 hours,6 hours,12 hours,"
+
+Question: A fly is traveling from point A to point B. With each passing hour, the total distance it covered doubles. If the fly reaches point B in 12 hours, how long does it take for the fly to cover half of the distance?
+Answer:
+
+Question: A fly is traveling from point A to point B. With each passing hour, the total distance it covered doubles. If the fly reaches point B in 12 hours, how long does it take for the fly",.,,"[-3.390625, -2.26953125, -1.87890625]","['correct', 'intuitive', 't']",-3.390625,-2.26953125,2,t,12 hours,-1.87890625,False,EleutherAI/pythia-12b-deduped,
+crt3,9,"A new concrete pavement is drying. The overall area of dried concrete doubles each day. If it requires 4 days for the entire pavement to dry completely, how many days does it take for half the pavement to become dry?",3 days,2 days,4 days,"
+
+Question: A new concrete pavement is drying. The overall area of dried concrete doubles each day. If it requires 4 days for the entire pavement to dry completely, how many days does it take for half the pavement to become dry?
+Answer:
+
+Question: A new concrete pavement is drying. The overall area of dried concrete doubles each day. If it requires 4 days for the entire pavement to dry completely, how many days does it take for half the pavement to become dry?
+",.,,"[-3.03125, -2.57421875, -2.515625]","['correct', 'intuitive', 't']",-3.03125,-2.57421875,2,t,4 days,-2.515625,False,EleutherAI/pythia-12b-deduped,
+crt3,10,"There is a freezer filled with food, and the total volume of the frozen food doubles every hour. If it takes 16 hours for all the food to become frozen, how long would it take to freeze half of the food?",15 hours,8 hours,16 hours,"
+
+Question: There is a freezer filled with food, and the total volume of the frozen food doubles every hour. If it takes 16 hours for all the food to become frozen, how long would it take to freeze half of the food?
+Answer:
+
+Question: There is a freezer filled with food, and the total volume of the frozen food doubles every hour. If it takes 16 hours for all the food to become frozen, how long would it take to freeze half of the food",.,,"[-3.912109375, -2.60546875, -2.390625]","['correct', 'intuitive', 't']",-3.912109375,-2.60546875,2,t,16 hours,-2.390625,False,EleutherAI/pythia-12b-deduped,
+crt3,11,"A pot of water is boiling on the stove, and with each passing hour, the overall volume of the evaporated water doubles. If the entire pot takes 6 hours to evaporate completely, how long does it take for half of the pot to evaporate?",5 hours,3 hours,6 hours,"
+
+Question: A pot of water is boiling on the stove, and with each passing hour, the overall volume of the evaporated water doubles. If the entire pot takes 6 hours to evaporate completely, how long does it take for half of the pot to evaporate?
+Answer:
+
+Question: A pot of water is boiling on the stove, and with each passing hour, the overall volume of the evaporated water doubles. If the entire pot takes 6 hours to evaporate completely, how",.,,"[-3.0234375, -2.2109375, -1.72265625]","['correct', 'intuitive', 't']",-3.0234375,-2.2109375,2,t,6 hours,-1.72265625,False,EleutherAI/pythia-12b-deduped,
+crt3,12,"There is a section of mold on a bread loaf that doubles in size every hour. If it takes 16 hours for the mold to completely cover the bread, how much time is needed for the mold to cover half of the bread?",15 hours,8 hours,16 hours,"
+
+Question: A man is driving down the road when he sees a car in the ditch. He pulls over and goes to the car to see if anyone is hurt. He finds a man in the driver's seat with a broken leg. The man says, ""I was driving down the road and I saw a car in the ditch. I pulled over and went to the car to see if anyone was hurt. I found a man in the driver's seat with a broken leg. I called",.,,"[-4.08203125, -2.61328125, -2.31640625]","['correct', 'intuitive', 't']",-4.08203125,-2.61328125,2,t,16 hours,-2.31640625,False,EleutherAI/pythia-12b-deduped,
+crt3,13,"A forest is engulfed in flames. Each day, the overall area of the scorched forest doubles in size. If it takes 18 days for the entire forest to be consumed by the fire, how many days would it take for half of the forest to be burnt?",17 days,9 days,18 days,"
+
+Question: A forest is engulfed in flames. Each day, the overall area of the scorched forest doubles in size. If it takes 18 days for the entire forest to be consumed by the fire, how many days would it take for half of the forest to be burnt?
+Answer:
+
+Question: A forest is engulfed in flames. Each day, the overall area of the scorched forest doubles in size. If it takes 18 days for the entire forest to be consumed",.,,"[-3.87890625, -3.1484375, -2.2890625]","['correct', 'intuitive', 't']",-3.87890625,-3.1484375,2,t,18 days,-2.2890625,False,EleutherAI/pythia-12b-deduped,
+crt3,14,"In a cave, there is a colony of bats with a daily population doubling. Given that it takes 60 days for the entire cave to be filled with bats, how many days would it take for the cave to be half-filled with bats?",59 days,30 days,60 days,"
+
+Question: In a cave, there is a colony of bats with a daily population doubling. Given that it takes 60 days for the entire cave to be filled with bats, how many days would it take for the cave to be half-filled with bats?
+Answer:
+
+Question: In a cave, there is a colony of bats with a daily population doubling. Given that it takes 60 days for the entire cave to be filled with bats, how many days would it take for the",.,,"[-4.41015625, -2.9765625, -2.0625]","['correct', 'intuitive', 't']",-4.41015625,-2.9765625,2,t,60 days,-2.0625,False,EleutherAI/pythia-12b-deduped,
+crt3,15,"A section of grass is expanding within a garden, with the total area it occupies doubling daily. If it requires 12 days for the entire garden to be encompassed by the grass, how many days are needed for the grass to cover half of the garden?",11 days,6 days,12 days,"
+
+Question: A section of grass is expanding within a garden, with the total area it occupies doubling daily. If it requires 12 days for the entire garden to be encompassed by the grass, how many days are needed for the grass to cover half of the garden?
+Answer:
+
+Question: A section of grass is expanding within a garden, with the total area it occupies doubling daily. If it requires 12 days for the entire garden to be encompassed by the grass, how many",.,,"[-3.890625, -3.0390625, -2.14453125]","['correct', 'intuitive', 't']",-3.890625,-3.0390625,2,t,12 days,-2.14453125,False,EleutherAI/pythia-12b-deduped,
+crt3,16,"An investor possesses 1 bitcoin. Each day, their number of bitcoins doubles. If it takes them 30 days to achieve their investment target, how long would it take for them to reach half of that target?",29 days,15 days,30 days,"
+
+Question: An investor possesses 1 bitcoin. Each day, their number of bitcoins doubles. If it takes them 30 days to achieve their investment target, how long would it take for them to reach half of that target?
+Answer:
+
+Question: An investor possesses 1 bitcoin. Each day, their number of bitcoins doubles. If it takes them 30 days to achieve their investment target, how long would it take for them to reach half of that target?
+Answer:
+
+",.,,"[-3.12109375, -2.49609375, -1.54296875]","['correct', 'intuitive', 't']",-3.12109375,-2.49609375,2,t,30 days,-1.54296875,False,EleutherAI/pythia-12b-deduped,
+crt3,17,"Fish inhabit a creek, and their population doubles each week. If it requires 24 weeks for the entire creek to become completely filled with fish, how long would it take to fill half of the creek with fish?",23 weeks,12 weeks,24 weeks,"
+
+Question: A certain number of people are standing in a line. The first person in line is asked to stand in the middle of the line. The second person is asked to stand in the middle of the line. The third person is asked to stand in the middle of the line. The fourth person is asked to stand in the middle of the line. The fifth person is asked to stand in the middle of the line. The sixth person is asked to stand in the middle of the line",.,,"[-3.6953125, -2.16796875, -2.04296875]","['correct', 'intuitive', 't']",-3.6953125,-2.16796875,2,t,24 weeks,-2.04296875,False,EleutherAI/pythia-12b-deduped,
+crt3,18,"A dust cloud hovers above the city, doubling in size each day. If it takes 12 days for the entire city to be engulfed by the cloud, how many days does it take for the cloud to cover half of the city?",11 days,6 days,12 days,"
+
+Question: A dust cloud hovers above the city, doubling in size each day. If it takes 12 days for the entire city to be engulfed by the cloud, how many days does it take for the cloud to cover half of the city?
+Answer:
+
+Question: A dust cloud hovers above the city, doubling in size each day. If it takes 12 days for the entire city to be engulfed by the cloud, how many days does it take for the cloud",.,,"[-3.453125, -2.7421875, -2.09375]","['correct', 'intuitive', 't']",-3.453125,-2.7421875,2,t,12 days,-2.09375,False,EleutherAI/pythia-12b-deduped,
+crt3,19,"There is a sick student in the class. Each day, the number of sick students doubles. If it takes 6 days for the entire class to become sick, how many days does it take for half of the class to become sick?",5 days,3 days,6 days,"
+
+Question: There is a sick student in the class. Each day, the number of sick students doubles. If it takes 6 days for the entire class to become sick, how many days does it take for half of the class to become sick?
+Answer:
+
+Question: There is a sick student in the class. Each day, the number of sick students doubles. If it takes 6 days for the entire class to become sick, how many days does it take for half of the",.,,"[-3.16796875, -2.7109375, -2.171875]","['correct', 'intuitive', 't']",-3.16796875,-2.7109375,2,t,6 days,-2.171875,False,EleutherAI/pythia-12b-deduped,
+crt3,20,"A colony of bacteria is growing on yogurt, and the size of the colony doubles daily. If it takes 4 days for the colony to completely cover the yogurt, how many days does it take for the patch to cover half of the yogurt?",3 days,2 days,4 days,"
+
+Question: A colony of bacteria is growing on yogurt, and the size of the colony doubles daily. If it takes 4 days for the colony to completely cover the yogurt, how many days does it take for the patch to cover half of the yogurt?
+Answer:
+
+Question: A colony of bacteria is growing on yogurt, and the size of the colony doubles daily. If it takes 4 days for the colony to completely cover the yogurt, how many days does it take for the patch",.,,"[-2.9140625, -2.67578125, -2.23828125]","['correct', 'intuitive', 't']",-2.9140625,-2.67578125,2,t,4 days,-2.23828125,False,EleutherAI/pythia-12b-deduped,
+crt3,21,"A moss patch is expanding on a rock, doubling its size each day. It takes 300 days for the moss to completely cover the rock. How many days are required for the moss to cover half of the rock?",299 days,150 days,300 days,"
+
+Question: A moss patch is expanding on a rock, doubling its size each day. It takes 300 days for the moss to completely cover the rock. How many days are required for the moss to cover half of the rock?
+Answer:
+
+Question: A moss patch is expanding on a rock, doubling its size each day. It takes 300 days for the moss to completely cover the rock. How many days are required for the moss to cover half of the rock?
+Answer:",.,,"[-5.15234375, -3.40625, -2.40625]","['correct', 'intuitive', 't']",-5.15234375,-3.40625,2,t,300 days,-2.40625,False,EleutherAI/pythia-12b-deduped,
+crt3,22,"Beneath a tree, there is a heap of leaves that doubles in size every week. If it takes 4 weeks for the pile to attain a height of 4 meters, how much time is required for it to reach a height of 2 meters?",3 weeks,2 weeks,4 weeks,"
+
+A:
+
+Let $h(t)$ be the height of the pile at time $t$.
+Then $h(0)=0$ and $h(4)=4$.
+The rate at which the pile grows is $h'(t)=h(t+1)-h(t)$.
+So $h'(0)=0$ and $h'(4)=h(4+1)-h(4)=h(5)-h(4)=h(5",.,,"[-2.44140625, -2.453125, -2.4921875]","['correct', 'intuitive', 't']",-2.44140625,-2.453125,0,correct,3 weeks,-2.44140625,True,EleutherAI/pythia-12b-deduped,
+crt3,23,"Mushrooms are cultivated in a container, and their quantity doubles daily. Given that it takes 6 days for the mushrooms to fill the entire container, determine the time needed to fill half of the container.",5 days,3 days,6 days,"
+
+Question: A man is standing on a platform that is 1.5 m above the ground. A ball is thrown at him from a distance of 1.5 m. The ball hits the man and bounces back to the platform. The man then throws the ball back to the same distance. The ball hits the man and bounces back to the platform. The man then throws the ball back to the same distance. The ball hits the man and bounces back to the platform. The",.,,"[-3.80859375, -2.85546875, -2.00390625]","['correct', 'intuitive', 't']",-3.80859375,-2.85546875,2,t,6 days,-2.00390625,False,EleutherAI/pythia-12b-deduped,
+crt3,24,"There is a man who raises rabbits in a barn. Each year, the rabbit population doubles. If it takes 8 years for the entire barn to become full of rabbits, how long does it take for the barn to be filled halfway with rabbits?",7 years,4 years,8 years,"
+
+Question: There is a man who raises rabbits in a barn. Each year, the rabbit population doubles. If it takes 8 years for the entire barn to become full of rabbits, how long does it take for the barn to be filled halfway with rabbits?
+Answer:
+
+Question: There is a man who raises rabbits in a barn. Each year, the rabbit population doubles. If it takes 8 years for the entire barn to become full of rabbits, how long does it take for",.,,"[-2.90625, -1.859375, -1.8125]","['correct', 'intuitive', 't']",-2.90625,-1.859375,2,t,8 years,-1.8125,False,EleutherAI/pythia-12b-deduped,
+crt3,25,"Within a forest, there is a growing patch of ramson that doubles in size each week. If it takes 10 weeks for the entire forest to be covered with ramson, how long would it take for the ramson to cover half of the forest?",9 weeks,5 weeks,10 weeks,"
+
+Question: A man is standing on a platform that is 1.5 meters above the ground. He throws a ball straight up and it reaches a height of 1.5 meters. How high is the man?
+Answer:
+
+Question: A man is standing on a platform that is 1.5 meters above the ground. He throws a ball straight up and it reaches a height of 1.5 meters. How high is the man?
+Answer:
+
+Question: A man",.,,"[-2.8671875, -2.4296875, -2.39453125]","['correct', 'intuitive', 't']",-2.8671875,-2.4296875,2,t,10 weeks,-2.39453125,False,EleutherAI/pythia-12b-deduped,
+crt3,26,"It is currently raining, causing the lake to fill up with water. The volume of water in the lake doubles every day. If it takes a total of 20 days for the lake to become completely filled, how many days would it take for the lake to reach halfway to being full?",19 days,10 days,20 days,"
+
+Question: A certain number of people are standing in a line. The first person in line is asked to stand in the middle of the line. The second person is asked to stand in the middle of the line. The third person is asked to stand in the middle of the line. The fourth person is asked to stand in the middle of the line. The fifth person is asked to stand in the middle of the line. The sixth person is asked to stand in the middle of the line",.,,"[-4.359375, -3.58203125, -2.4609375]","['correct', 'intuitive', 't']",-4.359375,-3.58203125,2,t,20 days,-2.4609375,False,EleutherAI/pythia-12b-deduped,
+crt3,27,"Within a forest, there exists a tree that doubles its height each year. If the tree attains its maximum height in 10 years, determine the time it would take to achieve half of that maximum height.",9 years,5 years,10 years,"
+
+A:
+
+The height of the tree is $h(t)=2t$.
+The height of the tree at time $t$ is $h(t)=2t$.
+The height of the tree at time $t$ is $h(t)=2t$.
+The height of the tree at time $t$ is $h(t)=2t$.
+The height of the tree at time $t$ is $h(t)=2t$.",.,,"[-2.6796875, -2.51171875, -2.10546875]","['correct', 'intuitive', 't']",-2.6796875,-2.51171875,2,t,10 years,-2.10546875,False,EleutherAI/pythia-12b-deduped,
+crt3,28,"There is a flood occurring in a field. With each passing hour, the size of the flood-stricken area doubles. If it takes 20 hours for the entire field to become submerged, how many hours would it take for half of the field to be inundated?",19 hours,10 hours,20 hours,"
+
+Question: There is a flood occurring in a field. With each passing hour, the size of the flood-stricken area doubles. If it takes 20 hours for the entire field to become submerged, how many hours would it take for half of the field to be inundated?
+Answer:
+
+Question: There is a flood occurring in a field. With each passing hour, the size of the flood-stricken area doubles. If it takes 20 hours for the",.,,"[-4.28125, -2.91015625, -2.4140625]","['correct', 'intuitive', 't']",-4.28125,-2.91015625,2,t,20 hours,-2.4140625,False,EleutherAI/pythia-12b-deduped,
+crt3,29,"A barrel is being filled with whiskey, and the total volume of whiskey doubles every minute. If it takes 12 minutes to completely fill the barrel, how long would it take to fill half of it with whiskey?",11 minutes,6 minutes,12 minutes,"
+
+Question: A barrel is being filled with whiskey, and the total volume of whiskey doubles every minute. If it takes 12 minutes to completely fill the barrel, how long would it take to fill half of it with whiskey?
+Answer:
+
+Question: A barrel is being filled with whiskey, and the total volume of whiskey doubles every minute. If it takes 12 minutes to completely fill the barrel, how long would it take to fill half of it with whiskey?
+Answer:
+
+",.,,"[-3.66015625, -2.3828125, -1.80859375]","['correct', 'intuitive', 't']",-3.66015625,-2.3828125,2,t,12 minutes,-1.80859375,False,EleutherAI/pythia-12b-deduped,
+crt3,30,"Programmers are in the process of developing new software and each month the total quantity of written code doubles. If it requires 10 months to complete the entire code, how much time is needed to write half of the code?",9 months,5 months,10 months,"
+
+Question: A programmer is developing a new software and each month the total quantity of written code doubles. If it requires 10 months to complete the entire code, how much time is needed to write half of the code?
+Answer:
+
+Question: A programmer is developing a new software and each month the total quantity of written code doubles. If it requires 10 months to complete the entire code, how much time is needed to write half of the code?
+Answer:
+
+Question:",.,,"[-2.66796875, -2.0, -1.9453125]","['correct', 'intuitive', 't']",-2.66796875,-2.0,2,t,10 months,-1.9453125,False,EleutherAI/pythia-12b-deduped,
+crt3,31,"A factory is busy filling bags with chocolate cookies. The total number of bags filled doubles with each passing hour. Given that it takes 8 hours to fill all the bags, how much time is required to fill half of the bags?",7 hours,4 hours,8 hours,"
+
+Question: A factory is busy filling bags with chocolate cookies. The total number of bags filled doubles with each passing hour. Given that it takes 8 hours to fill all the bags, how much time is required to fill half of the bags?
+Answer:
+
+Question: A factory is busy filling bags with chocolate cookies. The total number of bags filled doubles with each passing hour. Given that it takes 8 hours to fill all the bags, how much time is required to fill half of",.,,"[-3.63671875, -2.41015625, -1.84375]","['correct', 'intuitive', 't']",-3.63671875,-2.41015625,2,t,8 hours,-1.84375,False,EleutherAI/pythia-12b-deduped,
+crt3,32,"An orange tree is sprouting leaves. The number of leaves doubles every month. Given that it takes 6 months for the entire tree to be covered with leaves, how many months does it take for the tree to be half covered with leaves?",5 months,3 months,6 months,"
+
+Question: An orange tree is sprouting leaves. The number of leaves doubles every month. Given that it takes 6 months for the entire tree to be covered with leaves, how many months does it take for the tree to be half covered with leaves?
+Answer:
+
+Question: An orange tree is sprouting leaves. The number of leaves doubles every month. Given that it takes 6 months for the entire tree to be covered with leaves, how many months does it take for the tree",.,,"[-2.8125, -2.03125, -1.81640625]","['correct', 'intuitive', 't']",-2.8125,-2.03125,2,t,6 months,-1.81640625,False,EleutherAI/pythia-12b-deduped,
+crt3,33,"An iceberg is forming and its surface doubles every year. If the iceberg takes 10 years to grow to 10 square miles, how many years are required for it to grow to 5 square miles?",9 years,5 years,10 years,"
+
+Question: An iceberg is forming and its surface doubles every year. If the iceberg takes 10 years to grow to 10 square miles, how many years are required for it to grow to 5 square miles?
+Answer:
+
+Question: An iceberg is forming and its surface doubles every year. If the iceberg takes 10 years to grow to 10 square miles, how many years are required for it to grow to 5 square miles?
+Answer:
+
+Question: An ice",.,,"[-3.265625, -2.08203125, -2.15234375]","['correct', 'intuitive', 't']",-3.265625,-2.08203125,1,intuitive,5 years,-2.08203125,False,EleutherAI/pythia-12b-deduped,
+crt3,34,"A woman is in the process of growing her hair. Each year, the length of her hair doubles. If it takes 6 years for her hair to achieve a length of two meters, how long would it take for it to reach a length of one meter?",5 years,3 years,6 years,"
+
+Question: A woman is in the process of growing her hair. Each year, the length of her hair doubles. If it takes 6 years for her hair to achieve a length of two meters, how long would it take for it to reach a length of one meter?
+Answer:
+
+Question: A woman is in the process of growing her hair. Each year, the length of her hair doubles. If it takes 6 years for her hair to achieve a length of two meters,",.,,"[-3.15625, -2.54296875, -2.72265625]","['correct', 'intuitive', 't']",-3.15625,-2.54296875,1,intuitive,3 years,-2.54296875,False,EleutherAI/pythia-12b-deduped,
+crt3,35,"Ants are crawling on a cake, and with each passing minute, their population on the cake doubles. If the entire cake is covered with ants in 30 minutes, how long would it take for half of the cake to be covered with ants?",29 minutes,15 minutes,30 minutes,"
+
+Question: Ants are crawling on a cake, and with each passing minute, their population on the cake doubles. If the entire cake is covered with ants in 30 minutes, how long would it take for half of the cake to be covered with ants?
+Answer:
+
+Question: Ants are crawling on a cake, and with each passing minute, their population on the cake doubles. If the entire cake is covered with ants in 30 minutes, how long would it take for half",.,,"[-3.98046875, -2.58984375, -2.16015625]","['correct', 'intuitive', 't']",-3.98046875,-2.58984375,2,t,30 minutes,-2.16015625,False,EleutherAI/pythia-12b-deduped,
+crt3,36,"In a room, there are rats whose population doubles each month. If it takes 9 months for the rats to completely fill the room, how long would it take for them to occupy half of the room?",8 months,4.5 months,9 months,"
+
+Question: In a room, there are rats whose population doubles each month. If it takes 9 months for the rats to completely fill the room, how long would it take for them to occupy half of the room?
+Answer:
+
+Question: In a room, there are rats whose population doubles each month. If it takes 9 months for the rats to completely fill the room, how long would it take for them to occupy half of the room?
+Answer:
+
+Question:",.,,"[-2.9609375, -1.92578125, -1.58984375]","['correct', 'intuitive', 't']",-2.9609375,-1.92578125,2,t,9 months,-1.58984375,False,EleutherAI/pythia-12b-deduped,
+crt3,37,"The wood is burning in a fireplace, and the temperature doubles every minute. If it takes 20 minutes for the fireplace to reach a temperature of 600 degrees, how long does it take for the temperature to reach 300 degrees?",19 minutes,10 minutes,20 minutes,"
+
+Question: The wood is burning in a fireplace, and the temperature doubles every minute. If it takes 20 minutes for the fireplace to reach a temperature of 600 degrees, how long does it take for the temperature to reach 300 degrees?
+Answer:
+
+Question: The wood is burning in a fireplace, and the temperature doubles every minute. If it takes 20 minutes for the fireplace to reach a temperature of 600 degrees, how long does it take for the temperature to reach 300 degrees?
+",.,,"[-4.162109375, -3.3828125, -2.4296875]","['correct', 'intuitive', 't']",-4.162109375,-3.3828125,2,t,20 minutes,-2.4296875,False,EleutherAI/pythia-12b-deduped,
+crt3,38,"In a fish tank, some algae are present. Each day, the quantity of algae multiplies by two. If it requires 30 days for the entire fish tank to become filled with algae, how much time is needed for half of the fish tank to be filled with algae?",29 days,15 days,30 days,"
+
+Question: In a fish tank, some algae are present. Each day, the quantity of algae multiplies by two. If it requires 30 days for the entire fish tank to become filled with algae, how much time is needed for half of the fish tank to be filled with algae?
+Answer:
+
+Question: In a fish tank, some algae are present. Each day, the quantity of algae multiplies by two. If it requires 30 days for the entire fish tank to become",.,,"[-4.12109375, -2.68359375, -2.546875]","['correct', 'intuitive', 't']",-4.12109375,-2.68359375,2,t,30 days,-2.546875,False,EleutherAI/pythia-12b-deduped,
+crt3,39,"An elderly woman regularly feeds cats. Each day, the number of cats she feeds doubles. If she feeds 64 cats on the 6th day, on which day does she feed 32 cats?",5th day,3rd day,6th day," Day 7
+
+Question: A man has a wife and two children. If he gives his wife $100, he gives his children $50 each. If he gives his wife $200, he gives his children $100 each. If he gives his wife $300, he gives his children $150 each. If he gives his wife $400, he gives his children $200 each. If he gives his wife $500, he gives his children $250 each. If he gives his wife",Day 7.,,"[-1.3307291269302368, -1.6640625, -1.3567708730697632]","['correct', 'intuitive', 't']",-1.3307291269302368,-1.6640625,0,correct,5th day,-1.3307291269302368,True,EleutherAI/pythia-12b-deduped,
+crt3,40,"Bamboo is growing in the garden, and its height doubles each day. It takes 5 days to reach a height of 10 meters. How long does it take for the bamboo to attain a height of 5 meters?",4 days,2.5 days,5 days,"
+
+Question: A man is standing on a platform that is 10 meters high. He throws a ball up to a height of 5 meters. How high is the ball?
+Answer:
+
+Question: A man is standing on a platform that is 10 meters high. He throws a ball up to a height of 5 meters. How high is the ball?
+Answer:
+
+Question: A man is standing on a platform that is 10 meters high. He throws a ball up to a",.,,"[-3.4296875, -1.875, -2.21484375]","['correct', 'intuitive', 't']",-3.4296875,-1.875,1,intuitive,2.5 days,-1.875,False,EleutherAI/pythia-12b-deduped,
+crt3,41,"A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how long will it take for the cells to reach half of that critical amount?",3 weeks,2 weeks,4 weeks,"
+
+Question: A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how long will it take for the cells to reach half of that critical amount?
+Answer:
+
+Question: A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how long will it take for the",.,,"[-2.35546875, -1.75390625, -1.6640625]","['correct', 'intuitive', 't']",-2.35546875,-1.75390625,2,t,4 weeks,-1.6640625,False,EleutherAI/pythia-12b-deduped,
+crt3,42,"There is a heap of fruit that is decaying. The quantity of spoiled fruit doubles daily. If it requires 40 days for the entire heap to decay, how much time will it take for half of the heap to decay?",39 days,20 days,40 days,"
+
+Question: There is a heap of fruit that is decaying. The quantity of spoiled fruit doubles daily. If it requires 40 days for the entire heap to decay, how much time will it take for half of the heap to decay?
+Answer:
+
+Question: There is a heap of fruit that is decaying. The quantity of spoiled fruit doubles daily. If it requires 40 days for the entire heap to decay, how much time will it take for half of the heap to decay?
+",.,,"[-4.90625, -2.69140625, -2.609375]","['correct', 'intuitive', 't']",-4.90625,-2.69140625,2,t,40 days,-2.609375,False,EleutherAI/pythia-12b-deduped,
+crt3,43,"During winter, the lake is gradually freezing. Each day, the ice covering the lake's surface doubles in size. If it takes 10 days for the entire surface of the lake to freeze, how long does it take for half of the lake's surface to become frozen?",9 days,5 days,10 days,"
+
+Question: During winter, the lake is gradually freezing. Each day, the ice covering the lake's surface doubles in size. If it takes 10 days for the entire surface of the lake to freeze, how long does it take for half of the lake's surface to become frozen?
+Answer:
+
+Question: During winter, the lake is gradually freezing. Each day, the ice covering the lake's surface doubles in size. If it takes 10 days for the entire surface of the lake",.,,"[-3.23828125, -2.4921875, -2.3828125]","['correct', 'intuitive', 't']",-3.23828125,-2.4921875,2,t,10 days,-2.3828125,False,EleutherAI/pythia-12b-deduped,
+crt3,44,"During winter, snowfall is occurring and the depth of the snow cover doubles every hour. If it takes 10 hours for the snow depth to reach 2 meters, how much time is required for it to reach a depth of 1 meter?",9 hours,5 hours,10 hours,"
+
+Question: During winter, snowfall is occurring and the depth of the snow cover doubles every hour. If it takes 10 hours for the snow depth to reach 2 meters, how much time is required for it to reach a depth of 1 meter?
+Answer:
+
+Question: During winter, snowfall is occurring and the depth of the snow cover doubles every hour. If it takes 10 hours for the snow depth to reach 2 meters, how much time is required for it to reach a",.,,"[-3.1953125, -2.79296875, -2.5625]","['correct', 'intuitive', 't']",-3.1953125,-2.79296875,2,t,10 hours,-2.5625,False,EleutherAI/pythia-12b-deduped,
+crt3,45,"Five individuals are constructing a home. Each week, the cumulative amount of bricks they place doubles. Given that it takes them 8 weeks to lay all the bricks, determine the duration required for them to lay half of the bricks.",7 weeks,4 weeks,8 weeks,"
+
+Question: Five individuals are constructing a home. Each week, the cumulative amount of bricks they place doubles. Given that it takes them 8 weeks to lay all the bricks, determine the duration required for them to lay half of the bricks.
+Answer:
+
+Question: Five individuals are constructing a home. Each week, the cumulative amount of bricks they place doubles. Given that it takes them 8 weeks to lay all the bricks, determine the duration required for them to lay half of the bricks",.,,"[-3.5078125, -2.75, -1.7109375]","['correct', 'intuitive', 't']",-3.5078125,-2.75,2,t,8 weeks,-1.7109375,False,EleutherAI/pythia-12b-deduped,
+crt3,46,"Two painters are working on painting a house. With every hour that passes, the total area they've painted doubles. If it takes 16 hours to paint the entire house, how many hours would it take for them to paint half of the house?",15 hours,8 hours,16 hours,"
+
+Question: Two painters are working on painting a house. With every hour that passes, the total area they've painted doubles. If it takes 16 hours to paint the entire house, how many hours would it take for them to paint half of the house?
+Answer:
+
+Question: Two painters are working on painting a house. With every hour that passes, the total area they've painted doubles. If it takes 16 hours to paint the entire house, how many hours would it take",.,,"[-3.8984375, -2.30859375, -2.17578125]","['correct', 'intuitive', 't']",-3.8984375,-2.30859375,2,t,16 hours,-2.17578125,False,EleutherAI/pythia-12b-deduped,
+crt3,47,"A grandmother is knitting a scarf for her grandson. Each week, the scarf's length increases twofold. If it takes 6 weeks to complete the entire scarf, how long would it take to knit half of the scarf?",5 weeks,3 weeks,6 weeks,"
+
+Question: A grandmother is knitting a scarf for her grandson. Each week, the scarf's length increases twofold. If it takes 6 weeks to complete the entire scarf, how long would it take to knit half of the scarf?
+Answer:
+
+Question: A grandmother is knitting a scarf for her grandson. Each week, the scarf's length increases twofold. If it takes 6 weeks to complete the entire scarf, how long would it take to knit half of the scarf?
+",.,,"[-3.23828125, -2.43359375, -1.875]","['correct', 'intuitive', 't']",-3.23828125,-2.43359375,2,t,6 weeks,-1.875,False,EleutherAI/pythia-12b-deduped,
+crt3,48,"A forest is expanding on an island, with the area occupied by the trees doubling each year. If it takes 140 years for the entire island to be covered with trees, how many years would it take for the forest to cover half of the island?",139 years,70 years,140 years,"
+
+Question: A forest is expanding on an island, with the area occupied by the trees doubling each year. If it takes 140 years for the entire island to be covered with trees, how many years would it take for the forest to cover half of the island?
+Answer:
+
+Question: A forest is expanding on an island, with the area occupied by the trees doubling each year. If it takes 140 years for the entire island to be covered with trees, how many years would it",.,,"[-4.66796875, -3.21484375, -3.0859375]","['correct', 'intuitive', 't']",-4.66796875,-3.21484375,2,t,140 years,-3.0859375,False,EleutherAI/pythia-12b-deduped,
+crt3,49,"A gas cylinder is experiencing a leak. With each passing hour, the total quantity of leaked gas doubles. If it requires 4 hours for the entire gas to leak out, how much time is needed for half of the gas to escape?",3 hours,2 hours,4 hours,"
+
+Question: A gas cylinder is experiencing a leak. With each passing hour, the total quantity of leaked gas doubles. If it requires 4 hours for the entire gas to leak out, how much time is needed for half of the gas to escape?
+Answer:
+
+Question: A gas cylinder is experiencing a leak. With each passing hour, the total quantity of leaked gas doubles. If it requires 4 hours for the entire gas to leak out, how much time is needed for half of",.,,"[-2.34375, -1.82421875, -1.875]","['correct', 'intuitive', 't']",-2.34375,-1.82421875,1,intuitive,2 hours,-1.82421875,False,EleutherAI/pythia-12b-deduped,
+crt3,50,"People are walking into a theater and taking their seats. The number of people in the room multiplies by two every minute. If it takes 6 minutes for all of the seats to be taken, how long does it take for half of the seats to be taken?",5 minutes,3 minutes,6 minutes,"
+
+Question: People are walking into a theater and taking their seats. The number of people in the room multiplies by two every minute. If it takes 6 minutes for all of the seats to be taken, how long does it take for half of the seats to be taken?
+Answer:
+
+Question: People are walking into a theater and taking their seats. The number of people in the room multiplies by two every minute. If it takes 6 minutes for all of the seats to",.,,"[-2.43359375, -2.171875, -1.81640625]","['correct', 'intuitive', 't']",-2.43359375,-2.171875,2,t,6 minutes,-1.81640625,False,EleutherAI/pythia-12b-deduped,

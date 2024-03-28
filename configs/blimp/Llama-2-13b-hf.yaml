@@ -1,0 +1,5 @@
+
+task: blimp
+model: meta-llama/Llama-2-13b-hf
+accelerate: true
+max_new_tokens: 100

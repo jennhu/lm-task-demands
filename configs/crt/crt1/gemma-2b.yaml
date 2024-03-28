@@ -1,0 +1,5 @@
+
+task: crt
+model: google/gemma-2b
+condition: crt1
+max_new_tokens: 100

@@ -1,0 +1,235 @@
+condition,item_id,question,correct,intuitive,total_cost,more,correct_alt,intuitive_alt,total_cost_alt,more_alt,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,mc_correct_alt_logprob,mc_intuitive_alt_logprob,mc_response_correct_alt,model,revision
+crt1,1,A pear and a fridge together cost $140. The pear costs $100 more than the fridge. How much does the fridge cost?,$20.00,$40.00,$140.00,$100.00,$20,$40,$140,$100,"The pear costs $130 and the fridge costs $30.
+Explanation: The pear costs $100 more than the fridge.
+The pear costs $130.
+The fridge costs $30.
+Question: A pear and a fridge together cost $140. The fridge costs $100 more than the pear. How much does the pear cost?
+Answer: The pear",The pear costs $130 and the fridge costs $30.,,,"[-1.2482019662857056, -0.9650859832763672, -1.3224214315414429, -1.2526847124099731, -1.2182502746582031, -0.5898215174674988, -1.309600830078125, -1.12945556640625]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.248201966,-0.9650859833,5,intuitive_alt,$40,-0.5898215175,FALSE,-1.218250275,-0.5898215175,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,2,A potato and a camera together cost $1.40. The potato costs $1 more than the camera. How much does the camera cost?,$0.20,$0.40,$1.40,$1.00,$0.20,$0.40,$1.40,$1,"10 cents.
+Question: A man and his son are driving to a football game. The man is driving 25 mph faster than the speed of his son’s bicycle. The bicycle travels 15 miles in the same time it takes the car to travel 60 miles. How fast is the man driving?
+Answer: 20 mph.
+Question: There are three boys in a family. Each boy has a sister",10 cents.,,,"[-0.9127006530761719, -0.42216187715530396, -1.0024452209472656, -1.0850791931152344, -0.9127006530761719, -0.42216187715530396, -1.0024452209472656, -1.577199935913086]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-0.9127006531,-0.4221618772,1,intuitive,$0.40,-0.4221618772,FALSE,-0.9127006531,-0.4221618772,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,3,A boat and a potato together cost $110. The boat costs $100 more than the potato. How much does the potato cost?,$5.00,$10.00,$110.00,$100.00,$5,$10,$110,$100,"$5.
+The boat costs $100 more than the potato.
+The boat costs $100 more than the potato. 100 + X = 110 X = 110 – 100 X = 10 X = $10
+The potato costs $10.
+The potato costs $10. The boat costs $100 more than the potato. 100 + X",$5.00,correct,correct,"[-1.157004952430725, -0.9349613189697266, -1.1511337757110596, -1.118611454963684, -1.4702949523925781, -0.756707489490509, -1.137138843536377, -1.0864505767822266]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.157004952,-0.934961319,5,intuitive_alt,$10,-0.7567074895,FALSE,-1.470294952,-0.7567074895,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,4,A light bulb and a pan together cost $12. The light bulb costs $10 more than the pan. How much does the pan cost?,$1.00,$2.00,$12.00,$10.00,$1,$2,$12,$10,"$2.
+The pan costs $2, because the light bulb costs $10 more than the pan.
+Therefore, the light bulb costs $12 – $2 = $10.
+The light bulb costs $10 more than the pan.
+Therefore, the pan costs $10 – $2 = $8.
+The light bulb costs $10 more than the pan. The pan costs $2.",$2.00,intuitive,intuitive,"[-1.1250813007354736, -1.0316505432128906, -1.334499478340149, -1.3710613250732422, -1.3345413208007812, -0.8462600708007812, -1.6547298431396484, -1.6625423431396484]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.125081301,-1.031650543,5,intuitive_alt,$2,-0.8462600708,FALSE,-1.334541321,-0.8462600708,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,5,A chair and a coat together cost $13. The chair costs $10 more than the coat. How much does the coat cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10,"The chair costs $10 more than the coat.
+The chair costs $10 more than the coat.
+The chair costs $10 more than the coat. The coat costs $3.
+The coat costs $3.
+The coat costs $3. The chair costs $13 - $3 = $10.
+The chair costs $10 more than the coat. The coat costs $3. The chair costs $13 - $3 = $10",The chair costs $10 more than the coat.,more_alt,intuitive,"[-1.0640809535980225, -1.1869564056396484, -1.5844799280166626, -1.4072448015213013, -1.0640809535980225, -1.3313064575195312, -2.0180623531341553, -1.687333106994629]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.064080954,-1.186956406,0,correct,$1.50,-1.064080954,TRUE,-1.064080954,-1.331306458,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,6,A tube of toothpaste and a wallet together cost $54. The tube of toothpaste costs $50 more than the wallet. How much does the wallet cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50,"$4.
+The correct answer is $4.
+The tube of toothpaste costs $50 more than the wallet.
+Let the price of the wallet be x.
+Then, 50 + x = 54.
+Therefore, the price of the wallet is $4.
+Question: A tube of toothpaste and a wallet together cost $54. The tube of toothpaste costs $50 more than",$4.00,intuitive,intuitive,"[-1.2771167755126953, -0.9321964383125305, -1.4606609344482422, -1.4956111907958984, -1.8570947647094727, -1.0563135147094727, -1.8668256998062134, -1.9605756998062134]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.277116776,-0.9321964383,1,intuitive,$4.00,-0.9321964383,FALSE,-1.857094765,-1.056313515,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,7,A coffee table and a mixing bowl together cost $52. The coffee table costs $50 more than the mixing bowl. How much does the mixing bowl cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50,"The coffee table costs $52, so the mixing bowl costs $32.
+Question: A man's shirt and a woman's shirt together cost $60. The woman's shirt costs $5 more than the man's shirt. How much does the man's shirt cost?
+Answer: The woman's shirt costs $5 more than the man's shirt, so the man's shirt costs $3","The coffee table costs $52, so the mixing bowl costs $32.",total_cost_alt,,"[-1.754939079284668, -1.440619707107544, -1.6159778833389282, -1.7047878503799438, -1.5273756980895996, -1.5898756980895996, -2.0583505630493164, -2.1833505630493164]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.754939079,-1.440619707,1,intuitive,$2.00,-1.440619707,FALSE,-1.527375698,-1.589875698,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,8,A microwave oven and a flower box together cost $51. The microwave oven costs $50 more than the flower box. How much does the flower box cost?,$0.50,$1.00,$51.00,$50.00,$0.50,$1,$51,$50,"The microwave oven costs $50 more than the flower box. So the flower box costs $1 less than the microwave oven. So the flower box costs $49.
+Question: A car costs $19,800. A van costs $3,400 more than the car. How much does the van cost?
+Answer: The van costs $3,400 more than the car. So the car costs $16",The microwave oven costs $50 more than the flower box.,more_alt,,"[-1.385956048965454, -1.2213013172149658, -1.6050173044204712, -1.6216707229614258, -1.385956048965454, -1.3563933372497559, -2.0139081478118896, -2.1545331478118896]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.385956049,-1.221301317,1,intuitive,$1.00,-1.221301317,FALSE,-1.385956049,-1.356393337,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,9,A can of baby food and a helmet together cost $1.20. The can of baby food costs $1 more than the helmet. How much does the helmet cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1,"The helmet costs 50 cents.
+Question: A man bought a camera and a pair of shoes. The shoes cost $2 more than the camera. The total cost was $16. How much did the camera cost?
+Answer: The camera cost $8.
+Question: A man bought a camera and a pair of shoes. The shoes cost $2 more than the camera. The total cost was $16. How much did the shoes",The helmet costs 50 cents.,,,"[-0.8732210397720337, -0.5970384478569031, -1.1598352193832397, -1.2359861135482788, -0.8732210397720337, -0.5970384478569031, -1.1598352193832397, -2.022944927215576]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-0.8732210398,-0.5970384479,1,intuitive,$0.20,-0.5970384479,FALSE,-0.8732210398,-0.5970384479,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,10,A sculpture and a box of lipstick together cost $13. The sculpture costs $10 more than the box of lipstick. How much does the box of lipstick cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10,The sculpture costs $13. The box of lipstick costs $3.,The sculpture costs $13.,total_cost_alt,total_cost,"[-1.0205628871917725, -1.118444800376892, -1.6203689575195312, -1.3852182626724243, -1.0205628871917725, -1.1641607284545898, -2.108747720718384, -1.7649978399276733]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.020562887,-1.1184448,0,correct,$1.50,-1.020562887,TRUE,-1.020562887,-1.164160728,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,11,A pair of leggings and a body lotion together cost $54. The pair of leggings costs $50 more than the body lotion. How much does the body lotion cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50,"The body lotion costs $4.
+Question: A pair of leggings and a body lotion together cost $54. The pair of leggings costs $50 more than the body lotion. How much does the pair of leggings cost?
+Answer: The pair of leggings costs $54.
+Question: A pair of leggings and a body lotion together cost $54. The pair of leggings costs $50",The body lotion costs $4.,intuitive_alt,intuitive,"[-1.6089227199554443, -1.138787865638733, -1.556679368019104, -1.7031196355819702, -2.1856513023376465, -1.4590888023376465, -2.0987789630889893, -2.2862789630889893]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.60892272,-1.138787866,1,intuitive,$4.00,-1.138787866,FALSE,-2.185651302,-1.459088802,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,12,A trampoline and a box of batteries together cost $520. The trampoline costs $500 more than the box of batteries. How much does the box of batteries cost?,$10.00,$20.00,$520.00,$500.00,$10,$20,$520,$500,"The box of batteries costs $20.
+A trampoline and a box of batteries together cost $520. The trampoline costs $500 more than the box of batteries. How much does the box of batteries cost?
+A trampoline and a box of batteries together cost $520.
+The trampoline costs $500 more than the box of batteries.
+How much does the box of batteries",The box of batteries costs $20.,intuitive_alt,intuitive,"[-1.2990760803222656, -0.9103307723999023, -1.41451895236969, -1.4510334730148315, -1.2550493478775024, -0.67552250623703, -1.5857720375061035, -1.6144375801086426]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.29907608,-0.9103307724,5,intuitive_alt,$20,-0.6755225062,FALSE,-1.255049348,-0.6755225062,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,13,A mouse and a can of baby food together cost $1.20. The mouse costs $1 more than the can of baby food. How much does the can of baby food cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1,"$0.20.
+The mouse costs $1 more than the can of baby food. So the mouse costs $1.20.
+The mouse and the can of baby food together cost $1.20. So the can of baby food costs $0.20.",$0.00,,intuitive,"[-0.8999286890029907, -0.517656683921814, -1.1749500036239624, -1.1881908178329468, -0.8999286890029907, -0.517656683921814, -1.1749500036239624, -2.0255165100097656]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-0.899928689,-0.5176566839,1,intuitive,$0.20,-0.5176566839,FALSE,-0.899928689,-0.5176566839,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,14,A bottle of shampoo and a knife together cost $110. The bottle of shampoo costs $100 more than the knife. How much does the knife cost?,$5.00,$10.00,$110.00,$100.00,$5,$10,$110,$100,"The knife costs $10.
+Question: A man spends $2000 for a car. He spends $1000 for repairs. How much is left?
+Answer: $1000.
+Question: A man buys 1000 kg of wheat for $500. He sells 200 kg of wheat at a profit of 10%. How much money does he make?
+Answer",The knife costs $10.,intuitive_alt,intuitive,"[-1.189234733581543, -0.9330127835273743, -1.2369962930679321, -1.185348391532898, -1.6057438850402832, -0.6917708516120911, -1.3337891101837158, -1.1509454250335693]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.189234734,-0.9330127835,5,intuitive_alt,$10,-0.6917708516,FALSE,-1.605743885,-0.6917708516,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,15,A bottle of bath salts and a set of crayons together cost $520. The bottle of bath salts costs $500 more than the set of crayons. How much does the set of crayons cost?,$10.00,$20.00,$520.00,$500.00,$10,$20,$520,$500,"The set of crayons costs $20.
+Question: A set of crayons and a bottle of bath salts together cost $520. The bottle of bath salts costs $500 more than the set of crayons. How much does the set of crayons cost?
+Answer: The set of crayons costs $20.
+Question: A set of crayons and a bottle of bath salts together cost",The set of crayons costs $20.,intuitive_alt,intuitive,"[-1.2407125234603882, -0.9836775660514832, -1.3857916593551636, -1.385391116142273, -1.3228613138198853, -0.8160362243652344, -1.4416170120239258, -1.4292302131652832]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.240712523,-0.9836775661,5,intuitive_alt,$20,-0.8160362244,FALSE,-1.322861314,-0.8160362244,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,16,A set of wine glasses and a pencil together cost $12. The set of wine glasses costs $10 more than the pencil. How much does the pencil cost?,$1.00,$2.00,$12.00,$10.00,$1,$2,$12,$10,"The pencil costs $2.
+Question: A set of wine glasses and a pencil together cost $12. The set of wine glasses costs $10 more than the pencil. How much does the set of wine glasses cost?
+Answer: The set of wine glasses costs $12.
+Question: A set of wine glasses and a pencil together cost $12. The set of wine glasses costs $10",The pencil costs $2.,intuitive_alt,intuitive,"[-1.1615793704986572, -1.0962488651275635, -1.5487875938415527, -1.5379241704940796, -1.4312949180603027, -1.0484824180603027, -2.075552225112915, -2.0000314712524414]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.16157937,-1.096248865,5,intuitive_alt,$2,-1.048482418,FALSE,-1.431294918,-1.048482418,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,17,A wallet and a camera together cost $52. The wallet costs $50 more than the camera. How much does the camera cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50,"The camera costs $2.
+In this question, we are given that the wallet costs $50 more than the camera.
+Let the cost of the camera be $x.
+Cost of wallet = $50 + $x = $52
+$x = $2
+The camera costs $2.
+Question: A man bought a pair of shoes for $120 and spent $10 on their repair. If he sold them for $50",The camera costs $2.,intuitive_alt,intuitive,"[-1.2862083911895752, -1.0493800640106201, -1.56754732131958, -1.5300463438034058, -1.383951187133789, -1.212076187133789, -2.0965235233306885, -2.007982015609741]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.286208391,-1.049380064,1,intuitive,$2.00,-1.049380064,FALSE,-1.383951187,-1.212076187,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,18,A pair of hiking boots and a coffee table together cost $1.20. The pair of hiking boots costs $1 more than the coffee table. How much does the coffee table cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1,"$0.10.
+Explanation: The coffee table costs $0.10, and the hiking boots cost $1.10. The total cost is $1.20.
+Question: A pair of shoes costs $10 more than a shirt. The shirt costs $25. How much does the pair of shoes cost?
+Answer: $35.
+Explanation: The shirt costs $25",$0.00,,correct,"[-0.8726167678833008, -0.5843092203140259, -1.0385198593139648, -1.167937994003296, -0.8726167678833008, -0.5843092203140259, -1.0385198593139648, -1.7431740760803223]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-0.8726167679,-0.5843092203,1,intuitive,$0.20,-0.5843092203,FALSE,-0.8726167679,-0.5843092203,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,19,A tube of toothpaste and a pear together cost $12. The tube of toothpaste costs $10 more than the pear. How much does the pear cost?,$1.00,$2.00,$12.00,$10.00,$1,$2,$12,$10,"$2.
+If you got the right answer, you are ready to take the math portion of the SAT!
+The SAT is a standardized test that is used by many colleges and universities to determine a student’s readiness for college. It is a timed test that is administered once a year in the spring. The SAT is a three hour and forty-five minute test that includes sections on math, reading, and writing. The SAT is",$2.00,intuitive,intuitive,"[-1.1024688482284546, -0.9248111844062805, -1.3410578966140747, -1.382103443145752, -1.4225950241088867, -0.8913450241088867, -1.690966248512268, -1.769091248512268]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.102468848,-0.9248111844,5,intuitive_alt,$2,-0.8913450241,FALSE,-1.422595024,-0.8913450241,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,20,A trampoline and a flower box together cost $54. The trampoline costs $50 more than the flower box. How much does the flower box cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50,"$14
+Explanation: $54 + $50 = $104. The trampoline costs $50 more than the flower box, so the flower box costs $54.
+Question: A box of apples and a box of oranges together cost $15. The box of apples costs $6 more than the box of oranges. How much does the box of apples cost?
+Explanation: $15 + $",$14.00,,,"[-1.5725606679916382, -1.1538629531860352, -1.6460131406784058, -1.6855286359786987, -2.0608267784118652, -1.4748892784118652, -2.183363914489746, -2.2406556606292725]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.572560668,-1.153862953,1,intuitive,$4.00,-1.153862953,FALSE,-2.060826778,-1.474889278,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,21,A silicone case and a lawnmower together cost $130. The silicone case costs $100 more than the lawnmower. How much does the lawnmower cost?,$15.00,$30.00,$130.00,$100.00,$15,$30,$130,$100,"$30. The silicone case costs $130, and the lawnmower costs $100. $130 - $100 = $30.
+Question: A man and his son can cut a lawn in 2 hours. If the man cuts the lawn for 1 hour and his son cuts the lawn for 1 hour, how much time will it take to cut the lawn?
+Answer: ",$30.00,intuitive,intuitive,"[-1.3908997774124146, -0.9655712246894836, -1.3665215969085693, -1.3127797842025757, -1.5688486099243164, -0.5936161875724792, -1.4276630878448486, -1.2566726207733154]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.390899777,-0.9655712247,5,intuitive_alt,$30,-0.5936161876,FALSE,-1.56884861,-0.5936161876,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,22,A toy and a microwave oven together cost $5.40. The toy costs $5 more than the microwave oven. How much does the microwave oven cost?,$0.20,$0.40,$5.40,$5.00,$0.20,$0.40,$5.40,$5,"$0.60
+A toy and a microwave oven together cost $5.40. The toy costs $5 more than the microwave oven. How much does the microwave oven cost?
+The cost of the microwave oven is $0.60.
+A toy and a microwave oven together cost $5.40.
+The toy costs $5 more than the microwave o",$0.00,,,"[-1.2735068798065186, -0.7004432678222656, -1.092553734779358, -1.3443477153778076, -1.2735068798065186, -0.7004432678222656, -1.092553734779358, -2.112734794616699]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.27350688,-0.7004432678,1,intuitive,$0.40,-0.7004432678,FALSE,-1.27350688,-0.7004432678,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,23,A purse and a mixing bowl together cost $5.40. The purse costs $5 more than the mixing bowl. How much does the mixing bowl cost?,$0.20,$0.40,$5.40,$5.00,$0.20,$0.40,$5.40,$5,"The purse costs $5.00, the mixing bowl costs $0.40.
+Question: A man has 100 feet of fence to enclose a rectangular area. If the length is 20 feet more than the width, how many feet of fencing will he need?
+Answer: The length is 20 feet more than the width. So the length is 20 + 2w feet.
+Question: The sum of",The purse costs $5.,more_alt,intuitive,"[-1.2586780786514282, -0.7216335535049438, -1.3325382471084595, -1.6759010553359985, -1.2586780786514282, -0.7216335535049438, -1.3325382471084595, -2.760587692260742]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.258678079,-0.7216335535,1,intuitive,$0.40,-0.7216335535,FALSE,-1.258678079,-0.7216335535,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,24,A hat and a mouse together cost $540. The hat costs $500 more than the mouse. How much does the mouse cost?,$20.00,$40.00,$540.00,$500.00,$20,$40,$540,$500,"$10.
+If the hat costs $500 more than the mouse, the hat costs $540 – $40 = $500.
+The mouse costs $500 – $40 = $460.
+The mouse costs $460.
+Question: A man sells a horse for $3,000 and a dog for $2,000. If he makes a $500 profit on the",$10.00,,,"[-1.3110188245773315, -0.9499313235282898, -1.3987432718276978, -1.490341067314148, -1.438571572303772, -0.6225385665893555, -1.5279686450958252, -1.6527955532073975]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.311018825,-0.9499313235,5,intuitive_alt,$40,-0.6225385666,FALSE,-1.438571572,-0.6225385666,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,25,A purse and a box of cigarettes together cost $1.40. The purse costs $1 more than the box of cigarettes. How much does the box of cigarettes cost?,$0.20,$0.40,$1.40,$1.00,$0.20,$0.40,$1.40,$1,"The box of cigarettes costs $0.60.
+Question: How much is 10% of 12?
+Answer: 10% of 12 is 1.2.
+Question: What is 10% of 500?
+Answer: 10% of 500 is 50.
+Question: What is 50% of 12?
+Answer: 50% of",The box of cigarettes costs $0.,,,"[-0.9092718362808228, -0.5693597793579102, -1.1176111698150635, -1.1160547733306885, -0.9092718362808228, -0.5693597793579102, -1.1176111698150635, -1.6944527626037598]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-0.9092718363,-0.5693597794,1,intuitive,$0.40,-0.5693597794,FALSE,-0.9092718363,-0.5693597794,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,26,A box of mascara and a microwave oven together cost $14. The box of mascara costs $10 more than the microwave oven. How much does the microwave oven cost?,$2.00,$4.00,$14.00,$10.00,$2,$4,$14,$10,"$4
+Explanation: Let the price of the mascara be $x and the price of the microwave oven be $y. Then,
+$x + y = $14
+$x – y = $10
+$x = $14 + $y
+$y = $4
+Question: A box of mascara and a microwave oven together cost $14. The box of mascara costs $10",$4.00,intuitive,intuitive,"[-1.3021358251571655, -1.082946538925171, -1.3761200904846191, -1.3023982048034668, -1.7373404502868652, -1.0420279502868652, -1.7511879205703735, -1.5715004205703735]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.302135825,-1.082946539,5,intuitive_alt,$4,-1.04202795,FALSE,-1.73734045,-1.04202795,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,27,A bag and a food processor together cost $54. The bag costs $50 more than the food processor. How much does the food processor cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50,"The bag costs $54 - $50 = $4. The food processor costs $4.
+Question: A box of cereal costs $3.99. A bag of chips costs $1.99. How much does a box of cereal and a bag of chips cost?
+Answer: $3.99 + $1.99 = $5.98.
+Question: A bag of flour costs $2.2",The bag costs $54 - $50 = $4.,more_alt,intuitive,"[-1.4133754968643188, -1.01044499874115, -1.5863471031188965, -1.6321097612380981, -2.0972156524658203, -1.1401844024658203, -2.1486713886260986, -2.1773173809051514]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.413375497,-1.010444999,1,intuitive,$4.00,-1.010444999,FALSE,-2.097215652,-1.140184402,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,28,A coat and a pot together cost $510. The coat costs $500 more than the pot. How much does the pot cost?,$5.00,$10.00,$510.00,$500.00,$5,$10,$510,$500,"The coat costs $500 more than the pot.
+The coat costs $500 more than the pot.
+Let the cost of the coat be $x.
+The cost of the pot is $x – 500.
+So, the cost of the pot is $100.",The coat costs $500 more than the pot.,more_alt,,"[-1.4862959384918213, -1.0892246961593628, -1.3900541067123413, -1.4679057598114014, -1.8441367149353027, -0.8460022807121277, -1.42942214012146, -1.5756075382232666]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.486295938,-1.089224696,5,intuitive_alt,$10,-0.8460022807,FALSE,-1.844136715,-0.8460022807,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,29,A jacket and a set of wine glasses together cost $5.10. The jacket costs $5 more than the set of wine glasses. How much does the set of wine glasses cost?,$0.05,$0.10,$5.10,$5.00,$0.05,$0.10,$5.10,$5,"The set of wine glasses costs $1.10.
+This is a very common type of question in the GMAT. The answer is quite simple, but you must pay attention to the details.
+The question says that the jacket costs $5 more than the set of wine glasses. The set of wine glasses costs $1.10.
+So the jacket costs $6.10.
+Since the jacket and the set of wine glasses",The set of wine glasses costs $1.,,,"[-1.5577045679092407, -0.9080772399902344, -1.326648473739624, -1.6443510055541992, -1.5577045679092407, -0.9080772399902344, -1.326648473739624, -2.7696533203125]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.557704568,-0.90807724,1,intuitive,$0.10,-0.90807724,FALSE,-1.557704568,-0.90807724,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,30,A hat and a coffee table together cost $1.20. The hat costs $1 more than the coffee table. How much does the coffee table cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1,"The coffee table costs 20 cents.
+Question: If a farmer has 17 sheep, and all but 9 die, how many does he have left?
+Answer: Nine. The farmer now has 9 sheep.
+Question: What is the difference between a teacher and a train?
+Answer: A teacher says, ""Spit out your gum,"" while a train says, ""Chew chew chew.""
+Question: Why did the",The coffee table costs 20 cents.,,intuitive,"[-0.8065090179443359, -0.5410796999931335, -1.141577959060669, -1.1752983331680298, -0.8065090179443359, -0.5410796999931335, -1.141577959060669, -1.8632087707519531]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-0.8065090179,-0.5410797,1,intuitive,$0.20,-0.5410797,FALSE,-0.8065090179,-0.5410797,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,31,A pencil and a keyboard together cost $14. The pencil costs $10 more than the keyboard. How much does the keyboard cost?,$2.00,$4.00,$14.00,$10.00,$2,$4,$14,$10,"The pencil costs $10.
+Explanation: Let the cost of the keyboard be x.
+Then, the cost of the pencil = $10 + x.
+Therefore, the total cost = $10 + x + x = $14.
+The pencil costs $10 more than the keyboard.
+Therefore, the cost of the pencil = $10 + x = $10 + $10 =",The pencil costs $10.,more_alt,more,"[-1.2092030048370361, -1.0711253881454468, -1.313733458518982, -1.190743088722229, -1.4623308181762695, -1.1302995681762695, -1.6204057931900024, -1.3547807931900024]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.209203005,-1.071125388,1,intuitive,$4.00,-1.071125388,FALSE,-1.462330818,-1.130299568,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,32,A bag and a coffee table together cost $53. The bag costs $50 more than the coffee table. How much does the coffee table cost?,$1.50,$3.00,$53.00,$50.00,$1.50,$3,$53,$50,"The coffee table costs $13.
+Explanation: Let the bag cost $x and the coffee table cost $y.
+x + y = 53
+x = 50 more than y
+x = 50 + y
+The coffee table costs $13.",The coffee table costs $13.,,,"[-1.6363847255706787, -1.2954537868499756, -1.6500071287155151, -1.5575366020202637, -1.6363847255706787, -1.5235838890075684, -2.088930368423462, -2.034242868423462]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.636384726,-1.295453787,1,intuitive,$3.00,-1.295453787,FALSE,-1.636384726,-1.523583889,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,33,A mixing bowl and a laundry detergent together cost $52. The mixing bowl costs $50 more than the laundry detergent. How much does the laundry detergent cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50,"The laundry detergent costs $2.
+Explanation: Let the laundry detergent cost $x.
+Then, the mixing bowl costs $50 more than the laundry detergent.
+Therefore, the mixing bowl costs $x + $50.
+The total cost of the mixing bowl and the laundry detergent is $52.
+Therefore, the laundry detergent costs $",The laundry detergent costs $2.,intuitive_alt,intuitive,"[-1.454827070236206, -0.9978359341621399, -1.4152703285217285, -1.5000553131103516, -1.528895378112793, -1.169520378112793, -1.752867341041565, -1.963804841041565]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.45482707,-0.9978359342,1,intuitive,$2.00,-0.9978359342,FALSE,-1.528895378,-1.169520378,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,34,A perfume and a bottle of ouzo together cost $120. The perfume costs $100 more than the bottle of ouzo. How much does the bottle of ouzo cost?,$10.00,$20.00,$120.00,$100.00,$10,$20,$120,$100,"$10.
+Question: A man is 60 years old. In 15 years, he will be three times as old as his son. In 30 years, his son will be 9 more times as old as his son is now. How old is the man?
+Question: A farmer has 17 sheep. All but 9 die. How many does he have left?
+Answer: Nine.
+Question: A man is 6",$10.00,correct,correct,"[-1.0538100004196167, -0.975638210773468, -1.3229048252105713, -1.2517292499542236, -0.9014959335327148, -0.8012704849243164, -1.4506950378417969, -1.2754251956939697]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.05381,-0.9756382108,5,intuitive_alt,$20,-0.8012704849,FALSE,-0.9014959335,-0.8012704849,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,35,A bottle of bath salts and a pack of diapers together cost $510. The bottle of bath salts costs $500 more than the pack of diapers. How much does the pack of diapers cost?,$5.00,$10.00,$510.00,$500.00,$5,$10,$510,$500,"$20.00.
+The question is a little tricky because the pack of diapers costs $20 less than the bottle of bath salts. The cost of the bottle of bath salts is $520.
+Question: The sum of two numbers is 108. The difference of the two numbers is 30. What are the two numbers?
+Answer: 66 and 42.
+Question: What is the next number",$20.00,,,"[-1.2064565420150757, -1.0045374631881714, -1.3184090852737427, -1.28631591796875, -1.585747241973877, -0.8459017872810364, -1.380676507949829, -1.283080816268921]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.206456542,-1.004537463,5,intuitive_alt,$10,-0.8459017873,FALSE,-1.585747242,-0.8459017873,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,36,A CD and a pan together cost $13. The CD costs $10 more than the pan. How much does the pan cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10,"The CD costs $10 more than the pan, so it costs $10 + $x.
+The CD and the pan together cost $13, so $10 + $x + $x = $13.
+Add the two equations and solve for x.
+Answer: The pan costs $5.","The CD costs $10 more than the pan, so it costs $10 + $x.",more_alt,,"[-1.0147907733917236, -0.994554877281189, -1.4371000528335571, -1.3403801918029785, -1.0147907733917236, -1.0087852478027344, -1.85061514377594, -1.66311514377594]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.014790773,-0.9945548773,1,intuitive,$3.00,-0.9945548773,FALSE,-1.014790773,-1.008785248,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,37,A rice cooker and a sculpture together cost $130. The rice cooker costs $100 more than the sculpture. How much does the sculpture cost?,$15.00,$30.00,$130.00,$100.00,$15,$30,$130,$100,"$30.
+In this question, the rice cooker is the more expensive item. It costs $100 more than the sculpture, so the sculpture must cost $30.
+Question: A sculpture and a rice cooker together cost $130. The sculpture costs $100 more than the rice cooker. How much does the rice cooker cost?
+Answer: $30. The rice cooker is the more expensive item,",$30.00,intuitive,intuitive,"[-1.41562020778656, -0.9905344843864441, -1.3170807361602783, -1.3118621110916138, -1.6369298696517944, -0.6687526702880859, -1.3633842468261719, -1.282606601715088]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.415620208,-0.9905344844,5,intuitive_alt,$30,-0.6687526703,FALSE,-1.63692987,-0.6687526703,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,38,A pair of sunglasses and a toy together cost $13. The pair of sunglasses costs $10 more than the toy. How much does the toy cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10,"The toy costs $3.
+Question: A pair of sunglasses costs $10 more than a toy. Together, they cost $13. How much does the toy cost?
+Question: A toy costs $5. A pair of sunglasses costs $10 more than the toy. Together, they cost $13. How much does the pair of sunglasses cost?
+Question: A toy costs $",The toy costs $3.,intuitive_alt,intuitive,"[-1.073007345199585, -1.2233855724334717, -1.6853485107421875, -1.5022274255752563, -1.073007345199585, -1.3343167304992676, -2.17592716217041, -1.858218789100647]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.073007345,-1.223385572,0,correct,$1.50,-1.073007345,TRUE,-1.073007345,-1.33431673,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,39,A speaker and a bottle of ouzo together cost $5.20. The speaker costs $5 more than the bottle of ouzo. How much does the bottle of ouzo cost?,$0.10,$0.20,$5.20,$5.00,$0.10,$0.20,$5.20,$5,"$1.20.
+(The speaker costs $5.00, the bottle of ouzo costs $0.20, and the two together cost $5.20.)
+Question: A man is 12 years older than his son. In 10 years, the man will be three times as old as his son. How old are they now?
+Answer: The man is 42 years old, and the son is 30 years",$1.00,,,"[-1.3027760982513428, -0.6610307693481445, -1.1470438241958618, -1.4754823446273804, -1.3027760982513428, -0.6610307693481445, -1.1470438241958618, -2.3824667930603027]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.302776098,-0.6610307693,1,intuitive,$0.20,-0.6610307693,FALSE,-1.302776098,-0.6610307693,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,40,A set of crayons and a wallet together cost $5.20. The set of crayons costs $5 more than the wallet. How much does the wallet cost?,$0.10,$0.20,$5.20,$5.00,$0.10,$0.20,$5.20,$5,"The wallet costs $2.20.
+Question: A man walks into a bar and orders a drink. He then asks the bartender for the price of the drink. The bartender says, “The first one’s on the house.” The man then orders a second drink, which he also pays for. How much does the second drink cost?
+Answer: The second drink costs $0.
+Question: A man walks into a bar and orders a",The wallet costs $2.,,,"[-1.5287773609161377, -0.7997661828994751, -1.2977218627929688, -1.6638107299804688, -1.5287773609161377, -0.7997661828994751, -1.2977218627929688, -2.7426862716674805]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.528777361,-0.7997661829,1,intuitive,$0.20,-0.7997661829,FALSE,-1.528777361,-0.7997661829,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,41,A rug and a sculpture together cost $54. The rug costs $50 more than the sculpture. How much does the sculpture cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50,"The sculpture costs $4.
+Question: A man bought a pair of shoes and a belt for $15. The belt cost $3 more than the shoes. How much did the shoes cost?
+Answer: The shoes cost $12.
+Question: A woman bought a pair of earrings and a necklace for $21. The necklace cost $4 more than the earrings. How much did the earrings cost",The sculpture costs $4.,intuitive_alt,intuitive,"[-1.6119918823242188, -1.2789968252182007, -1.4485608339309692, -1.4708867073059082, -1.7198600769042969, -1.5128288269042969, -1.859397292137146, -1.8776264190673828]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.611991882,-1.278996825,1,intuitive,$4.00,-1.278996825,FALSE,-1.719860077,-1.512828827,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,42,A pair of sunglasses and a light bulb together cost $130. The pair of sunglasses costs $100 more than the light bulb. How much does the light bulb cost?,$15.00,$30.00,$130.00,$100.00,$15,$30,$130,$100,"$30.
+Explanation: The pair of sunglasses costs $100 more than the light bulb.
+$100 + $x = $130
+$100 + $x = $100 + $30
+$100 + $x = $130 - $30
+$100 + $x = $100
+$x = $100
+The light bul",$30.00,intuitive,intuitive,"[-1.3368796110153198, -0.981081485748291, -1.332412600517273, -1.3188629150390625, -1.5398664474487305, -0.7501294016838074, -1.377880334854126, -1.325038194656372]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.336879611,-0.9810814857,5,intuitive_alt,$30,-0.7501294017,FALSE,-1.539866447,-0.7501294017,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,43,A scarf and a ring together cost $1.20. The scarf costs $1 more than the ring. How much does the ring cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1,"The scarf costs $1.00 and the ring costs $0.20.
+Question: A scarf and a ring together cost $1.20. The ring costs $1 more than the scarf. How much does the ring cost?
+Question: A scarf and a ring together cost $1.20. The ring costs $0.20 more than the scarf. How much does the scarf cost?
+Answer: The scarf costs",The scarf costs $1.,more_alt,intuitive,"[-0.8277656435966492, -0.5433875918388367, -1.1762510538101196, -1.2962350845336914, -0.8277656435966492, -0.5433875918388367, -1.1762510538101196, -2.0737228393554688]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-0.8277656436,-0.5433875918,1,intuitive,$0.20,-0.5433875918,FALSE,-0.8277656436,-0.5433875918,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,44,A pair of leggings and a scarf together cost $52. The pair of leggings costs $50 more than the scarf. How much does the scarf cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50,"The scarf costs $2.
+Explanation: The pair of leggings costs $50 more than the scarf. The pair of leggings costs $52 – $2 = $50.
+The scarf costs $2.
+Previous Post Question: A pair of leggings and a scarf together cost $52. The scarf costs $2 more than the pair of leggings. How much does the pair of leggings",The scarf costs $2.,intuitive_alt,intuitive,"[-1.766879677772522, -1.3294302225112915, -1.5356229543685913, -1.625450611114502, -1.6471710205078125, -1.5846710205078125, -2.0553739070892334, -2.154332160949707]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.766879678,-1.329430223,1,intuitive,$2.00,-1.329430223,FALSE,-1.647171021,-1.584671021,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,45,A wall clock and a light bulb together cost $1.30. The wall clock costs $1 more than the light bulb. How much does the light bulb cost?,$0.15,$0.30,$1.30,$1.00,$0.15,$0.30,$1.30,$1,"The light bulb costs 30 cents.
+Question: A man is standing in front of a mirror. He says, “I am 25 years old.” He is actually 35 years old. How is this possible?
+Answer: The man is the man’s son.
+Question: A man walks into a bar and asks for a glass of water. The bartender gives him a glass of water and asks him to pay for it. The man",The light bulb costs 30 cents.,,intuitive,"[-1.0128700733184814, -0.4977535307407379, -1.128382921218872, -1.2068443298339844, -1.0128700733184814, -0.4977535307407379, -1.128382921218872, -1.7904014587402344]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.012870073,-0.4977535307,1,intuitive,$0.30,-0.4977535307,FALSE,-1.012870073,-0.4977535307,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,46,A blanket and a flashlight together cost $52. The blanket costs $50 more than the flashlight. How much does the flashlight cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50,"The flashlight costs $2.
+The blanket costs $50 more than the flashlight.
+Therefore, the blanket costs $52 – $2 = $50.
+The blanket costs $50 more than the flashlight. Therefore, the blanket costs $52 – $2 = $50.
+The blanket costs $50 more than the flashlight. Therefore, the blanket costs $52 – $2 = $5",The flashlight costs $2.,intuitive_alt,intuitive,"[-1.4950239658355713, -1.223083734512329, -1.513251781463623, -1.5829824209213257, -1.2691025733947754, -1.2925400733947754, -1.939090371131897, -2.027631998062134]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.495023966,-1.223083735,1,intuitive,$2.00,-1.223083735,FALSE,-1.269102573,-1.292540073,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,47,A keyboard and a pair of socks together cost $54. The keyboard costs $50 more than the pair of socks. How much does the pair of socks cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50,"The pair of socks costs $4.
+This is a classic example of a word problem that involves two variables. In this case, the variables are the cost of the keyboard and the cost of the pair of socks.
+To solve this problem, we need to first find the relationship between the two variables. In this case, we know that the keyboard costs $50 more than the pair of socks. This means that the cost of the keyboard is $50 + the cost",The pair of socks costs $4.,intuitive_alt,intuitive,"[-1.3659172058105469, -0.9659708142280579, -1.5412778854370117, -1.60923433303833, -2.035787582397461, -1.168600082397461, -2.0756819248199463, -2.182452917098999]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.365917206,-0.9659708142,1,intuitive,$4.00,-0.9659708142,FALSE,-2.035787582,-1.168600082,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,48,A set of wine glasses and a pizza together cost $53. The set of wine glasses costs $50 more than the pizza. How much does the pizza cost?,$1.50,$3.00,$53.00,$50.00,$1.50,$3,$53,$50,"$4.75.
+The set of wine glasses costs $50 more than the pizza.
+The set of wine glasses costs $50 more than the pizza. So, the pizza costs $43.
+$43 + $50 = $53.
+The set of wine glasses costs $50 more than the pizza. So, the pizza costs $43. Hence, the pizza costs $43.",$4.00,,,"[-1.524501085281372, -1.1853017807006836, -1.6449856758117676, -1.631353497505188, -1.524501085281372, -1.7154560089111328, -2.091895341873169, -2.1596038341522217]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.524501085,-1.185301781,1,intuitive,$3.00,-1.185301781,FALSE,-1.524501085,-1.715456009,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,49,A pear and a bottle of ouzo together cost $54. The pear costs $50 more than the bottle of ouzo. How much does the bottle of ouzo cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50,"The pear costs $4.
+The pear costs $50 more than the bottle of ouzo, so the bottle of ouzo costs $46.
+The pear and the bottle of ouzo together cost $54, so the pear costs $50 and the bottle of ouzo costs $4.
+← Question: A pear and a bottle of ouzo together cost $54. The pear costs $50 more",The pear costs $4.,intuitive_alt,intuitive,"[-1.0862901210784912, -0.8332998156547546, -1.4343112707138062, -1.4341765642166138, -1.4970316886901855, -0.9853129386901855, -1.8646974563598633, -1.9037599563598633]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.086290121,-0.8332998157,1,intuitive,$4.00,-0.8332998157,FALSE,-1.497031689,-0.9853129387,FALSE,meta-llama/Llama-2-13b-hf,
+crt1,50,A pizza and a toy together cost $13. The pizza costs $10 more than the toy. How much does the toy cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10,"$3.
+This is a simple example of a ratio problem.
+In this problem, we are told that the pizza costs $10 more than the toy. This means that the toy costs $3 less than the pizza.
+We can also say that the ratio of the cost of the pizza to the cost of the toy is 10:3.
+In other words, for every $10 that the pizza costs, the toy costs",$3.00,intuitive,intuitive,"[-1.0722053050994873, -0.9989223480224609, -1.5073434114456177, -1.3818899393081665, -1.0722053050994873, -1.0119380950927734, -1.8808650970458984, -1.6647192239761353]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.072205305,-0.998922348,1,intuitive,$3.00,-0.998922348,FALSE,-1.072205305,-1.011938095,FALSE,meta-llama/Llama-2-13b-hf,

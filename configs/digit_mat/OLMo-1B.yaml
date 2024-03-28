@@ -1,0 +1,4 @@
+
+task: digit_mat
+model: allenai/OLMo-1B
+max_new_tokens: 10

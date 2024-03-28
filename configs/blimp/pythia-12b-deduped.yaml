@@ -1,0 +1,5 @@
+
+task: blimp
+model: EleutherAI/pythia-12b-deduped
+accelerate: true
+max_new_tokens: 100

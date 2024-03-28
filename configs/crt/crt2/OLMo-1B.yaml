@@ -1,0 +1,5 @@
+
+task: crt
+model: allenai/OLMo-1B
+condition: crt2
+max_new_tokens: 100

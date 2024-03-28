@@ -1,0 +1,508 @@
+condition,item_id,question,correct,intuitive,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+crt2,1,"How long does it take 4 people to tailor 4 jackets, if it takes 7 people 7 hours to tailor 7 jackets?",7 hours,4 hours," 1 hour.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can wear a dress.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can wear a dress.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can wear a dress.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can wear a dress.",1 hour.,,,"[-1.609824776649475, -1.7621220350265503]","['correct', 'intuitive']",-1.609824777,-1.762122035,0,correct,7 hours,-1.609824777,TRUE,google/gemma-2b,
+crt2,2,"How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?",8 hours,4 hours," 1 hour.
+
+Question: What is the difference between a washing machine and a washing machine?
+Answer: A washing machine is a machine that washes clothes. A washing machine is a machine that washes clothes.
+
+Question: What is the difference between a washing machine and a washing machine?
+Answer: A washing machine is a machine that washes clothes. A washing machine is a machine that washes clothes.
+
+Question: What is the difference between a washing machine and a washing machine?
+Answer",1 hour.,,,"[-1.515260100364685, -1.6041597127914429]","['correct', 'intuitive']",-1.5152601,-1.604159713,0,correct,8 hours,-1.5152601,TRUE,google/gemma-2b,
+crt2,3,"How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers?",60 minutes,50 minutes," 10 minutes
+
+Question: How many bees does it take to pollinate 100 flowers?
+Answer: 100 bees
+
+Question: How many bees does it take to pollinate 1000 flowers?
+Answer: 1000 bees
+
+Question: How many bees does it take to pollinate 10000 flowers?
+Answer: 10000 bees
+
+Question: How many bees does it take to pollinate",10 minutes,,,"[-1.1210191249847412, -1.3823096752166748]","['correct', 'intuitive']",-1.121019125,-1.382309675,0,correct,60 minutes,-1.121019125,TRUE,google/gemma-2b,
+crt2,4,"How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?",5 days,1 day," 1 carpenter can make 1 chair in 5 days.
+So, 5 carpenters can make 5 chairs in 5 days.
+So, 1 carpenter can make 1 chair in 5/5 = 1 day.
+So, 1 carpenter can make 1 chair in 1 day.
+So, 1 carpenter can make 1 chair in 1/1 = 1 day.
+So, 1 carpenter can make 1 chair in ",1 carpenter can make 1 chair in 5 days.,correct,correct,"[-1.4475265741348267, -1.2548319101333618]","['correct', 'intuitive']",-1.447526574,-1.25483191,1,intuitive,1 day,-1.25483191,FALSE,google/gemma-2b,
+crt2,5,"How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?",60 minutes,10 minutes," 10 ovens will bake 10 lasagnas in 60 minutes.
+
+Question: How many ovens will it take to bake 100 lasagnas in 100 minutes?
+Answer: 100 ovens will bake 100 lasagnas in 100 minutes.
+
+Question: How many ovens will it take to bake 1000 lasagnas in 1000 minutes?
+Answer: 10",10 ovens will bake 10 lasagnas in 60 minutes.,correct,correct,"[-1.2934263944625854, -1.4514766931533813]","['correct', 'intuitive']",-1.293426394,-1.451476693,0,correct,60 minutes,-1.293426394,TRUE,google/gemma-2b,
+crt2,6,"How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?",6 years,1 year," 1 researcher, 1 year.
+
+Question: How many years does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?
+Answer: 1 researcher, 1 year.
+
+Question: How many years does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?
+Answer: 1 researcher, 1 year.
+
+Question: How","1 researcher, 1 year.",intuitive,intuitive,"[-1.1737254858016968, -1.3508518934249878]","['correct', 'intuitive']",-1.173725486,-1.350851893,0,correct,6 years,-1.173725486,TRUE,google/gemma-2b,
+crt2,7,"How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners 50 hours to clean 50 rooms?",50 hours,30 hours," 10 hours.
+
+Question: What do you call a man who has a wife and a mistress?
+Answer: A husband.
+
+Question: What do you call a man who has a wife and a mistress?
+Answer: A husband.
+
+Question: What do you call a man who has a wife and a mistress?
+Answer: A husband.
+
+Question: What do you call a man who has a wife and a mistress?
+Answer: A husband.
+
+Question:",10 hours.,,,"[-1.1147503852844238, -1.279021978378296]","['correct', 'intuitive']",-1.114750385,-1.279021978,0,correct,50 hours,-1.114750385,TRUE,google/gemma-2b,
+crt2,8,"How long does it take 40 students to change 40 light bulbs, if it takes 70 students 70 minutes to change 70 light bulbs?",70 minutes,40 minutes," 10 minutes
+
+Question: How many students does it take to change 10 light bulbs?
+Answer: 10 students
+
+Question: How many students does it take to change 1 light bulb?
+Answer: 1 student
+
+Question: How many students does it take to change 100 light bulbs?
+Answer: 10 students
+
+Question: How many students does it take to change 1000 light bulbs?
+Answer: 10",10 minutes,,,"[-1.3488332033157349, -1.4519442319869995]","['correct', 'intuitive']",-1.348833203,-1.451944232,0,correct,70 minutes,-1.348833203,TRUE,google/gemma-2b,
+crt2,9,"How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?",50 weeks,40 weeks," 10 weeks.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can build a house in 50 weeks, but a woman can build a house in 50 years.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can build a house in 50 weeks, but a woman can build a house in 50 years.
+
+Question: What is the difference between a man and",10 weeks.,,,"[-0.9564380645751953, -1.17049241065979]","['correct', 'intuitive']",-0.9564380646,-1.170492411,0,correct,50 weeks,-0.9564380646,TRUE,google/gemma-2b,
+crt2,10,"How long does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?",6 minutes,5 minutes," 10 minutes
+
+Question: How many minutes does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?
+Answer: 10 minutes
+
+Question: How many minutes does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?
+Answer: 10 minutes
+
+Question: How many minutes does it take 5 people to plant 5",10 minutes,,,"[-1.6027222871780396, -1.4876737594604492]","['correct', 'intuitive']",-1.602722287,-1.487673759,1,intuitive,5 minutes,-1.487673759,FALSE,google/gemma-2b,
+crt2,11,"How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?",40 minutes,30 minutes," 10 minutes.
+
+Question: What is the difference between a coffee machine and a coffee machine?
+Answer: A coffee machine is a machine that makes coffee. A coffee machine is a machine that makes coffee.
+
+Question: What is the difference between a coffee machine and a coffee machine?
+Answer: A coffee machine is a machine that makes coffee. A coffee machine is a machine that makes coffee.
+
+Question: What is the difference between a coffee machine and a coffee machine?
+",10 minutes.,,,"[-1.1570894718170166, -1.1704609394073486]","['correct', 'intuitive']",-1.157089472,-1.170460939,0,correct,40 minutes,-1.157089472,TRUE,google/gemma-2b,
+crt2,12,"How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?",8 minutes,5 minutes," 10 minutes
+
+Question: How many minutes does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?
+Answer: 10 minutes
+
+Question: How many minutes does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?
+Answer: 10 minutes
+
+Question: How many minutes does it",10 minutes,,,"[-1.8204377889633179, -1.8154317140579224]","['correct', 'intuitive']",-1.820437789,-1.815431714,1,intuitive,5 minutes,-1.815431714,FALSE,google/gemma-2b,
+crt2,13,"How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?",50 minutes,10 minutes," 10 children eat 10 boxes of chocolates in 50 minutes.
+So, 1 child eats 1 box of chocolates in 5 minutes.
+So, 10 children eat 10 boxes of chocolates in 50 minutes.
+So, 1 child eats 1 box of chocolates in 5 minutes.
+So, 10 children eat 10 boxes of chocolates in 50 minutes.
+So, 1 child eats 1",10 children eat 10 boxes of chocolates in 50 minutes.,correct,correct,"[-1.1582815647125244, -1.1284023523330688]","['correct', 'intuitive']",-1.158281565,-1.128402352,1,intuitive,10 minutes,-1.128402352,FALSE,google/gemma-2b,
+crt2,14,"How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?",4 weeks,2 weeks," 1 week.
+
+Question: What do you call a person who is always late?
+Answer: A clock.
+
+Question: What do you call a person who is always early?
+Answer: A watch.
+
+Question: What do you call a person who is always on time?
+Answer: A clock.
+
+Question: What do you call a person who is always late?
+Answer: A clock.
+
+Question: What do you call a person who is always early?
+",1 week.,,,"[-1.251924753189087, -1.2393800020217896]","['correct', 'intuitive']",-1.251924753,-1.239380002,1,intuitive,2 weeks,-1.239380002,FALSE,google/gemma-2b,
+crt2,15,"How long does it take 5 teams to renovate 5 houses, if it takes 8 teams 8 weeks to renovate 8 houses?",8 weeks,5 weeks," 1 week.
+
+Question: What is the difference between a 100-year-old house and a 100-year-old person?
+Answer: The 100-year-old person is still alive.
+
+Question: What is the difference between a 100-year-old house and a 100-year-old person?
+Answer: The 100-year-old person is still alive.
+
+Question",1 week.,,,"[-1.3682618141174316, -1.51869535446167]","['correct', 'intuitive']",-1.368261814,-1.518695354,0,correct,8 weeks,-1.368261814,TRUE,google/gemma-2b,
+crt2,16,"How long does it take 30 people to knit 30 pairs of socks, if it takes 40 people 40 weeks to knit 40 pairs of socks?",40 weeks,30 weeks," 10 weeks.
+
+Question: What is the difference between a 10-year-old and a 10-year-old who has been knitting for 10 years?
+Answer: The 10-year-old who has been knitting for 10 years is 10 years older.
+
+Question: What is the difference between a 10-year-old and a 10-year-old who has been knitting for 10",10 weeks.,,,"[-1.01332426071167, -1.4065759181976318]","['correct', 'intuitive']",-1.013324261,-1.406575918,0,correct,40 weeks,-1.013324261,TRUE,google/gemma-2b,
+crt2,17,"How long does it take 40 people to pick 40 fields of strawberries, if it takes 70 people 70 hours to pick 70 fields of strawberries?",70 hours,40 hours," 10 hours
+
+Question: How many people are needed to pick 100 fields of strawberries in 100 hours?
+Answer: 100
+
+Question: How many people are needed to pick 100 fields of strawberries in 100 hours?
+Answer: 100
+
+Question: How many people are needed to pick 100 fields of strawberries in 100 hours?
+Answer: 100
+
+Question:",10 hours,,,"[-1.4756958484649658, -1.5252093076705933]","['correct', 'intuitive']",-1.475695848,-1.525209308,0,correct,70 hours,-1.475695848,TRUE,google/gemma-2b,
+crt2,18,"How long does it take 6 programmers to write 6 lines of code, if it takes 7 programmers 7 hours to write 7 lines of code?",7 hours,6 hours," 1 hour.
+
+Question: What do you call a person who is good at everything?
+Answer: A multi-tasker.
+
+Question: What do you call a person who is good at everything?
+Answer: A multi-tasker.
+
+Question: What do you call a person who is good at everything?
+Answer: A multi-tasker.
+
+Question: What do you call a person who is good at everything?
+Answer: A multi-tasker.",1 hour.,,,"[-1.3877677917480469, -1.5004992485046387]","['correct', 'intuitive']",-1.387767792,-1.500499249,0,correct,7 hours,-1.387767792,TRUE,google/gemma-2b,
+crt2,19,"How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?",8 hours,4 hours," 1 hour.
+
+Question: What is the difference between a photographer and a photographer?
+Answer: A photographer is a photographer.
+
+Question: What is the difference between a photographer and a photographer?
+Answer: A photographer is a photographer.
+
+Question: What is the difference between a photographer and a photographer?
+Answer: A photographer is a photographer.
+
+Question: What is the difference between a photographer and a photographer?
+Answer: A photographer is a photographer.
+
+Question: What",1 hour.,,,"[-1.4958330392837524, -1.412488341331482]","['correct', 'intuitive']",-1.495833039,-1.412488341,1,intuitive,4 hours,-1.412488341,FALSE,google/gemma-2b,
+crt2,20,"How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?",8 hours,1 hour," 1 painter can paint 1 painting in 8 hours.
+
+Question: How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?
+Answer: 1 painter can paint 1 painting in 8 hours.
+
+Question: How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?
+Answer: 1 painter can",1 painter can paint 1 painting in 8 hours.,correct,correct,"[-1.5477391481399536, -1.3420642614364624]","['correct', 'intuitive']",-1.547739148,-1.342064261,1,intuitive,1 hour,-1.342064261,FALSE,google/gemma-2b,
+crt2,21,"How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?",70 minutes,50 minutes," 10 minutes.
+
+Question: What do you call a person who can write 100 books in 100 minutes?
+Answer: A 100-minute writer.
+
+Question: What do you call a person who can write 100 books in 100 minutes?
+Answer: A 100-minute writer.
+
+Question: What do you call a person who can write 100 books in 100 minutes",10 minutes.,,,"[-1.0715510845184326, -1.0626721382141113]","['correct', 'intuitive']",-1.071551085,-1.062672138,1,intuitive,50 minutes,-1.062672138,FALSE,google/gemma-2b,
+crt2,22,"How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?",8 minutes,2 minutes," 16 minutes
+
+Question: How many minutes does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?
+Answer: 16 minutes
+
+Question: How many minutes does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?
+Answer: 16 minutes
+
+Question: How many minutes does it take 2 cooks to cook 2",16 minutes,,,"[-1.6542145013809204, -1.7333011627197266]","['correct', 'intuitive']",-1.654214501,-1.733301163,0,correct,8 minutes,-1.654214501,TRUE,google/gemma-2b,
+crt2,23,"How long does it take 50 doctors to examine 50 patients, if it takes 60 doctors 60 minutes to examine 60 patients?",60 minutes,50 minutes," 10 minutes.
+
+Question: What is the difference between a doctor and a dentist?
+Answer: A dentist is a doctor who has a dental practice.
+
+Question: What is the difference between a doctor and a lawyer?
+Answer: A lawyer is a doctor who has a law practice.
+
+Question: What is the difference between a doctor and a plumber?
+Answer: A plumber is a doctor who has a plumbing practice.
+
+Question: What is the difference between a doctor and",10 minutes.,,,"[-1.027172565460205, -1.1134052276611328]","['correct', 'intuitive']",-1.027172565,-1.113405228,0,correct,60 minutes,-1.027172565,TRUE,google/gemma-2b,
+crt2,24,"How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes to change 7 tires?",7 minutes,2 minutes," 1 driver.
+
+Question: What do you call a person who is always late?
+Answer: A tardy.
+
+Question: What do you call a person who is always early?
+Answer: A pre-tardy.
+
+Question: What do you call a person who is always on time?
+Answer: A tardy.
+
+Question: What do you call a person who is always late?
+Answer: A tardy.
+
+Question: What do you call a person",1 driver.,,,"[-1.5155844688415527, -1.5779956579208374]","['correct', 'intuitive']",-1.515584469,-1.577995658,0,correct,7 minutes,-1.515584469,TRUE,google/gemma-2b,
+crt2,25,"How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?",8 seconds,2 seconds," 16 seconds
+
+Question: How many apples can 100 farm workers pick in 100 seconds?
+Answer: 1000 apples
+
+Question: How many apples can 100 farm workers pick in 100 seconds?
+Answer: 1000 apples
+
+Question: How many apples can 100 farm workers pick in 100 seconds?
+Answer: 1000 apples
+
+Question: How many apples",16 seconds,,,"[-1.743754506111145, -1.895201563835144]","['correct', 'intuitive']",-1.743754506,-1.895201564,0,correct,8 seconds,-1.743754506,TRUE,google/gemma-2b,
+crt2,26,"How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?",6 hours,4 hours," 2 hours.
+
+Question: What is the difference between a 1000 watt and a 1000 watt bulb?
+Answer: The 1000 watt bulb is 1000 watts, the 1000 watt bulb is 1000 watts.
+
+Question: What is the difference between a 1000 watt and a 1000 watt bulb?
+Answer: The 1000 watt bulb",2 hours.,,,"[-1.784171462059021, -1.717838168144226]","['correct', 'intuitive']",-1.784171462,-1.717838168,1,intuitive,4 hours,-1.717838168,FALSE,google/gemma-2b,
+crt2,27,"How long does it take 20 bakers to bake 20 cakes, if it takes 80 bakers 80 hours to bake 80 cakes?",80 hours,20 hours," 20 bakers can bake 20 cakes in 20 hours.
+So, 1 baker can bake 1 cake in 20 hours.
+Therefore, 80 bakers can bake 80 cakes in 80 hours.
+So, 1 baker can bake 1 cake in 80 hours.
+Therefore, 20 bakers can bake 20 cakes in 80 hours.
+So, 20 bakers can bake 20",20 bakers can bake 20 cakes in 20 hours.,intuitive,intuitive,"[-1.5305393934249878, -1.4917505979537964]","['correct', 'intuitive']",-1.530539393,-1.491750598,1,intuitive,20 hours,-1.491750598,FALSE,google/gemma-2b,
+crt2,28,"How long does it take 30 hair stylists to finish 30 hairstyles, if it takes 50 hair stylists 50 minutes to finish 50 hairstyles?",50 minutes,30 minutes," 10 minutes.
+
+Question: What is the difference between a hair stylist and a hair dresser?
+Answer: A hair dresser is a hair stylist who is not a hair stylist.
+
+Question: What is the difference between a hair stylist and a hair dresser?
+Answer: A hair dresser is a hair stylist who is not a hair stylist.
+
+Question: What is the difference between a hair stylist and a hair dresser?
+Answer: A hair dresser is a hair stylist who is not",10 minutes.,,,"[-1.0399425029754639, -1.0753285884857178]","['correct', 'intuitive']",-1.039942503,-1.075328588,0,correct,50 minutes,-1.039942503,TRUE,google/gemma-2b,
+crt2,29,"How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?",3 hours,2 hours," 1 hour.
+
+Question: What do you call a person who is always late?
+Answer: A clock.
+
+Question: What do you call a person who is always late?
+Answer: A clock.
+
+Question: What do you call a person who is always late?
+Answer: A clock.
+
+Question: What do you call a person who is always late?
+Answer: A clock.
+
+Question: What do you call a person who is always late?
+Answer",1 hour.,,,"[-1.3214634656906128, -1.1835740804672241]","['correct', 'intuitive']",-1.321463466,-1.18357408,1,intuitive,2 hours,-1.18357408,FALSE,google/gemma-2b,
+crt2,30,"How long does it take 20 tailors to make 20 dresses, if it takes 50 tailors 50 hours to make 50 dresses?",50 hours,20 hours," 10 hours.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can change his mind.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can change his mind.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can change his mind.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can change his mind",10 hours.,,,"[-1.2031217813491821, -1.2144789695739746]","['correct', 'intuitive']",-1.203121781,-1.21447897,0,correct,50 hours,-1.203121781,TRUE,google/gemma-2b,
+crt2,31,"How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?",4 hours,3 hours," 1 hour
+
+Question: How many hours does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?
+Answer: 1 hour
+
+Question: How many hours does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?
+Answer: 1 hour
+
+Question: How many hours does it take 3 painters to paint 3 rooms, if",1 hour,,,"[-1.5596256256103516, -1.7685362100601196]","['correct', 'intuitive']",-1.559625626,-1.76853621,0,correct,4 hours,-1.559625626,TRUE,google/gemma-2b,
+crt2,32,"How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?",60 days,40 days," 10 days.
+
+Question: What is the difference between a tree and a tree?
+Answer: A tree is a tree.
+
+Question: What is the difference between a tree and a tree?
+Answer: A tree is a tree.
+
+Question: What is the difference between a tree and a tree?
+Answer: A tree is a tree.
+
+Question: What is the difference between a tree and a tree?
+Answer: A tree is a tree.
+
+Question:",10 days.,,,"[-1.1763474941253662, -1.2041014432907104]","['correct', 'intuitive']",-1.176347494,-1.204101443,0,correct,60 days,-1.176347494,TRUE,google/gemma-2b,
+crt2,33,"How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?",5 minutes,1 minute," 1 runner can clean 1 shoe in 5 minutes.
+
+Question: How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?
+Answer: 1 runner can clean 1 shoe in 5 minutes.
+
+Question: How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?
+Answer: 1 runner can",1 runner can clean 1 shoe in 5 minutes.,correct,correct,"[-1.2175769805908203, -1.3464269638061523]","['correct', 'intuitive']",-1.217576981,-1.346426964,0,correct,5 minutes,-1.217576981,TRUE,google/gemma-2b,
+crt2,34,"How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?",6 hours,3 hours," 1 hour.
+
+Question: How many translators does it take to translate 3 pages?
+Answer: 1 translator.
+
+Question: How many translators does it take to translate 6 pages?
+Answer: 1 translator.
+
+Question: How many translators does it take to translate 9 pages?
+Answer: 1 translator.
+
+Question: How many translators does it take to translate 12 pages?
+Answer: 1 translator.
+
+Question: How many translators does",1 hour.,,,"[-1.5568922758102417, -1.5363744497299194]","['correct', 'intuitive']",-1.556892276,-1.53637445,1,intuitive,3 hours,-1.53637445,FALSE,google/gemma-2b,
+crt2,35,"How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?",3 hours,2 hours," 1 hour.
+
+Question: How many times does 1000 go into 100000000000000000000000000000000000000000000000000000000000000000000000000000000",1 hour.,,,"[-1.5107475519180298, -1.5141372680664062]","['correct', 'intuitive']",-1.510747552,-1.514137268,0,correct,3 hours,-1.510747552,TRUE,google/gemma-2b,
+crt2,36,"How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?",70 minutes,50 minutes," 10 minutes.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can smoke a cigarette in 10 minutes, but a woman can smoke a cigarette in 10 minutes.
+
+Question: What is the difference between a man and a woman?
+Answer: A man can smoke a cigarette in 10 minutes, but a woman can smoke a cigarette in 10 minutes.
+
+Question: What is the difference between a man and",10 minutes.,,,"[-1.1325368881225586, -1.206182837486267]","['correct', 'intuitive']",-1.132536888,-1.206182837,0,correct,70 minutes,-1.132536888,TRUE,google/gemma-2b,
+crt2,37,"How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?",8 days,7 days," 1 day.
+
+Question: What do you call a man who has 1000 wives and 1000 names?
+Answer: A polygamist.
+
+Question: What do you call a man who has 1000 wives and 1000 names?
+Answer: A polygamist.
+
+Question: What do you call a man who has 1000 wives and 1000 names?
+Answer: A poly",1 day.,,,"[-1.6883841753005981, -1.6463299989700317]","['correct', 'intuitive']",-1.688384175,-1.646329999,1,intuitive,7 days,-1.646329999,FALSE,google/gemma-2b,
+crt2,38,"How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?",60 hours,40 hours," 120 hours
+
+Question: How many hours does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?
+Answer: 120 hours
+
+Question: How many hours does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?
+Answer: 120 hours
+
+Question:",120 hours,,,"[-1.4998342990875244, -1.571305751800537]","['correct', 'intuitive']",-1.499834299,-1.571305752,0,correct,60 hours,-1.499834299,TRUE,google/gemma-2b,
+crt2,39,"How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?",80 minutes,50 minutes," 10 minutes.
+
+Question: What is the difference between a 100-year flood and a 100-year flood?
+Answer: The 100-year flood is the flood that has a 1% chance of occurring in any given year. The 100-year flood is the flood that has a 1% chance of occurring in any given year.
+
+Question: What is the difference between a 100-year flood",10 minutes.,,,"[-1.0840163230895996, -1.212021827697754]","['correct', 'intuitive']",-1.084016323,-1.212021828,0,correct,80 minutes,-1.084016323,TRUE,google/gemma-2b,
+crt2,40,"How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?",80 hours,20 hours," 10 kettles
+
+Explanation:
+Let the number of kettles be x.
+Then,
+80x = 80
+x = 1
+Therefore,
+20 kettles will boil 20 liters of water in 1 hour.
+Hence,
+The answer is 10 kettles.",10 kettles.,,,"[-1.682251214981079, -1.6833938360214233]","['correct', 'intuitive']",-1.682251215,-1.683393836,0,correct,80 hours,-1.682251215,TRUE,google/gemma-2b,
+crt2,41,"How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?",80 minutes,40 minutes," 10 minutes.
+
+Question: What is the difference between a 100-watt light bulb and a 100-watt light bulb?
+Answer: The 100-watt light bulb is 100 watts.
+
+Question: What is the difference between a 100-watt light bulb and a 100-watt light bulb?
+Answer: The 100-watt light bulb is 100 watts.
+
+",10 minutes.,,,"[-1.2258896827697754, -1.1205570697784424]","['correct', 'intuitive']",-1.225889683,-1.12055707,1,intuitive,40 minutes,-1.12055707,FALSE,google/gemma-2b,
+crt2,42,"How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?",7 minutes,5 minutes," 10 minutes
+
+Question: How many minutes does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?
+Answer: 10 minutes
+
+Question: How many minutes does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?
+Answer: 10 minutes
+
+Question: How many minutes does it take 5 students to finish 5",10 minutes,,,"[-1.7418276071548462, -1.720023512840271]","['correct', 'intuitive']",-1.741827607,-1.720023513,1,intuitive,5 minutes,-1.720023513,FALSE,google/gemma-2b,
+crt2,43,"How long does it take 40 men to make 40 pies, if it takes 70 men 70 minutes to make 70 pies?",70 minutes,40 minutes," 10 minutes
+
+Question: How many men are needed to make 100 pies in 100 minutes?
+Answer: 10 men
+
+Question: How many men are needed to make 100 pies in 100 minutes?
+Answer: 10 men
+
+Question: How many men are needed to make 100 pies in 100 minutes?
+Answer: 10 men
+
+Question: How many men are needed to",10 minutes,,,"[-1.1593654155731201, -1.214697241783142]","['correct', 'intuitive']",-1.159365416,-1.214697242,0,correct,70 minutes,-1.159365416,TRUE,google/gemma-2b,
+crt2,44,"How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?",8 minutes,1 minute," 1 barista can make 1 coffee in 1 minute.
+
+Question: How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?
+Answer: 1 barista can make 1 coffee in 1 minute.
+
+Question: How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?
+Answer: 1",1 barista can make 1 coffee in 1 minute.,intuitive,intuitive,"[-1.2604960203170776, -1.2031102180480957]","['correct', 'intuitive']",-1.26049602,-1.203110218,1,intuitive,1 minute,-1.203110218,FALSE,google/gemma-2b,
+crt2,45,"How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs of spaghetti?",70 minutes,10 minutes," 10 people can cook 10 packs of spaghetti in 70 minutes.
+
+Question: How many people are needed to cook 10 packs of spaghetti in 70 minutes?
+Answer: 10 people are needed to cook 10 packs of spaghetti in 70 minutes.
+
+Question: How many packs of spaghetti can 10 people cook in 70 minutes?
+Answer: 10 people can cook 10 packs of spaghetti in ",10 people can cook 10 packs of spaghetti in 70 minutes.,correct,correct,"[-1.1424033641815186, -1.1442888975143433]","['correct', 'intuitive']",-1.142403364,-1.144288898,0,correct,70 minutes,-1.142403364,TRUE,google/gemma-2b,
+crt2,46,"How long does it take 5 people to renovate 5 bathrooms, if it takes 8 people 8 days to renovate 8 bathrooms?",8 days,5 days," 1 day.
+
+Question: What is the difference between a 100-year-old and a 100-year-old-man?
+Answer: The 100-year-old-man is still alive.
+
+Question: What is the difference between a 100-year-old and a 100-year-old-man?
+Answer: The 100-year-old-man is still alive.",1 day.,,,"[-1.5567960739135742, -1.6184310913085938]","['correct', 'intuitive']",-1.556796074,-1.618431091,0,correct,8 days,-1.556796074,TRUE,google/gemma-2b,
+crt2,47,"How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?",3 days,1 day," 1 fish eats 1 worm in 3 days.
+
+Question: How many fish are needed to eat 1 worm in 1 day?
+Answer: 1 fish eats 1 worm in 1 day.
+
+Question: How many fish are needed to eat 1 worm in 3 days?
+Answer: 3 fish eat 1 worm in 3 days.
+
+Question: How many fish are needed to eat 1 worm in 10 days?
+Answer:",1 fish eats 1 worm in 3 days.,correct,correct,"[-1.2541154623031616, -1.3914233446121216]","['correct', 'intuitive']",-1.254115462,-1.391423345,0,correct,3 days,-1.254115462,TRUE,google/gemma-2b,
+crt2,48,"How long does it take 1 operator to connect 1 phone call, if it takes 3 operators 3 hours to connect 3 phone calls?",3 hours,1 hour," 1 operator can connect 1 phone call in 1 hour.
+
+Question: How many operators are needed to connect 100 phone calls in 1 hour?
+Answer: 100 phone calls can be connected in 1 hour by 10 operators.
+
+Question: How many operators are needed to connect 1000 phone calls in 1 hour?
+Answer: 1000 phone calls can be connected in 1 hour by 10",1 operator can connect 1 phone call in 1 hour.,intuitive,intuitive,"[-1.3717283010482788, -1.2260313034057617]","['correct', 'intuitive']",-1.371728301,-1.226031303,1,intuitive,1 hour,-1.226031303,FALSE,google/gemma-2b,
+crt2,49,"How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?",80 minutes,20 minutes," 10 minutes.
+
+Question: What is the difference between a printer and a printer?
+Answer: A printer is a printer.
+
+Question: What is the difference between a printer and a printer?
+Answer: A printer is a printer.
+
+Question: What is the difference between a printer and a printer?
+Answer: A printer is a printer.
+
+Question: What is the difference between a printer and a printer?
+Answer: A printer is a printer.
+
+Question:",10 minutes.,,,"[-1.2872028350830078, -1.2265832424163818]","['correct', 'intuitive']",-1.287202835,-1.226583242,1,intuitive,20 minutes,-1.226583242,FALSE,google/gemma-2b,
+crt2,50,"How long does it take 70 husbands to feed 70 babies, if it takes 80 husbands 80 minutes to feed 80 babies?",80 minutes,70 minutes," 10 minutes.
+
+Question: What do you call a man who has 70 wives?
+Answer: A husband.
+
+Question: What do you call a man who has 70 wives?
+Answer: A husband.
+
+Question: What do you call a man who has 70 wives?
+Answer: A husband.
+
+Question: What do you call a man who has 70 wives?
+Answer: A husband.
+
+Question: What do you call",10 minutes.,,,"[-1.1817359924316406, -1.2259079217910767]","['correct', 'intuitive']",-1.181735992,-1.225907922,0,correct,80 minutes,-1.181735992,TRUE,google/gemma-2b,

@@ -1,0 +1,4 @@
+
+task: blimp
+model: allenai/OLMo-7B
+max_new_tokens: 100

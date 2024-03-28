@@ -1,0 +1,423 @@
+condition,item_id,question,correct,intuitive,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+crt2,1,"How long does it take 4 people to tailor 4 jackets, if it takes 7 people 7 hours to tailor 7 jackets?",7 hours,4 hours," It takes 4 people 4 hours to tailor 4 jackets.
+
+Question: How long does it take 4 people to tailor 4 jackets, if it takes 7 people 7 hours to tailor 7 jackets?
+Answer: It takes 4 people 4 hours to tailor 4 jackets.
+
+Question: How long does it take 4 people to tailor 4 jackets, if it takes 7 people 7 hours to tailor 7 jackets?
+Answer: It takes 4 people 4 hours to tailor 4 jack",It takes 4 people 4 hours to tailor 4 jackets.,intuitive,intuitive,"[-1.90234375, -2.25]","['correct', 'intuitive']",-1.90234375,-2.25,0,correct,7 hours,-1.90234375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,2,"How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?",8 hours,4 hours,"
+
+Question: How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?
+Answer:
+
+Question: How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?
+Answer:
+
+Question: How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8",,,,"[-1.91015625, -2.51171875]","['correct', 'intuitive']",-1.91015625,-2.51171875,0,correct,8 hours,-1.91015625,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,3,"How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers?",60 minutes,50 minutes," It takes 50 bees 50 minutes to pollinate 50 flowers.
+
+Question: How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers?
+Answer: It takes 50 bees 50 minutes to pollinate 50 flowers.
+
+Question: How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers?
+Answer: It takes 50 bees",It takes 50 bees 50 minutes to pollinate 50 flowers.,intuitive,intuitive,"[-2.55859375, -3.39453125]","['correct', 'intuitive']",-2.55859375,-3.39453125,0,correct,60 minutes,-2.55859375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,4,"How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?",5 days,1 day," 5 days
+
+Question: How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?
+Answer: 5 days
+
+Question: How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?
+Answer: 5 days
+
+Question: How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days",5 days,correct,correct,"[-1.64453125, -2.73828125]","['correct', 'intuitive']",-1.64453125,-2.73828125,0,correct,5 days,-1.64453125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,5,"How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?",60 minutes,10 minutes," It takes 60 ovens 60 minutes to bake 60 lasagnas.
+
+Question: How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?
+Answer: It takes 60 ovens 60 minutes to bake 60 lasagnas.
+
+Question: How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?
+",It takes 60 ovens 60 minutes to bake 60 lasagnas.,correct,,"[-2.09375, -2.73046875]","['correct', 'intuitive']",-2.09375,-2.73046875,0,correct,60 minutes,-2.09375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,6,"How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?",6 years,1 year," 6 years.
+
+Question: How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 months to publish 6 papers?
+Answer: 6 months.
+
+Question: How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 weeks to publish 6 papers?
+Answer: 6 weeks.
+
+Question: How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 days to publish 6 papers?
+",6 years.,correct,correct,"[-1.63671875, -1.7734375]","['correct', 'intuitive']",-1.63671875,-1.7734375,0,correct,6 years,-1.63671875,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,7,"How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners 50 hours to clean 50 rooms?",50 hours,30 hours," It takes 30 cleaners 30 hours to clean 30 rooms.
+
+Question: How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners 50 hours to clean 50 rooms?
+Answer: It takes 30 cleaners 30 hours to clean 30 rooms.
+
+Question: How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners 50 hours to clean 50 rooms?
+Answer: It takes 30 cleaners 30 hours to clean 30",It takes 30 cleaners 30 hours to clean 30 rooms.,intuitive,intuitive,"[-2.80078125, -3.36328125]","['correct', 'intuitive']",-2.80078125,-3.36328125,0,correct,50 hours,-2.80078125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,8,"How long does it take 40 students to change 40 light bulbs, if it takes 70 students 70 minutes to change 70 light bulbs?",70 minutes,40 minutes," 40 students will change 40 light bulbs in 40 minutes.
+
+Question: How long does it take 40 students to change 40 light bulbs, if it takes 70 students 70 minutes to change 70 light bulbs?
+Answer: 40 students will change 40 light bulbs in 40 minutes.
+
+Question: How long does it take 40 students to change 40 light bulbs, if it takes 70 students 70 minutes to change 70 light bulbs?
+Answer: 40 students will change 40 light bulbs in 40 minutes.
+",40 students will change 40 light bulbs in 40 minutes.,intuitive,intuitive,"[-2.30859375, -1.71484375]","['correct', 'intuitive']",-2.30859375,-1.71484375,1,intuitive,40 minutes,-1.71484375,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,9,"How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?",50 weeks,40 weeks," It takes 40 builders 40 weeks to build 40 houses.
+
+Question: How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?
+Answer: It takes 40 builders 40 weeks to build 40 houses.
+
+Question: How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?
+Answer: It takes 40 builders 40 weeks to build 40 houses.
+
+Question: How",It takes 40 builders 40 weeks to build 40 houses.,intuitive,intuitive,"[-1.79296875, -1.39453125]","['correct', 'intuitive']",-1.79296875,-1.39453125,1,intuitive,40 weeks,-1.39453125,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,10,"How long does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?",6 minutes,5 minutes," It takes 5 people 5 minutes to plant 5 trees.
+
+Question: How long does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?
+Answer: It takes 5 people 5 minutes to plant 5 trees.
+
+Question: How long does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?
+Answer: It takes 5 people 5 minutes to plant 5 trees.
+
+Question: How",It takes 5 people 5 minutes to plant 5 trees.,intuitive,intuitive,"[-2.05859375, -2.01953125]","['correct', 'intuitive']",-2.05859375,-2.01953125,1,intuitive,5 minutes,-2.01953125,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,11,"How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?",40 minutes,30 minutes,"
+
+Question: How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?
+Answer:
+
+Question: How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?
+Answer:
+
+Question: How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40",,,,"[-1.97265625, -2.32421875]","['correct', 'intuitive']",-1.97265625,-2.32421875,0,correct,40 minutes,-1.97265625,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,12,"How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?",8 minutes,5 minutes,"
+
+Question: How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?
+Answer:
+
+Question: How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?
+Answer:
+
+Question: How long does it take 5 machines to pack 5 boxes of chocolates, if it",,,,"[-2.53515625, -2.796875]","['correct', 'intuitive']",-2.53515625,-2.796875,0,correct,8 minutes,-2.53515625,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,13,"How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?",50 minutes,10 minutes," 10 minutes
+
+Question: How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?
+Answer: 10 minutes
+
+Question: How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?
+Answer: 10 minutes
+
+Question: How long does it take 10 children to eat 10 boxes of",10 minutes,intuitive,intuitive,"[-1.84375, -1.80078125]","['correct', 'intuitive']",-1.84375,-1.80078125,1,intuitive,10 minutes,-1.80078125,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,14,"How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?",4 weeks,2 weeks," 2 weeks
+
+Question: How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?
+Answer: 2 weeks
+
+Question: How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?
+Answer: 2 weeks
+
+Question: How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?
+Answer: 2",2 weeks,intuitive,intuitive,"[-1.796875, -1.5859375]","['correct', 'intuitive']",-1.796875,-1.5859375,1,intuitive,2 weeks,-1.5859375,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,15,"How long does it take 5 teams to renovate 5 houses, if it takes 8 teams 8 weeks to renovate 8 houses?",8 weeks,5 weeks," It takes 5 teams 5 weeks to renovate 5 houses.
+
+Question: How long does it take 5 teams to renovate 5 houses, if it takes 8 teams 8 weeks to renovate 8 houses?
+Answer: It takes 5 teams 5 weeks to renovate 5 houses.
+
+Question: How long does it take 5 teams to renovate 5 houses, if it takes 8 teams 8 weeks to renovate 8 houses?
+Answer: It takes 5 teams 5 weeks to renovate 5",It takes 5 teams 5 weeks to renovate 5 houses.,intuitive,intuitive,"[-1.9453125, -2.6171875]","['correct', 'intuitive']",-1.9453125,-2.6171875,0,correct,8 weeks,-1.9453125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,16,"How long does it take 30 people to knit 30 pairs of socks, if it takes 40 people 40 weeks to knit 40 pairs of socks?",40 weeks,30 weeks," It takes 30 people 30 weeks to knit 30 pairs of socks.
+
+Question: How long does it take 30 people to knit 30 pairs of socks, if it takes 40 people 40 weeks to knit 40 pairs of socks?
+Answer: It takes 30 people 30 weeks to knit 30 pairs of socks.
+
+Question: How long does it take 30 people to knit 30 pairs of socks, if it takes 40 people 40 weeks to knit 40 pairs of socks?
+Answer: It takes 30 people",It takes 30 people 30 weeks to knit 30 pairs of socks.,intuitive,intuitive,"[-1.44921875, -2.1875]","['correct', 'intuitive']",-1.44921875,-2.1875,0,correct,40 weeks,-1.44921875,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,17,"How long does it take 40 people to pick 40 fields of strawberries, if it takes 70 people 70 hours to pick 70 fields of strawberries?",70 hours,40 hours," 40 people will pick 40 fields of strawberries in 70 hours.
+
+Question: How long does it take 40 people to pick 40 fields of strawberries, if it takes 70 people 70 hours to pick 70 fields of strawberries?
+Answer: 40 people will pick 40 fields of strawberries in 70 hours.
+
+Question: How long does it take 40 people to pick 40 fields of strawberries, if it takes 70 people 70 hours to pick 70 fields of strawberries?
+Answer:",40 people will pick 40 fields of strawberries in 70 hours.,correct,correct,"[-2.39453125, -1.671875]","['correct', 'intuitive']",-2.39453125,-1.671875,1,intuitive,40 hours,-1.671875,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,18,"How long does it take 6 programmers to write 6 lines of code, if it takes 7 programmers 7 hours to write 7 lines of code?",7 hours,6 hours," It takes 6 programmers 6 hours to write 6 lines of code.
+
+Question: How long does it take 6 programmers to write 6 lines of code, if it takes 7 programmers 7 hours to write 7 lines of code?
+Answer: It takes 6 programmers 6 hours to write 6 lines of code.
+
+Question: How long does it take 6 programmers to write 6 lines of code, if it takes 7 programmers 7 hours to write 7 lines of code?
+Answer: It takes 6 programmers",It takes 6 programmers 6 hours to write 6 lines of code.,intuitive,intuitive,"[-2.34375, -2.515625]","['correct', 'intuitive']",-2.34375,-2.515625,0,correct,7 hours,-2.34375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,19,"How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?",8 hours,4 hours," It takes 4 photographers 4 hours to take 4 photos.
+
+Question: How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?
+Answer: It takes 4 photographers 4 hours to take 4 photos.
+
+Question: How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?
+Answer: It takes 4 photographers 4 hours to take 4 photos.
+
+Question: How",It takes 4 photographers 4 hours to take 4 photos.,intuitive,intuitive,"[-1.9375, -1.9921875]","['correct', 'intuitive']",-1.9375,-1.9921875,0,correct,8 hours,-1.9375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,20,"How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?",8 hours,1 hour," 8 painters can paint 8 paintings in 8 hours.
+
+Question: How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?
+Answer: 8 painters can paint 8 paintings in 8 hours.
+
+Question: How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?
+Answer: 8 painters can paint 8 paintings in 8 hours.
+
+Question: How long does it",8 painters can paint 8 paintings in 8 hours.,correct,,"[-1.7734375, -2.515625]","['correct', 'intuitive']",-1.7734375,-2.515625,0,correct,8 hours,-1.7734375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,21,"How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?",70 minutes,50 minutes," It takes about a year to write a book.
+
+Question: How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?
+Answer: It takes about a year to write a book.
+
+Question: How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?
+Answer: It takes about a year to write a book.
+
+Question: How long does it",It takes about a year to write a book.,,,"[-1.86328125, -2.15625]","['correct', 'intuitive']",-1.86328125,-2.15625,0,correct,70 minutes,-1.86328125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,22,"How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?",8 minutes,2 minutes,"
+
+Question: How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?
+Answer:
+
+Question: How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?
+Answer:
+
+Question: How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?
+Answer:
+
+Question: How long does",,,,"[-2.37109375, -2.64453125]","['correct', 'intuitive']",-2.37109375,-2.64453125,0,correct,8 minutes,-2.37109375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,23,"How long does it take 50 doctors to examine 50 patients, if it takes 60 doctors 60 minutes to examine 60 patients?",60 minutes,50 minutes," It takes 50 doctors 50 minutes to examine 50 patients.
+
+Question: How long does it take 50 doctors to examine 50 patients, if it takes 60 doctors 60 minutes to examine 60 patients?
+Answer: It takes 50 doctors 50 minutes to examine 50 patients.
+
+Question: How long does it take 50 doctors to examine 50 patients, if it takes 60 doctors 60 minutes to examine 60 patients?
+Answer: It takes 50 doctors 50 minutes to examine 50 patients.
+
+Question: How",It takes 50 doctors 50 minutes to examine 50 patients.,intuitive,intuitive,"[-1.7734375, -2.2109375]","['correct', 'intuitive']",-1.7734375,-2.2109375,0,correct,60 minutes,-1.7734375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,24,"How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes to change 7 tires?",7 minutes,2 minutes," It takes 2 drivers 2 minutes to change 2 tires.
+
+Question: How many drivers are needed to change 7 tires?
+Answer: 7 drivers are needed to change 7 tires.
+
+Question: How many drivers are needed to change 2 tires?
+Answer: 2 drivers are needed to change 2 tires.
+
+Question: How many drivers are needed to change 7 tires?
+Answer: 7 drivers are needed to change 7 tires.
+
+Question: How many drivers are needed to change",It takes 2 drivers 2 minutes to change 2 tires.,intuitive,intuitive,"[-1.734375, -1.9375]","['correct', 'intuitive']",-1.734375,-1.9375,0,correct,7 minutes,-1.734375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,25,"How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?",8 seconds,2 seconds," 2 apples in 8 seconds = 2 apples per second.
+
+Question: How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?
+Answer: 2 apples in 8 seconds = 2 apples per second.
+
+Question: How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?
+Answer: 2 apples in 8 seconds = 2 apples per second.
+",2 apples in 8 seconds = 2 apples per second.,correct,,"[-1.8203125, -2.28125]","['correct', 'intuitive']",-1.8203125,-2.28125,0,correct,8 seconds,-1.8203125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,26,"How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?",6 hours,4 hours,"
+
+Question: How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?
+Answer:
+
+Question: How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?
+Answer:
+
+Question: How long does it take 4 freezers to freeze 4 liters",,,,"[-2.37890625, -3.05078125]","['correct', 'intuitive']",-2.37890625,-3.05078125,0,correct,6 hours,-2.37890625,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,27,"How long does it take 20 bakers to bake 20 cakes, if it takes 80 bakers 80 hours to bake 80 cakes?",80 hours,20 hours," 20 bakers will take 20 hours to bake 20 cakes.
+
+Question: How long does it take 20 bakers to bake 20 cakes, if it takes 80 bakers 80 hours to bake 80 cakes?
+Answer: 20 bakers will take 20 hours to bake 20 cakes.
+
+Question: How long does it take 20 bakers to bake 20 cakes, if it takes 80 bakers 80 hours to bake 80 cakes?
+Answer: 20 bakers will take 20 hours to bake 20",20 bakers will take 20 hours to bake 20 cakes.,intuitive,intuitive,"[-1.94921875, -2.359375]","['correct', 'intuitive']",-1.94921875,-2.359375,0,correct,80 hours,-1.94921875,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,28,"How long does it take 30 hair stylists to finish 30 hairstyles, if it takes 50 hair stylists 50 minutes to finish 50 hairstyles?",50 minutes,30 minutes," It takes 30 hair stylists 30 minutes to finish 30 hairstyles.
+
+Question: How many hair stylists are needed to finish 30 hairstyles, if it takes 50 hair stylists 50 minutes to finish 50 hairstyles?
+Answer: It takes 30 hair stylists 30 minutes to finish 30 hairstyles.
+
+Question: How many hair stylists are needed to finish 30 hairstyles, if it takes 50 hair stylists 50 minutes to finish 50 hairstyles",It takes 30 hair stylists 30 minutes to finish 30 hairstyles.,intuitive,intuitive,"[-2.5625, -2.2578125]","['correct', 'intuitive']",-2.5625,-2.2578125,1,intuitive,30 minutes,-2.2578125,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,29,"How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?",3 hours,2 hours," It takes 3 mechanics 3 hours to fix 3 cars.
+
+Question: How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?
+Answer: It takes 3 mechanics 3 hours to fix 3 cars.
+
+Question: How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?
+Answer: It takes 3 mechanics 3 hours to fix 3 cars.
+
+Question: How",It takes 3 mechanics 3 hours to fix 3 cars.,correct,,"[-1.66796875, -1.73046875]","['correct', 'intuitive']",-1.66796875,-1.73046875,0,correct,3 hours,-1.66796875,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,30,"How long does it take 20 tailors to make 20 dresses, if it takes 50 tailors 50 hours to make 50 dresses?",50 hours,20 hours," It takes 20 tailors 20 hours to make 20 dresses.
+
+Question: How long does it take 20 tailors to make 20 dresses, if it takes 50 tailors 50 hours to make 50 dresses?
+Answer: It takes 20 tailors 20 hours to make 20 dresses.
+
+Question: How long does it take 20 tailors to make 20 dresses, if it takes 50 tailors 50 hours to make 50 dresses?
+Answer: It takes 20 tailors 20 hours to make 20",It takes 20 tailors 20 hours to make 20 dresses.,intuitive,intuitive,"[-2.015625, -2.37890625]","['correct', 'intuitive']",-2.015625,-2.37890625,0,correct,50 hours,-2.015625,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,31,"How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?",4 hours,3 hours," It takes 4 painters 4 hours to paint 4 rooms.
+
+Question: How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?
+Answer: It takes 4 painters 4 hours to paint 4 rooms.
+
+Question: How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?
+Answer: It takes 4 painters 4 hours to paint 4 rooms.
+
+Question: How",It takes 4 painters 4 hours to paint 4 rooms.,correct,,"[-2.16015625, -2.99609375]","['correct', 'intuitive']",-2.16015625,-2.99609375,0,correct,4 hours,-2.16015625,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,32,"How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?",60 days,40 days," 40 trees will grow 40 leaves in 40 days.
+
+Question: How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?
+Answer: 40 trees will grow 40 leaves in 40 days.
+
+Question: How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?
+Answer: 40 trees will grow 40 leaves in 40 days.
+
+Question: How long does it",40 trees will grow 40 leaves in 40 days.,intuitive,intuitive,"[-2.01953125, -2.03515625]","['correct', 'intuitive']",-2.01953125,-2.03515625,0,correct,60 days,-2.01953125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,33,"How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?",5 minutes,1 minute," 5 minutes
+
+Question: How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?
+Answer: 5 minutes
+
+Question: How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?
+Answer: 5 minutes
+
+Question: How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?
+Answer: 5",5 minutes,correct,correct,"[-1.453125, -2.0234375]","['correct', 'intuitive']",-1.453125,-2.0234375,0,correct,5 minutes,-1.453125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,34,"How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?",6 hours,3 hours," It depends on the complexity of the text.
+
+Question: How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?
+Answer: It depends on the complexity of the text.
+
+Question: How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?
+Answer: It depends on the complexity of the text.
+
+Question: How long does",It depends on the complexity of the text.,,,"[-2.328125, -3.21484375]","['correct', 'intuitive']",-2.328125,-3.21484375,0,correct,6 hours,-2.328125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,35,"How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?",3 hours,2 hours," It takes 3 machines 3 hours to make 3 smartphones.
+
+Question: How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?
+Answer: It takes 3 machines 3 hours to make 3 smartphones.
+
+Question: How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?
+Answer: It takes 3 machines 3 hours to make 3 smartphones.
+
+Question: How",It takes 3 machines 3 hours to make 3 smartphones.,correct,,"[-1.890625, -1.96484375]","['correct', 'intuitive']",-1.890625,-1.96484375,0,correct,3 hours,-1.890625,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,36,"How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?",70 minutes,50 minutes," It takes 50 people 50 minutes to smoke 50 cigarettes.
+
+Question: How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?
+Answer: It takes 50 people 50 minutes to smoke 50 cigarettes.
+
+Question: How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?
+Answer: It takes 50 people 50 minutes to smoke 50 cigarettes.
+
+Question: How",It takes 50 people 50 minutes to smoke 50 cigarettes.,intuitive,intuitive,"[-1.6875, -1.81640625]","['correct', 'intuitive']",-1.6875,-1.81640625,0,correct,70 minutes,-1.6875,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,37,"How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?",8 days,7 days," It takes 7 opticians 7 days to make 7 glasses.
+
+Question: How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?
+Answer: It takes 7 opticians 7 days to make 7 glasses.
+
+Question: How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?
+Answer: It takes 7 opticians 7 days to make 7",It takes 7 opticians 7 days to make 7 glasses.,intuitive,intuitive,"[-2.07421875, -2.37109375]","['correct', 'intuitive']",-2.07421875,-2.37109375,0,correct,8 days,-2.07421875,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,38,"How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?",60 hours,40 hours," 40 pipes will fill 40 containers in 40 hours.
+
+Question: How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?
+Answer: 40 pipes will fill 40 containers in 40 hours.
+
+Question: How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?
+Answer: 40 pipes will fill 40 containers in 40 hours.
+
+Question: How long does it",40 pipes will fill 40 containers in 40 hours.,intuitive,intuitive,"[-2.5234375, -2.58203125]","['correct', 'intuitive']",-2.5234375,-2.58203125,0,correct,60 hours,-2.5234375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,39,"How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?",80 minutes,50 minutes," It takes 50 people 50 minutes to eat 50 pizzas.
+
+Question: How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?
+Answer: It takes 50 people 50 minutes to eat 50 pizzas.
+
+Question: How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?
+Answer: It takes 50 people",It takes 50 people 50 minutes to eat 50 pizzas.,intuitive,intuitive,"[-1.83984375, -2.3046875]","['correct', 'intuitive']",-1.83984375,-2.3046875,0,correct,80 minutes,-1.83984375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,40,"How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?",80 hours,20 hours," 20 kettles will take 20 hours to boil 20 liters of water.
+
+Question: How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?
+Answer: 20 kettles will take 20 hours to boil 20 liters of water.
+
+Question: How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kett",20 kettles will take 20 hours to boil 20 liters of water.,intuitive,intuitive,"[-2.28125, -2.89453125]","['correct', 'intuitive']",-2.28125,-2.89453125,0,correct,80 hours,-2.28125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,41,"How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?",80 minutes,40 minutes," 40 air conditioners will cool 40 rooms in 80 minutes.
+
+Question: How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?
+Answer: 40 air conditioners will cool 40 rooms in 80 minutes.
+
+Question: How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?
+Answer: 40 air conditioners will cool",40 air conditioners will cool 40 rooms in 80 minutes.,correct,correct,"[-3.03515625, -2.48046875]","['correct', 'intuitive']",-3.03515625,-2.48046875,1,intuitive,40 minutes,-2.48046875,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,42,"How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?",7 minutes,5 minutes," 5 minutes
+
+Question: How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?
+Answer: 5 minutes
+
+Question: How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?
+Answer: 5 minutes
+
+Question: How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?
+Answer: 5",5 minutes,intuitive,intuitive,"[-2.01953125, -2.3046875]","['correct', 'intuitive']",-2.01953125,-2.3046875,0,correct,7 minutes,-2.01953125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,43,"How long does it take 40 men to make 40 pies, if it takes 70 men 70 minutes to make 70 pies?",70 minutes,40 minutes," 40 minutes
+
+Question: How long does it take 40 men to make 40 pies, if it takes 70 men 70 minutes to make 70 pies?
+Answer: 70 minutes
+
+Question: How long does it take 40 men to make 40 pies, if it takes 70 men 70 minutes to make 70 pies?
+Answer: 70 minutes
+
+Question: How long does it take 40 men to make 40 pies, if it takes 70 men 70 minutes to make 70 p",40 minutes,intuitive,intuitive,"[-1.91796875, -1.34765625]","['correct', 'intuitive']",-1.91796875,-1.34765625,1,intuitive,40 minutes,-1.34765625,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,44,"How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?",8 minutes,1 minute," 8 baristas 8 minutes to make 8 coffees.
+
+Question: How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?
+Answer: 8 baristas 8 minutes to make 8 coffees.
+
+Question: How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?
+Answer: 8 baristas 8 minutes to",8 baristas 8 minutes to make 8 coffees.,correct,,"[-2.125, -2.89453125]","['correct', 'intuitive']",-2.125,-2.89453125,0,correct,8 minutes,-2.125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,45,"How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs of spaghetti?",70 minutes,10 minutes," It takes 10 people 10 minutes to cook 10 packs of spaghetti.
+
+Question: How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs of spaghetti?
+Answer: It takes 10 people 10 minutes to cook 10 packs of spaghetti.
+
+Question: How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs",It takes 10 people 10 minutes to cook 10 packs of spaghetti.,intuitive,intuitive,"[-1.7734375, -2.09765625]","['correct', 'intuitive']",-1.7734375,-2.09765625,0,correct,70 minutes,-1.7734375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,46,"How long does it take 5 people to renovate 5 bathrooms, if it takes 8 people 8 days to renovate 8 bathrooms?",8 days,5 days," It takes 5 people 5 days to renovate 5 bathrooms.
+
+Question: How long does it take 5 people to renovate 5 bathrooms, if it takes 8 people 8 days to renovate 8 bathrooms?
+Answer: It takes 5 people 5 days to renovate 5 bathrooms.
+
+Question: How long does it take 5 people to renovate 5 bathrooms, if it takes 8 people 8 days to renovate 8 bathrooms?
+Answer: It takes 5 people 5 days to renovate 5",It takes 5 people 5 days to renovate 5 bathrooms.,intuitive,intuitive,"[-1.734375, -1.83203125]","['correct', 'intuitive']",-1.734375,-1.83203125,0,correct,8 days,-1.734375,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,47,"How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?",3 days,1 day," 3 fish 3 days
+
+Question: How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?
+Answer: 3 fish 3 days
+
+Question: How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?
+Answer: 3 fish 3 days
+
+Question: How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3",3 fish 3 days,correct,,"[-1.8125, -2.7578125]","['correct', 'intuitive']",-1.8125,-2.7578125,0,correct,3 days,-1.8125,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,48,"How long does it take 1 operator to connect 1 phone call, if it takes 3 operators 3 hours to connect 3 phone calls?",3 hours,1 hour," It depends on the number of operators.
+
+Question: How many operators are needed to connect 1 phone call?
+Answer: It depends on the number of operators.
+
+Question: How many operators are needed to connect 1 phone call?
+Answer: It depends on the number of operators.
+
+Question: How many operators are needed to connect 1 phone call?
+Answer: It depends on the number of operators.
+
+Question: How many operators are needed to connect 1 phone call",It depends on the number of operators.,,,"[-1.8046875, -2.37109375]","['correct', 'intuitive']",-1.8046875,-2.37109375,0,correct,3 hours,-1.8046875,TRUE,EleutherAI/pythia-12b-deduped,
+crt2,49,"How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?",80 minutes,20 minutes," 20 printers will print 20 documents in 20 minutes.
+
+Question: How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?
+Answer: 20 printers will print 20 documents in 20 minutes.
+
+Question: How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?
+Answer: 20 printers will print 20 documents in 20 minutes.
+
+Question: How long does it",20 printers will print 20 documents in 20 minutes.,intuitive,intuitive,"[-2.21484375, -2.046875]","['correct', 'intuitive']",-2.21484375,-2.046875,1,intuitive,20 minutes,-2.046875,FALSE,EleutherAI/pythia-12b-deduped,
+crt2,50,"How long does it take 70 husbands to feed 70 babies, if it takes 80 husbands 80 minutes to feed 80 babies?",80 minutes,70 minutes," It takes 70 husbands 70 minutes to feed 70 babies.
+
+Question: How long does it take 70 husbands to feed 70 babies, if it takes 80 husbands 80 minutes to feed 80 babies?
+Answer: It takes 70 husbands 70 minutes to feed 70 babies.
+
+Question: How long does it take 70 husbands to feed 70 babies, if it takes 80 husbands 80 minutes to feed 80 babies?
+Answer: It takes 70 husbands 70 minutes to feed 70 babies.
+
+Question: How",It takes 70 husbands 70 minutes to feed 70 babies.,intuitive,intuitive,"[-2.25, -2.36328125]","['correct', 'intuitive']",-2.25,-2.36328125,0,correct,80 minutes,-2.25,TRUE,EleutherAI/pythia-12b-deduped,

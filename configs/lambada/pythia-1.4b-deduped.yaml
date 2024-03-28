@@ -1,0 +1,4 @@
+
+task: lambada
+model: EleutherAI/pythia-1.4b-deduped
+max_new_tokens: 100

@@ -1,0 +1,5 @@
+
+task: crt
+model: gpt2
+condition: crt1
+max_new_tokens: 100

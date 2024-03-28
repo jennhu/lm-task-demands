@@ -1,0 +1,597 @@
+condition,item_id,question,correct,intuitive,t,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+crt3,1,"In a city, a virus is spreading, causing the total number of infected individuals to double each day. If it takes 6 days for the entire city's population to be infected, how many days would it require for half of the people to become infected?",5 days,3 days,6 days,"3 days
+
+Explanation:
+
+Let the number of people infected on day 0 be x.
+
+Then, the number of people infected on day 1 is 2x.
+
+The number of people infected on day 2 is 4x.
+
+The number of people infected on day 3 is 8x.
+
+The number of people infected on day 4 is 16x.
+
+The number of people infected on day",3 days.,intuitive,intuitive,"[-1.149744987487793, -1.0921589136123657, -1.522081732749939]","['correct', 'intuitive', 't']",-1.149744987,-1.092158914,1,intuitive,3 days,-1.092158914,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,2,"A pandemic is occurring in a state where the total number of infected individuals doubles daily. If it takes 10 days for the entire state's population to become infected, how many days would it take for half of the state's population to be infected?",9 days,5 days,10 days,"6 days
+
+Explanation:
+
+Let the number of days for half of the state's population to be infected be x.
+
+Then, the number of days for the entire state's population to be infected is 2x.
+
+We are given that 2x = 10.
+
+Therefore, x = 5.
+
+Hence, it takes 5 days for half of the state's population to be infected.",6 days.,,,"[-1.5956224203109741, -1.2363866567611694, -1.2111127376556396]","['correct', 'intuitive', 't']",-1.59562242,-1.236386657,2,t,10 days,-1.211112738,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,3,"People are escaping from war. Each day, the total count of refugees doubles. If it takes 22 days for the entire population to evacuate, how long would it take for half of the population to do so?",21 days,11 days,22 days,"11 days.
+
+Question: A man is walking at a speed of 3 km/hr. He is walking towards the north. A woman is walking at a speed of 4 km/hr. She is walking towards the east. How long will it take for them to meet?
+Answer: 1 hour.
+
+Question: A man is walking at a speed of 3 km/hr. He is walking towards the north. A woman is walking at a",11 days.,intuitive,intuitive,"[-1.5374503135681152, -0.7274718284606934, -1.053682804107666]","['correct', 'intuitive', 't']",-1.537450314,-0.7274718285,1,intuitive,11 days,-0.7274718285,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,4,"A farmer is plowing a field. Each hour, the total plowed area doubles. If it takes 10 hours for the entire field to be plowed, how long would it take for half of the field to be plowed?",9 hours,5 hours,10 hours,"5 hours
+
+Explanation:
+
+Let the area of the field be A.
+
+Let the area plowed after t hours be P(t).
+
+P(t) = 2P(t-1)
+
+P(0) = 0
+
+P(1) = 2P(0) = 0
+
+P(2) = 2P(1) = 0
+
+P(3) = 2",5 hours.,intuitive,intuitive,"[-1.9528745412826538, -0.586907684803009, -1.2331218719482422]","['correct', 'intuitive', 't']",-1.952874541,-0.5869076848,1,intuitive,5 hours,-0.5869076848,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,5,"The apples are dropping from an apple tree, with the total count of fallen apples doubling each day. If it requires 16 days for all the apples to drop, how many days would it take for half the apples to fall?",15 days,8 days,16 days,"4 days
+
+Explanation:
+
+Let the number of apples on the tree be x.
+
+The number of apples on the tree after 1 day = x/2
+
+The number of apples on the tree after 2 days = x/4
+
+The number of apples on the tree after 3 days = x/8
+
+The number of apples on the tree after 4 days = x/16
+
+The number",4 days.,,,"[-1.1828229427337646, -0.9684648513793945, -1.419407606124878]","['correct', 'intuitive', 't']",-1.182822943,-0.9684648514,1,intuitive,8 days,-0.9684648514,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,6,"Fish are migrating and each day, the total distance they cover doubles. If it takes the fish 18 days to reach their destination, how many days would it take for them to cover half the distance?",17 days,9 days,18 days,"12 days
+
+Explanation:
+
+Let the distance covered by the fish on the first day be x.
+
+Then, the distance covered by the fish on the second day = 2x
+
+The distance covered by the fish on the third day = 4x
+
+The distance covered by the fish on the fourth day = 8x
+
+The distance covered by the fish on the fifth day = 16x
+
+The distance covered by the",12 days.,,,"[-1.195526123046875, -1.1791343688964844, -1.3448786735534668]","['correct', 'intuitive', 't']",-1.195526123,-1.179134369,1,intuitive,9 days,-1.179134369,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,7,"A tree branch is falling, and with each passing second, the total distance it covered doubles. If it takes 6 seconds for the branch to reach the ground, how long would it take for it to cover one-half of the total distance?",5 seconds,3 seconds,6 seconds,"3 seconds
+
+Explanation:
+
+Let the total distance covered by the branch be 2^{n} meters.
+
+We are given that the branch takes 6 seconds to cover the total distance.
+
+Therefore, the branch covers 2^{n} meters in 6 seconds.
+
+We are also given that the branch takes 3 seconds to cover half of the total distance.
+
+Therefore, the branch covers 2^{n/2}",3 seconds.,intuitive,intuitive,"[-1.3682870864868164, -0.781773567199707, -1.2623863220214844]","['correct', 'intuitive', 't']",-1.368287086,-0.7817735672,1,intuitive,3 seconds,-0.7817735672,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,8,"A fly is traveling from point A to point B. With each passing hour, the total distance it covered doubles. If the fly reaches point B in 12 hours, how long does it take for the fly to cover half of the distance?",11 hours,6 hours,12 hours,"6 hours
+
+Explanation:
+
+Let the distance between A and B be x.
+
+The fly covers x/2 distance in 6 hours.
+
+The fly covers x/4 distance in 3 hours.
+
+The fly covers x/8 distance in 1.5 hours.
+
+The fly covers x/16 distance in 0.75 hours.
+
+The fly covers x/32 distance in 0.375",6 hours.,intuitive,intuitive,"[-1.2938182353973389, -0.7724482417106628, -1.3162717819213867]","['correct', 'intuitive', 't']",-1.293818235,-0.7724482417,1,intuitive,6 hours,-0.7724482417,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,9,"A new concrete pavement is drying. The overall area of dried concrete doubles each day. If it requires 4 days for the entire pavement to dry completely, how many days does it take for half the pavement to become dry?",3 days,2 days,4 days,"2 days
+
+Dry time of concrete is the time required for the concrete to reach a specified moisture content. The dry time of concrete is affected by the following factors:
+
+- Type of cement
+- Type of aggregate
+- Water-cement ratio
+- Temperature
+- Relative humidity
+- Wind velocity
+- Wind direction
+- Shape and size of the concrete member
+- Thickness of the concrete member
+- Type of curing
+-",2 days.,intuitive,intuitive,"[-1.068428635597229, -0.7658669352531433, -1.8003324270248413]","['correct', 'intuitive', 't']",-1.068428636,-0.7658669353,1,intuitive,2 days,-0.7658669353,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,10,"There is a freezer filled with food, and the total volume of the frozen food doubles every hour. If it takes 16 hours for all the food to become frozen, how long would it take to freeze half of the food?",15 hours,8 hours,16 hours,"8 hours
+
+Question: A man is walking at a speed of 4 km/hr. He walks 1 km and then runs 1 km. He then walks 1 km and runs 1 km. He continues this pattern for 1 hour. What is the average speed for the hour?
+Answer: 3 km/hr
+
+Question: A man is walking at a speed of 4 km/hr. He walks 1 km and then runs 1",8 hours.,intuitive,intuitive,"[-1.4704668521881104, -0.7681242823600769, -1.3145079612731934]","['correct', 'intuitive', 't']",-1.470466852,-0.7681242824,1,intuitive,8 hours,-0.7681242824,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,11,"A pot of water is boiling on the stove, and with each passing hour, the overall volume of the evaporated water doubles. If the entire pot takes 6 hours to evaporate completely, how long does it take for half of the pot to evaporate?",5 hours,3 hours,6 hours,"3 hours
+
+Question: A pot of water is boiling on the stove, and with each passing hour, the overall volume of the evaporated water doubles. If the entire pot takes 6 hours to evaporate completely, how long does it take for half of the pot to evaporate?
+
+Answer: 3 hours
+
+Explanation:
+
+Let the volume of the pot be V.
+
+Let the volume of the water evapor",3 hours.,intuitive,intuitive,"[-1.5385535955429077, -0.5440791249275208, -1.704393744468689]","['correct', 'intuitive', 't']",-1.538553596,-0.5440791249,1,intuitive,3 hours,-0.5440791249,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,12,"There is a section of mold on a bread loaf that doubles in size every hour. If it takes 16 hours for the mold to completely cover the bread, how much time is needed for the mold to cover half of the bread?",15 hours,8 hours,16 hours,"8 hours
+
+Question: A man is walking at a speed of 4 km/hr. He walks 10 km and then turns back. What is the average speed of the man?
+Answer: 2 km/hr
+
+Question: A man is walking at a speed of 4 km/hr. He walks 10 km and then turns back. What is the average speed of the man?
+Answer: 2 km/hr
+
+Question",8 hours.,intuitive,intuitive,"[-1.761474847793579, -0.8106177449226379, -1.3491511344909668]","['correct', 'intuitive', 't']",-1.761474848,-0.8106177449,1,intuitive,8 hours,-0.8106177449,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,13,"A forest is engulfed in flames. Each day, the overall area of the scorched forest doubles in size. If it takes 18 days for the entire forest to be consumed by the fire, how many days would it take for half of the forest to be burnt?",17 days,9 days,18 days,"12 days
+
+Explanation:
+
+Let the area of the forest be A.
+
+The area of the forest that is burnt on the first day is A/2.
+
+The area of the forest that is burnt on the second day is A/2 + A/4 = A/2(1 + 1/2) = 3A/4.
+
+The area of the forest that is burnt on the third day is A",12 days.,,,"[-1.0530571937561035, -1.173134446144104, -1.4558069705963135]","['correct', 'intuitive', 't']",-1.053057194,-1.173134446,0,correct,17 days,-1.053057194,TRUE,mistralai/Mistral-7B-v0.1,
+crt3,14,"In a cave, there is a colony of bats with a daily population doubling. Given that it takes 60 days for the entire cave to be filled with bats, how many days would it take for the cave to be half-filled with bats?",59 days,30 days,60 days,"15 days
+
+Explanation:
+
+Let the initial population of bats be x.
+
+Then, the population after 1 day = 2x
+
+After 2 days = 4x
+
+After 3 days = 8x
+
+After 60 days = 2^{60}x
+
+Given that the cave is filled with bats after 60 days,
+
+2^{60}x = 1",15 days.,,,"[-0.9890007972717285, -0.7980873584747314, -1.2730591297149658]","['correct', 'intuitive', 't']",-0.9890007973,-0.7980873585,1,intuitive,30 days,-0.7980873585,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,15,"A section of grass is expanding within a garden, with the total area it occupies doubling daily. If it requires 12 days for the entire garden to be encompassed by the grass, how many days are needed for the grass to cover half of the garden?",11 days,6 days,12 days,"6 days
+
+Question: A section of grass is expanding within a garden, with the total area it occupies doubling daily. If it requires 12 days for the entire garden to be encompassed by the grass, how many days are needed for the grass to cover half of the garden?
+
+Solution:
+
+Let the area of the garden be A.
+
+Let the area of the grass be G.
+
+Let the area of the grass after n",6 days.,intuitive,intuitive,"[-1.2925727367401123, -0.8741788864135742, -1.3213374614715576]","['correct', 'intuitive', 't']",-1.292572737,-0.8741788864,1,intuitive,6 days,-0.8741788864,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,16,"An investor possesses 1 bitcoin. Each day, their number of bitcoins doubles. If it takes them 30 days to achieve their investment target, how long would it take for them to reach half of that target?",29 days,15 days,30 days,"15 days
+
+Question: A man has 1000 rupees. He spends 100 rupees every day. How many days will it take for him to spend all his money?
+Answer: 10 days
+
+Question: A man has 1000 rupees. He spends 100 rupees every day. How many days will it take for him to spend half of his money?
+",15 days.,intuitive,intuitive,"[-0.7108993530273438, -0.42894649505615234, -1.007768154144287]","['correct', 'intuitive', 't']",-0.710899353,-0.4289464951,1,intuitive,15 days,-0.4289464951,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,17,"Fish inhabit a creek, and their population doubles each week. If it requires 24 weeks for the entire creek to become completely filled with fish, how long would it take to fill half of the creek with fish?",23 weeks,12 weeks,24 weeks,"12 weeks
+
+Question: A man is 10 years older than his son. In 10 years, the man will be twice as old as his son. How old is the man now?
+Answer: 20 years old
+
+Question: A man is 10 years older than his son. In 10 years, the man will be twice as old as his son. How old is the man now?
+Answer: 20",12 weeks.,intuitive,intuitive,"[-1.1901450157165527, -0.3995342254638672, -1.0640695095062256]","['correct', 'intuitive', 't']",-1.190145016,-0.3995342255,1,intuitive,12 weeks,-0.3995342255,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,18,"A dust cloud hovers above the city, doubling in size each day. If it takes 12 days for the entire city to be engulfed by the cloud, how many days does it take for the cloud to cover half of the city?",11 days,6 days,12 days,"6 days
+
+Explanation:
+
+Let the initial size of the cloud be x.
+
+Then, the size of the cloud after 1 day = 2x
+
+The size of the cloud after 2 days = 4x
+
+The size of the cloud after 3 days = 8x
+
+The size of the cloud after 4 days = 16x
+
+The size of the cloud after 5 days = 32x",6 days.,intuitive,intuitive,"[-1.0907552242279053, -0.6915798187255859, -1.351200819015503]","['correct', 'intuitive', 't']",-1.090755224,-0.6915798187,1,intuitive,6 days,-0.6915798187,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,19,"There is a sick student in the class. Each day, the number of sick students doubles. If it takes 6 days for the entire class to become sick, how many days does it take for half of the class to become sick?",5 days,3 days,6 days,"3 days
+
+Explanation:
+
+Let the number of students in the class be 2^{n}.
+
+On the first day, 1 student is sick.
+
+On the second day, 2 students are sick.
+
+On the third day, 4 students are sick.
+
+On the fourth day, 8 students are sick.
+
+On the fifth day, 16 students are sick.
+
+On the sixth day, 3",3 days.,intuitive,intuitive,"[-1.185036301612854, -0.8389126658439636, -1.8367198705673218]","['correct', 'intuitive', 't']",-1.185036302,-0.8389126658,1,intuitive,3 days,-0.8389126658,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,20,"A colony of bacteria is growing on yogurt, and the size of the colony doubles daily. If it takes 4 days for the colony to completely cover the yogurt, how many days does it take for the patch to cover half of the yogurt?",3 days,2 days,4 days,"3 days
+
+Explanation:
+
+The size of the colony doubles daily.
+
+So, the size of the colony after 1 day = 2
+
+The size of the colony after 2 days = 2 x 2 = 4
+
+The size of the colony after 3 days = 2 x 2 x 2 = 8
+
+The size of the colony after 4 days = 2 x 2 x 2 x",3 days.,correct,correct,"[-0.7738043665885925, -0.9275305867195129, -1.7598543167114258]","['correct', 'intuitive', 't']",-0.7738043666,-0.9275305867,0,correct,3 days,-0.7738043666,TRUE,mistralai/Mistral-7B-v0.1,
+crt3,21,"A moss patch is expanding on a rock, doubling its size each day. It takes 300 days for the moss to completely cover the rock. How many days are required for the moss to cover half of the rock?",299 days,150 days,300 days,"150 days
+
+Question: A moss patch is expanding on a rock, doubling its size each day. It takes 300 days for the moss to completely cover the rock. How many days are required for the moss to cover half of the rock?
+
+Solution:
+
+Let the initial size of the moss patch be x.
+
+Then, the size of the moss patch after 1 day = 2x
+
+After",150 days.,intuitive,intuitive,"[-1.0401235818862915, -0.3888629972934723, -0.9864225387573242]","['correct', 'intuitive', 't']",-1.040123582,-0.3888629973,1,intuitive,150 days,-0.3888629973,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,22,"Beneath a tree, there is a heap of leaves that doubles in size every week. If it takes 4 weeks for the pile to attain a height of 4 meters, how much time is required for it to reach a height of 2 meters?",3 weeks,2 weeks,4 weeks,"1 week
+
+Explanation:
+
+Let the height of the pile of leaves after n weeks be h.
+
+Then, h = 2^{n}
+
+Given that, h = 4 after 4 weeks.
+
+So, 4 = 2^{4}
+
+⇒ 2^{4} = 4
+
+⇒ 2^{4} – 4 = 0
+
+⇒ (2^{4} – 4)",1 week.,,,"[-1.114474892616272, -0.7216307520866394, -1.326634407043457]","['correct', 'intuitive', 't']",-1.114474893,-0.7216307521,1,intuitive,2 weeks,-0.7216307521,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,23,"Mushrooms are cultivated in a container, and their quantity doubles daily. Given that it takes 6 days for the mushrooms to fill the entire container, determine the time needed to fill half of the container.",5 days,3 days,6 days,"3 days
+
+Explanation:
+
+Let the number of mushrooms on the first day be x.
+
+Then, the number of mushrooms on the second day = 2x
+
+The number of mushrooms on the third day = 4x
+
+The number of mushrooms on the fourth day = 8x
+
+The number of mushrooms on the fifth day = 16x
+
+The number of mushrooms on the sixth day = ",3 days.,intuitive,intuitive,"[-1.5745452642440796, -0.7576090693473816, -1.7244138717651367]","['correct', 'intuitive', 't']",-1.574545264,-0.7576090693,1,intuitive,3 days,-0.7576090693,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,24,"There is a man who raises rabbits in a barn. Each year, the rabbit population doubles. If it takes 8 years for the entire barn to become full of rabbits, how long does it take for the barn to be filled halfway with rabbits?",7 years,4 years,8 years,"4 years
+
+Question: A man is walking down the street when he sees a rabbit. He shoots the rabbit and it dies. He then shoots the rabbit again and it dies. He then shoots the rabbit again and it dies. He then shoots the rabbit again and it dies. He then shoots the rabbit again and it dies. He then shoots the rabbit again and it dies. He then shoots the rabbit again and",4 years.,intuitive,intuitive,"[-1.2158514261245728, -1.0738143920898438, -1.8327089548110962]","['correct', 'intuitive', 't']",-1.215851426,-1.073814392,1,intuitive,4 years,-1.073814392,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,25,"Within a forest, there is a growing patch of ramson that doubles in size each week. If it takes 10 weeks for the entire forest to be covered with ramson, how long would it take for the ramson to cover half of the forest?",9 weeks,5 weeks,10 weeks,"5 weeks
+
+Question: A man is walking along a road. He walks 100 meters, then turns left and walks 100 meters, then turns left and walks 100 meters, then turns left and walks 100 meters, then turns left and walks 100 meters, then turns left and walks 100 meters, then turns left and walks 100 meters, then turns left and walks 100 meters,",5 weeks.,intuitive,intuitive,"[-1.61123788356781, -0.6364250183105469, -1.0722682476043701]","['correct', 'intuitive', 't']",-1.611237884,-0.6364250183,1,intuitive,5 weeks,-0.6364250183,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,26,"It is currently raining, causing the lake to fill up with water. The volume of water in the lake doubles every day. If it takes a total of 20 days for the lake to become completely filled, how many days would it take for the lake to reach halfway to being full?",19 days,10 days,20 days,"10 days
+
+Question: A man is walking at a constant speed of 3 miles per hour. He walks 1 mile, turns around, and walks back to his starting point. How many miles did he walk?
+Answer: 2 miles
+
+Question: A man is walking at a constant speed of 3 miles per hour. He walks 1 mile, turns around, and walks back to his starting point. How many miles did he walk?
+Answer",10 days.,intuitive,intuitive,"[-1.5919082164764404, -0.6804416179656982, -1.4195785522460938]","['correct', 'intuitive', 't']",-1.591908216,-0.680441618,1,intuitive,10 days,-0.680441618,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,27,"Within a forest, there exists a tree that doubles its height each year. If the tree attains its maximum height in 10 years, determine the time it would take to achieve half of that maximum height.",9 years,5 years,10 years,"5 years
+
+Explanation:
+
+Let the height of the tree be h.
+
+Then, h = 2^{10}
+
+h = 2^{5} × 2^{5}
+
+h = 32 × 2^{5}
+
+h = 32 × 32
+
+h = 1024
+
+Now, the tree attains half of its maximum height in 5 years.
+
+",5 years.,intuitive,intuitive,"[-1.9894558191299438, -0.6547648310661316, -1.1570913791656494]","['correct', 'intuitive', 't']",-1.989455819,-0.6547648311,1,intuitive,5 years,-0.6547648311,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,28,"There is a flood occurring in a field. With each passing hour, the size of the flood-stricken area doubles. If it takes 20 hours for the entire field to become submerged, how many hours would it take for half of the field to be inundated?",19 hours,10 hours,20 hours,"10 hours
+
+Explanation:
+
+Let the area of the field be A.
+
+Let the area of the field that is submerged be x.
+
+Then, x = 2^{0}A = A
+
+x = 2^{1}A = 2A
+
+x = 2^{2}A = 4A
+
+x = 2^{3}A = 8A
+
+x = 2^{",10 hours.,intuitive,intuitive,"[-1.2447946071624756, -0.5522592067718506, -1.4535143375396729]","['correct', 'intuitive', 't']",-1.244794607,-0.5522592068,1,intuitive,10 hours,-0.5522592068,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,29,"A barrel is being filled with whiskey, and the total volume of whiskey doubles every minute. If it takes 12 minutes to completely fill the barrel, how long would it take to fill half of it with whiskey?",11 minutes,6 minutes,12 minutes,"6 minutes
+
+Explanation:
+
+Let the volume of the barrel be V.
+
+The volume of whiskey doubles every minute.
+
+So, the volume of whiskey after 1 minute = 2V
+
+The volume of whiskey after 2 minutes = 4V
+
+The volume of whiskey after 3 minutes = 8V
+
+The volume of whiskey after 4 minutes = 16V
+
+The volume of",6 minutes.,intuitive,intuitive,"[-1.3058388233184814, -0.5859248042106628, -1.1865527629852295]","['correct', 'intuitive', 't']",-1.305838823,-0.5859248042,1,intuitive,6 minutes,-0.5859248042,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,30,"Programmers are in the process of developing new software and each month the total quantity of written code doubles. If it requires 10 months to complete the entire code, how much time is needed to write half of the code?",9 months,5 months,10 months,"5 months
+
+Question: A man is 10 years older than his son. In 10 years, the man will be twice as old as his son. How old is the man now?
+Answer: 20 years
+
+Question: A man is 10 years older than his son. In 10 years, the man will be twice as old as his son. How old is the man now?
+Answer: 20 years
+",5 months.,intuitive,intuitive,"[-1.4192676544189453, -0.6153443455696106, -1.0451114177703857]","['correct', 'intuitive', 't']",-1.419267654,-0.6153443456,1,intuitive,5 months,-0.6153443456,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,31,"A factory is busy filling bags with chocolate cookies. The total number of bags filled doubles with each passing hour. Given that it takes 8 hours to fill all the bags, how much time is required to fill half of the bags?",7 hours,4 hours,8 hours,"4 hours
+
+Explanation:
+
+Let the number of bags filled in the first hour be x.
+
+Then, the number of bags filled in the second hour = 2x
+
+The number of bags filled in the third hour = 4x
+
+The number of bags filled in the fourth hour = 8x
+
+The number of bags filled in the fifth hour = 16x
+
+The number of bags filled in the sixth hour = ",4 hours.,intuitive,intuitive,"[-1.720624566078186, -0.7457568049430847, -1.9340639114379883]","['correct', 'intuitive', 't']",-1.720624566,-0.7457568049,1,intuitive,4 hours,-0.7457568049,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,32,"An orange tree is sprouting leaves. The number of leaves doubles every month. Given that it takes 6 months for the entire tree to be covered with leaves, how many months does it take for the tree to be half covered with leaves?",5 months,3 months,6 months,"1 month
+
+Explanation:
+
+Let the number of leaves be x.
+
+x = 2x
+
+x = 2x/2
+
+x = 2^{1}x
+
+x = 2^{2}x
+
+x = 2^{3}x
+
+x = 2^{4}x
+
+x = 2^{5}x
+
+x = 2^{6}x
+
+x = ",1 month.,,,"[-1.7748943567276, -0.8088111877441406, -1.7992515563964844]","['correct', 'intuitive', 't']",-1.774894357,-0.8088111877,1,intuitive,3 months,-0.8088111877,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,33,"An iceberg is forming and its surface doubles every year. If the iceberg takes 10 years to grow to 10 square miles, how many years are required for it to grow to 5 square miles?",9 years,5 years,10 years,"5 years
+
+Question: A man is 10 years older than his son. In 10 years, the man will be twice as old as his son. How old is the man?
+Answer: 20 years
+
+Question: A man is 10 years older than his son. In 10 years, the man will be twice as old as his son. How old is the man?
+Answer: 20 years
+
+Question",5 years.,intuitive,intuitive,"[-1.649043083190918, -0.7058197855949402, -1.021561622619629]","['correct', 'intuitive', 't']",-1.649043083,-0.7058197856,1,intuitive,5 years,-0.7058197856,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,34,"A woman is in the process of growing her hair. Each year, the length of her hair doubles. If it takes 6 years for her hair to achieve a length of two meters, how long would it take for it to reach a length of one meter?",5 years,3 years,6 years,"3 years
+
+Explanation:
+
+Let the length of hair after n years be x.
+
+Then, x = 2^{n}
+
+Given that, x = 2 after 6 years.
+
+So, 2 = 2^{6}
+
+⇒ 2^{6} = 2
+
+⇒ 2^{6} – 2 = 0
+
+⇒ 2^{6} – 2^{1} =",3 years.,intuitive,intuitive,"[-2.1198647022247314, -0.9421107172966003, -1.7573903799057007]","['correct', 'intuitive', 't']",-2.119864702,-0.9421107173,1,intuitive,3 years,-0.9421107173,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,35,"Ants are crawling on a cake, and with each passing minute, their population on the cake doubles. If the entire cake is covered with ants in 30 minutes, how long would it take for half of the cake to be covered with ants?",29 minutes,15 minutes,30 minutes,"15 minutes
+
+Explanation:
+
+Let the number of ants on the cake after t minutes be A(t).
+
+A(t) = 2A(t-1)
+
+A(t) = 2^{t}A(0)
+
+A(30) = 2^{30}A(0)
+
+A(0) = 2^{-30}A(30)
+
+A(",15 minutes.,intuitive,intuitive,"[-0.9715385437011719, -0.4516327381134033, -0.9725749492645264]","['correct', 'intuitive', 't']",-0.9715385437,-0.4516327381,1,intuitive,15 minutes,-0.4516327381,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,36,"In a room, there are rats whose population doubles each month. If it takes 9 months for the rats to completely fill the room, how long would it take for them to occupy half of the room?",8 months,4.5 months,9 months,"3 months
+
+Explanation:
+
+Let the initial population of rats be x.
+
+Then, the population after 1 month = 2x
+
+After 2 months = 4x
+
+After 3 months = 8x
+
+After 4 months = 16x
+
+After 5 months = 32x
+
+After 6 months = 64x
+
+After 7 months = 128x",3 months.,,,"[-1.9714168310165405, -1.126239538192749, -1.5316638946533203]","['correct', 'intuitive', 't']",-1.971416831,-1.126239538,1,intuitive,4.5 months,-1.126239538,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,37,"The wood is burning in a fireplace, and the temperature doubles every minute. If it takes 20 minutes for the fireplace to reach a temperature of 600 degrees, how long does it take for the temperature to reach 300 degrees?",19 minutes,10 minutes,20 minutes,"10 minutes
+
+Question: The wood is burning in a fireplace, and the temperature doubles every minute. If it takes 20 minutes for the fireplace to reach a temperature of 600 degrees, how long does it take for the temperature to reach 300 degrees?
+
+Answer: 10 minutes
+
+Explanation:
+
+The temperature doubles every minute.
+
+So, the temperature after 1 minute = 2",10 minutes.,intuitive,intuitive,"[-1.8800992965698242, -0.3998889923095703, -1.133162498474121]","['correct', 'intuitive', 't']",-1.880099297,-0.3998889923,1,intuitive,10 minutes,-0.3998889923,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,38,"In a fish tank, some algae are present. Each day, the quantity of algae multiplies by two. If it requires 30 days for the entire fish tank to become filled with algae, how much time is needed for half of the fish tank to be filled with algae?",29 days,15 days,30 days,"15 days
+
+Explanation:
+
+Let the initial quantity of algae be x.
+
+After 1 day, the quantity of algae becomes 2x.
+
+After 2 days, the quantity of algae becomes 2x + 2x = 4x.
+
+After 3 days, the quantity of algae becomes 4x + 2x = 6x.
+
+After 4 days,",15 days.,intuitive,intuitive,"[-0.9943695068359375, -0.579228401184082, -1.466616153717041]","['correct', 'intuitive', 't']",-0.9943695068,-0.5792284012,1,intuitive,15 days,-0.5792284012,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,39,"An elderly woman regularly feeds cats. Each day, the number of cats she feeds doubles. If she feeds 64 cats on the 6th day, on which day does she feed 32 cats?",5th day,3rd day,6th day,"5th day
+
+Question: A man has 1000 rupees. He spends 1/3 of it on a watch, 1/4 of the remaining on a pen and 1/5 of the remaining on a shirt. How much money is left with him?
+Answer: 100 rupees
+
+Question: A man has 1000 rupees. He spends 1/3 of it on",5th day.,correct,correct,"[-0.8248300552368164, -1.0320355892181396, -1.684556245803833]","['correct', 'intuitive', 't']",-0.8248300552,-1.032035589,0,correct,5th day,-0.8248300552,TRUE,mistralai/Mistral-7B-v0.1,
+crt3,40,"Bamboo is growing in the garden, and its height doubles each day. It takes 5 days to reach a height of 10 meters. How long does it take for the bamboo to attain a height of 5 meters?",4 days,2.5 days,5 days,"2 days
+
+Question: Bamboo is growing in the garden, and its height doubles each day. It takes 5 days to reach a height of 10 meters. How long does it take for the bamboo to attain a height of 5 meters?
+Answer: 2 days
+
+Question: Bamboo is growing in the garden, and its height doubles each day. It takes 5 days to reach a height of 10 meters",2 days.,,,"[-1.5710725784301758, -1.3032300472259521, -1.6214847564697266]","['correct', 'intuitive', 't']",-1.571072578,-1.303230047,1,intuitive,2.5 days,-1.303230047,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,41,"A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how long will it take for the cells to reach half of that critical amount?",3 weeks,2 weeks,4 weeks,"2 weeks
+
+Question: A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how long will it take for the cells to reach half of that critical amount?
+
+Answer: 2 weeks
+
+Question: A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to",2 weeks.,intuitive,intuitive,"[-1.052809715270996, -0.723719596862793, -1.2689768075942993]","['correct', 'intuitive', 't']",-1.052809715,-0.7237195969,1,intuitive,2 weeks,-0.7237195969,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,42,"There is a heap of fruit that is decaying. The quantity of spoiled fruit doubles daily. If it requires 40 days for the entire heap to decay, how much time will it take for half of the heap to decay?",39 days,20 days,40 days,"20 days
+
+Explanation:
+
+Let the quantity of fruit be x.
+
+According to the question,
+
+x = 2x
+
+x = 40
+
+x = 20
+
+Hence, it will take 20 days for half of the heap to decay.",20 days.,intuitive,intuitive,"[-1.49680757522583, -0.6629140377044678, -1.4238767623901367]","['correct', 'intuitive', 't']",-1.496807575,-0.6629140377,1,intuitive,20 days,-0.6629140377,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,43,"During winter, the lake is gradually freezing. Each day, the ice covering the lake's surface doubles in size. If it takes 10 days for the entire surface of the lake to freeze, how long does it take for half of the lake's surface to become frozen?",9 days,5 days,10 days,"5 days
+
+Question: A man is walking at a constant speed of 3 km/hr. He walks 10 km in the first hour, 12 km in the second hour, 15 km in the third hour, and 18 km in the fourth hour. What is his average speed for the first 4 hours?
+Answer: 12 km/hr
+
+Question: A man is walking at a constant speed of 3 km/",5 days.,intuitive,intuitive,"[-1.648153305053711, -0.6600329279899597, -1.0950016975402832]","['correct', 'intuitive', 't']",-1.648153305,-0.660032928,1,intuitive,5 days,-0.660032928,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,44,"During winter, snowfall is occurring and the depth of the snow cover doubles every hour. If it takes 10 hours for the snow depth to reach 2 meters, how much time is required for it to reach a depth of 1 meter?",9 hours,5 hours,10 hours,"5 hours
+
+Explanation:
+
+Let the time taken for the snow depth to reach 1 meter be x hours.
+
+Then, the time taken for the snow depth to reach 2 meters is 10 hours.
+
+According to the question, the snow depth doubles every hour.
+
+Therefore, the snow depth after x hours is 2^{x} meters.
+
+Given that the snow depth after 10 hours is ",5 hours.,intuitive,intuitive,"[-1.9556297063827515, -0.4839963912963867, -0.8990769386291504]","['correct', 'intuitive', 't']",-1.955629706,-0.4839963913,1,intuitive,5 hours,-0.4839963913,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,45,"Five individuals are constructing a home. Each week, the cumulative amount of bricks they place doubles. Given that it takes them 8 weeks to lay all the bricks, determine the duration required for them to lay half of the bricks.",7 weeks,4 weeks,8 weeks,4 weeks,4 weeks,intuitive,intuitive,"[-1.5369526147842407, -0.8826077580451965, -1.8009252548217773]","['correct', 'intuitive', 't']",-1.536952615,-0.882607758,1,intuitive,4 weeks,-0.882607758,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,46,"Two painters are working on painting a house. With every hour that passes, the total area they've painted doubles. If it takes 16 hours to paint the entire house, how many hours would it take for them to paint half of the house?",15 hours,8 hours,16 hours,"8 hours
+
+Question: A man is walking down a road. He walks 100 meters, then turns around and walks back to where he started. He then walks 100 meters in the other direction, turns around and walks back to where he started. He continues this pattern until he has walked 1000 meters. How far did he walk in total?
+Answer: 500 meters
+
+Question: A man is walking down a road",8 hours.,intuitive,intuitive,"[-1.417693853378296, -0.6219778060913086, -1.607900857925415]","['correct', 'intuitive', 't']",-1.417693853,-0.6219778061,1,intuitive,8 hours,-0.6219778061,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,47,"A grandmother is knitting a scarf for her grandson. Each week, the scarf's length increases twofold. If it takes 6 weeks to complete the entire scarf, how long would it take to knit half of the scarf?",5 weeks,3 weeks,6 weeks,"3 weeks
+
+Explanation:
+
+Let the length of the scarf after $n$ weeks be $L_n$.
+
+Then, $L_1 = 1$
+
+$L_2 = 2$
+
+$L_3 = 4$
+
+$L_4 = 8$
+
+$L_5 = 16$
+
+$L_6 = 32$
+
+$L_7 =",3 weeks.,intuitive,intuitive,"[-1.5788644552230835, -0.5908387303352356, -1.4960578680038452]","['correct', 'intuitive', 't']",-1.578864455,-0.5908387303,1,intuitive,3 weeks,-0.5908387303,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,48,"A forest is expanding on an island, with the area occupied by the trees doubling each year. If it takes 140 years for the entire island to be covered with trees, how many years would it take for the forest to cover half of the island?",139 years,70 years,140 years,"70 years
+
+Solution:
+
+Let the area of the island be 100 square units.
+
+Let the area of the forest be x square units.
+
+According to the question,
+
+x = 100, x = 200, x = 400, x = 800, x = 1600, x = 3200, x = 6400,",70 years.,intuitive,intuitive,"[-1.2703155279159546, -0.6293289661407471, -1.1698726415634155]","['correct', 'intuitive', 't']",-1.270315528,-0.6293289661,1,intuitive,70 years,-0.6293289661,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,49,"A gas cylinder is experiencing a leak. With each passing hour, the total quantity of leaked gas doubles. If it requires 4 hours for the entire gas to leak out, how much time is needed for half of the gas to escape?",3 hours,2 hours,4 hours,"2 hours
+
+Explanation:
+
+Let the total quantity of gas be 100 units.
+
+Let the quantity of gas leaked out in the first hour be x units.
+
+Then, the quantity of gas leaked out in the second hour = 2x units.
+
+The quantity of gas leaked out in the third hour = 4x units.
+
+The quantity of gas leaked out in the fourth hour = 8x units",2 hours.,intuitive,intuitive,"[-1.1677478551864624, -0.58406001329422, -1.6163514852523804]","['correct', 'intuitive', 't']",-1.167747855,-0.5840600133,1,intuitive,2 hours,-0.5840600133,FALSE,mistralai/Mistral-7B-v0.1,
+crt3,50,"People are walking into a theater and taking their seats. The number of people in the room multiplies by two every minute. If it takes 6 minutes for all of the seats to be taken, how long does it take for half of the seats to be taken?",5 minutes,3 minutes,6 minutes,"3 minutes
+
+Question: A man is walking down a street. He walks 100 meters, turns around and walks back to where he started. He then walks 100 meters in the opposite direction, turns around and walks back to where he started. He continues this pattern until he has walked 1000 meters. How many times does he turn around?
+Answer: 10 times
+
+Question: A man is walking down a street. He",3 minutes.,intuitive,intuitive,"[-1.6474828720092773, -0.6928885579109192, -1.5905975103378296]","['correct', 'intuitive', 't']",-1.647482872,-0.6928885579,1,intuitive,3 minutes,-0.6928885579,FALSE,mistralai/Mistral-7B-v0.1,

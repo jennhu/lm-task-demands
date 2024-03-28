@@ -1,0 +1,4 @@
+
+task: digit_mat
+model: meta-llama/Llama-2-7b-hf
+max_new_tokens: 10

@@ -1,0 +1,4 @@
+
+task: digit_mat
+model: google/gemma-2b
+max_new_tokens: 10

@@ -1,0 +1,274 @@
+condition,item_id,question,correct,intuitive,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+crt2,1,"How long does it take 4 people to tailor 4 jackets, if it takes 7 people 7 hours to tailor 7 jackets?",7 hours,4 hours,"12 hours
+Question: What do you call a dog with no legs?
+Answer: It doesn't matter, he won't come.
+Question: What do you call a dog with no legs and no tail?
+Answer: A dog.
+Question: What's the difference between a piano and a fish?
+Answer: One is a piano, the other is a fish.
+Question: What's the difference between a piano and a fish? Answer:",12 hours.,,,"[-1.4722236394882202, -1.4542837142944336]","['correct', 'intuitive']",-1.472223639,-1.454283714,1,intuitive,4 hours,-1.454283714,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,2,"How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?",8 hours,4 hours,"The answer is 128 hours.
+Question: How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?
+Answer: The answer is 128 hours. The solution is based on the assumption that the washing machines operate at the same speed.",The answer is 128 hours.,correct,,"[-1.398691177368164, -1.3859440088272095]","['correct', 'intuitive']",-1.398691177,-1.385944009,1,intuitive,4 hours,-1.385944009,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,3,"How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers?",60 minutes,50 minutes,"120 minutes.
+Why? Because it takes 60 bees 60 minutes to pollinate 60 flowers.
+If it takes 60 bees 60 minutes to pollinate 60 flowers, it takes 60 bees 60 minutes to pollinate 60 flowers.
+If it takes 60 bees 60 minutes to pollinate 60 flowers, then it takes 60",120 minutes.,,,"[-1.2024896144866943, -1.1447222232818604]","['correct', 'intuitive']",-1.202489614,-1.144722223,1,intuitive,50 minutes,-1.144722223,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,4,"How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?",5 days,1 day,"It takes 1 carpenter 1 day to make 1 chair.
+Question: How many carpenters does it take to make 5 chairs?
+Answer: None, because they are already made.
+Question: How many carpenters does it take to make 1 chair?
+Answer: 1.
+Question: How many carpenters does it take to make 5 chairs?
+Answer: 5.
+Question: How many carpenters",It takes 1 carpenter 1 day to make 1 chair.,intuitive,intuitive,"[-1.079790472984314, -0.9799464344978333]","['correct', 'intuitive']",-1.079790473,-0.9799464345,1,intuitive,1 day,-0.9799464345,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,5,"How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?",60 minutes,10 minutes,"100 minutes.
+Question: How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?
+Answer: 100 minutes.
+Question: How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 6",100 minutes.,,,"[-1.0855345726013184, -0.9696812629699707]","['correct', 'intuitive']",-1.085534573,-0.969681263,1,intuitive,10 minutes,-0.969681263,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,6,"How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?",6 years,1 year,"It depends on how much time the researcher spends on it.
+I’m sure you’ve heard this joke before, but it’s a good one.
+The joke is a simple one: If it takes 6 researchers 6 years to publish 6 papers, how long does it take 1 researcher to publish 1 paper?
+The answer is that it depends on how much time the researcher spends on it.
+If the researcher",It depends on how much time the researcher spends on it.,,,"[-1.245749831199646, -1.426801085472107]","['correct', 'intuitive']",-1.245749831,-1.426801085,0,correct,6 years,-1.245749831,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,7,"How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners 50 hours to clean 50 rooms?",50 hours,30 hours,"30 cleaners clean 30 rooms in 50 hours.
+Question: How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners 50 hours to clean 50 rooms? Answer: 30 cleaners clean 30 rooms in 50 hours.
+How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners ",30 cleaners clean 30 rooms in 50 hours.,correct,correct,"[-1.091503381729126, -1.1254591941833496]","['correct', 'intuitive']",-1.091503382,-1.125459194,0,correct,50 hours,-1.091503382,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,8,"How long does it take 40 students to change 40 light bulbs, if it takes 70 students 70 minutes to change 70 light bulbs?",70 minutes,40 minutes,"1 minute.
+One minute is all it takes for 40 students to change 40 light bulbs.
+The 40 students did it in 1 minute.
+40 students took 1 minute to change 40 light bulbs.
+40 students took 1 minute to change 40 light bulbs.
+It took 40 students 1 minute to change 40 light bulbs.
+It took 40 students 1",1 minute.,,,"[-0.9035284519195557, -0.8553268909454346]","['correct', 'intuitive']",-0.9035284519,-0.8553268909,1,intuitive,40 minutes,-0.8553268909,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,9,"How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?",50 weeks,40 weeks,"It depends on the builders.
+How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?
+The answer to the question “How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?” is Show answer
+Tags: 40, 50",It depends on the builders.,,,"[-0.976123571395874, -0.9938135147094727]","['correct', 'intuitive']",-0.9761235714,-0.9938135147,0,correct,50 weeks,-0.9761235714,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,10,"How long does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?",6 minutes,5 minutes,"15 minutes.
+You’ll notice that I’m not actually asking how long it takes to plant five trees. I’m asking how long it takes to plant six trees.
+This is a classic trick question. The question doesn’t ask how long it takes to plant five trees, but how long it takes to plant six trees. If you don’t understand this, you’ll never be a mathematician.
+I’m not sure what the answer to",15 minutes.,intuitive,,"[-1.38876473903656, -1.185132384300232]","['correct', 'intuitive']",-1.388764739,-1.185132384,1,intuitive,5 minutes,-1.185132384,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,11,"How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?",40 minutes,30 minutes,"15 minutes.
+I have been thinking a lot about this question lately.
+I have been thinking about how I am going to answer the question when I get asked it.
+I have been thinking about how I am going to answer the question when I get asked it, and how I am going to answer the question when I get asked it.
+I have been thinking about how I am going to answer the question when I get asked it, and how I am going to answer",15 minutes.,,,"[-0.8870995044708252, -0.9066498279571533]","['correct', 'intuitive']",-0.8870995045,-0.906649828,0,correct,40 minutes,-0.8870995045,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,12,"How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?",8 minutes,5 minutes,"40 minutes.
+Question: How long does it take 3 machines to pack 3 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?
+Question: How long does it take 4 machines to pack 4 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?
+Question: How long does it take 12",40 minutes.,,,"[-1.4457483291625977, -1.3344011306762695]","['correct', 'intuitive']",-1.445748329,-1.334401131,1,intuitive,5 minutes,-1.334401131,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,13,"How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?",50 minutes,10 minutes,"100 minutes
+Question: What is the longest word that can be typed with only the left hand?
+Answer: “Stroke”
+Question: How many people does it take to screw in a light bulb?
+Answer: None. They just screwed it in.
+Question: What do you call a fish with no eyes?
+Answer: A fsh
+Question: What do you call a man with a rubber toe?
+Answer: Roger Rab",100 minutes.,,,"[-1.1124615669250488, -1.006434440612793]","['correct', 'intuitive']",-1.112461567,-1.006434441,1,intuitive,10 minutes,-1.006434441,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,14,"How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?",4 weeks,2 weeks,"2 books, 4 people, 4 weeks, 4 books, 2 people, 2 books, 2 people, 2 weeks, 2 books, 4 people, 4 weeks, 2 books, 2 people, 2 weeks, 2 books, 4 people, 4 weeks, 2 books, 2 people, 2 weeks, 2 books, 4 people, 4 weeks, 2 books, 2 people,","2 books, 4 people, 4 weeks, 4 books, 2 people, 2 books, 2 people, 2 weeks, 2 books, 4 people, 4 weeks, 2 books, 2 people, 2 weeks, 2 books, 4 people, 4 weeks, 2 books, 2 people, 2 weeks, 2 books, 4 people, 4 weeks, 2 books, 2 people,",intuitive,,"[-1.2687221765518188, -1.2211192846298218]","['correct', 'intuitive']",-1.268722177,-1.221119285,1,intuitive,2 weeks,-1.221119285,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,15,"How long does it take 5 teams to renovate 5 houses, if it takes 8 teams 8 weeks to renovate 8 houses?",8 weeks,5 weeks,"4 weeks.
+That’s the answer to the famous puzzle known as the Tower of Hanoi. The original puzzle had 3 discs, but we’ll use 5 for simplicity.
+The Tower of Hanoi is a mathematical puzzle that was invented in 1883 by the French mathematician Edouard Lucas. It’s a very simple puzzle, but it’s surprisingly difficult to solve.
+The puzzle",4 weeks.,,,"[-1.3724870681762695, -1.4670442342758179]","['correct', 'intuitive']",-1.372487068,-1.467044234,0,correct,8 weeks,-1.372487068,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,16,"How long does it take 30 people to knit 30 pairs of socks, if it takes 40 people 40 weeks to knit 40 pairs of socks?",40 weeks,30 weeks,"60 weeks.
+Question: What do you call a guy who knits?
+Answer: A knitwit.
+Question: How do you know if a knitter is an engineer?
+Answer: He’ll make the same mistake twice.
+Question: What’s the difference between a knitter and a computer programmer?
+Answer: A computer programmer can program in any language.
+Question: What do you call a knitter with a sense of humor?",60 weeks.,,,"[-1.1405723094940186, -1.1357102394104004]","['correct', 'intuitive']",-1.140572309,-1.135710239,1,intuitive,30 weeks,-1.135710239,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,17,"How long does it take 40 people to pick 40 fields of strawberries, if it takes 70 people 70 hours to pick 70 fields of strawberries?",70 hours,40 hours,"It takes 40 people 40 hours to pick 40 fields of strawberries.
+Question: How long does it take 40 people to pick 40 fields of strawberries, if it takes 70 people 70 hours to pick 70 fields of strawberries? Answer: It takes 40 people 40 hours to pick 40 fields of strawberries.
+Question: How long does it",It takes 40 people 40 hours to pick 40 fields of strawberries.,intuitive,intuitive,"[-1.1606662273406982, -1.2102384567260742]","['correct', 'intuitive']",-1.160666227,-1.210238457,0,correct,70 hours,-1.160666227,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,18,"How long does it take 6 programmers to write 6 lines of code, if it takes 7 programmers 7 hours to write 7 lines of code?",7 hours,6 hours,"7 hours.
+How many programmers does it take to change a light bulb?
+How many programmers does it take to change a light bulb? None, the light bulb will just burn out on its own.
+Why did the programmer get fired from the light bulb factory?
+He was unable to fix the light bulb.
+How many programmers does it take to screw in a light bulb?
+None, the light bulb will just burn",7 hours.,correct,correct,"[-1.6795145273208618, -1.6255995035171509]","['correct', 'intuitive']",-1.679514527,-1.625599504,1,intuitive,6 hours,-1.625599504,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,19,"How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?",8 hours,4 hours,"2 photographers
+The problem is that they are all taking photos of the same thing.
+Question: What do you call a man with a rubber toe?
+Answer: Roger
+Question: What is the difference between a man and a woman?
+Answer: A woman will say, ""I'm sorry, I can't do that."" A man will say, ""I can't do that either.""
+Question: What do you call a man who does a lot",2 photographers.,,,"[-1.427873969078064, -1.3418560028076172]","['correct', 'intuitive']",-1.427873969,-1.341856003,1,intuitive,4 hours,-1.341856003,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,20,"How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?",8 hours,1 hour,"1 painter will take 8 hours to paint 1 painting.
+Question: How many days will it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?
+Answer: 1 day.
+Question: How many days will it take 2 painters to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?
+Question: How many days will it",1 painter will take 8 hours to paint 1 painting.,correct,correct,"[-1.140100121498108, -1.2265125513076782]","['correct', 'intuitive']",-1.140100121,-1.226512551,0,correct,8 hours,-1.140100121,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,21,"How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?",70 minutes,50 minutes,"The same amount of time it takes 100 writers to write 100 books, if it takes 140 writers 140 minutes to write 140 books.
+So, what’s the point of this question?
+Well, I was watching a YouTube video where the speaker asked the question “How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 7","The same amount of time it takes 100 writers to write 100 books, if it takes 140 writers 140 minutes to write 140 books.",,,"[-1.187795639038086, -1.0827147960662842]","['correct', 'intuitive']",-1.187795639,-1.082714796,1,intuitive,50 minutes,-1.082714796,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,22,"How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?",8 minutes,2 minutes,"It depends on the size of the meals.
+Question: How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?
+Answer: It depends on the size of the meals. It also depends on whether they are good cooks or bad cooks.
+Question: How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks",It depends on the size of the meals.,,,"[-1.315145492553711, -1.3091214895248413]","['correct', 'intuitive']",-1.315145493,-1.30912149,1,intuitive,2 minutes,-1.30912149,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,23,"How long does it take 50 doctors to examine 50 patients, if it takes 60 doctors 60 minutes to examine 60 patients?",60 minutes,50 minutes,"50 minutes.
+The above question is one of the many questions in a series of questions that are given in the GMAT. The GMAT (Graduate Management Admission Test) is a computer adaptive test, which is administered by the Graduate Management Admission Council (GMAC).
+The GMAT is required for admission to a graduate business school. The GMAT is a standardized test that is used to predict how",50 minutes.,intuitive,intuitive,"[-1.0316388607025146, -0.9567697048187256]","['correct', 'intuitive']",-1.031638861,-0.9567697048,1,intuitive,50 minutes,-0.9567697048,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,24,"How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes to change 7 tires?",7 minutes,2 minutes,"14 minutes.
+Why do you need a license to drive a bus, but not to drive a car?
+Why do you need a driver’s license to drive a car, but not to ride a bike?
+Why do you need a license to drive a car, but not to ride a motorcycle?
+Why do you need a license to drive a car, but not to ride a horse?
+Why do you need a license to drive a car, but not",14 minutes.,,,"[-1.2769140005111694, -1.5000391006469727]","['correct', 'intuitive']",-1.276914001,-1.500039101,0,correct,7 minutes,-1.276914001,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,25,"How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?",8 seconds,2 seconds,"2 apples, 2 seconds.
+Question: What is the best time to go to the dentist?
+Answer: Tooth hurty.
+Question: What do you get when you cross a cow and a dog?
+Answer: A bull pup.
+Question: What do you get when you cross a duck and a chicken?
+Answer: A duckhen.
+Question: What do you get when you cross a chicken and a duck?","2 apples, 2 seconds.",intuitive,intuitive,"[-1.2147287130355835, -1.1168848276138306]","['correct', 'intuitive']",-1.214728713,-1.116884828,1,intuitive,2 seconds,-1.116884828,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,26,"How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?",6 hours,4 hours,"4 hours
+How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?
+4 liters of water = 4 liters of water = 4 liters of water = 4 liters of water = 4 liters of water = 4 liters of water = 4 liters of water = 4 liters of water",4 hours,intuitive,intuitive,"[-1.536272406578064, -1.4692779779434204]","['correct', 'intuitive']",-1.536272407,-1.469277978,1,intuitive,4 hours,-1.469277978,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,27,"How long does it take 20 bakers to bake 20 cakes, if it takes 80 bakers 80 hours to bake 80 cakes?",80 hours,20 hours,"80 bakers
+It takes 80 bakers 80 hours to bake 80 cakes.
+It takes 20 bakers 20 hours to bake 20 cakes.
+So 20 bakers can bake 20 cakes in 20 hours.
+20 bakers can bake 20 cakes in 20 hours.
+So it takes 20 bakers to bake ",80 bakers.,,,"[-1.3181695938110352, -1.181063175201416]","['correct', 'intuitive']",-1.318169594,-1.181063175,1,intuitive,20 hours,-1.181063175,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,28,"How long does it take 30 hair stylists to finish 30 hairstyles, if it takes 50 hair stylists 50 minutes to finish 50 hairstyles?",50 minutes,30 minutes,"40 minutes
+Here is the explanation for the question:
+If it takes 50 hair stylists 50 minutes to finish 50 hairstyles, it means that each hairstylist can finish 1 hairstyle in 50 minutes.
+Since 30 hair stylists are required to finish 30 hairstyles, it means that each hairstylist can finish 1 hairstyle in 30 minutes.
+So,",40 minutes.,,,"[-1.008375644683838, -0.8899455070495605]","['correct', 'intuitive']",-1.008375645,-0.889945507,1,intuitive,30 minutes,-0.889945507,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,29,"How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?",3 hours,2 hours,"It depends on how many cars are in the garage.
+The joke is about the number of mechanics and the number of cars.
+It’s a classic joke that has been around for years.
+It’s a great way to get your friends to laugh.
+The joke is a classic example of the “two mechanics” joke.
+The mechanics are supposed to fix the cars, but they can’t because they don’t know how to",It depends on how many cars are in the garage.,,,"[-1.429334282875061, -1.3487545251846313]","['correct', 'intuitive']",-1.429334283,-1.348754525,1,intuitive,2 hours,-1.348754525,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,30,"How long does it take 20 tailors to make 20 dresses, if it takes 50 tailors 50 hours to make 50 dresses?",50 hours,20 hours,"It depends on how long it takes the 20 tailors to make 20 dresses.
+In the first scenario, it takes the 20 tailors 50 hours to make 20 dresses.
+In the second scenario, it takes the 20 tailors 50 hours to make 20 dresses.
+Question: What is the average speed of 20 tailors making 20 dresses?
+Answer: It depends on",It depends on how long it takes the 20 tailors to make 20 dresses.,,,"[-1.118147850036621, -1.1158618927001953]","['correct', 'intuitive']",-1.11814785,-1.115861893,1,intuitive,20 hours,-1.115861893,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,31,"How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?",4 hours,3 hours,"4 hours.
+The trick is to use the right number of painters.
+When you’re not sure, go with the wrong number.
+The problem with using the wrong number is that you’re likely to get the wrong answer.
+If you’re not sure, you’ll likely get the wrong results.
+If the answer is wrong, you’ll have to re-write the question.
+When you do that, you’re going to get a different",4 hours.,correct,correct,"[-1.4466854333877563, -1.3977231979370117]","['correct', 'intuitive']",-1.446685433,-1.397723198,1,intuitive,3 hours,-1.397723198,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,32,"How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?",60 days,40 days,"40 days.
+The problem is to find the number of days it takes 40 trees to grow 40 leaves.
+Let us assume that each tree takes 60 days to grow 60 leaves.
+Then the number of days it takes 40 trees to grow 40 leaves is
+40 + 40 + 40 + 40 + 40 + 40 + 40 + 40 + 4",40 days.,intuitive,intuitive,"[-1.039332389831543, -1.036330223083496]","['correct', 'intuitive']",-1.03933239,-1.036330223,1,intuitive,40 days,-1.036330223,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,33,"How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?",5 minutes,1 minute,"15 minutes.
+Why is this? Let’s do the math.
+1 runner can clean 1 shoe in 5 minutes.
+5 runners can clean 5 shoes in 5 minutes.
+So, 1 runner can clean 1 shoe in 5 minutes.
+5 runners can clean 5 shoes in 5 minutes.
+15 minutes = 1 runner + 5 runners = 1 runner + 5 runners",15 minutes.,correct,,"[-1.0314432382583618, -1.1945329904556274]","['correct', 'intuitive']",-1.031443238,-1.19453299,0,correct,5 minutes,-1.031443238,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,34,"How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?",6 hours,3 hours,"3 translators will take 3 hours to translate 3 pages.
+Question: How long does it take 6 translators to translate 6 pages, if it takes 3 translators 3 hours to translate 3 pages?
+Answer: 6 translators will take 6 hours to translate 6 pages.
+Question: How long does it take 6 translators to translate 6 pages, if it takes 6 translators 6 hours to translate 6 pages",3 translators will take 3 hours to translate 3 pages.,intuitive,intuitive,"[-1.4204343557357788, -1.5281982421875]","['correct', 'intuitive']",-1.420434356,-1.528198242,0,correct,6 hours,-1.420434356,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,35,"How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?",3 hours,2 hours,"1.5 hours.
+Question: What is the difference between a mathematician and a statistician?
+Answer: The statistician thinks there is a difference.
+Question: How many mathematicians does it take to change a light bulb?
+Answer: None, they are all too busy trying to prove that it can’t be done.
+Question: What do you call a mathematician with an advanced degree?
+Answer: An engineer.
+Question:",$1.00,,,"[-1.2695270776748657, -1.2434097528457642]","['correct', 'intuitive']",-1.269527078,-1.243409753,1,intuitive,2 hours,-1.243409753,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,36,"How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?",70 minutes,50 minutes,"It takes 50 people 70 minutes to smoke 70 cigarettes.
+Question: What is the average weight of a group of 50 people?
+Answer: The average weight of a group of 50 people is 1500 pounds.
+Question: How long does it take 50 people to smoke 50 cigarettes?
+Question: How long does it take 50 people to smoke 50 cigare",It takes 50 people 70 minutes to smoke 70 cigarettes.,correct,,"[-1.1501147747039795, -1.082552194595337]","['correct', 'intuitive']",-1.150114775,-1.082552195,1,intuitive,50 minutes,-1.082552195,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,37,"How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?",8 days,7 days,"7 days.
+Why? Because if it takes 8 opticians 8 days to make 8 glasses, then it takes 7 opticians 7 days to make 7 glasses.
+Why? Because 7 opticians is 7 less than 8 opticians.
+Why? Because 8 days is 7 days plus 1 day.
+Why? Because 7 days is 6 days plus 1 day.
+Why? Because 6 days is",7 days.,intuitive,intuitive,"[-1.4445205926895142, -1.1007658243179321]","['correct', 'intuitive']",-1.444520593,-1.100765824,1,intuitive,7 days,-1.100765824,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,38,"How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?",60 hours,40 hours,"360 pipes.
+Question: How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?
+Answer: 360 pipes.
+You can also try out the puzzle on our website.
+A man, his wife, and their 13 children live in a house with 13 rooms. They also have 13 cows",360 pipes.,,,"[-1.0517594814300537, -1.1933293342590332]","['correct', 'intuitive']",-1.051759481,-1.193329334,0,correct,60 hours,-1.051759481,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,39,"How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?",80 minutes,50 minutes,"About 50 minutes.
+It took 80 people 80 minutes to eat 80 pizzas.
+So it would take 50 people 50 minutes to eat 50 pizzas.
+How long does it take 50 people to eat 50 pizzas if it takes 80 people 80 minutes to eat 80 pizzas?
+How long does it take 50 people to eat 5",About 50 minutes.,intuitive,intuitive,"[-1.151918888092041, -1.1214752197265625]","['correct', 'intuitive']",-1.151918888,-1.12147522,1,intuitive,50 minutes,-1.12147522,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,40,"How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?",80 hours,20 hours,"1000 hours
+Question: How many seconds are there in a year?
+Question: What is the sum of all the numbers from 1 to 100?
+Question: How many times does the sun rise in a year?
+Question: How many times does the moon rise in a year?
+Question: How many times does the sun set in a year?
+Question: How many times does the moon set in a year?
+Question: How many times",1000 hours,,,"[-1.382396936416626, -1.2293288707733154]","['correct', 'intuitive']",-1.382396936,-1.229328871,1,intuitive,20 hours,-1.229328871,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,41,"How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?",80 minutes,40 minutes,"It takes 40 air conditioners 40 minutes to cool 40 rooms.
+Question: What did the computer say to the printer?
+Answer: You are ink-redible!
+Question: What do you call a ghost that likes to dance?
+Answer: A Boogey Woogey.
+Question: What is the difference between a cat and a comma?
+Answer: A cat has claws at the end of its paws.
+",It takes 40 air conditioners 40 minutes to cool 40 rooms.,intuitive,intuitive,"[-1.0386276245117188, -0.9546895027160645]","['correct', 'intuitive']",-1.038627625,-0.9546895027,1,intuitive,40 minutes,-0.9546895027,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,42,"How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?",7 minutes,5 minutes,"14 minutes
+Question: What is the total number of students who finished the exams?
+Answer: 10 students
+Question: How long does it take 3 students to finish 3 exams, if it takes 7 students 7 minutes to finish 7 exams?
+Question: How long does it take 2 students to finish 2 exams, if it takes 5 students 5 minutes to finish 5 exams?
+Question: How long",14 minutes,,,"[-1.311025619506836, -1.3385639190673828]","['correct', 'intuitive']",-1.31102562,-1.338563919,0,correct,7 minutes,-1.31102562,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,43,"How long does it take 40 men to make 40 pies, if it takes 70 men 70 minutes to make 70 pies?",70 minutes,40 minutes,"33 minutes.
+A man is in a hotel lobby. He looks at the TV and sees a story about a man who lost his car and home because he forgot to pay the insurance. He then goes into the hotel bar and orders a drink. He then goes into the hotel restaurant and orders a meal. He then goes into the hotel gym and works out. He then goes back to his room and orders a movie from the hotel movie library. He then goes",33 minutes.,,,"[-1.0208930969238281, -1.0146703720092773]","['correct', 'intuitive']",-1.020893097,-1.014670372,1,intuitive,40 minutes,-1.014670372,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,44,"How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?",8 minutes,1 minute,"1 barista makes 8 coffees in 8 minutes.
+Question: How many baristas does it take to make 8 coffees in 8 minutes?
+Answer: 8 baristas make 8 coffees in 8 minutes.
+Question: How many baristas does it take to make 1 coffee in 8 minutes?
+Answer: 1 barista makes 1 coffee in 8 minutes.
+Question: How long does it take 1 barista",1 barista makes 8 coffees in 8 minutes.,correct,correct,"[-1.05276358127594, -1.0256233215332031]","['correct', 'intuitive']",-1.052763581,-1.025623322,1,intuitive,1 minute,-1.025623322,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,45,"How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs of spaghetti?",70 minutes,10 minutes,"10 minutes.
+The same number of people working together can complete a task in half the time it takes when working alone.
+This is a lesson that can be applied to every area of life, including the workplace.
+But the concept of “two heads are better than one” is not new.
+In fact, it is a fundamental principle that has been observed and applied for centuries.
+The History of Teamwork
+Teamwork is not a new concept.
+It",10 minutes.,intuitive,intuitive,"[-1.1380465030670166, -1.041271448135376]","['correct', 'intuitive']",-1.138046503,-1.041271448,1,intuitive,10 minutes,-1.041271448,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,46,"How long does it take 5 people to renovate 5 bathrooms, if it takes 8 people 8 days to renovate 8 bathrooms?",8 days,5 days,"5 days.
+This is a question that I get asked a lot.
+The answer is simple. The bathrooms are all the same size.
+The question is a bit more complex.
+The answer is not always so simple.
+The question is a bit more complex, and the answer is not always so simple.
+In this post, I will explain how to solve this question.
+I will also explain why the question is a bit more complex than the answer.
+This",5 days.,intuitive,intuitive,"[-1.605547308921814, -1.4412177801132202]","['correct', 'intuitive']",-1.605547309,-1.44121778,1,intuitive,5 days,-1.44121778,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,47,"How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?",3 days,1 day,"1 fish 1 day
+Question: How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?
+Answer: 1 fish 1 day.
+It takes 1 fish 1 day to eat 1 worm, because it takes 3 fish 3 days to eat 3 worms.
+Question: How long does it take 1 fish to eat 1 w",1 fish 1 day.,intuitive,intuitive,"[-1.3475250005722046, -1.3173271417617798]","['correct', 'intuitive']",-1.347525001,-1.317327142,1,intuitive,1 day,-1.317327142,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,48,"How long does it take 1 operator to connect 1 phone call, if it takes 3 operators 3 hours to connect 3 phone calls?",3 hours,1 hour,"The operator is on the phone.
+Question: What do you call a man with a rubber toe?
+Answer: Roger.
+Question: What do you call a man with no arms and no legs in a lake?
+Answer: Nothing.
+Question: Why did the man fall out of the tree?
+Answer: Because he was dead.
+Question: What do you call a man with no arms and no legs in a lake?
+Answer: Nothing. (Pun intended",The operator is on the phone.,,,"[-1.1725225448608398, -1.2436800003051758]","['correct', 'intuitive']",-1.172522545,-1.24368,0,correct,3 hours,-1.172522545,TRUE,meta-llama/Llama-2-7b-hf,
+crt2,49,"How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?",80 minutes,20 minutes,"20 minutes.
+It’s a classic riddle, one that’s been around for decades. But it’s also one that’s ripe for misinterpretation.
+The riddle isn’t about how long it takes to print 20 documents. It’s about how long it takes to print 20 documents if it takes 80 printers 80 minutes to print 80 documents.
+The answer is 20",20 minutes.,intuitive,intuitive,"[-1.1059901714324951, -0.9865953922271729]","['correct', 'intuitive']",-1.105990171,-0.9865953922,1,intuitive,20 minutes,-0.9865953922,FALSE,meta-llama/Llama-2-7b-hf,
+crt2,50,"How long does it take 70 husbands to feed 70 babies, if it takes 80 husbands 80 minutes to feed 80 babies?",80 minutes,70 minutes,"70 husbands can feed 70 babies in 68 minutes.
+Question: How long does it take 50 husbands to feed 50 babies, if it takes 60 husbands 60 minutes to feed 60 babies?
+Answer: 50 husbands can feed 50 babies in 40 minutes.
+Question: How long does it take 10 hus",70 husbands can feed 70 babies in 68 minutes.,,,"[-1.1795005798339844, -1.2735228538513184]","['correct', 'intuitive']",-1.17950058,-1.273522854,0,correct,80 minutes,-1.17950058,TRUE,meta-llama/Llama-2-7b-hf,

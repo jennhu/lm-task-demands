@@ -1,0 +1,4 @@
+
+task: dgl
+model: EleutherAI/pythia-1b-deduped
+max_new_tokens: 100

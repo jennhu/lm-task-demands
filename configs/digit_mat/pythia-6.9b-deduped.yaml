@@ -1,0 +1,4 @@
+
+task: digit_mat
+model: EleutherAI/pythia-6.9b-deduped
+max_new_tokens: 10

@@ -1,0 +1,4 @@
+
+task: dgl
+model: mistralai/Mistral-7B-v0.1
+max_new_tokens: 100

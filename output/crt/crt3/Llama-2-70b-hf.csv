@@ -1,0 +1,227 @@
+condition,item_id,question,correct,intuitive,t,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+crt3,1,"In a city, a virus is spreading, causing the total number of infected individuals to double each day. If it takes 6 days for the entire city's population to be infected, how many days would it require for half of the people to become infected?",5 days,3 days,6 days,"The answer is 5 days.
+If the number of infected people doubles each day, then the number of infected people on the 5th day would be half of the total population.
+If it takes 6 days for the entire city's population to be infected, it would take 5 days for half of the population to become infected.
+Explanation: The question can be solved using the following reasoning:
+On the first day, the number of inf",The answer is 5 days.,correct,correct,"[-0.6728305816650391, -0.8425381779670715, -1.4985166788101196]","['correct', 'intuitive', 't']",-0.6728305817,-0.842538178,0,correct,5 days,-0.6728305817,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,2,"A pandemic is occurring in a state where the total number of infected individuals doubles daily. If it takes 10 days for the entire state's population to become infected, how many days would it take for half of the state's population to be infected?",9 days,5 days,10 days,"9 days.
+Explanation: This question is a classic problem in exponential growth.
+The state's population doubles daily, so the number of days it takes to reach half of the state's population is the same as the number of days it takes to reach the entire population.
+Therefore, it would take 10 days for the entire state's population to become infected, and it would take 9 days for half of the state's population to be",9 days.,correct,correct,"[-0.7903140187263489, -0.7568209767341614, -0.7873594760894775]","['correct', 'intuitive', 't']",-0.7903140187,-0.7568209767,1,intuitive,5 days,-0.7568209767,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,3,"People are escaping from war. Each day, the total count of refugees doubles. If it takes 22 days for the entire population to evacuate, how long would it take for half of the population to do so?",21 days,11 days,22 days,"21 days.
+Question: A woman and her daughter are running away from a wolf. They are running at a speed of 3 km/h and 5 km/h, respectively. The wolf is running at a speed of 10 km/h. The woman and her daughter are 1 km apart. How long will it take for the wolf to catch up to the daughter?
+Answer: 10 minutes.
+Question: If you have ",21 days.,correct,correct,"[-0.38176727294921875, -0.8368611335754395, -1.1619720458984375]","['correct', 'intuitive', 't']",-0.3817672729,-0.8368611336,0,correct,21 days,-0.3817672729,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,4,"A farmer is plowing a field. Each hour, the total plowed area doubles. If it takes 10 hours for the entire field to be plowed, how long would it take for half of the field to be plowed?",9 hours,5 hours,10 hours,"It would take 9 hours for half of the field to be plowed.
+Question: A man is standing on the top of a 100-foot building with a 50-foot rope. He wants to get to the ground, but he doesn’t want to jump. What should he do?
+Answer: The man should tie the rope around his waist and jump off the building. The rope is 50 feet long, so the",It would take 9 hours for half of the field to be plowed.,correct,correct,"[-0.7590948939323425, -1.0854129791259766, -0.7823696136474609]","['correct', 'intuitive', 't']",-0.7590948939,-1.085412979,0,correct,9 hours,-0.7590948939,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,5,"The apples are dropping from an apple tree, with the total count of fallen apples doubling each day. If it requires 16 days for all the apples to drop, how many days would it take for half the apples to fall?",15 days,8 days,16 days,"Eight days.
+Question: What can be seen in the middle of March and April that cannot be seen in the beginning or end of either month?
+Answer: The letter “r.”
+Question: What is the answer to the following riddle: “What has a face and two hands but no arms or legs?”
+Answer: A clock.
+Question: What is the answer to the following riddle: “What has a neck but no head?”
+Answer: A bottle",Eight days.,,intuitive,"[-0.6428439617156982, -0.8793547749519348, -1.516094446182251]","['correct', 'intuitive', 't']",-0.6428439617,-0.879354775,0,correct,15 days,-0.6428439617,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,6,"Fish are migrating and each day, the total distance they cover doubles. If it takes the fish 18 days to reach their destination, how many days would it take for them to cover half the distance?",17 days,9 days,18 days,"The answer is 17 days.
+The fish cover 1 unit of distance on the first day, 2 units on the second day, 4 units on the third day, and so on.
+On the 17th day, they cover 128 units of distance, which is half the total distance they cover on the 18th day (256 units).
+Fish are migrating and each day, the total distance they cover doubles. If",The answer is 17 days.,correct,correct,"[-0.5438523292541504, -1.2410894632339478, -1.2447075843811035]","['correct', 'intuitive', 't']",-0.5438523293,-1.241089463,0,correct,17 days,-0.5438523293,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,7,"A tree branch is falling, and with each passing second, the total distance it covered doubles. If it takes 6 seconds for the branch to reach the ground, how long would it take for it to cover one-half of the total distance?",5 seconds,3 seconds,6 seconds,"It would take 3 seconds to cover one-half of the total distance.
+If you answered 6 seconds, you're wrong.
+Here's why: The branch starts at a distance of 0 feet from the ground and doubles that distance every second. After 1 second, it is 2 feet from the ground. After 2 seconds, it is 4 feet from the ground. After 3 seconds, it is 8 feet from the ground. After 4",It would take 3 seconds to cover one-half of the total distance.,intuitive,intuitive,"[-0.6434771418571472, -0.9498939514160156, -1.3362337350845337]","['correct', 'intuitive', 't']",-0.6434771419,-0.9498939514,0,correct,5 seconds,-0.6434771419,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,8,"A fly is traveling from point A to point B. With each passing hour, the total distance it covered doubles. If the fly reaches point B in 12 hours, how long does it take for the fly to cover half of the distance?",11 hours,6 hours,12 hours,"11 hours.
+The fly covers half the distance in the last hour.
+Question: A man is walking from point A to point B. The distance between the two points is 3 miles. The man walks 1 mile per hour. A bird is flying from point B to point A. The speed of the bird is 1 mile per minute. At what time will the bird meet the man?
+Answer: The bird will never meet the man.
+The bird f",11 hours.,correct,correct,"[-0.5318260192871094, -0.8194465637207031, -0.7577738761901855]","['correct', 'intuitive', 't']",-0.5318260193,-0.8194465637,0,correct,11 hours,-0.5318260193,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,9,"A new concrete pavement is drying. The overall area of dried concrete doubles each day. If it requires 4 days for the entire pavement to dry completely, how many days does it take for half the pavement to become dry?",3 days,2 days,4 days,"Two days.
+Question: A man was walking in the rain with no protection. He was completely dry when he reached his destination. How is this possible?
+Answer: He was walking under an umbrella.
+Question: What is the difference between a jail and a prison?
+Answer: A jail is a place where people are confined while awaiting trial or serving a sentence of less than one year. A prison is a place where people are confined for a period",Two days.,,intuitive,"[-0.953929603099823, -1.1938060522079468, -1.674892783164978]","['correct', 'intuitive', 't']",-0.9539296031,-1.193806052,0,correct,3 days,-0.9539296031,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,10,"There is a freezer filled with food, and the total volume of the frozen food doubles every hour. If it takes 16 hours for all the food to become frozen, how long would it take to freeze half of the food?",15 hours,8 hours,16 hours,"15 hours. After 15 hours, the volume of the frozen food would be 1/2 the total volume of the food.
+Question: There are 3 baskets. One of them has apples, one has oranges only and the other has mixture of apples and oranges. The labels on their baskets always lie. (i.e. if the label says oranges, you would find apples inside the basket). The task is",15 hours.,correct,correct,"[-0.5741333961486816, -1.0431398153305054, -0.8802833557128906]","['correct', 'intuitive', 't']",-0.5741333961,-1.043139815,0,correct,15 hours,-0.5741333961,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,11,"A pot of water is boiling on the stove, and with each passing hour, the overall volume of the evaporated water doubles. If the entire pot takes 6 hours to evaporate completely, how long does it take for half of the pot to evaporate?",5 hours,3 hours,6 hours,"5 hours.
+Question: You have two 3-gallon jugs and two 5-gallon jugs. How can you measure out exactly 4 gallons?
+Answer: Fill the 3-gallon jugs and pour the contents into the 5-gallon jug. Fill one of the 3-gallon jugs and pour that into the 5-gallon jug until it's full. There",5 hours.,correct,correct,"[-0.967962920665741, -0.8478406071662903, -0.9198347926139832]","['correct', 'intuitive', 't']",-0.9679629207,-0.8478406072,1,intuitive,3 hours,-0.8478406072,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,12,"There is a section of mold on a bread loaf that doubles in size every hour. If it takes 16 hours for the mold to completely cover the bread, how much time is needed for the mold to cover half of the bread?",15 hours,8 hours,16 hours,"The mold doubles in size every hour, so the amount of time needed for the mold to cover half of the bread is 8 hours.
+Question: There are 24 students in a class, and each student has an average of 12 books. If the total number of books in the class is 288, how many students have fewer than 10 books?
+Answer: The average number of books per student is 12, so the total number","The mold doubles in size every hour, so the amount of time needed for the mold to cover half of the bread is 8 hours.",intuitive,intuitive,"[-0.6697273254394531, -0.5981731414794922, -1.3273706436157227]","['correct', 'intuitive', 't']",-0.6697273254,-0.5981731415,1,intuitive,8 hours,-0.5981731415,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,13,"A forest is engulfed in flames. Each day, the overall area of the scorched forest doubles in size. If it takes 18 days for the entire forest to be consumed by the fire, how many days would it take for half of the forest to be burnt?",17 days,9 days,18 days,"The answer is 17 days.
+Each day, the area of the forest consumed by the fire doubles. This means that on the first day, half of the forest is burnt, on the second day, the remaining half of the forest is burnt, and on the third day, the area of the forest burnt is doubled again, so the entire forest is consumed.
+Therefore, it takes 17 days for half of the forest to be burnt",The answer is 17 days.,correct,correct,"[-0.5335917472839355, -1.2209663391113281, -1.4777836799621582]","['correct', 'intuitive', 't']",-0.5335917473,-1.220966339,0,correct,17 days,-0.5335917473,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,14,"In a cave, there is a colony of bats with a daily population doubling. Given that it takes 60 days for the entire cave to be filled with bats, how many days would it take for the cave to be half-filled with bats?",59 days,30 days,60 days,"59 days.
+Question: The day before yesterday, I was 21 years old. Next year, I will be 24 years old. How is that possible?
+Answer: Today is my birthday.
+Question: A man was born in 1955. Today is his 33rd birthday. How is this possible?
+Answer: The man was born in a leap year. Since the leap year comes once in every four years",59 days.,correct,correct,"[-0.3134009838104248, -1.1336719989776611, -1.2797305583953857]","['correct', 'intuitive', 't']",-0.3134009838,-1.133671999,0,correct,59 days,-0.3134009838,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,15,"A section of grass is expanding within a garden, with the total area it occupies doubling daily. If it requires 12 days for the entire garden to be encompassed by the grass, how many days are needed for the grass to cover half of the garden?",11 days,6 days,12 days,"The answer is 11 days.
+The grass doubles in area each day, so it would take 12 days for the grass to double 12 times. On the 11th day, the grass would have doubled 11 times, and therefore the area covered by the grass would be half of the total area of the garden.",The answer is 11 days.,correct,correct,"[-0.5951926708221436, -1.5650466680526733, -1.2991788387298584]","['correct', 'intuitive', 't']",-0.5951926708,-1.565046668,0,correct,11 days,-0.5951926708,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,16,"An investor possesses 1 bitcoin. Each day, their number of bitcoins doubles. If it takes them 30 days to achieve their investment target, how long would it take for them to reach half of that target?",29 days,15 days,30 days,"29 days.
+Explanation: The number of bitcoins doubles every day.
+Day 1: 1 bitcoin
+Day 2: 2 bitcoins
+Day 10: 1024 bitcoins
+Day 29: 536870912 bitcoins
+Day 30: 1073741824 bitcoins
+The investor reaches half of",29 days.,correct,correct,"[-0.2836947441101074, -0.7412476539611816, -0.8070673942565918]","['correct', 'intuitive', 't']",-0.2836947441,-0.741247654,0,correct,29 days,-0.2836947441,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,17,"Fish inhabit a creek, and their population doubles each week. If it requires 24 weeks for the entire creek to become completely filled with fish, how long would it take to fill half of the creek with fish?",23 weeks,12 weeks,24 weeks,"23 weeks. The creek is half full after 23 weeks. It then takes just one more week to fill the creek completely.
+Fish Riddle Meme with riddle and answer page link.",23 weeks.,correct,correct,"[-0.46026158332824707, -0.9558393955230713, -1.1326005458831787]","['correct', 'intuitive', 't']",-0.4602615833,-0.9558393955,0,correct,23 weeks,-0.4602615833,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,18,"A dust cloud hovers above the city, doubling in size each day. If it takes 12 days for the entire city to be engulfed by the cloud, how many days does it take for the cloud to cover half of the city?",11 days,6 days,12 days,"It takes 11 days for the cloud to cover half of the city.
+Question: A man and a woman are sitting on the couch watching TV. The man says, “I bet you can’t say the alphabet without moving your lips.” The woman says, “34251.” What did she do?
+Answer: She counted the letters in the alphabet.
+Question: A man was driving a black truck. His lights were not on. The moon was",It takes 11 days for the cloud to cover half of the city.,correct,correct,"[-0.6348123550415039, -1.3703441619873047, -1.0948209762573242]","['correct', 'intuitive', 't']",-0.634812355,-1.370344162,0,correct,11 days,-0.634812355,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,19,"There is a sick student in the class. Each day, the number of sick students doubles. If it takes 6 days for the entire class to become sick, how many days does it take for half of the class to become sick?",5 days,3 days,6 days,"It takes 5 days for half of the class to become sick.
+Question: A monkey climbs up a coconut tree with a coconut in each hand. He eats one of the coconuts and drops it down. He repeats the process until he reaches the top. How many coconuts are left on the tree when he reaches the top?
+Answer: None, because he ate all of them.
+Question: A man goes into a",It takes 5 days for half of the class to become sick.,correct,correct,"[-0.7192071080207825, -1.2721309661865234, -1.5601609945297241]","['correct', 'intuitive', 't']",-0.719207108,-1.272130966,0,correct,5 days,-0.719207108,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,20,"A colony of bacteria is growing on yogurt, and the size of the colony doubles daily. If it takes 4 days for the colony to completely cover the yogurt, how many days does it take for the patch to cover half of the yogurt?",3 days,2 days,4 days,"The answer is 3 days.
+Explanation: The colony of bacteria doubles daily, so it takes 3 days to cover half of the yogurt.
+A colony of bacteria is growing on yogurt, and the size of the colony doubles daily. If it takes 4 days for the colony to completely cover the yogurt, how many days does it take for the patch to cover half of the yogurt?
+The",The answer is 3 days.,correct,correct,"[-0.8590090870857239, -1.070193886756897, -1.7554839849472046]","['correct', 'intuitive', 't']",-0.8590090871,-1.070193887,0,correct,3 days,-0.8590090871,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,21,"A moss patch is expanding on a rock, doubling its size each day. It takes 300 days for the moss to completely cover the rock. How many days are required for the moss to cover half of the rock?",299 days,150 days,300 days,"299 days.
+Explanation: On the 299th day, the moss will cover half the rock. On the 300th day, the moss will cover the entire rock.
+Question: There are 200 people in an auditorium. 199 people have shaken hands with each other. How many handshakes occurred?
+Answer: 199.
+Explanation: If you take any",299 days.,correct,correct,"[-0.24848785996437073, -1.0612884759902954, -1.0929580926895142]","['correct', 'intuitive', 't']",-0.24848786,-1.061288476,0,correct,299 days,-0.24848786,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,22,"Beneath a tree, there is a heap of leaves that doubles in size every week. If it takes 4 weeks for the pile to attain a height of 4 meters, how much time is required for it to reach a height of 2 meters?",3 weeks,2 weeks,4 weeks,"2 weeks
+Explanation: Let us assume that the height of the pile of leaves is h meters in the first week.
+h meters in the second week.
+2h meters in the third week.
+4h meters in the fourth week.
+Therefore, the height of the pile of leaves in the first week is 1 meter.
+In the second week, the height of the pile of leaves is 2 meters.
+The pile of leaves",2 weeks.,intuitive,intuitive,"[-0.7968947291374207, -1.0060640573501587, -1.1372909545898438]","['correct', 'intuitive', 't']",-0.7968947291,-1.006064057,0,correct,3 weeks,-0.7968947291,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,23,"Mushrooms are cultivated in a container, and their quantity doubles daily. Given that it takes 6 days for the mushrooms to fill the entire container, determine the time needed to fill half of the container.",5 days,3 days,6 days,"The quantity of mushrooms doubles daily.
+Let the quantity of mushrooms on the first day be 1.
+Then, the quantity of mushrooms on the second day will be 2.
+The quantity of mushrooms on the third day will be 4.
+The quantity of mushrooms on the fourth day will be 8.
+The quantity of mushrooms on the fifth day will be 16.
+The quantity of mushrooms on",The quantity of mushrooms doubles daily.,,,"[-0.9869887232780457, -1.2381458282470703, -1.7739791870117188]","['correct', 'intuitive', 't']",-0.9869887233,-1.238145828,0,correct,5 days,-0.9869887233,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,24,"There is a man who raises rabbits in a barn. Each year, the rabbit population doubles. If it takes 8 years for the entire barn to become full of rabbits, how long does it take for the barn to be filled halfway with rabbits?",7 years,4 years,8 years,"4 years. The population doubles every year, so in 4 years, it is halfway to doubling, and in 8 years, it is full.
+Question: There are three light switches in a room. Each of the switches controls one of the three light bulbs in the next room. You may manipulate the switches as you wish, but once you open the door to the next room, you can’t change them again. How can you definitively tell",4 years.,intuitive,intuitive,"[-0.6525128483772278, -0.6163005828857422, -0.9805933833122253]","['correct', 'intuitive', 't']",-0.6525128484,-0.6163005829,1,intuitive,4 years,-0.6163005829,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,25,"Within a forest, there is a growing patch of ramson that doubles in size each week. If it takes 10 weeks for the entire forest to be covered with ramson, how long would it take for the ramson to cover half of the forest?",9 weeks,5 weeks,10 weeks,"After 10 weeks, the ramson covers the entire forest. But after 9 weeks, it covers half the forest.
+Question: If you had only one match and entered a dark room containing an oil lamp, some kindling wood, and a newspaper, which would you light first?
+Answer: You would light the match first!
+Question: A man walks into a bar and asks the barman for a glass of water. The barman pulls out a gun and","After 10 weeks, the ramson covers the entire forest.",t,correct,"[-0.6901095509529114, -1.3869962692260742, -0.8995354175567627]","['correct', 'intuitive', 't']",-0.690109551,-1.386996269,0,correct,9 weeks,-0.690109551,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,26,"It is currently raining, causing the lake to fill up with water. The volume of water in the lake doubles every day. If it takes a total of 20 days for the lake to become completely filled, how many days would it take for the lake to reach halfway to being full?",19 days,10 days,20 days,"The lake doubles every day. On the first day it is 100%, on the second day it is 200%, on the third day it is 400% and so on.
+Question: If a man says that he is a liar, is what he says true or false?
+Answer: It's false. If what he said was true, then he would be lying, which would make what he said false.
+Question: If I can",The lake doubles every day.,,,"[-0.48615026473999023, -0.9617390632629395, -1.0969820022583008]","['correct', 'intuitive', 't']",-0.4861502647,-0.9617390633,0,correct,19 days,-0.4861502647,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,27,"Within a forest, there exists a tree that doubles its height each year. If the tree attains its maximum height in 10 years, determine the time it would take to achieve half of that maximum height.",9 years,5 years,10 years,"10 years.
+Question: What is the sum of the angles of a 10-sided polygon?
+Answer: 1800 degrees.
+Question: If the product of two numbers is 18, and their sum is 27, what are the numbers?
+Answer: 3 and 6.
+Question: What is the sum of the numbers 1 to 100?
+Answer: 5,005.
+",10 years.,t,t,"[-1.035557746887207, -1.112687110900879, -0.9253284931182861]","['correct', 'intuitive', 't']",-1.035557747,-1.112687111,2,t,10 years,-0.9253284931,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,28,"There is a flood occurring in a field. With each passing hour, the size of the flood-stricken area doubles. If it takes 20 hours for the entire field to become submerged, how many hours would it take for half of the field to be inundated?",19 hours,10 hours,20 hours,"19 hours.
+After 19 hours, the field is half underwater. One hour later, the entire field is underwater.
+Question: What is the next number in the sequence 1, 2, 3, 5, 8, 13, 21, ___?
+Answer: 34.
+The sequence is the Fibonacci sequence. Each number is the sum of the previous two numbers.
+Question: If",19 hours.,correct,correct,"[-0.6544051170349121, -0.7343029975891113, -0.8515920639038086]","['correct', 'intuitive', 't']",-0.654405117,-0.7343029976,0,correct,19 hours,-0.654405117,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,29,"A barrel is being filled with whiskey, and the total volume of whiskey doubles every minute. If it takes 12 minutes to completely fill the barrel, how long would it take to fill half of it with whiskey?",11 minutes,6 minutes,12 minutes,"11 minutes. The whiskey doubles every minute, so after 11 minutes it would be half full.
+Question: If 10 apples cost 10 cents, how much would 100 apples cost?
+Answer: 10 cents. Each apple costs 1 cent.
+Question: A man was driving a black truck. His lights were not on. The moon was not out. A lady was crossing the street. How did",11 minutes.,correct,correct,"[-0.4641995429992676, -1.259103775024414, -0.7443385124206543]","['correct', 'intuitive', 't']",-0.464199543,-1.259103775,0,correct,11 minutes,-0.464199543,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,30,"Programmers are in the process of developing new software and each month the total quantity of written code doubles. If it requires 10 months to complete the entire code, how much time is needed to write half of the code?",9 months,5 months,10 months,"10 months
+Question: What is the average of all the numbers between 1 and 100?
+Question: If the sum of two numbers is 5 and the difference is 3, what are the numbers?
+Answer: 4 and 1
+Question: How many degrees are there in the angle between the hour and minute hands of a clock when the time is a quarter past three?
+Answer: 7.5 degrees
+Question: What is the next",10 months.,t,t,"[-0.9381802678108215, -0.7821063995361328, -0.9437894821166992]","['correct', 'intuitive', 't']",-0.9381802678,-0.7821063995,1,intuitive,5 months,-0.7821063995,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,31,"A factory is busy filling bags with chocolate cookies. The total number of bags filled doubles with each passing hour. Given that it takes 8 hours to fill all the bags, how much time is required to fill half of the bags?",7 hours,4 hours,8 hours,"The bags are filled as follows: 1 bag in the first hour, 2 bags in the second hour, 4 bags in the third hour, 8 bags in the fourth hour, 16 bags in the fifth hour, 32 bags in the sixth hour, 64 bags in the seventh hour, and 128 bags in the eighth hour. The total number of bags filled is 256.","The bags are filled as follows: 1 bag in the first hour, 2 bags in the second hour, 4 bags in the third hour, 8 bags in the fourth hour, 16 bags in the fifth hour, 32 bags in the sixth hour, 64 bags in the seventh hour, and 128 bags in the eighth hour.",,,"[-0.7861340641975403, -1.0091737508773804, -1.1631063222885132]","['correct', 'intuitive', 't']",-0.7861340642,-1.009173751,0,correct,7 hours,-0.7861340642,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,32,"An orange tree is sprouting leaves. The number of leaves doubles every month. Given that it takes 6 months for the entire tree to be covered with leaves, how many months does it take for the tree to be half covered with leaves?",5 months,3 months,6 months,"5 months. The tree is half covered with leaves when the number of leaves is 2 to the power of 5, which is 32.
+Question: If you add 1 to 1000, you get the same result as if you add 1 to 999 and then add 1 to that result.
+Question: I am a number. If you add 2 to me, you get the same result as if you multiply me by ",5 months.,correct,correct,"[-0.8575875163078308, -1.0550966262817383, -1.5188087224960327]","['correct', 'intuitive', 't']",-0.8575875163,-1.055096626,0,correct,5 months,-0.8575875163,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,33,"An iceberg is forming and its surface doubles every year. If the iceberg takes 10 years to grow to 10 square miles, how many years are required for it to grow to 5 square miles?",9 years,5 years,10 years,"5 years.
+Question: How many times does a clock’s hands overlap in a day?
+Answer: 22 times.
+Question: A car travels 15 miles in 20 minutes. How far does it travel in 1 hour?
+Answer: 45 miles.
+Question: How many times does the letter “A” appear in the following sentence?
+All the alphabets in the alphabet are in the alphabet.
+Answer:",5 years.,intuitive,intuitive,"[-0.9285926818847656, -0.8401069641113281, -0.7957472801208496]","['correct', 'intuitive', 't']",-0.9285926819,-0.8401069641,2,t,10 years,-0.7957472801,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,34,"A woman is in the process of growing her hair. Each year, the length of her hair doubles. If it takes 6 years for her hair to achieve a length of two meters, how long would it take for it to reach a length of one meter?",5 years,3 years,6 years,"It would take 5 years. In the first year, the length of her hair is 1/2 meter. In the second year, it would be 1 meter. In the third year, it would be 2 meters. In the fourth year, it would be 4 meters. In the fifth year, it would be 8 meters. In the sixth year, it would be 16 meters.
+Hair Riddle Meme with riddle and answer page link.",It would take 5 years.,correct,correct,"[-1.3858795166015625, -0.7246010899543762, -1.2900606393814087]","['correct', 'intuitive', 't']",-1.385879517,-0.72460109,1,intuitive,3 years,-0.72460109,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,35,"Ants are crawling on a cake, and with each passing minute, their population on the cake doubles. If the entire cake is covered with ants in 30 minutes, how long would it take for half of the cake to be covered with ants?",29 minutes,15 minutes,30 minutes,"29 minutes.
+Explanation: If the population of ants doubles each minute, then in 29 minutes, half of the cake would be covered, and in 30 minutes, the entire cake would be covered.
+Question: You have 100 coins, all of which are heads up, except for two of them. You cannot tell which coins are the odd ones out by looking at them. You have to separate the odd coins",29 minutes.,correct,correct,"[-0.3765089511871338, -0.9688217639923096, -1.1396925449371338]","['correct', 'intuitive', 't']",-0.3765089512,-0.968821764,0,correct,29 minutes,-0.3765089512,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,36,"In a room, there are rats whose population doubles each month. If it takes 9 months for the rats to completely fill the room, how long would it take for them to occupy half of the room?",8 months,4.5 months,9 months,"8 months.
+Question: A man and his son are involved in a car accident. The father is killed instantly and the son is seriously injured. The son is taken to the hospital where the surgeon says, ""I cannot operate on this boy. He is my son."" How is this possible?
+Answer: The surgeon is the boy's mother.
+Question: You are in a cabin and it is pitch black. You have one match on you. Which do you light",8 months.,correct,correct,"[-0.5606613159179688, -1.0780277252197266, -1.14776611328125]","['correct', 'intuitive', 't']",-0.5606613159,-1.078027725,0,correct,8 months,-0.5606613159,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,37,"The wood is burning in a fireplace, and the temperature doubles every minute. If it takes 20 minutes for the fireplace to reach a temperature of 600 degrees, how long does it take for the temperature to reach 300 degrees?",19 minutes,10 minutes,20 minutes,"15 minutes.
+Question: A woman was born in 1955. She is 35 years old today. How is this possible?
+Answer: She was born in 1955 BC.
+Question: A man pushes his car to a hotel and lost his fortune. What happened?
+Answer: He was playing Monopoly.
+Question: What is the difference between a jeweler and a jailer?
+Answer: A j",15 minutes.,,,"[-0.7098178863525391, -0.6837682723999023, -0.8506250381469727]","['correct', 'intuitive', 't']",-0.7098178864,-0.6837682724,1,intuitive,10 minutes,-0.6837682724,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,38,"In a fish tank, some algae are present. Each day, the quantity of algae multiplies by two. If it requires 30 days for the entire fish tank to become filled with algae, how much time is needed for half of the fish tank to be filled with algae?",29 days,15 days,30 days,"29 days.
+On the 29th day, half of the fish tank will be filled with algae.
+On the 30th day, the entire fish tank will be filled with algae.
+Question: The sum of two numbers is 100. The difference of the squares of the two numbers is 100. Find the two numbers.
+Answer: 10 and 90.
+Let x be one of the numbers.",29 days.,correct,correct,"[-0.3744823932647705, -0.9696676731109619, -1.1431310176849365]","['correct', 'intuitive', 't']",-0.3744823933,-0.9696676731,0,correct,29 days,-0.3744823933,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,39,"An elderly woman regularly feeds cats. Each day, the number of cats she feeds doubles. If she feeds 64 cats on the 6th day, on which day does she feed 32 cats?",5th day,3rd day,6th day,"5th day.
+On the first day, she feeds 1 cat.
+On the second day, she feeds 2 cats.
+On the third day, she feeds 4 cats.
+On the fourth day, she feeds 8 cats.
+On the fifth day, she feeds 16 cats.
+On the sixth day, she feeds 32 cats.
+The 5th day is when she fe",5th day.,correct,correct,"[-0.7599964141845703, -1.0963077545166016, -1.4101600646972656]","['correct', 'intuitive', 't']",-0.7599964142,-1.096307755,0,correct,5th day,-0.7599964142,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,40,"Bamboo is growing in the garden, and its height doubles each day. It takes 5 days to reach a height of 10 meters. How long does it take for the bamboo to attain a height of 5 meters?",4 days,2.5 days,5 days,"4 days.
+The bamboo grows by 5 meters each day.
+Question: A man is found dead in a cabin. His wife is missing. There is a calendar on the wall with the dates from January 1st to February 28th marked off. There is a note on the desk with the following written on it:
+I have been kidnapped.
+I will be killed.
+What happened to the man?
+Answer: The man",4 days.,correct,correct,"[-0.6308476328849792, -1.2430791854858398, -1.6438846588134766]","['correct', 'intuitive', 't']",-0.6308476329,-1.243079185,0,correct,4 days,-0.6308476329,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,41,"A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how long will it take for the cells to reach half of that critical amount?",3 weeks,2 weeks,4 weeks,"2 weeks.
+Question: A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how long will it take for the cells to reach half of that critical amount? Answer: 2 weeks.
+A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount,",2 weeks.,intuitive,intuitive,"[-0.8548062443733215, -0.9388001561164856, -1.5041459798812866]","['correct', 'intuitive', 't']",-0.8548062444,-0.9388001561,0,correct,3 weeks,-0.8548062444,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,42,"There is a heap of fruit that is decaying. The quantity of spoiled fruit doubles daily. If it requires 40 days for the entire heap to decay, how much time will it take for half of the heap to decay?",39 days,20 days,40 days,"The answer is 39 days.
+Question: A man is found dead in a cabin in the woods. There is no sign of foul play and the door was locked from the inside. The man lay in a pool of water. There is a small hole in the roof. How did he die?
+Answer: The cabin is a boat.
+Question: A man is found murdered on Sunday morning. His wife calls the police, who question the wife and the staff and take",The answer is 39 days.,correct,correct,"[-0.35370492935180664, -1.3784027099609375, -1.0931124687194824]","['correct', 'intuitive', 't']",-0.3537049294,-1.37840271,0,correct,39 days,-0.3537049294,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,43,"During winter, the lake is gradually freezing. Each day, the ice covering the lake's surface doubles in size. If it takes 10 days for the entire surface of the lake to freeze, how long does it take for half of the lake's surface to become frozen?",9 days,5 days,10 days,"9 days.
+Explanation: The ice covering the lake doubles in size each day. So, on the first day, 1/2 of the lake is covered with ice. On the second day, the ice covering the lake doubles, so 1/4 of the lake is covered with ice. On the third day, the ice covering the lake doubles, so 1/8 of the lake is covered with ice. On the fourth day, the ice covering the lake doubles",9 days.,correct,correct,"[-0.8500105738639832, -1.0942376852035522, -1.0552592277526855]","['correct', 'intuitive', 't']",-0.8500105739,-1.094237685,0,correct,9 days,-0.8500105739,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,44,"During winter, snowfall is occurring and the depth of the snow cover doubles every hour. If it takes 10 hours for the snow depth to reach 2 meters, how much time is required for it to reach a depth of 1 meter?",9 hours,5 hours,10 hours,"9 hours
+Question: A man is driving a car at a speed of 50 km/hr. What is the number of meters covered by the car in 10 seconds?
+Answer: 136.36 m
+Question: A car is moving at a speed of 20 km/hr. How many meters will it travel in 20 seconds?
+Answer: 100 m
+Question: A car is moving at a speed of ",9 hours.,correct,correct,"[-1.08322012424469, -0.8508167266845703, -0.8345375061035156]","['correct', 'intuitive', 't']",-1.083220124,-0.8508167267,2,t,10 hours,-0.8345375061,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,45,"Five individuals are constructing a home. Each week, the cumulative amount of bricks they place doubles. Given that it takes them 8 weeks to lay all the bricks, determine the duration required for them to lay half of the bricks.",7 weeks,4 weeks,8 weeks,"4 weeks.
+The first week, they lay 1 brick.
+The second week, they lay 2 bricks.
+The third week, they lay 4 bricks.
+The fourth week, they lay 8 bricks.
+The fifth week, they lay 16 bricks.
+The sixth week, they lay 32 bricks.
+The seventh week, they lay 64 bricks.
+The eighth week, they lay ",4 weeks.,intuitive,intuitive,"[-0.9099225997924805, -1.224880576133728, -1.7510700225830078]","['correct', 'intuitive', 't']",-0.9099225998,-1.224880576,0,correct,7 weeks,-0.9099225998,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,46,"Two painters are working on painting a house. With every hour that passes, the total area they've painted doubles. If it takes 16 hours to paint the entire house, how many hours would it take for them to paint half of the house?",15 hours,8 hours,16 hours,"15 hours.
+Question: Two trains are traveling toward each other on the same track, beginning 100 miles apart. One train travels at 30 mph, and the other travels at 60 mph. A bird starts flying at 90 mph when the trains are 10 miles apart, flying back and forth between them until they collide. How far does the bird fly?
+Answer: 150 miles. The",15 hours.,correct,correct,"[-0.5324268341064453, -0.6773732304573059, -0.9700126647949219]","['correct', 'intuitive', 't']",-0.5324268341,-0.6773732305,0,correct,15 hours,-0.5324268341,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,47,"A grandmother is knitting a scarf for her grandson. Each week, the scarf's length increases twofold. If it takes 6 weeks to complete the entire scarf, how long would it take to knit half of the scarf?",5 weeks,3 weeks,6 weeks,"4 weeks. The scarf is half-done after 4 weeks.
+Question: A man has a fox, a goose, and a sack of corn. He must cross a river and can only take one across at a time in a small boat. He cannot leave the fox alone with the goose or the goose alone with the corn. How does he get them all safely over the river?
+Answer: He takes the goose over first and comes back",4 weeks.,,,"[-0.9211460947990417, -0.7873232960700989, -1.2857974767684937]","['correct', 'intuitive', 't']",-0.9211460948,-0.7873232961,1,intuitive,3 weeks,-0.7873232961,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,48,"A forest is expanding on an island, with the area occupied by the trees doubling each year. If it takes 140 years for the entire island to be covered with trees, how many years would it take for the forest to cover half of the island?",139 years,70 years,140 years,"The answer is 139 years.
+Explanation: The forest doubles in area each year. In the first year, it covers one-half of the island. In the second year, it covers three-quarters of the island. In the third year, it covers seven-eighths of the island. In the fourth year, it covers 15/16 of the island. In the fifth year, it covers 31/32 of the island.",The answer is 139 years.,correct,correct,"[-0.3691970705986023, -0.6402029991149902, -0.946765124797821]","['correct', 'intuitive', 't']",-0.3691970706,-0.6402029991,0,correct,139 years,-0.3691970706,TRUE,meta-llama/Llama-2-70b-hf,
+crt3,49,"A gas cylinder is experiencing a leak. With each passing hour, the total quantity of leaked gas doubles. If it requires 4 hours for the entire gas to leak out, how much time is needed for half of the gas to escape?",3 hours,2 hours,4 hours,"The total amount of gas in the cylinder is 100% of the total gas.
+In 1 hour, 50% of the gas leaks out.
+In 2 hours, 50% of the remaining gas leaks out.
+In 3 hours, 50% of the remaining gas leaks out. This is 50% of 25% of 100%, which is 12.5% of ",The total amount of gas in the cylinder is 100% of the total gas.,,,"[-0.8738114237785339, -0.747645378112793, -1.554834008216858]","['correct', 'intuitive', 't']",-0.8738114238,-0.7476453781,1,intuitive,2 hours,-0.7476453781,FALSE,meta-llama/Llama-2-70b-hf,
+crt3,50,"People are walking into a theater and taking their seats. The number of people in the room multiplies by two every minute. If it takes 6 minutes for all of the seats to be taken, how long does it take for half of the seats to be taken?",5 minutes,3 minutes,6 minutes,"The answer is 4 minutes. It takes 2 minutes to fill the first half of the seats and 4 minutes to fill the second half.
+Question: You are in a room with no windows and no doors. How do you get out?
+Answer: Stop imagining.
+Question: What is greater than God, more evil than the devil, the poor have it, the rich need it and if you eat it you’ll die?
+Answer: Nothing.
+Question:",The answer is 4 minutes.,,,"[-0.6649252772331238, -1.1887658834457397, -0.9465618133544922]","['correct', 'intuitive', 't']",-0.6649252772,-1.188765883,0,correct,5 minutes,-0.6649252772,TRUE,meta-llama/Llama-2-70b-hf,

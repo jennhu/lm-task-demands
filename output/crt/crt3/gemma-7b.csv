@@ -1,0 +1,350 @@
+condition,item_id,question,correct,intuitive,t,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+crt3,1,"In a city, a virus is spreading, causing the total number of infected individuals to double each day. If it takes 6 days for the entire city's population to be infected, how many days would it require for half of the people to become infected?",5 days,3 days,6 days,"
+Let the total population of the city be x.
+The number of people infected after 1 day = x/2
+The number of people infected after 2 days = x/2 + x/4 = 3x/4
+The number of people infected after 3 days = 3x/4 + 3x/8 = 11x/8
+The number of people infected after 4 days = 11x/8 + 11x",.,,,"[-1.8050308227539062, -1.0293554067611694, -1.6537729501724243]","['correct', 'intuitive', 't']",-1.805030823,-1.029355407,1,intuitive,3 days,-1.029355407,FALSE,google/gemma-7b,
+crt3,2,"A pandemic is occurring in a state where the total number of infected individuals doubles daily. If it takes 10 days for the entire state's population to become infected, how many days would it take for half of the state's population to be infected?",9 days,5 days,10 days," 5 days
+Explanation:
+Let the total population of the state be 2^n.
+Then, the number of infected individuals after 10 days = 2^n
+The number of infected individuals after 5 days = 2^n/2
+The number of infected individuals after 10 days = 2^n
+The number of infected individuals after 5 days = 2^n/2
+Therefore, the number of infected individuals after 5 days",5 days.,intuitive,intuitive,"[-1.9929733276367188, -0.9788106083869934, -1.0562782287597656]","['correct', 'intuitive', 't']",-1.992973328,-0.9788106084,1,intuitive,5 days,-0.9788106084,FALSE,google/gemma-7b,
+crt3,3,"People are escaping from war. Each day, the total count of refugees doubles. If it takes 22 days for the entire population to evacuate, how long would it take for half of the population to do so?",21 days,11 days,22 days," 11 days
+
+Question: A man is walking along a road. He comes to a river and sees a boat. He gets in the boat and crosses the river. He gets out of the boat and walks away. How did he get across the river?
+Answer: He was in a canoe.
+
+Question: A man is walking along a road. He comes to a river and sees a boat. He gets in the boat and crosses the river. He gets out of the boat and",11 days.,intuitive,intuitive,"[-1.0346450805664062, -0.40723609924316406, -1.0544624328613281]","['correct', 'intuitive', 't']",-1.034645081,-0.4072360992,1,intuitive,11 days,-0.4072360992,FALSE,google/gemma-7b,
+crt3,4,"A farmer is plowing a field. Each hour, the total plowed area doubles. If it takes 10 hours for the entire field to be plowed, how long would it take for half of the field to be plowed?",9 hours,5 hours,10 hours," 5 hours
+
+Question: A farmer is plowing a field. Each hour, the total plowed area doubles. If it takes 10 hours for the entire field to be plowed, how long would it take for half of the field to be plowed?
+Answer: 5 hours
+
+Question: A farmer is plowing a field. Each hour, the total plowed area doubles. If it takes 10 hours for the entire field to be plowed, how long would it take for half of the",5 hours.,intuitive,intuitive,"[-1.5060195922851562, -0.7117385864257812, -0.9827251434326172]","['correct', 'intuitive', 't']",-1.506019592,-0.7117385864,1,intuitive,5 hours,-0.7117385864,FALSE,google/gemma-7b,
+crt3,5,"The apples are dropping from an apple tree, with the total count of fallen apples doubling each day. If it requires 16 days for all the apples to drop, how many days would it take for half the apples to fall?",15 days,8 days,16 days," 15 days
+
+Question: A man is walking along a road. He walks 100 meters and rests for 10 minutes, then walks another 100 meters and rests for 10 minutes, and so on. If it takes him 1 hour to walk 1 kilometer, how long will it take him to walk 2 kilometers?
+Answer: 2 hours
+
+Question: A man is walking along a road. He walks 100 meters and",15 days.,correct,correct,"[-1.2314910888671875, -1.0703887939453125, -1.352243423461914]","['correct', 'intuitive', 't']",-1.231491089,-1.070388794,1,intuitive,8 days,-1.070388794,FALSE,google/gemma-7b,
+crt3,6,"Fish are migrating and each day, the total distance they cover doubles. If it takes the fish 18 days to reach their destination, how many days would it take for them to cover half the distance?",17 days,9 days,18 days," 9 days
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 2 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 1 mile per hour. What is his average speed for the whole walk?
+Answer: 1.5 miles per hour
+
+Question: A man is walking along",9 days.,intuitive,intuitive,"[-1.7032928466796875, -0.8567708134651184, -1.3126258850097656]","['correct', 'intuitive', 't']",-1.703292847,-0.8567708135,1,intuitive,9 days,-0.8567708135,FALSE,google/gemma-7b,
+crt3,7,"A tree branch is falling, and with each passing second, the total distance it covered doubles. If it takes 6 seconds for the branch to reach the ground, how long would it take for it to cover one-half of the total distance?",5 seconds,3 seconds,6 seconds," 3 seconds
+
+Question: A man is walking along a road. He walks 100 meters in the first minute, 200 meters in the second minute, 400 meters in the third minute, and so on. How far will he walk in 10 minutes?
+Answer: 1023 meters
+
+Question: A man is walking along a road. He walks 100 meters in the first minute, 200 meters in the",3 seconds.,intuitive,intuitive,"[-1.7381044626235962, -0.9404869079589844, -1.6379203796386719]","['correct', 'intuitive', 't']",-1.738104463,-0.940486908,1,intuitive,3 seconds,-0.940486908,FALSE,google/gemma-7b,
+crt3,8,"A fly is traveling from point A to point B. With each passing hour, the total distance it covered doubles. If the fly reaches point B in 12 hours, how long does it take for the fly to cover half of the distance?",11 hours,6 hours,12 hours," 6 hours
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 4 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 5 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 6 miles per hour. What is his average speed for",6 hours.,intuitive,intuitive,"[-1.4976253509521484, -0.9741312861442566, -1.3087787628173828]","['correct', 'intuitive', 't']",-1.497625351,-0.9741312861,1,intuitive,6 hours,-0.9741312861,FALSE,google/gemma-7b,
+crt3,9,"A new concrete pavement is drying. The overall area of dried concrete doubles each day. If it requires 4 days for the entire pavement to dry completely, how many days does it take for half the pavement to become dry?",3 days,2 days,4 days," 2 days
+
+Question: A man is walking along a road. He walks 100 meters in 10 minutes. How long will it take him to walk 1000 meters?
+Answer: 100 minutes
+
+Question: A man is walking along a road. He walks 100 meters in 10 minutes. How long will it take him to walk 1000 meters?
+Answer: 100 minutes
+
+Question:",2 days.,intuitive,intuitive,"[-1.1881866455078125, -0.8132374882698059, -1.4199117422103882]","['correct', 'intuitive', 't']",-1.188186646,-0.8132374883,1,intuitive,2 days,-0.8132374883,FALSE,google/gemma-7b,
+crt3,10,"There is a freezer filled with food, and the total volume of the frozen food doubles every hour. If it takes 16 hours for all the food to become frozen, how long would it take to freeze half of the food?",15 hours,8 hours,16 hours," 8 hours.
+
+Explanation:
+Let the initial volume of the food be 1.
+After 1 hour, the volume of the food is 2.
+After 2 hours, the volume of the food is 4.
+After 3 hours, the volume of the food is 8.
+After 4 hours, the volume of the food is 16.
+After 5 hours, the volume of the food is 32.
+After 6",8 hours.,intuitive,intuitive,"[-1.5102415084838867, -0.8146960139274597, -1.319502830505371]","['correct', 'intuitive', 't']",-1.510241508,-0.8146960139,1,intuitive,8 hours,-0.8146960139,FALSE,google/gemma-7b,
+crt3,11,"A pot of water is boiling on the stove, and with each passing hour, the overall volume of the evaporated water doubles. If the entire pot takes 6 hours to evaporate completely, how long does it take for half of the pot to evaporate?",5 hours,3 hours,6 hours," 3 hours.
+
+Explanation:
+Let the volume of the pot be V.
+The volume of the evaporated water after 1 hour is V/2.
+The volume of the evaporated water after 2 hours is V/4.
+The volume of the evaporated water after 3 hours is V/8.
+The volume of the evaporated water after 4 hours is V/16.
+The volume of the evaporated water after 5 hours is V/32.
+",3 hours.,intuitive,intuitive,"[-1.635668396949768, -0.8147862553596497, -1.3104833364486694]","['correct', 'intuitive', 't']",-1.635668397,-0.8147862554,1,intuitive,3 hours,-0.8147862554,FALSE,google/gemma-7b,
+crt3,12,"There is a section of mold on a bread loaf that doubles in size every hour. If it takes 16 hours for the mold to completely cover the bread, how much time is needed for the mold to cover half of the bread?",15 hours,8 hours,16 hours," 8 hours
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 2 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 1 mile per hour, then stops for 20 minutes. How far is he from his starting point?
+Answer: 3 miles
+
+Question: A man",8 hours.,intuitive,intuitive,"[-1.1376380920410156, -0.6526463627815247, -1.2717514038085938]","['correct', 'intuitive', 't']",-1.137638092,-0.6526463628,1,intuitive,8 hours,-0.6526463628,FALSE,google/gemma-7b,
+crt3,13,"A forest is engulfed in flames. Each day, the overall area of the scorched forest doubles in size. If it takes 18 days for the entire forest to be consumed by the fire, how many days would it take for half of the forest to be burnt?",17 days,9 days,18 days," 17 days
+
+Question: A man is walking along a road. He comes to a river and sees a boatman who charges 2 dollars to take him across. The man has only one dollar, so he thinks for a while, then jumps into the river and swims across. Why did he do that?
+Answer: He didn’t want to pay the boatman.
+
+Question: A man is walking along a road. He comes to a river and sees a boatman who",17 days.,correct,correct,"[-1.032510757446289, -0.8936767578125, -1.0999107360839844]","['correct', 'intuitive', 't']",-1.032510757,-0.8936767578,1,intuitive,9 days,-0.8936767578,FALSE,google/gemma-7b,
+crt3,14,"In a cave, there is a colony of bats with a daily population doubling. Given that it takes 60 days for the entire cave to be filled with bats, how many days would it take for the cave to be half-filled with bats?",59 days,30 days,60 days,"
+Let the initial population of bats be x.
+Then, the population of bats after 60 days is 2x.
+The population of bats after 60 days is 2x.
+The population of bats after 60 days is 2x.
+The population of bats after 60 days is 2x.
+The population of bats after 60 days is 2x.
+The population of bats after 60 days is 2",.,,,"[-1.8771915435791016, -0.8105506896972656, -1.3566722869873047]","['correct', 'intuitive', 't']",-1.877191544,-0.8105506897,1,intuitive,30 days,-0.8105506897,FALSE,google/gemma-7b,
+crt3,15,"A section of grass is expanding within a garden, with the total area it occupies doubling daily. If it requires 12 days for the entire garden to be encompassed by the grass, how many days are needed for the grass to cover half of the garden?",11 days,6 days,12 days," 6 days
+
+Question: A man is walking along a road. He walks 100 meters and then turns left. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then",6 days.,intuitive,intuitive,"[-1.3075542449951172, -1.1152139902114868, -1.38031005859375]","['correct', 'intuitive', 't']",-1.307554245,-1.11521399,1,intuitive,6 days,-1.11521399,FALSE,google/gemma-7b,
+crt3,16,"An investor possesses 1 bitcoin. Each day, their number of bitcoins doubles. If it takes them 30 days to achieve their investment target, how long would it take for them to reach half of that target?",29 days,15 days,30 days," 15 days.
+
+This is a simple example of the rule of halving. The rule of halving is a simple way to calculate the time it takes for a quantity to double. It is a useful tool for understanding exponential growth and decay.
+
+The rule of halving is based on the fact that if a quantity doubles every day, then it will take half as long to reach half of its target as it does to reach its target.
+
+For example, if an investor has ",15 days.,intuitive,intuitive,"[-1.0855846405029297, -0.5663909912109375, -1.0280265808105469]","['correct', 'intuitive', 't']",-1.085584641,-0.5663909912,1,intuitive,15 days,-0.5663909912,FALSE,google/gemma-7b,
+crt3,17,"Fish inhabit a creek, and their population doubles each week. If it requires 24 weeks for the entire creek to become completely filled with fish, how long would it take to fill half of the creek with fish?",23 weeks,12 weeks,24 weeks," 12 weeks
+
+Question: A man is walking along a road. He walks 100 meters and then turns left. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and",12 weeks.,intuitive,intuitive,"[-1.3890113830566406, -0.4152035713195801, -1.4182910919189453]","['correct', 'intuitive', 't']",-1.389011383,-0.4152035713,1,intuitive,12 weeks,-0.4152035713,FALSE,google/gemma-7b,
+crt3,18,"A dust cloud hovers above the city, doubling in size each day. If it takes 12 days for the entire city to be engulfed by the cloud, how many days does it take for the cloud to cover half of the city?",11 days,6 days,12 days," 11 days
+
+Question: A man is walking along a road. He comes to a river and sees a boat. He gets into the boat and crosses the river. He then walks away from the river. How did he get back to the other side of the river?
+Answer: He walked across the bridge.
+
+Question: A man is walking along a road. He comes to a river and sees a boat. He gets into the boat and crosses the river. He then walks away",11 days.,correct,correct,"[-1.042490005493164, -1.1170425415039062, -1.261129379272461]","['correct', 'intuitive', 't']",-1.042490005,-1.117042542,0,correct,11 days,-1.042490005,TRUE,google/gemma-7b,
+crt3,19,"There is a sick student in the class. Each day, the number of sick students doubles. If it takes 6 days for the entire class to become sick, how many days does it take for half of the class to become sick?",5 days,3 days,6 days," 3 days
+Explanation:
+Let the number of students in the class be n.
+Let the number of sick students on the first day be x.
+Then, the number of sick students on the second day is 2x.
+The number of sick students on the third day is 2(2x) = 4x.
+The number of sick students on the fourth day is 2(4x) = 8x.
+The number of sick students on",3 days.,intuitive,intuitive,"[-1.5387293100357056, -0.9416529536247253, -1.508898377418518]","['correct', 'intuitive', 't']",-1.53872931,-0.9416529536,1,intuitive,3 days,-0.9416529536,FALSE,google/gemma-7b,
+crt3,20,"A colony of bacteria is growing on yogurt, and the size of the colony doubles daily. If it takes 4 days for the colony to completely cover the yogurt, how many days does it take for the patch to cover half of the yogurt?",3 days,2 days,4 days,"
+Let the size of the colony be x.
+The size of the colony doubles daily.
+So, the size of the colony after 1 day = 2x
+The size of the colony after 2 days = 2(2x) = 4x
+The size of the colony after 3 days = 2(4x) = 8x
+The size of the colony after 4 days = 2(8x) = 16x
+",.,,,"[-1.3560600280761719, -1.05837881565094, -1.7968229055404663]","['correct', 'intuitive', 't']",-1.356060028,-1.058378816,1,intuitive,2 days,-1.058378816,FALSE,google/gemma-7b,
+crt3,21,"A moss patch is expanding on a rock, doubling its size each day. It takes 300 days for the moss to completely cover the rock. How many days are required for the moss to cover half of the rock?",299 days,150 days,300 days,"
+Let the size of the rock be x.
+The size of the moss patch is 1/2x.
+The size of the moss patch after 1 day is 1/2x.
+The size of the moss patch after 2 days is 1/2x.
+The size of the moss patch after 3 days is 1/2x.
+The size of the moss patch after 4 days is 1/2x.
+The size of",.,,,"[-1.021113634109497, -0.6305135488510132, -1.1797058582305908]","['correct', 'intuitive', 't']",-1.021113634,-0.6305135489,1,intuitive,150 days,-0.6305135489,FALSE,google/gemma-7b,
+crt3,22,"Beneath a tree, there is a heap of leaves that doubles in size every week. If it takes 4 weeks for the pile to attain a height of 4 meters, how much time is required for it to reach a height of 2 meters?",3 weeks,2 weeks,4 weeks,"
+Let the height of the pile of leaves be x meters.
+The height of the pile of leaves doubles every week.
+So, the height of the pile of leaves after 1 week = 2x meters
+The height of the pile of leaves after 2 weeks = 2(2x) = 4x meters
+The height of the pile of leaves after 3 weeks = 2(4x) = 8x meters
+The height of the pile of leaves",.,,,"[-1.3019065856933594, -0.9289538264274597, -1.46823251247406]","['correct', 'intuitive', 't']",-1.301906586,-0.9289538264,1,intuitive,2 weeks,-0.9289538264,FALSE,google/gemma-7b,
+crt3,23,"Mushrooms are cultivated in a container, and their quantity doubles daily. Given that it takes 6 days for the mushrooms to fill the entire container, determine the time needed to fill half of the container.",5 days,3 days,6 days,"
+Let the initial quantity of mushrooms be x.
+Then, the quantity of mushrooms after 1 day = 2x
+The quantity of mushrooms after 2 days = 2(2x) = 4x
+The quantity of mushrooms after 3 days = 2(4x) = 8x
+The quantity of mushrooms after 4 days = 2(8x) = 16x
+The quantity of mushrooms after 5 days = 2(1",.,,,"[-1.9815444946289062, -1.1423238515853882, -1.8420333862304688]","['correct', 'intuitive', 't']",-1.981544495,-1.142323852,1,intuitive,3 days,-1.142323852,FALSE,google/gemma-7b,
+crt3,24,"There is a man who raises rabbits in a barn. Each year, the rabbit population doubles. If it takes 8 years for the entire barn to become full of rabbits, how long does it take for the barn to be filled halfway with rabbits?",7 years,4 years,8 years," 4 years.
+
+This is a classic problem in mathematics. The answer is 4 years. The reason is that the barn is filled halfway in 4 years because the barn is filled halfway in 4 years.
+
+The answer is 4 years because the barn is filled halfway in 4 years.
+
+The answer is 4 years because the barn is filled halfway in 4 years.
+
+The answer is 4 years because the barn is filled halfway in 4 years.
+
+The",4 years.,intuitive,intuitive,"[-1.2655868530273438, -0.6111297607421875, -1.0515340566635132]","['correct', 'intuitive', 't']",-1.265586853,-0.6111297607,1,intuitive,4 years,-0.6111297607,FALSE,google/gemma-7b,
+crt3,25,"Within a forest, there is a growing patch of ramson that doubles in size each week. If it takes 10 weeks for the entire forest to be covered with ramson, how long would it take for the ramson to cover half of the forest?",9 weeks,5 weeks,10 weeks," 5 weeks
+
+Question: A man is walking along a road. He sees a car coming towards him. The car is travelling at 60 mph. The man is walking at 3 mph. The car is 100 yards away. How long will it take the car to reach the man?
+Answer: 100 seconds
+
+Question: A man is walking along a road. He sees a car coming towards him. The car is travelling at 60 mph.",5 weeks.,intuitive,intuitive,"[-1.382097840309143, -0.7411117553710938, -1.15826416015625]","['correct', 'intuitive', 't']",-1.38209784,-0.7411117554,1,intuitive,5 weeks,-0.7411117554,FALSE,google/gemma-7b,
+crt3,26,"It is currently raining, causing the lake to fill up with water. The volume of water in the lake doubles every day. If it takes a total of 20 days for the lake to become completely filled, how many days would it take for the lake to reach halfway to being full?",19 days,10 days,20 days," 10 days
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 2 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 1 mile per hour, then stops for 20 minutes. How far has he walked?
+Answer: 3 miles
+
+Question: A man is walking",10 days.,intuitive,intuitive,"[-1.2712249755859375, -0.6035490036010742, -1.2599258422851562]","['correct', 'intuitive', 't']",-1.271224976,-0.6035490036,1,intuitive,10 days,-0.6035490036,FALSE,google/gemma-7b,
+crt3,27,"Within a forest, there exists a tree that doubles its height each year. If the tree attains its maximum height in 10 years, determine the time it would take to achieve half of that maximum height.",9 years,5 years,10 years,"
+Let the maximum height of the tree be h.
+Then, the height of the tree after 1 year = h/2
+The height of the tree after 2 years = h/4
+The height of the tree after 3 years = h/8
+The height of the tree after 4 years = h/16
+The height of the tree after 5 years = h/32
+The height of the tree after 6 years = h/64",.,,,"[-2.2597007751464844, -1.3505502939224243, -1.5159244537353516]","['correct', 'intuitive', 't']",-2.259700775,-1.350550294,1,intuitive,5 years,-1.350550294,FALSE,google/gemma-7b,
+crt3,28,"There is a flood occurring in a field. With each passing hour, the size of the flood-stricken area doubles. If it takes 20 hours for the entire field to become submerged, how many hours would it take for half of the field to be inundated?",19 hours,10 hours,20 hours," 10 hours
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 2 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 1 mile per hour, then stops for 20 minutes. How far has he walked?
+Answer: 3 miles
+
+Question: A man is walking",10 hours.,intuitive,intuitive,"[-0.913330078125, -0.6387825012207031, -1.0248947143554688]","['correct', 'intuitive', 't']",-0.9133300781,-0.6387825012,1,intuitive,10 hours,-0.6387825012,FALSE,google/gemma-7b,
+crt3,29,"A barrel is being filled with whiskey, and the total volume of whiskey doubles every minute. If it takes 12 minutes to completely fill the barrel, how long would it take to fill half of it with whiskey?",11 minutes,6 minutes,12 minutes," 6 minutes.
+
+Explanation:
+Let the volume of the barrel be 1 unit.
+The volume of whiskey in the barrel after 1 minute is 2 units.
+The volume of whiskey in the barrel after 2 minutes is 4 units.
+The volume of whiskey in the barrel after 3 minutes is 8 units.
+The volume of whiskey in the barrel after 4 minutes is 16 units.
+The volume of whiskey in the barrel after 5 minutes",6 minutes.,intuitive,intuitive,"[-1.1551837921142578, -0.8140996098518372, -1.159423828125]","['correct', 'intuitive', 't']",-1.155183792,-0.8140996099,1,intuitive,6 minutes,-0.8140996099,FALSE,google/gemma-7b,
+crt3,30,"Programmers are in the process of developing new software and each month the total quantity of written code doubles. If it requires 10 months to complete the entire code, how much time is needed to write half of the code?",9 months,5 months,10 months," 10 months
+Explanation:
+Let the total quantity of written code be 2^n.
+The time required to write half of the code is 2^(n-1) months.
+Hence, the time required to write half of the code is 10 months.",10 months.,t,t,"[-1.6716690063476562, -1.0384445190429688, -1.1068286895751953]","['correct', 'intuitive', 't']",-1.671669006,-1.038444519,1,intuitive,5 months,-1.038444519,FALSE,google/gemma-7b,
+crt3,31,"A factory is busy filling bags with chocolate cookies. The total number of bags filled doubles with each passing hour. Given that it takes 8 hours to fill all the bags, how much time is required to fill half of the bags?",7 hours,4 hours,8 hours,"
+Let the number of bags filled in 1 hour be x.
+Then, the number of bags filled in 2 hours = 2x
+The number of bags filled in 4 hours = 4x
+The number of bags filled in 8 hours = 8x
+The number of bags filled in 16 hours = 16x
+The number of bags filled in 32 hours = 32x
+The number of bags filled in 64",.,,,"[-2.173126220703125, -0.8498280644416809, -1.519793152809143]","['correct', 'intuitive', 't']",-2.173126221,-0.8498280644,1,intuitive,4 hours,-0.8498280644,FALSE,google/gemma-7b,
+crt3,32,"An orange tree is sprouting leaves. The number of leaves doubles every month. Given that it takes 6 months for the entire tree to be covered with leaves, how many months does it take for the tree to be half covered with leaves?",5 months,3 months,6 months," 3 months
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 2 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 1 mile per hour. What is his average speed for the whole walk?
+Answer: 1.5 miles per hour
+
+Question: A man is walking along",3 months.,intuitive,intuitive,"[-1.6245981454849243, -0.7942683100700378, -1.517901062965393]","['correct', 'intuitive', 't']",-1.624598145,-0.7942683101,1,intuitive,3 months,-0.7942683101,FALSE,google/gemma-7b,
+crt3,33,"An iceberg is forming and its surface doubles every year. If the iceberg takes 10 years to grow to 10 square miles, how many years are required for it to grow to 5 square miles?",9 years,5 years,10 years," 5 years
+
+Question: A man is walking along a road. He walks 100 feet and turns left. He walks 100 feet and turns left. He walks 100 feet and turns left. He walks 100 feet and turns left. He walks 100 feet and turns left. He walks 100 feet and turns left. He walks 100 feet and turns left. He walks 100 feet and turns",5 years.,intuitive,intuitive,"[-1.8252143859863281, -1.0319252014160156, -1.152207374572754]","['correct', 'intuitive', 't']",-1.825214386,-1.031925201,1,intuitive,5 years,-1.031925201,FALSE,google/gemma-7b,
+crt3,34,"A woman is in the process of growing her hair. Each year, the length of her hair doubles. If it takes 6 years for her hair to achieve a length of two meters, how long would it take for it to reach a length of one meter?",5 years,3 years,6 years,"
+Let the length of her hair after 1 year be x.
+Then, the length of her hair after 2 years is 2x.
+The length of her hair after 3 years is 4x.
+The length of her hair after 4 years is 8x.
+The length of her hair after 5 years is 16x.
+The length of her hair after 6 years is 32x.
+Now, 32x",.,,,"[-1.8364614248275757, -0.8487828373908997, -1.536608338356018]","['correct', 'intuitive', 't']",-1.836461425,-0.8487828374,1,intuitive,3 years,-0.8487828374,FALSE,google/gemma-7b,
+crt3,35,"Ants are crawling on a cake, and with each passing minute, their population on the cake doubles. If the entire cake is covered with ants in 30 minutes, how long would it take for half of the cake to be covered with ants?",29 minutes,15 minutes,30 minutes," 15 minutes.
+
+Explanation:
+Let the number of ants on the cake at the beginning be 1.
+After 1 minute, the number of ants on the cake is 2.
+After 2 minutes, the number of ants on the cake is 4.
+After 3 minutes, the number of ants on the cake is 8.
+After 4 minutes, the number of ants on the cake is 16.
+After 5 minutes, the",15 minutes.,intuitive,intuitive,"[-1.0961723327636719, -0.5196990966796875, -0.8262252807617188]","['correct', 'intuitive', 't']",-1.096172333,-0.5196990967,1,intuitive,15 minutes,-0.5196990967,FALSE,google/gemma-7b,
+crt3,36,"In a room, there are rats whose population doubles each month. If it takes 9 months for the rats to completely fill the room, how long would it take for them to occupy half of the room?",8 months,4.5 months,9 months,"
+Let the number of rats in the room be x.
+The number of rats after 1 month = 2x
+The number of rats after 2 months = 2(2x) = 4x
+The number of rats after 3 months = 2(4x) = 8x
+The number of rats after 4 months = 2(8x) = 16x
+The number of rats after 5 months = 2(1",.,,,"[-1.8600069284439087, -0.7832744717597961, -1.5441728830337524]","['correct', 'intuitive', 't']",-1.860006928,-0.7832744718,1,intuitive,4.5 months,-0.7832744718,FALSE,google/gemma-7b,
+crt3,37,"The wood is burning in a fireplace, and the temperature doubles every minute. If it takes 20 minutes for the fireplace to reach a temperature of 600 degrees, how long does it take for the temperature to reach 300 degrees?",19 minutes,10 minutes,20 minutes," 10 minutes.
+
+The answer is 10 minutes.
+
+The temperature doubles every minute.
+
+The temperature is 600 degrees after 20 minutes.
+
+The temperature is 300 degrees after 10 minutes.
+
+The temperature is 150 degrees after 5 minutes.
+
+The temperature is 75 degrees after 2.5 minutes.
+
+The temperature is 37.5 degrees after 1.25 minutes.
+
+The",10 minutes.,intuitive,intuitive,"[-1.8560603857040405, -0.48346877098083496, -1.157911777496338]","['correct', 'intuitive', 't']",-1.856060386,-0.483468771,1,intuitive,10 minutes,-0.483468771,FALSE,google/gemma-7b,
+crt3,38,"In a fish tank, some algae are present. Each day, the quantity of algae multiplies by two. If it requires 30 days for the entire fish tank to become filled with algae, how much time is needed for half of the fish tank to be filled with algae?",29 days,15 days,30 days,"
+Let the quantity of algae present in the fish tank be x.
+The quantity of algae multiplies by two each day.
+So, the quantity of algae after 1 day = 2x
+The quantity of algae after 2 days = 2(2x) = 4x
+The quantity of algae after 3 days = 2(4x) = 8x
+The quantity of algae after 4 days = 2(8x) = 1",.,,,"[-1.2327690124511719, -0.6345663070678711, -0.9746627807617188]","['correct', 'intuitive', 't']",-1.232769012,-0.6345663071,1,intuitive,15 days,-0.6345663071,FALSE,google/gemma-7b,
+crt3,39,"An elderly woman regularly feeds cats. Each day, the number of cats she feeds doubles. If she feeds 64 cats on the 6th day, on which day does she feed 32 cats?",5th day,3rd day,6th day," 1st day
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 2 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 1 mile per hour. What is his average speed for the whole walk?
+Answer: 1.5 miles per hour
+
+Question: A man is walking",1st day.,,,"[-1.2833499908447266, -1.1260871887207031, -1.5468883514404297]","['correct', 'intuitive', 't']",-1.283349991,-1.126087189,1,intuitive,3rd day,-1.126087189,FALSE,google/gemma-7b,
+crt3,40,"Bamboo is growing in the garden, and its height doubles each day. It takes 5 days to reach a height of 10 meters. How long does it take for the bamboo to attain a height of 5 meters?",4 days,2.5 days,5 days,"
+Let the height of the bamboo be x meters.
+The height of the bamboo doubles each day.
+So, the height of the bamboo after 1 day = 2x meters
+The height of the bamboo after 2 days = 2(2x) = 4x meters
+The height of the bamboo after 3 days = 2(4x) = 8x meters
+The height of the bamboo after 4 days = 2(8x) =",.,,,"[-1.7962570190429688, -0.8928850293159485, -1.5041478872299194]","['correct', 'intuitive', 't']",-1.796257019,-0.8928850293,1,intuitive,2.5 days,-0.8928850293,FALSE,google/gemma-7b,
+crt3,41,"A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how long will it take for the cells to reach half of that critical amount?",3 weeks,2 weeks,4 weeks," 2 weeks
+
+Question: A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how long will it take for the cells to reach half of that critical amount?
+Answer: 2 weeks
+
+Question: A patient has been diagnosed with cancer, and the number of cancer cells doubles each week. If it takes 4 weeks for the cancer cells to reach a critical amount, how",2 weeks.,intuitive,intuitive,"[-1.5648349523544312, -1.0385503768920898, -1.950850486755371]","['correct', 'intuitive', 't']",-1.564834952,-1.038550377,1,intuitive,2 weeks,-1.038550377,FALSE,google/gemma-7b,
+crt3,42,"There is a heap of fruit that is decaying. The quantity of spoiled fruit doubles daily. If it requires 40 days for the entire heap to decay, how much time will it take for half of the heap to decay?",39 days,20 days,40 days,"
+Let the initial quantity of fruit be 1 unit.
+The quantity of fruit that is spoiled after 1 day is 2 units.
+The quantity of fruit that is spoiled after 2 days is 4 units.
+The quantity of fruit that is spoiled after 3 days is 8 units.
+The quantity of fruit that is spoiled after 4 days is 16 units.
+The quantity of fruit that is spoiled after 5 days is 32 units.
+",.,,,"[-1.5858631134033203, -0.6783714294433594, -1.2140789031982422]","['correct', 'intuitive', 't']",-1.585863113,-0.6783714294,1,intuitive,20 days,-0.6783714294,FALSE,google/gemma-7b,
+crt3,43,"During winter, the lake is gradually freezing. Each day, the ice covering the lake's surface doubles in size. If it takes 10 days for the entire surface of the lake to freeze, how long does it take for half of the lake's surface to become frozen?",9 days,5 days,10 days," 5 days
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 2 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 1 mile per hour, then stops for 20 minutes. How far has he walked?
+Answer: 3 miles
+
+Question: A man is walking along",5 days.,intuitive,intuitive,"[-1.3911539316177368, -0.8708292841911316, -1.0247669219970703]","['correct', 'intuitive', 't']",-1.391153932,-0.8708292842,1,intuitive,5 days,-0.8708292842,FALSE,google/gemma-7b,
+crt3,44,"During winter, snowfall is occurring and the depth of the snow cover doubles every hour. If it takes 10 hours for the snow depth to reach 2 meters, how much time is required for it to reach a depth of 1 meter?",9 hours,5 hours,10 hours,"
+Let the depth of the snow cover be x meters.
+The depth of the snow cover doubles every hour.
+So, the depth of the snow cover after 1 hour = 2x meters
+The depth of the snow cover after 2 hours = 2(2x) = 4x meters
+The depth of the snow cover after 3 hours = 2(4x) = 8x meters
+The depth of the snow cover after 4 hours = ",.,,,"[-2.5791854858398438, -1.398023009300232, -1.4174766540527344]","['correct', 'intuitive', 't']",-2.579185486,-1.398023009,1,intuitive,5 hours,-1.398023009,FALSE,google/gemma-7b,
+crt3,45,"Five individuals are constructing a home. Each week, the cumulative amount of bricks they place doubles. Given that it takes them 8 weeks to lay all the bricks, determine the duration required for them to lay half of the bricks.",7 weeks,4 weeks,8 weeks,"
+Let the number of bricks laid in the first week be x.
+Then, the number of bricks laid in the second week is 2x.
+The number of bricks laid in the third week is 4x.
+The number of bricks laid in the fourth week is 8x.
+The number of bricks laid in the fifth week is 16x.
+The number of bricks laid in the sixth week is 32x.
+The number of bricks laid in",.,,,"[-1.9444808959960938, -1.0512237548828125, -1.91412353515625]","['correct', 'intuitive', 't']",-1.944480896,-1.051223755,1,intuitive,4 weeks,-1.051223755,FALSE,google/gemma-7b,
+crt3,46,"Two painters are working on painting a house. With every hour that passes, the total area they've painted doubles. If it takes 16 hours to paint the entire house, how many hours would it take for them to paint half of the house?",15 hours,8 hours,16 hours," 4 hours
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 2 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 1 mile per hour, then stops for 20 minutes. How far is he from his starting point?
+Answer: 3 miles
+
+Question: A man",4 hours.,,,"[-1.69940185546875, -0.8439915776252747, -1.3617286682128906]","['correct', 'intuitive', 't']",-1.699401855,-0.8439915776,1,intuitive,8 hours,-0.8439915776,FALSE,google/gemma-7b,
+crt3,47,"A grandmother is knitting a scarf for her grandson. Each week, the scarf's length increases twofold. If it takes 6 weeks to complete the entire scarf, how long would it take to knit half of the scarf?",5 weeks,3 weeks,6 weeks," 3 weeks
+
+Question: A man is walking along a road. He walks 100 meters and then turns left. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then turns left again. He walks 100 meters and then",3 weeks.,intuitive,intuitive,"[-1.771319031715393, -0.5810597538948059, -1.5602136850357056]","['correct', 'intuitive', 't']",-1.771319032,-0.5810597539,1,intuitive,3 weeks,-0.5810597539,FALSE,google/gemma-7b,
+crt3,48,"A forest is expanding on an island, with the area occupied by the trees doubling each year. If it takes 140 years for the entire island to be covered with trees, how many years would it take for the forest to cover half of the island?",139 years,70 years,140 years,"
+Let the area of the island be A.
+Let the area covered by the forest be x.
+Then, the area not covered by the forest is (A-x).
+The area covered by the forest is doubled each year.
+So, the area covered by the forest after 1 year is 2x.
+The area not covered by the forest is (A-2x).
+The area covered by the forest after 2 years is 4x.
+The",.,,,"[-2.1288628578186035, -0.6812162399291992, -1.2083549499511719]","['correct', 'intuitive', 't']",-2.128862858,-0.6812162399,1,intuitive,70 years,-0.6812162399,FALSE,google/gemma-7b,
+crt3,49,"A gas cylinder is experiencing a leak. With each passing hour, the total quantity of leaked gas doubles. If it requires 4 hours for the entire gas to leak out, how much time is needed for half of the gas to escape?",3 hours,2 hours,4 hours,"
+Let the total quantity of gas be 1 unit.
+After 1 hour, the quantity of gas will be 2 units.
+After 2 hours, the quantity of gas will be 4 units.
+After 3 hours, the quantity of gas will be 8 units.
+After 4 hours, the quantity of gas will be 16 units.
+So, the quantity of gas will be 16 units after 4 hours.
+So, the quantity",.,,,"[-1.4502449035644531, -0.920586884021759, -1.5721346139907837]","['correct', 'intuitive', 't']",-1.450244904,-0.920586884,1,intuitive,2 hours,-0.920586884,FALSE,google/gemma-7b,
+crt3,50,"People are walking into a theater and taking their seats. The number of people in the room multiplies by two every minute. If it takes 6 minutes for all of the seats to be taken, how long does it take for half of the seats to be taken?",5 minutes,3 minutes,6 minutes," 3 minutes
+
+Question: A man is walking along a road. He walks for 10 minutes at 3 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 2 miles per hour, then stops for 20 minutes, then walks for 10 minutes at 1 mile per hour, then stops for 20 minutes. How far has he walked?
+Answer: 5 miles
+
+Question: A man is walking along",3 minutes.,intuitive,intuitive,"[-1.4623082876205444, -0.5237045288085938, -1.4377059936523438]","['correct', 'intuitive', 't']",-1.462308288,-0.5237045288,1,intuitive,3 minutes,-0.5237045288,FALSE,google/gemma-7b,

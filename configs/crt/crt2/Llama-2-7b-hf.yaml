@@ -1,0 +1,5 @@
+
+task: crt
+model: meta-llama/Llama-2-7b-hf
+condition: crt2
+max_new_tokens: 100

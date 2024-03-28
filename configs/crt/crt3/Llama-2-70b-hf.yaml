@@ -1,0 +1,6 @@
+
+task: crt
+model: meta-llama/Llama-2-70b-hf
+condition: crt3
+accelerate: true
+max_new_tokens: 100

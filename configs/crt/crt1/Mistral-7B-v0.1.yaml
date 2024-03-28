@@ -1,0 +1,5 @@
+
+task: crt
+model: mistralai/Mistral-7B-v0.1
+condition: crt1
+max_new_tokens: 100
