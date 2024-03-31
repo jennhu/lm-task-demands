@@ -1,4 +1,4 @@
-condition,item_id,question,correct,intuitive,generated_response_raw,generated_response,generated_response_naive_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+condition,item_id,question,correct,intuitive,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
 crt2,1,"How long does it take 4 people to tailor 4 jackets, if it takes 7 people 7 hours to tailor 7 jackets?",7 hours,4 hours," 1 hour.
 
 Question: How many people are there in a room?
@@ -16,7 +16,7 @@ Answer: 4.
 Question: How many people are there in a room?
 Answer: 5.
 
-Question: How many people",1 hour.,,"[-1.2166239023208618, -1.1416982412338257]","['correct', 'intuitive']",-1.2166239023208618,-1.1416982412338257,1,intuitive,4 hours,-1.1416982412338257,False,google/gemma-7b,
+Question: How many people",1 hour.,,,"[-1.2166239023208618, -1.1416982412338257]","['correct', 'intuitive']",-1.216623902,-1.141698241,1,intuitive,4 hours,-1.141698241,FALSE,google/gemma-7b,
 crt2,2,"How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?",8 hours,4 hours," 1 hour.
 
 The answer is 1 hour because the number of washing machines is proportional to the number of loads of laundry.
@@ -26,7 +26,7 @@ Answer: 1 hour.
 
 The answer is 1 hour because the number of washing machines is proportional to the number of loads of laundry.
 
-Question: How long",1 hour.,,"[-1.1051996946334839, -0.9681879878044128]","['correct', 'intuitive']",-1.1051996946334839,-0.9681879878044128,1,intuitive,4 hours,-0.9681879878044128,False,google/gemma-7b,
+Question: How long",1 hour.,,,"[-1.1051996946334839, -0.9681879878044128]","['correct', 'intuitive']",-1.105199695,-0.9681879878,1,intuitive,4 hours,-0.9681879878,FALSE,google/gemma-7b,
 crt2,3,"How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers?",60 minutes,50 minutes," 1 minute.
 
 Question: How many bees are there in a hive?
@@ -41,7 +41,7 @@ Answer: 1000.
 Question: How many bees are there in a hive?
 Answer: 1000.
 
-Question: How many bees are there in a hive?",1 minute.,,"[-0.7448892593383789, -0.8465185165405273]","['correct', 'intuitive']",-0.7448892593383789,-0.8465185165405273,0,correct,60 minutes,-0.7448892593383789,True,google/gemma-7b,
+Question: How many bees are there in a hive?",1 minute.,,,"[-0.7448892593383789, -0.8465185165405273]","['correct', 'intuitive']",-0.7448892593,-0.8465185165,0,correct,60 minutes,-0.7448892593,TRUE,google/gemma-7b,
 crt2,4,"How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?",5 days,1 day," 1 day.
 
 Question: How many days does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?
@@ -50,7 +50,7 @@ Answer: 5 days.
 Question: How many days does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?
 Answer: 5 days.
 
-Question: How many days does it take 1 carpenter to make 1",1 day.,intuitive,"[-0.9383404850959778, -0.8214327692985535]","['correct', 'intuitive']",-0.9383404850959778,-0.8214327692985535,1,intuitive,1 day,-0.8214327692985535,False,google/gemma-7b,
+Question: How many days does it take 1 carpenter to make 1",1 day.,intuitive,intuitive,"[-0.9383404850959778, -0.8214327692985535]","['correct', 'intuitive']",-0.9383404851,-0.8214327693,1,intuitive,1 day,-0.8214327693,FALSE,google/gemma-7b,
 crt2,5,"How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?",60 minutes,10 minutes," 10 minutes.
 
 This is a classic example of a problem that is solved by understanding the relationship between the variables. In this case, the relationship is that the number of ovens is directly proportional to the number of lasagnas.
@@ -63,22 +63,22 @@ We can rearrange this formula to solve for the time:
 
 Time = Number of lasagnas / Number of ovens
 
-Using this",10 minutes.,intuitive,"[-0.6706771850585938, -0.6800308227539062]","['correct', 'intuitive']",-0.6706771850585938,-0.6800308227539062,0,correct,60 minutes,-0.6706771850585938,True,google/gemma-7b,
+Using this",10 minutes.,intuitive,intuitive,"[-0.6706771850585938, -0.6800308227539062]","['correct', 'intuitive']",-0.6706771851,-0.6800308228,0,correct,60 minutes,-0.6706771851,TRUE,google/gemma-7b,
 crt2,6,"How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?",6 years,1 year," 1 year.
 
-This is a joke, but it is based on a real-life situation. I have been working on a paper for 1 year, and I have not yet submitted it. I have been working on it for 1 year, and I have not yet submitted it. I have been working on it for 1 year, and I have not yet submitted it. I have been working on it for 1 year, and I have not yet submitted it. I have",1 year.,intuitive,"[-1.0815092325210571, -0.7440357208251953]","['correct', 'intuitive']",-1.0815092325210571,-0.7440357208251953,1,intuitive,1 year,-0.7440357208251953,False,google/gemma-7b,
+This is a joke, but it is based on a real-life situation. I have been working on a paper for 1 year, and I have not yet submitted it. I have been working on it for 1 year, and I have not yet submitted it. I have been working on it for 1 year, and I have not yet submitted it. I have been working on it for 1 year, and I have not yet submitted it. I have",1 year.,intuitive,intuitive,"[-1.0815092325210571, -0.7440357208251953]","['correct', 'intuitive']",-1.081509233,-0.7440357208,1,intuitive,1 year,-0.7440357208,FALSE,google/gemma-7b,
 crt2,7,"How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners 50 hours to clean 50 rooms?",50 hours,30 hours," 1 hour.
 
 This is a classic riddle that has been around for a long time. It is a good example of how the answer to a question can be misleading.
 
 The question is asking how long it takes 30 cleaners to clean 30 rooms. The answer is 1 hour. This is because the cleaners are working at a constant rate. They are not getting any faster or slower.
 
-However, the question is misleading because it does not take into account the fact that",1 hour.,,"[-1.0656366348266602, -1.131089210510254]","['correct', 'intuitive']",-1.0656366348266602,-1.131089210510254,0,correct,50 hours,-1.0656366348266602,True,google/gemma-7b,
+However, the question is misleading because it does not take into account the fact that",1 hour.,,,"[-1.0656366348266602, -1.131089210510254]","['correct', 'intuitive']",-1.065636635,-1.131089211,0,correct,50 hours,-1.065636635,TRUE,google/gemma-7b,
 crt2,8,"How long does it take 40 students to change 40 light bulbs, if it takes 70 students 70 minutes to change 70 light bulbs?",70 minutes,40 minutes," 10 minutes.
 
 This is a classic problem in the field of mathematics known as ""combinatorics"". The problem is to find the number of ways in which a set of objects can be arranged. In this case, the objects are the light bulbs and the students.
 
-The first step is to determine the number of ways in which the students can be arranged. This is done by multiplying the number of students by the number of light bulbs. In this case, there are 40 students",10 minutes.,,"[-0.8174941539764404, -0.9647552967071533]","['correct', 'intuitive']",-0.8174941539764404,-0.9647552967071533,0,correct,70 minutes,-0.8174941539764404,True,google/gemma-7b,
+The first step is to determine the number of ways in which the students can be arranged. This is done by multiplying the number of students by the number of light bulbs. In this case, there are 40 students",10 minutes.,,,"[-0.8174941539764404, -0.9647552967071533]","['correct', 'intuitive']",-0.817494154,-0.9647552967,0,correct,70 minutes,-0.817494154,TRUE,google/gemma-7b,
 crt2,9,"How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?",50 weeks,40 weeks," 1 week.
 
 This is a classic example of a problem that is solved by the use of a ratio.
@@ -91,7 +91,7 @@ The ratio of houses to weeks is 1:50.
 
 The ratio of builders to houses to weeks is 1:1:50.
 
-The ratio of builders to houses to weeks is 1:1:50.",1 week.,,"[-1.0378427505493164, -0.9374551773071289]","['correct', 'intuitive']",-1.0378427505493164,-0.9374551773071289,1,intuitive,40 weeks,-0.9374551773071289,False,google/gemma-7b,
+The ratio of builders to houses to weeks is 1:1:50.",1 week.,,,"[-1.0378427505493164, -0.9374551773071289]","['correct', 'intuitive']",-1.037842751,-0.9374551773,1,intuitive,40 weeks,-0.9374551773,FALSE,google/gemma-7b,
 crt2,10,"How long does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?",6 minutes,5 minutes," 1 minute.
 
 Question: How many people are there in a room?
@@ -109,14 +109,14 @@ Answer: 4.
 Question: How many people are there in a room?
 Answer: 5.
 
-Question: How many people",1 minute.,,"[-1.2059224843978882, -1.1173120737075806]","['correct', 'intuitive']",-1.2059224843978882,-1.1173120737075806,1,intuitive,5 minutes,-1.1173120737075806,False,google/gemma-7b,
+Question: How many people",1 minute.,,,"[-1.2059224843978882, -1.1173120737075806]","['correct', 'intuitive']",-1.205922484,-1.117312074,1,intuitive,5 minutes,-1.117312074,FALSE,google/gemma-7b,
 crt2,11,"How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?",40 minutes,30 minutes," 1 minute.
 
 This is a classic example of a false dilemma. The question is based on the assumption that the number of coffee machines and the time it takes to make a coffee are directly proportional. This is not the case.
 
 The question is also based on the assumption that the number of coffee machines and the number of coffees made are directly proportional. This is also not the case.
 
-The question is also based on the assumption that the number of coffee machines and the time it takes to",1 minute.,,"[-0.7874383926391602, -0.7770509719848633]","['correct', 'intuitive']",-0.7874383926391602,-0.7770509719848633,1,intuitive,30 minutes,-0.7770509719848633,False,google/gemma-7b,
+The question is also based on the assumption that the number of coffee machines and the time it takes to",1 minute.,,,"[-0.7874383926391602, -0.7770509719848633]","['correct', 'intuitive']",-0.7874383926,-0.777050972,1,intuitive,30 minutes,-0.777050972,FALSE,google/gemma-7b,
 crt2,12,"How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?",8 minutes,5 minutes," 10 minutes
 
 Question: How many times does the hour hand of a clock go between 12 and 3?
@@ -128,7 +128,7 @@ Answer: 1
 Question: How many sides does a circle have?
 Answer: 0
 
-Question: What is the next number in the sequence: 1, 2, 4, 8, 1",10 minutes,,"[-1.338391661643982, -1.3010177612304688]","['correct', 'intuitive']",-1.338391661643982,-1.3010177612304688,1,intuitive,5 minutes,-1.3010177612304688,False,google/gemma-7b,
+Question: What is the next number in the sequence: 1, 2, 4, 8, 1",10 minutes,,,"[-1.338391661643982, -1.3010177612304688]","['correct', 'intuitive']",-1.338391662,-1.301017761,1,intuitive,5 minutes,-1.301017761,FALSE,google/gemma-7b,
 crt2,13,"How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?",50 minutes,10 minutes," 10 minutes.
 
 Question: How many children are there in the world?
@@ -144,14 +144,14 @@ Question: How many children are there in the world?
 Answer: 10.
 
 Question: How many children are there in the world?
-Answer: 10.",10 minutes.,intuitive,"[-0.710295557975769, -0.6463804244995117]","['correct', 'intuitive']",-0.710295557975769,-0.6463804244995117,1,intuitive,10 minutes,-0.6463804244995117,False,google/gemma-7b,
+Answer: 10.",10 minutes.,intuitive,intuitive,"[-0.710295557975769, -0.6463804244995117]","['correct', 'intuitive']",-0.710295558,-0.6463804245,1,intuitive,10 minutes,-0.6463804245,FALSE,google/gemma-7b,
 crt2,14,"How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?",4 weeks,2 weeks," 1 week.
 
 This is a classic riddle that has been around for a long time. It is a simple riddle that is easy to understand, but it is not easy to solve. The answer is 1 week, but how do you get there?
 
 The first step is to understand the problem. The problem is asking how long it takes 2 people to read 2 books. The answer is 1 week.
 
-The second step is to understand the problem. The problem is asking",1 week.,,"[-1.0627027750015259, -0.9496660232543945]","['correct', 'intuitive']",-1.0627027750015259,-0.9496660232543945,1,intuitive,2 weeks,-0.9496660232543945,False,google/gemma-7b,
+The second step is to understand the problem. The problem is asking",1 week.,,,"[-1.0627027750015259, -0.9496660232543945]","['correct', 'intuitive']",-1.062702775,-0.9496660233,1,intuitive,2 weeks,-0.9496660233,FALSE,google/gemma-7b,
 crt2,15,"How long does it take 5 teams to renovate 5 houses, if it takes 8 teams 8 weeks to renovate 8 houses?",8 weeks,5 weeks," 1 week.
 
 This is a classic example of a problem that is solved by using the concept of <strong>unit rate</strong>.
@@ -162,7 +162,7 @@ For example, if a car travels 120 miles in 2 hours, then the unit rate is 60 mil
 
 In the problem above, the unit rate for the first team is 1 house per 8 weeks.
 
-The unit",1 week.,,"[-1.4280153512954712, -1.309083342552185]","['correct', 'intuitive']",-1.4280153512954712,-1.309083342552185,1,intuitive,5 weeks,-1.309083342552185,False,google/gemma-7b,
+The unit",1 week.,,,"[-1.4280153512954712, -1.309083342552185]","['correct', 'intuitive']",-1.428015351,-1.309083343,1,intuitive,5 weeks,-1.309083343,FALSE,google/gemma-7b,
 crt2,16,"How long does it take 30 people to knit 30 pairs of socks, if it takes 40 people 40 weeks to knit 40 pairs of socks?",40 weeks,30 weeks," 1 week.
 
 This is a classic example of a problem that is not solved by simply plugging in the numbers. The answer is not 40 weeks.
@@ -171,17 +171,17 @@ The problem is that the number of people is not proportional to the number of so
 
 The problem is that the number of socks is not proportional to the number of people. The number of socks is proportional to the number of weeks.
 
-The problem is that the number",1 week.,,"[-0.7958278656005859, -0.9490413665771484]","['correct', 'intuitive']",-0.7958278656005859,-0.9490413665771484,0,correct,40 weeks,-0.7958278656005859,True,google/gemma-7b,
+The problem is that the number",1 week.,,,"[-0.7958278656005859, -0.9490413665771484]","['correct', 'intuitive']",-0.7958278656,-0.9490413666,0,correct,40 weeks,-0.7958278656,TRUE,google/gemma-7b,
 crt2,17,"How long does it take 40 people to pick 40 fields of strawberries, if it takes 70 people 70 hours to pick 70 fields of strawberries?",70 hours,40 hours," 1 hour.
 
-This is a classic problem in the field of mathematics. It is a problem that is often used to test the ability of students to solve problems. The problem is simple, but it is not easy to solve. The solution to this problem is not obvious. It is not easy to find the answer. The answer is not obvious. The answer is not obvious. The answer is not obvious. The answer is not obvious. The answer is not obvious. The answer is not obvious",1 hour.,,"[-0.8729133605957031, -0.9709205627441406]","['correct', 'intuitive']",-0.8729133605957031,-0.9709205627441406,0,correct,70 hours,-0.8729133605957031,True,google/gemma-7b,
+This is a classic problem in the field of mathematics. It is a problem that is often used to test the ability of students to solve problems. The problem is simple, but it is not easy to solve. The solution to this problem is not obvious. It is not easy to find the answer. The answer is not obvious. The answer is not obvious. The answer is not obvious. The answer is not obvious. The answer is not obvious. The answer is not obvious",1 hour.,,,"[-0.8729133605957031, -0.9709205627441406]","['correct', 'intuitive']",-0.8729133606,-0.9709205627,0,correct,70 hours,-0.8729133606,TRUE,google/gemma-7b,
 crt2,18,"How long does it take 6 programmers to write 6 lines of code, if it takes 7 programmers 7 hours to write 7 lines of code?",7 hours,6 hours," 1 hour.
 
 The answer is not a joke. It is a simple example of the law of diminishing returns.
 
 The law of diminishing returns states that as you add more resources to a project, the marginal benefit of each additional resource will decrease.
 
-In the example above, the first programmer can write 6 lines of code in 1 hour. The second programmer can write 6 lines of code in 2 hours. The third programmer can write 6 lines of code in 3",1 hour.,,"[-1.3691329956054688, -1.3892440795898438]","['correct', 'intuitive']",-1.3691329956054688,-1.3892440795898438,0,correct,7 hours,-1.3691329956054688,True,google/gemma-7b,
+In the example above, the first programmer can write 6 lines of code in 1 hour. The second programmer can write 6 lines of code in 2 hours. The third programmer can write 6 lines of code in 3",1 hour.,,,"[-1.3691329956054688, -1.3892440795898438]","['correct', 'intuitive']",-1.369132996,-1.38924408,0,correct,7 hours,-1.369132996,TRUE,google/gemma-7b,
 crt2,19,"How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?",8 hours,4 hours," 1 hour.
 
 Question: How many times does the hour hand of a clock pass the minute hand in a day?
@@ -193,7 +193,7 @@ Answer: 23 times.
 Question: How many times does the hour hand of a clock pass the minute hand in a century?
 Answer: 23 times.
 
-Question: How many times does the hour",1 hour.,,"[-1.3364652395248413, -1.2321256399154663]","['correct', 'intuitive']",-1.3364652395248413,-1.2321256399154663,1,intuitive,4 hours,-1.2321256399154663,False,google/gemma-7b,
+Question: How many times does the hour",1 hour.,,,"[-1.3364652395248413, -1.2321256399154663]","['correct', 'intuitive']",-1.33646524,-1.23212564,1,intuitive,4 hours,-1.23212564,FALSE,google/gemma-7b,
 crt2,20,"How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?",8 hours,1 hour," 1 hour.
 
 Question: How many legs does a dog have if it is standing in a pool of mud?
@@ -203,12 +203,12 @@ Question: What is the difference between a cat and a dog?
 Answer: A cat has claws and a dog has a cat.
 
 Question: What is the difference between a cat and a dog?
-Answer: A cat has claws",1 hour.,intuitive,"[-0.9391746520996094, -0.6679700016975403]","['correct', 'intuitive']",-0.9391746520996094,-0.6679700016975403,1,intuitive,1 hour,-0.6679700016975403,False,google/gemma-7b,
+Answer: A cat has claws",1 hour.,intuitive,intuitive,"[-0.9391746520996094, -0.6679700016975403]","['correct', 'intuitive']",-0.9391746521,-0.6679700017,1,intuitive,1 hour,-0.6679700017,FALSE,google/gemma-7b,
 crt2,21,"How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?",70 minutes,50 minutes," 1 minute.
 
 This is a joke, but it is also a good example of the way that the human brain works. It is a good example of how we can be fooled by the way we think.
 
-The answer to the question is 1 minute. The reason is that the 50 writers are writing 50 books, and the 70 writers are writing 70 books. The 50 writers are writing 50 books in 70 minutes,",1 minute.,,"[-1.0087379217147827, -1.0393075942993164]","['correct', 'intuitive']",-1.0087379217147827,-1.0393075942993164,0,correct,70 minutes,-1.0087379217147827,True,google/gemma-7b,
+The answer to the question is 1 minute. The reason is that the 50 writers are writing 50 books, and the 70 writers are writing 70 books. The 50 writers are writing 50 books in 70 minutes,",1 minute.,,,"[-1.0087379217147827, -1.0393075942993164]","['correct', 'intuitive']",-1.008737922,-1.039307594,0,correct,70 minutes,-1.008737922,TRUE,google/gemma-7b,
 crt2,22,"How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?",8 minutes,2 minutes," 1 minute.
 
 This is a classic riddle that has been around for a long time. It is a good example of how the answer to a riddle can be very different from the answer to a question.
@@ -217,10 +217,10 @@ The question is: How long does it take 2 cooks to cook 2 meals? The answer is 1 
 
 The riddle is: How long does it take 8 cooks to cook 8 meals? The answer is 1 minute.
 
-The difference between the question",1 minute.,,"[-1.0432701110839844, -1.0647951364517212]","['correct', 'intuitive']",-1.0432701110839844,-1.0647951364517212,0,correct,8 minutes,-1.0432701110839844,True,google/gemma-7b,
+The difference between the question",1 minute.,,,"[-1.0432701110839844, -1.0647951364517212]","['correct', 'intuitive']",-1.043270111,-1.064795136,0,correct,8 minutes,-1.043270111,TRUE,google/gemma-7b,
 crt2,23,"How long does it take 50 doctors to examine 50 patients, if it takes 60 doctors 60 minutes to examine 60 patients?",60 minutes,50 minutes," 1 minute.
 
-This is a classic example of a logical fallacy. The answer is 1 minute because the number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related.",1 minute.,,"[-0.7719993591308594, -0.8796639442443848]","['correct', 'intuitive']",-0.7719993591308594,-0.8796639442443848,0,correct,60 minutes,-0.7719993591308594,True,google/gemma-7b,
+This is a classic example of a logical fallacy. The answer is 1 minute because the number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related. The number of doctors and the number of patients are not related.",1 minute.,,,"[-0.7719993591308594, -0.8796639442443848]","['correct', 'intuitive']",-0.7719993591,-0.8796639442,0,correct,60 minutes,-0.7719993591,TRUE,google/gemma-7b,
 crt2,24,"How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes to change 7 tires?",7 minutes,2 minutes," 1 minute.
 
 Question: How many times does the hour hand of a clock pass the minute hand in 24 hours?
@@ -232,20 +232,20 @@ Answer: 11 times.
 Question: How many times does the hour hand of a clock pass the minute hand in 23 hours?
 Answer: 22 times.
 
-Question:",1 minute.,,"[-1.0817190408706665, -1.185842514038086]","['correct', 'intuitive']",-1.0817190408706665,-1.185842514038086,0,correct,7 minutes,-1.0817190408706665,True,google/gemma-7b,
+Question:",1 minute.,,,"[-1.0817190408706665, -1.185842514038086]","['correct', 'intuitive']",-1.081719041,-1.185842514,0,correct,7 minutes,-1.081719041,TRUE,google/gemma-7b,
 crt2,25,"How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?",8 seconds,2 seconds," 1 second.
 
 This is a classic example of a false dilemma. The question is based on the false assumption that the time it takes to pick 2 apples is the same as the time it takes to pick 8 apples.
 
 The question is also based on the false assumption that the time it takes to pick 2 apples is the same as the time it takes to pick 8 apples.
 
-The question is also based on the false assumption that the time it takes to pick 2",1 second.,,"[-1.2572542428970337, -1.0915069580078125]","['correct', 'intuitive']",-1.2572542428970337,-1.0915069580078125,1,intuitive,2 seconds,-1.0915069580078125,False,google/gemma-7b,
+The question is also based on the false assumption that the time it takes to pick 2",1 second.,,,"[-1.2572542428970337, -1.0915069580078125]","['correct', 'intuitive']",-1.257254243,-1.091506958,1,intuitive,2 seconds,-1.091506958,FALSE,google/gemma-7b,
 crt2,26,"How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?",6 hours,4 hours," 1 hour.
 
 Question: How many times does the letter ""E"" appear in the following sentence? ""The quick brown fox jumps over the lazy dog.""
 Answer: 5 times.
 
-Question: What is the next number in the sequence: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 37",1 hour.,,"[-1.0896810293197632, -1.1157760620117188]","['correct', 'intuitive']",-1.0896810293197632,-1.1157760620117188,0,correct,6 hours,-1.0896810293197632,True,google/gemma-7b,
+Question: What is the next number in the sequence: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 37",1 hour.,,,"[-1.0896810293197632, -1.1157760620117188]","['correct', 'intuitive']",-1.089681029,-1.115776062,0,correct,6 hours,-1.089681029,TRUE,google/gemma-7b,
 crt2,27,"How long does it take 20 bakers to bake 20 cakes, if it takes 80 bakers 80 hours to bake 80 cakes?",80 hours,20 hours," 1 hour
 
 Question: How many times does the hour hand of a clock pass the minute hand in 24 hours?
@@ -257,7 +257,7 @@ Answer: 11 times
 Question: How many times does the hour hand of a clock pass the minute hand in 24 hours?
 Answer: 23 times
 
-Question: How many times does",1 hour,,"[-0.8442440032958984, -0.782745361328125]","['correct', 'intuitive']",-0.8442440032958984,-0.782745361328125,1,intuitive,20 hours,-0.782745361328125,False,google/gemma-7b,
+Question: How many times does",1 hour,,,"[-0.8442440032958984, -0.782745361328125]","['correct', 'intuitive']",-0.8442440033,-0.7827453613,1,intuitive,20 hours,-0.7827453613,FALSE,google/gemma-7b,
 crt2,28,"How long does it take 30 hair stylists to finish 30 hairstyles, if it takes 50 hair stylists 50 minutes to finish 50 hairstyles?",50 minutes,30 minutes," 1 minute.
 
 Question: How many hair stylists does it take to finish 30 hairstyles?
@@ -269,7 +269,7 @@ Answer: 50.
 Question: How many hair stylists does it take to finish 30 hairstyles in 50 minutes?
 Answer: 1500.
 
-Question: How many hair stylists does it take to finish ",1 minute.,,"[-0.7277908325195312, -0.7324295043945312]","['correct', 'intuitive']",-0.7277908325195312,-0.7324295043945312,0,correct,50 minutes,-0.7277908325195312,True,google/gemma-7b,
+Question: How many hair stylists does it take to finish ",1 minute.,,,"[-0.7277908325195312, -0.7324295043945312]","['correct', 'intuitive']",-0.7277908325,-0.7324295044,0,correct,50 minutes,-0.7277908325,TRUE,google/gemma-7b,
 crt2,29,"How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?",3 hours,2 hours," 1 hour.
 
 This is a classic example of a problem that is not as simple as it seems. The answer is 1 hour because the mechanics are working at the same rate.
@@ -279,7 +279,7 @@ The same is true for the following problem:
 Question: How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?
 Answer: 1 hour.
 
-This is a classic example of a problem that is not as",1 hour.,,"[-1.3520063161849976, -1.2145322561264038]","['correct', 'intuitive']",-1.3520063161849976,-1.2145322561264038,1,intuitive,2 hours,-1.2145322561264038,False,google/gemma-7b,
+This is a classic example of a problem that is not as",1 hour.,,,"[-1.3520063161849976, -1.2145322561264038]","['correct', 'intuitive']",-1.352006316,-1.214532256,1,intuitive,2 hours,-1.214532256,FALSE,google/gemma-7b,
 crt2,30,"How long does it take 20 tailors to make 20 dresses, if it takes 50 tailors 50 hours to make 50 dresses?",50 hours,20 hours," 1 hour
 
 Question: What is the difference between a cat and a piano?
@@ -292,7 +292,7 @@ Question: What is the difference between a cat and a piano?
 Answer: You can’t tune a cat.
 
 Question: What is the difference between a cat and a piano?
-Answer: You can’t tune",1 hour.,,"[-0.8119411468505859, -0.8999500274658203]","['correct', 'intuitive']",-0.8119411468505859,-0.8999500274658203,0,correct,50 hours,-0.8119411468505859,True,google/gemma-7b,
+Answer: You can’t tune",1 hour.,,,"[-0.8119411468505859, -0.8999500274658203]","['correct', 'intuitive']",-0.8119411469,-0.8999500275,0,correct,50 hours,-0.8119411469,TRUE,google/gemma-7b,
 crt2,31,"How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?",4 hours,3 hours," 1 hour.
 
 Question: How many legs does a dog have if he is carrying 3 bone?
@@ -302,7 +302,7 @@ Question: If you have 2 apples and you take away 1, how many do you have?
 Answer: 1.
 
 Question: If you have 4 apples and you take away 3, how many do you have?
-Answer: 3.",1 hour.,,"[-1.3008066415786743, -1.4455032348632812]","['correct', 'intuitive']",-1.3008066415786743,-1.4455032348632812,0,correct,4 hours,-1.3008066415786743,True,google/gemma-7b,
+Answer: 3.",1 hour.,,,"[-1.3008066415786743, -1.4455032348632812]","['correct', 'intuitive']",-1.300806642,-1.445503235,0,correct,4 hours,-1.300806642,TRUE,google/gemma-7b,
 crt2,32,"How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?",60 days,40 days," 1 day.
 
 Question: What is the difference between a cat and a computer?
@@ -317,7 +317,7 @@ Answer: A cat has nine lives.
 Question: What is the difference between a cat and a computer?
 Answer: A cat has nine lives.
 
-Question: What",1 day.,,"[-0.9457321166992188, -1.018151044845581]","['correct', 'intuitive']",-0.9457321166992188,-1.018151044845581,0,correct,60 days,-0.9457321166992188,True,google/gemma-7b,
+Question: What",1 day.,,,"[-0.9457321166992188, -1.018151044845581]","['correct', 'intuitive']",-0.9457321167,-1.018151045,0,correct,60 days,-0.9457321167,TRUE,google/gemma-7b,
 crt2,33,"How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?",5 minutes,1 minute," 1 minute.
 
 Question: How many runners does it take to clean 1 shoe?
@@ -332,7 +332,7 @@ Answer: 5 minutes.
 Question: How long does it take 1 runner to clean 1 shoe?
 Answer: 1 minute.
 
-Question: How",1 minute.,intuitive,"[-0.9493128657341003, -0.6460393071174622]","['correct', 'intuitive']",-0.9493128657341003,-0.6460393071174622,1,intuitive,1 minute,-0.6460393071174622,False,google/gemma-7b,
+Question: How",1 minute.,intuitive,intuitive,"[-0.9493128657341003, -0.6460393071174622]","['correct', 'intuitive']",-0.9493128657,-0.6460393071,1,intuitive,1 minute,-0.6460393071,FALSE,google/gemma-7b,
 crt2,34,"How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?",6 hours,3 hours," 1 hour.
 
 This is a classic problem in the field of translation. It is a very simple problem, but it is a very good example of how to use the concept of <strong>unit rate</strong>.
@@ -343,10 +343,10 @@ In the problem above, the unit rate is the number of pages translated per hour.
 
 The problem is asking for the number of pages translated per hour.
 
-The problem is",1 hour.,,"[-1.2335065603256226, -1.2406247854232788]","['correct', 'intuitive']",-1.2335065603256226,-1.2406247854232788,0,correct,6 hours,-1.2335065603256226,True,google/gemma-7b,
+The problem is",1 hour.,,,"[-1.2335065603256226, -1.2406247854232788]","['correct', 'intuitive']",-1.23350656,-1.240624785,0,correct,6 hours,-1.23350656,TRUE,google/gemma-7b,
 crt2,35,"How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?",3 hours,2 hours," 1 hour
 
-Question: What is the next number in the sequence: 1, 2, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 6553",1 hour,,"[-1.1624908447265625, -1.027514100074768]","['correct', 'intuitive']",-1.1624908447265625,-1.027514100074768,1,intuitive,2 hours,-1.027514100074768,False,google/gemma-7b,
+Question: What is the next number in the sequence: 1, 2, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 6553",1 hour,,,"[-1.1624908447265625, -1.027514100074768]","['correct', 'intuitive']",-1.162490845,-1.0275141,1,intuitive,2 hours,-1.0275141,FALSE,google/gemma-7b,
 crt2,36,"How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?",70 minutes,50 minutes," 1 minute.
 
 Question: How many people are in a room?
@@ -364,7 +364,7 @@ Answer: 100.
 Question: How many people are in a room?
 Answer: 100.
 
-",1 minute.,,"[-0.7417187690734863, -0.9006423950195312]","['correct', 'intuitive']",-0.7417187690734863,-0.9006423950195312,0,correct,70 minutes,-0.7417187690734863,True,google/gemma-7b,
+",1 minute.,,,"[-0.7417187690734863, -0.9006423950195312]","['correct', 'intuitive']",-0.7417187691,-0.900642395,0,correct,70 minutes,-0.7417187691,TRUE,google/gemma-7b,
 crt2,37,"How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?",8 days,7 days," 7 days.
 
 Question: What is the difference between a cat and a piano?
@@ -377,7 +377,7 @@ Question: What is the difference between a cat and a piano?
 Answer: You can't tune a cat.
 
 Question: What is the difference between a cat and a piano?
-Answer: You can't",7 days.,intuitive,"[-1.1777483224868774, -0.8208427429199219]","['correct', 'intuitive']",-1.1777483224868774,-0.8208427429199219,1,intuitive,7 days,-0.8208427429199219,False,google/gemma-7b,
+Answer: You can't",7 days.,intuitive,intuitive,"[-1.1777483224868774, -0.8208427429199219]","['correct', 'intuitive']",-1.177748322,-0.8208427429,1,intuitive,7 days,-0.8208427429,FALSE,google/gemma-7b,
 crt2,38,"How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?",60 hours,40 hours," 1 hour
 
 Question: How many hours does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?
@@ -386,7 +386,7 @@ Answer: 60 hours
 Question: How many hours does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?
 Answer: 60 hours
 
-Question: How many hours does",1 hour,,"[-0.89520263671875, -0.9089221954345703]","['correct', 'intuitive']",-0.89520263671875,-0.9089221954345703,0,correct,60 hours,-0.89520263671875,True,google/gemma-7b,
+Question: How many hours does",1 hour,,,"[-0.89520263671875, -0.9089221954345703]","['correct', 'intuitive']",-0.8952026367,-0.9089221954,0,correct,60 hours,-0.8952026367,TRUE,google/gemma-7b,
 crt2,39,"How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?",80 minutes,50 minutes," 1 minute.
 
 Question: How many people are in a room?
@@ -404,7 +404,7 @@ Answer: 100.
 Question: How many people are in a room?
 Answer: 100.
 
-",1 minute.,,"[-0.7865266799926758, -0.9490060806274414]","['correct', 'intuitive']",-0.7865266799926758,-0.9490060806274414,0,correct,80 minutes,-0.7865266799926758,True,google/gemma-7b,
+",1 minute.,,,"[-0.7865266799926758, -0.9490060806274414]","['correct', 'intuitive']",-0.78652668,-0.9490060806,0,correct,80 minutes,-0.78652668,TRUE,google/gemma-7b,
 crt2,40,"How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?",80 hours,20 hours," 20 kettles will take 20 hours to boil 20 liters of water.
 
 Question: How many times does the hour hand of a clock pass the minute hand in 24 hours?
@@ -413,7 +413,7 @@ Answer: 23 times.
 Question: How many times does the hour hand of a clock pass the minute hand in 24 hours?
 Answer: 23 times.
 
-Question: How many times does the hour hand of a clock pass the minute hand in",20 kettles will take 20 hours to boil 20 liters of water.,intuitive,"[-1.0145330429077148, -0.9901742935180664]","['correct', 'intuitive']",-1.0145330429077148,-0.9901742935180664,1,intuitive,20 hours,-0.9901742935180664,False,google/gemma-7b,
+Question: How many times does the hour hand of a clock pass the minute hand in",20 kettles will take 20 hours to boil 20 liters of water.,intuitive,intuitive,"[-1.0145330429077148, -0.9901742935180664]","['correct', 'intuitive']",-1.014533043,-0.9901742935,1,intuitive,20 hours,-0.9901742935,FALSE,google/gemma-7b,
 crt2,41,"How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?",80 minutes,40 minutes," 20 minutes.
 
 Question: How many times does the hour hand of a clock pass the minute hand in a day?
@@ -425,7 +425,7 @@ Answer: 273 times.
 Question: How many times does the hour hand of a clock pass the minute hand in 24 hours?
 Answer: 23 times.
 
-Question: How many",20 minutes.,,"[-0.8013081550598145, -0.7322187423706055]","['correct', 'intuitive']",-0.8013081550598145,-0.7322187423706055,1,intuitive,40 minutes,-0.7322187423706055,False,google/gemma-7b,
+Question: How many",20 minutes.,,,"[-0.8013081550598145, -0.7322187423706055]","['correct', 'intuitive']",-0.8013081551,-0.7322187424,1,intuitive,40 minutes,-0.7322187424,FALSE,google/gemma-7b,
 crt2,42,"How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?",7 minutes,5 minutes," 1 minute.
 
 Question: How many zeros are there in a million?
@@ -435,7 +435,7 @@ Question: If you have 3 apples and take away 2, how many do you have?
 Answer: 3. Because you took away 2 apples, not 3.
 
 Question: How many times does the word “the” appear in this sentence?
-Answer: 4 times. The word “the” appears",1 minute.,,"[-1.1359697580337524, -1.3964513540267944]","['correct', 'intuitive']",-1.1359697580337524,-1.3964513540267944,0,correct,7 minutes,-1.1359697580337524,True,google/gemma-7b,
+Answer: 4 times. The word “the” appears",1 minute.,,,"[-1.1359697580337524, -1.3964513540267944]","['correct', 'intuitive']",-1.135969758,-1.396451354,0,correct,7 minutes,-1.135969758,TRUE,google/gemma-7b,
 crt2,43,"How long does it take 40 men to make 40 pies, if it takes 70 men 70 minutes to make 70 pies?",70 minutes,40 minutes," 1 minute.
 
 Question: How many pies can 40 men make in 40 minutes?
@@ -444,14 +444,14 @@ Answer: 40 pies.
 Question: How many pies can 40 men make in 40 minutes if it takes 70 men 70 minutes to make 70 pies?
 Answer: 40 pies.
 
-Question: How many pies can 40 men make in 40 minutes if it takes 70 men 70",1 minute.,,"[-0.7800407409667969, -0.8128194808959961]","['correct', 'intuitive']",-0.7800407409667969,-0.8128194808959961,0,correct,70 minutes,-0.7800407409667969,True,google/gemma-7b,
+Question: How many pies can 40 men make in 40 minutes if it takes 70 men 70",1 minute.,,,"[-0.7800407409667969, -0.8128194808959961]","['correct', 'intuitive']",-0.780040741,-0.8128194809,0,correct,70 minutes,-0.780040741,TRUE,google/gemma-7b,
 crt2,44,"How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?",8 minutes,1 minute," 1 minute.
 
 This is a classic example of a false dilemma. The question is based on the assumption that the time it takes to make a coffee is directly proportional to the number of baristas. This is not the case.
 
 The time it takes to make a coffee is not directly proportional to the number of baristas. It is proportional to the number of coffees.
 
-The time it takes to make a coffee is not directly proportional to the number of baristas. It is proportional to",1 minute.,intuitive,"[-1.0278377532958984, -0.6571299433708191]","['correct', 'intuitive']",-1.0278377532958984,-0.6571299433708191,1,intuitive,1 minute,-0.6571299433708191,False,google/gemma-7b,
+The time it takes to make a coffee is not directly proportional to the number of baristas. It is proportional to",1 minute.,intuitive,intuitive,"[-1.0278377532958984, -0.6571299433708191]","['correct', 'intuitive']",-1.027837753,-0.6571299434,1,intuitive,1 minute,-0.6571299434,FALSE,google/gemma-7b,
 crt2,45,"How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs of spaghetti?",70 minutes,10 minutes," 10 minutes.
 
 The answer is not 10 minutes. It is 100 minutes.
@@ -464,7 +464,7 @@ The number of people is proportional to the number of packs of spaghetti.
 
 The number of people is proportional to the number of packs of spaghetti.
 
-The number of people is proportional to",10 minutes.,intuitive,"[-0.780609130859375, -0.7473564147949219]","['correct', 'intuitive']",-0.780609130859375,-0.7473564147949219,1,intuitive,10 minutes,-0.7473564147949219,False,google/gemma-7b,
+The number of people is proportional to",10 minutes.,intuitive,intuitive,"[-0.780609130859375, -0.7473564147949219]","['correct', 'intuitive']",-0.7806091309,-0.7473564148,1,intuitive,10 minutes,-0.7473564148,FALSE,google/gemma-7b,
 crt2,46,"How long does it take 5 people to renovate 5 bathrooms, if it takes 8 people 8 days to renovate 8 bathrooms?",8 days,5 days," 1 day.
 
 Question: How many people does it take to renovate 1 bathroom?
@@ -477,7 +477,7 @@ Question: How many people does it take to renovate 1 bathroom in 1 day?
 Answer: 1 person.
 
 Question: How many people does it take to renovate 1 bathroom in 0 days?
-Answer: 0 people.",1 day.,,"[-1.4309171438217163, -1.2941805124282837]","['correct', 'intuitive']",-1.4309171438217163,-1.2941805124282837,1,intuitive,5 days,-1.2941805124282837,False,google/gemma-7b,
+Answer: 0 people.",1 day.,,,"[-1.4309171438217163, -1.2941805124282837]","['correct', 'intuitive']",-1.430917144,-1.294180512,1,intuitive,5 days,-1.294180512,FALSE,google/gemma-7b,
 crt2,47,"How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?",3 days,1 day," 1 day.
 
 Question: How many fish are there in the pond?
@@ -495,7 +495,7 @@ Answer: 1 worm.
 Question: How many fish are there in the pond?
 Answer: 1 fish.
 
-",1 day.,intuitive,"[-0.9906705021858215, -0.7813580632209778]","['correct', 'intuitive']",-0.9906705021858215,-0.7813580632209778,1,intuitive,1 day,-0.7813580632209778,False,google/gemma-7b,
+",1 day.,intuitive,intuitive,"[-0.9906705021858215, -0.7813580632209778]","['correct', 'intuitive']",-0.9906705022,-0.7813580632,1,intuitive,1 day,-0.7813580632,FALSE,google/gemma-7b,
 crt2,48,"How long does it take 1 operator to connect 1 phone call, if it takes 3 operators 3 hours to connect 3 phone calls?",3 hours,1 hour," 1 hour.
 
 Question: How many times does the hour hand of a clock pass the minute hand in a day?
@@ -507,7 +507,7 @@ Answer: 23 times.
 Question: How many times does the hour hand of a clock pass the minute hand in a century?
 Answer: 23 times.
 
-Question: How many times does the hour",1 hour.,intuitive,"[-1.0407981872558594, -0.5713831782341003]","['correct', 'intuitive']",-1.0407981872558594,-0.5713831782341003,1,intuitive,1 hour,-0.5713831782341003,False,google/gemma-7b,
+Question: How many times does the hour",1 hour.,intuitive,intuitive,"[-1.0407981872558594, -0.5713831782341003]","['correct', 'intuitive']",-1.040798187,-0.5713831782,1,intuitive,1 hour,-0.5713831782,FALSE,google/gemma-7b,
 crt2,49,"How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?",80 minutes,20 minutes," 1 minute.
 
 This is a classic example of a problem that is solved by the use of a ratio.
@@ -522,7 +522,7 @@ The ratio of printers to documents to minutes is 1:1:1.
 
 The ratio of printers to documents to minutes is 1:1:1.
 
-The ratio of",1 minute.,,"[-0.7353954315185547, -0.6696605682373047]","['correct', 'intuitive']",-0.7353954315185547,-0.6696605682373047,1,intuitive,20 minutes,-0.6696605682373047,False,google/gemma-7b,
+The ratio of",1 minute.,,,"[-0.7353954315185547, -0.6696605682373047]","['correct', 'intuitive']",-0.7353954315,-0.6696605682,1,intuitive,20 minutes,-0.6696605682,FALSE,google/gemma-7b,
 crt2,50,"How long does it take 70 husbands to feed 70 babies, if it takes 80 husbands 80 minutes to feed 80 babies?",80 minutes,70 minutes," 1 minute.
 
 Question: How many husbands are there in a family of 70 husbands, 70 wives, and 70 babies?
@@ -531,4 +531,4 @@ Answer: 70.
 Question: How many husbands are there in a family of 70 husbands, 70 wives, and 70 babies, if it takes 80 husbands 80 minutes to feed 80 babies?
 Answer: 70.
 
-Question: How many husbands are there",1 minute.,,"[-0.9730691909790039, -0.8453836441040039]","['correct', 'intuitive']",-0.9730691909790039,-0.8453836441040039,1,intuitive,70 minutes,-0.8453836441040039,False,google/gemma-7b,
+Question: How many husbands are there",1 minute.,,,"[-0.9730691909790039, -0.8453836441040039]","['correct', 'intuitive']",-0.973069191,-0.8453836441,1,intuitive,70 minutes,-0.8453836441,FALSE,google/gemma-7b,

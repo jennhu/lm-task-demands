@@ -1,4 +1,4 @@
-condition,item_id,question,correct,intuitive,total_cost,more,correct_alt,intuitive_alt,total_cost_alt,more_alt,generated_response_raw,generated_response,generated_response_naive_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,mc_correct_alt_logprob,mc_intuitive_alt_logprob,mc_response_correct_alt,model,revision
+condition,item_id,question,correct,intuitive,total_cost,more,correct_alt,intuitive_alt,total_cost_alt,more_alt,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,mc_correct_alt_logprob,mc_intuitive_alt_logprob,mc_response_correct_alt,model,revision
 crt1,1,A pear and a fridge together cost $140. The pear costs $100 more than the fridge. How much does the fridge cost?,$20.00,$40.00,$140.00,$100.00,$20,$40,$140,$100," $140
 
 A:
@@ -21,7 +21,7 @@ How much does the fridge cost?
 
 The fridge costs $140.
 
-A:",$140.00,total_cost,"[-2.3505008220672607, -2.4072117805480957, -1.8946058750152588, -2.245344400405884, -2.3237485885620117, -2.074770927429199, -1.5016040802001953, -1.8585281372070312]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.3505008220672607,-2.4072117805480957,6,total_cost_alt,$140,-1.5016040802001953,False,-2.3237485885620117,-2.074770927429199,False,EleutherAI/pythia-1.4b-deduped,
+A:",$140.00,total_cost,total_cost,"[-2.3505008220672607, -2.4072117805480957, -1.8946058750152588, -2.245344400405884, -2.3237485885620117, -2.074770927429199, -1.5016040802001953, -1.8585281372070312]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.350500822,-2.407211781,6,total_cost_alt,$140,-1.50160408,FALSE,-2.323748589,-2.074770927,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,2,A potato and a camera together cost $1.40. The potato costs $1 more than the camera. How much does the camera cost?,$0.20,$0.40,$1.40,$1.00,$0.20,$0.40,$1.40,$1," The camera costs $1.40.
 
 A:
@@ -36,7 +36,7 @@ A:
 The answer is $1.40.
 The camera is worth $1.40.
 The potato is worth $1.40.
-The potato is worth $1.40 more",The camera costs $1.,more_alt,"[-1.8343970775604248, -1.609057903289795, -0.877720832824707, -1.5275652408599854, -1.8343970775604248, -1.609057903289795, -0.877720832824707, -1.0017786026000977]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.8343970775604248,-1.609057903289795,2,total_cost,$1.40,-0.877720832824707,False,-1.8343970775604248,-1.609057903289795,False,EleutherAI/pythia-1.4b-deduped,
+The potato is worth $1.40 more",The camera costs $1.,more_alt,total_cost,"[-1.8343970775604248, -1.609057903289795, -0.877720832824707, -1.5275652408599854, -1.8343970775604248, -1.609057903289795, -0.877720832824707, -1.0017786026000977]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.834397078,-1.609057903,2,total_cost,$1.40,-0.8777208328,FALSE,-1.834397078,-1.609057903,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,3,A boat and a potato together cost $110. The boat costs $100 more than the potato. How much does the potato cost?,$5.00,$10.00,$110.00,$100.00,$5,$10,$110,$100," The boat costs $110 more than the potato.
 
 A:
@@ -55,7 +55,7 @@ The boat costs $110 more than the potato.
 
 The boat costs $110 more than the potato.
 
-",The boat costs $110 more than the potato.,total_cost_alt,"[-1.9013338088989258, -1.9962830543518066, -1.6377322673797607, -2.1165945529937744, -2.3846707344055176, -2.059345245361328, -1.247894287109375, -1.9213228225708008]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.9013338088989258,-1.9962830543518066,6,total_cost_alt,$110,-1.247894287109375,False,-2.3846707344055176,-2.059345245361328,False,EleutherAI/pythia-1.4b-deduped,
+",The boat costs $110 more than the potato.,total_cost_alt,total_cost,"[-1.9013338088989258, -1.9962830543518066, -1.6377322673797607, -2.1165945529937744, -2.3846707344055176, -2.059345245361328, -1.247894287109375, -1.9213228225708008]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.901333809,-1.996283054,6,total_cost_alt,$110,-1.247894287,FALSE,-2.384670734,-2.059345245,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,4,A light bulb and a pan together cost $12. The light bulb costs $10 more than the pan. How much does the pan cost?,$1.00,$2.00,$12.00,$10.00,$1,$2,$12,$10," The light bulb costs $10 more than the pan.
 
 A:
@@ -72,7 +72,7 @@ How to get the value of a variable in a function in Python?
 
 I have a function that takes a variable as an argument. I want to get the value of that variable in the function.
 def my_function(x):
-",The light bulb costs $10 more than the pan.,more_alt,"[-1.7927472591400146, -1.6972322463989258, -1.6164906024932861, -1.736778736114502, -2.060762405395508, -1.8771553039550781, -1.4504737854003906, -1.6573944091796875]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.7927472591400146,-1.6972322463989258,6,total_cost_alt,$12,-1.4504737854003906,False,-2.060762405395508,-1.8771553039550781,False,EleutherAI/pythia-1.4b-deduped,
+",The light bulb costs $10 more than the pan.,more_alt,more,"[-1.7927472591400146, -1.6972322463989258, -1.6164906024932861, -1.736778736114502, -2.060762405395508, -1.8771553039550781, -1.4504737854003906, -1.6573944091796875]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.792747259,-1.697232246,6,total_cost_alt,$12,-1.450473785,FALSE,-2.060762405,-1.877155304,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,5,A chair and a coat together cost $13. The chair costs $10 more than the coat. How much does the coat cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10," The chair and the coat together cost $15.
 
 A:
@@ -91,7 +91,7 @@ The chair and the coat together cost $15.
 
 The chair and the coat together cost $15.
 
-",The chair and the coat together cost $15.,,"[-1.764634609222412, -2.137946605682373, -1.9650752544403076, -2.1424050331115723, -1.764634609222412, -2.426023006439209, -1.757394790649414, -2.112320899963379]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.764634609222412,-2.137946605682373,6,total_cost_alt,$13,-1.757394790649414,False,-1.764634609222412,-2.426023006439209,False,EleutherAI/pythia-1.4b-deduped,
+",The chair and the coat together cost $15.,,,"[-1.764634609222412, -2.137946605682373, -1.9650752544403076, -2.1424050331115723, -1.764634609222412, -2.426023006439209, -1.757394790649414, -2.112320899963379]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.764634609,-2.137946606,6,total_cost_alt,$13,-1.757394791,FALSE,-1.764634609,-2.426023006,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,6,A tube of toothpaste and a wallet together cost $54. The tube of toothpaste costs $50 more than the wallet. How much does the wallet cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50," The wallet costs $54.
 
 Question: A tube of toothpaste and a wallet together cost $54. The tube of toothpaste costs $50 more than the wallet. How much does the wallet cost?
@@ -100,7 +100,7 @@ Answer: The wallet costs $54.
 Question: A tube of toothpaste and a wallet together cost $54. The tube of toothpaste costs $50 more than the wallet. How much does the wallet cost?
 Answer: The wallet costs $54.
 
-",The wallet costs $54.,total_cost_alt,"[-2.0297958850860596, -2.086691379547119, -1.7217333316802979, -2.204188108444214, -2.6135287284851074, -2.729534149169922, -1.4738435745239258, -2.2755088806152344]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.0297958850860596,-2.086691379547119,6,total_cost_alt,$54,-1.4738435745239258,False,-2.6135287284851074,-2.729534149169922,False,EleutherAI/pythia-1.4b-deduped,
+",The wallet costs $54.,total_cost_alt,total_cost,"[-2.0297958850860596, -2.086691379547119, -1.7217333316802979, -2.204188108444214, -2.6135287284851074, -2.729534149169922, -1.4738435745239258, -2.2755088806152344]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.029795885,-2.08669138,6,total_cost_alt,$54,-1.473843575,FALSE,-2.613528728,-2.729534149,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,7,A coffee table and a mixing bowl together cost $52. The coffee table costs $50 more than the mixing bowl. How much does the mixing bowl cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50," The coffee table costs $52 more than the mixing bowl.
 
 A:
@@ -115,7 +115,7 @@ The coffee table costs $52 more than the mixing bowl.
 
 The coffee table costs $52 more than the mixing bowl.
 
-The coffee table costs $52 more than the mixing bowl.",The coffee table costs $52 more than the mixing bowl.,total_cost_alt,"[-2.1740915775299072, -2.020016670227051, -1.6399831771850586, -1.9406006336212158, -2.850619316101074, -2.6139087677001953, -1.4676504135131836, -1.7905149459838867]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.1740915775299072,-2.020016670227051,6,total_cost_alt,$52,-1.4676504135131836,False,-2.850619316101074,-2.6139087677001953,False,EleutherAI/pythia-1.4b-deduped,
+The coffee table costs $52 more than the mixing bowl.",The coffee table costs $52 more than the mixing bowl.,total_cost_alt,total_cost,"[-2.1740915775299072, -2.020016670227051, -1.6399831771850586, -1.9406006336212158, -2.850619316101074, -2.6139087677001953, -1.4676504135131836, -1.7905149459838867]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.174091578,-2.02001667,6,total_cost_alt,$52,-1.467650414,FALSE,-2.850619316,-2.613908768,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,8,A microwave oven and a flower box together cost $51. The microwave oven costs $50 more than the flower box. How much does the flower box cost?,$0.50,$1.00,$51.00,$50.00,$0.50,$1,$51,$50," The flower box costs $51.
 
 Question: A microwave oven and a flower box together cost $51. The microwave oven costs $50 more than the flower box. How much does the flower box cost?
@@ -123,14 +123,14 @@ Answer: The flower box costs $51.
 
 Question: A microwave oven and a flower box together cost $51. The microwave oven costs $50 more than the flower box. How much does the flower box cost?
 Answer: The flower box costs $51.
-",The flower box costs $51.,total_cost_alt,"[-2.1585142612457275, -1.9459586143493652, -1.6675052642822266, -2.0218911170959473, -2.1585142612457275, -2.5395994186401367, -1.4987316131591797, -2.105113983154297]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.1585142612457275,-1.9459586143493652,6,total_cost_alt,$51,-1.4987316131591797,False,-2.1585142612457275,-2.5395994186401367,False,EleutherAI/pythia-1.4b-deduped,
+",The flower box costs $51.,total_cost_alt,total_cost,"[-2.1585142612457275, -1.9459586143493652, -1.6675052642822266, -2.0218911170959473, -2.1585142612457275, -2.5395994186401367, -1.4987316131591797, -2.105113983154297]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.158514261,-1.945958614,6,total_cost_alt,$51,-1.498731613,FALSE,-2.158514261,-2.539599419,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,9,A can of baby food and a helmet together cost $1.20. The can of baby food costs $1 more than the helmet. How much does the helmet cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1," The helmet costs $1.20.
 
 Question: A can of baby food and a helmet together cost $1.20. The can of baby food costs $1 more than the helmet. How much does the helmet cost?
 Answer: The helmet costs $1.20.
 
 Question: A can of baby food and a helmet together cost $1.20. The can of baby food costs $1 more than the helmet. How much does the helmet cost?
-Answer:",The helmet costs $1.,more_alt,"[-1.6535439491271973, -1.4805254936218262, -0.8305253982543945, -1.2891671657562256, -1.6535439491271973, -1.4805254936218262, -0.8305253982543945, -0.9452781677246094]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.6535439491271973,-1.4805254936218262,2,total_cost,$1.20,-0.8305253982543945,False,-1.6535439491271973,-1.4805254936218262,False,EleutherAI/pythia-1.4b-deduped,
+Answer:",The helmet costs $1.,more_alt,total_cost,"[-1.6535439491271973, -1.4805254936218262, -0.8305253982543945, -1.2891671657562256, -1.6535439491271973, -1.4805254936218262, -0.8305253982543945, -0.9452781677246094]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.653543949,-1.480525494,2,total_cost,$1.20,-0.8305253983,FALSE,-1.653543949,-1.480525494,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,10,A sculpture and a box of lipstick together cost $13. The sculpture costs $10 more than the box of lipstick. How much does the box of lipstick cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10," The sculpture costs $13 more than the box of lipstick.
 
 A:
@@ -145,13 +145,13 @@ The sculpture costs $13 more than the box of lipstick.
 
 The sculpture costs $13 more than the box of lipstick.
 
-The sculpture costs $13 more",The sculpture costs $13 more than the box of lipstick.,total_cost_alt,"[-1.7333455085754395, -2.033820152282715, -1.576585292816162, -1.9135093688964844, -1.7333455085754395, -2.456787109375, -1.4760351181030273, -1.9795923233032227]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.7333455085754395,-2.033820152282715,6,total_cost_alt,$13,-1.4760351181030273,False,-1.7333455085754395,-2.456787109375,False,EleutherAI/pythia-1.4b-deduped,
+The sculpture costs $13 more",The sculpture costs $13 more than the box of lipstick.,total_cost_alt,total_cost,"[-1.7333455085754395, -2.033820152282715, -1.576585292816162, -1.9135093688964844, -1.7333455085754395, -2.456787109375, -1.4760351181030273, -1.9795923233032227]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.733345509,-2.033820152,6,total_cost_alt,$13,-1.476035118,FALSE,-1.733345509,-2.456787109,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,11,A pair of leggings and a body lotion together cost $54. The pair of leggings costs $50 more than the body lotion. How much does the body lotion cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50," The body lotion costs $10 more than the pair of leggings.
 
 Question: A pair of leggings and a body lotion together cost $54. The pair of leggings costs $50 more than the body lotion. How much does the body lotion cost?
 Answer: The body lotion costs $10 more than the pair of leggings.
 
-Question: A pair of leggings and a body lotion together cost $54.",The body lotion costs $10 more than the pair of leggings.,,"[-2.1287543773651123, -2.1819379329681396, -1.739910364151001, -2.187260150909424, -2.8101048469543457, -2.8933072090148926, -1.7869958877563477, -2.480851173400879]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.1287543773651123,-2.1819379329681396,2,total_cost,$54.00,-1.739910364151001,False,-2.8101048469543457,-2.8933072090148926,False,EleutherAI/pythia-1.4b-deduped,
+Question: A pair of leggings and a body lotion together cost $54.",The body lotion costs $10 more than the pair of leggings.,,,"[-2.1287543773651123, -2.1819379329681396, -1.739910364151001, -2.187260150909424, -2.8101048469543457, -2.8933072090148926, -1.7869958877563477, -2.480851173400879]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.128754377,-2.181937933,2,total_cost,$54.00,-1.739910364,FALSE,-2.810104847,-2.893307209,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,12,A trampoline and a box of batteries together cost $520. The trampoline costs $500 more than the box of batteries. How much does the box of batteries cost?,$10.00,$20.00,$520.00,$500.00,$10,$20,$520,$500," $520.
 
 Question: A box of batteries costs $500 more than a box of batteries. How much does the box of batteries cost?
@@ -161,7 +161,7 @@ Question: A box of batteries costs $500 more than a box of batteries. How much d
 Answer: $500.
 
 Question: A box of batteries costs $500 more than a box of batteries. How much does the box of batteries cost?
-Answer: $",$520.00,total_cost,"[-1.9962224960327148, -2.0234880447387695, -1.7955925464630127, -2.0042974948883057, -2.5337018966674805, -2.3322548866271973, -1.6450233459472656, -1.7530450820922852]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.9962224960327148,-2.0234880447387695,6,total_cost_alt,$520,-1.6450233459472656,False,-2.5337018966674805,-2.3322548866271973,False,EleutherAI/pythia-1.4b-deduped,
+Answer: $",$520.00,total_cost,total_cost,"[-1.9962224960327148, -2.0234880447387695, -1.7955925464630127, -2.0042974948883057, -2.5337018966674805, -2.3322548866271973, -1.6450233459472656, -1.7530450820922852]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.996222496,-2.023488045,6,total_cost_alt,$520,-1.645023346,FALSE,-2.533701897,-2.332254887,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,13,A mouse and a can of baby food together cost $1.20. The mouse costs $1 more than the can of baby food. How much does the can of baby food cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1," $1.20 + $1.20 = $2.00.
 
 A:
@@ -174,7 +174,7 @@ The mouse is worth $1.20 more than the can of baby food.
 
 The mouse is worth $1.20 more than the can of baby food.
 
-The mouse is worth $1.",$1.00,more,"[-1.4497876167297363, -1.2798004150390625, -0.8019814491271973, -1.2163262367248535, -1.4497876167297363, -1.2798004150390625, -0.8019814491271973, -0.8371658325195312]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.4497876167297363,-1.2798004150390625,2,total_cost,$1.20,-0.8019814491271973,False,-1.4497876167297363,-1.2798004150390625,False,EleutherAI/pythia-1.4b-deduped,
+The mouse is worth $1.",$1.00,more,,"[-1.4497876167297363, -1.2798004150390625, -0.8019814491271973, -1.2163262367248535, -1.4497876167297363, -1.2798004150390625, -0.8019814491271973, -0.8371658325195312]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.449787617,-1.279800415,2,total_cost,$1.20,-0.8019814491,FALSE,-1.449787617,-1.279800415,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,14,A bottle of shampoo and a knife together cost $110. The bottle of shampoo costs $100 more than the knife. How much does the knife cost?,$5.00,$10.00,$110.00,$100.00,$5,$10,$110,$100," $110.
 
 A:
@@ -186,7 +186,7 @@ The shampoo is $100 more than the knife.
 The knife is $110 more than the shampoo.
 The shampoo is $100 more than the knife.
 The knife is $110 more than the shampoo.
-The shampoo is $",$110.00,total_cost,"[-1.8872816562652588, -1.8980681896209717, -1.4667129516601562, -1.9823694229125977, -2.4457955360412598, -2.0800914764404297, -1.153822898864746, -1.9057588577270508]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.8872816562652588,-1.8980681896209717,6,total_cost_alt,$110,-1.153822898864746,False,-2.4457955360412598,-2.0800914764404297,False,EleutherAI/pythia-1.4b-deduped,
+The shampoo is $",$110.00,total_cost,total_cost,"[-1.8872816562652588, -1.8980681896209717, -1.4667129516601562, -1.9823694229125977, -2.4457955360412598, -2.0800914764404297, -1.153822898864746, -1.9057588577270508]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.887281656,-1.89806819,6,total_cost_alt,$110,-1.153822899,FALSE,-2.445795536,-2.080091476,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,15,A bottle of bath salts and a set of crayons together cost $520. The bottle of bath salts costs $500 more than the set of crayons. How much does the set of crayons cost?,$10.00,$20.00,$520.00,$500.00,$10,$20,$520,$500," The set of crayons costs $100 more than the bath salts.
 
 A:
@@ -200,7 +200,7 @@ The first two statements are true. The third statement is false.
 
 A:
 
-The answer is $",The set of crayons costs $100 more than the bath salts.,,"[-1.8245267868041992, -1.8758611679077148, -2.0357160568237305, -2.0212185382843018, -2.3639698028564453, -2.2788639068603516, -2.416260242462158, -2.0038986206054688]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.8245267868041992,-1.8758611679077148,0,correct,$10.00,-1.8245267868041992,True,-2.3639698028564453,-2.2788639068603516,False,EleutherAI/pythia-1.4b-deduped,
+The answer is $",The set of crayons costs $100 more than the bath salts.,,,"[-1.8245267868041992, -1.8758611679077148, -2.0357160568237305, -2.0212185382843018, -2.3639698028564453, -2.2788639068603516, -2.416260242462158, -2.0038986206054688]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.824526787,-1.875861168,0,correct,$10.00,-1.824526787,TRUE,-2.363969803,-2.278863907,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,16,A set of wine glasses and a pencil together cost $12. The set of wine glasses costs $10 more than the pencil. How much does the pencil cost?,$1.00,$2.00,$12.00,$10.00,$1,$2,$12,$10," The set of wine glasses costs $12 more than the pencil.
 
 A:
@@ -215,7 +215,7 @@ The set of wine glasses costs $10 more than the pencil.
 
 The set of wine glasses costs $10 more than the pencil.
 
-The set of wine glasses costs",The set of wine glasses costs $12 more than the pencil.,total_cost_alt,"[-1.736994981765747, -1.596696138381958, -1.647042989730835, -1.8437573909759521, -1.9665088653564453, -1.662156105041504, -1.3654861450195312, -1.6833524703979492]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.736994981765747,-1.596696138381958,6,total_cost_alt,$12,-1.3654861450195312,False,-1.9665088653564453,-1.662156105041504,False,EleutherAI/pythia-1.4b-deduped,
+The set of wine glasses costs",The set of wine glasses costs $12 more than the pencil.,total_cost_alt,total_cost,"[-1.736994981765747, -1.596696138381958, -1.647042989730835, -1.8437573909759521, -1.9665088653564453, -1.662156105041504, -1.3654861450195312, -1.6833524703979492]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.736994982,-1.596696138,6,total_cost_alt,$12,-1.365486145,FALSE,-1.966508865,-1.662156105,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,17,A wallet and a camera together cost $52. The wallet costs $50 more than the camera. How much does the camera cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50," The wallet costs $52.
 
 A:
@@ -240,7 +240,7 @@ The wallet costs $52.
 
 The wallet costs $52.
 
-",The wallet costs $52.,total_cost_alt,"[-2.0969386100769043, -1.9631121158599854, -1.8531813621520996, -2.02410888671875, -2.6279306411743164, -2.4199509620666504, -1.8823795318603516, -1.996119499206543]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.0969386100769043,-1.9631121158599854,2,total_cost,$52.00,-1.8531813621520996,False,-2.6279306411743164,-2.4199509620666504,False,EleutherAI/pythia-1.4b-deduped,
+",The wallet costs $52.,total_cost_alt,total_cost,"[-2.0969386100769043, -1.9631121158599854, -1.8531813621520996, -2.02410888671875, -2.6279306411743164, -2.4199509620666504, -1.8823795318603516, -1.996119499206543]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.09693861,-1.963112116,2,total_cost,$52.00,-1.853181362,FALSE,-2.627930641,-2.419950962,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,18,A pair of hiking boots and a coffee table together cost $1.20. The pair of hiking boots costs $1 more than the coffee table. How much does the coffee table cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1," The coffee table costs $1.20.
 
 A:
@@ -250,7 +250,7 @@ The coffee table is a single item, so it is not a pair of items.
 The hiking boots are a pair of items, so they are not a single item.
 The hiking boots are a pair of items, so they are not a single item.
 The hiking boots are a pair of items, so they are not a single item.
-The hiking boots are",The coffee table costs $1.,more_alt,"[-1.6684958934783936, -1.4573206901550293, -0.859921932220459, -1.3517930507659912, -1.6684958934783936, -1.4573206901550293, -0.859921932220459, -0.9875431060791016]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.6684958934783936,-1.4573206901550293,2,total_cost,$1.20,-0.859921932220459,False,-1.6684958934783936,-1.4573206901550293,False,EleutherAI/pythia-1.4b-deduped,
+The hiking boots are",The coffee table costs $1.,more_alt,total_cost,"[-1.6684958934783936, -1.4573206901550293, -0.859921932220459, -1.3517930507659912, -1.6684958934783936, -1.4573206901550293, -0.859921932220459, -0.9875431060791016]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.668495893,-1.45732069,2,total_cost,$1.20,-0.8599219322,FALSE,-1.668495893,-1.45732069,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,19,A tube of toothpaste and a pear together cost $12. The tube of toothpaste costs $10 more than the pear. How much does the pear cost?,$1.00,$2.00,$12.00,$10.00,$1,$2,$12,$10," The pear costs $12.
 
 A:
@@ -268,7 +268,7 @@ The toothpaste is $10 more than the pear.
 
 The pear is $12.
 
-The toothpaste is $10 more than the pear.",The pear costs $12.,total_cost_alt,"[-1.929347276687622, -1.8067476749420166, -1.5603723526000977, -1.9090747833251953, -2.2642440795898438, -2.082691192626953, -1.306168556213379, -1.9268226623535156]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.929347276687622,-1.8067476749420166,6,total_cost_alt,$12,-1.306168556213379,False,-2.2642440795898438,-2.082691192626953,False,EleutherAI/pythia-1.4b-deduped,
+The toothpaste is $10 more than the pear.",The pear costs $12.,total_cost_alt,total_cost,"[-1.929347276687622, -1.8067476749420166, -1.5603723526000977, -1.9090747833251953, -2.2642440795898438, -2.082691192626953, -1.306168556213379, -1.9268226623535156]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.929347277,-1.806747675,6,total_cost_alt,$12,-1.306168556,FALSE,-2.26424408,-2.082691193,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,20,A trampoline and a flower box together cost $54. The trampoline costs $50 more than the flower box. How much does the flower box cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50," The flower box costs $54.
 
 Question: A trampoline and a flower box together cost $54. The trampoline costs $50 more than the flower box. How much does the flower box cost?
@@ -276,7 +276,7 @@ Answer: The flower box costs $54.
 
 Question: A trampoline and a flower box together cost $54. The trampoline costs $50 more than the flower box. How much does the flower box cost?
 Answer: The flower box costs $54.
-",The flower box costs $54.,total_cost_alt,"[-2.284942626953125, -2.3851776123046875, -1.7419979572296143, -2.185417413711548, -3.0009570121765137, -3.162789821624756, -1.404189109802246, -2.303884506225586]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.284942626953125,-2.3851776123046875,6,total_cost_alt,$54,-1.404189109802246,False,-3.0009570121765137,-3.162789821624756,False,EleutherAI/pythia-1.4b-deduped,
+",The flower box costs $54.,total_cost_alt,total_cost,"[-2.284942626953125, -2.3851776123046875, -1.7419979572296143, -2.185417413711548, -3.0009570121765137, -3.162789821624756, -1.404189109802246, -2.303884506225586]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.284942627,-2.385177612,6,total_cost_alt,$54,-1.40418911,FALSE,-3.000957012,-3.162789822,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,21,A silicone case and a lawnmower together cost $130. The silicone case costs $100 more than the lawnmower. How much does the lawnmower cost?,$15.00,$30.00,$130.00,$100.00,$15,$30,$130,$100," The lawnmower costs $100 more than the silicone case.
 
 A:
@@ -291,7 +291,7 @@ The lawnmower is $100 more expensive than the silicone case.
 
 The lawnmower is $100 more expensive than the silicone case.
 
-The",The lawnmower costs $100 more than the silicone case.,more_alt,"[-2.301111936569214, -2.320289134979248, -2.0778093338012695, -2.2718355655670166, -2.9085988998413086, -2.3058838844299316, -1.953669548034668, -2.088059425354004]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.301111936569214,-2.320289134979248,6,total_cost_alt,$130,-1.953669548034668,False,-2.9085988998413086,-2.3058838844299316,False,EleutherAI/pythia-1.4b-deduped,
+The",The lawnmower costs $100 more than the silicone case.,more_alt,more,"[-2.301111936569214, -2.320289134979248, -2.0778093338012695, -2.2718355655670166, -2.9085988998413086, -2.3058838844299316, -1.953669548034668, -2.088059425354004]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.301111937,-2.320289135,6,total_cost_alt,$130,-1.953669548,FALSE,-2.9085989,-2.305883884,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,22,A toy and a microwave oven together cost $5.40. The toy costs $5 more than the microwave oven. How much does the microwave oven cost?,$0.20,$0.40,$5.40,$5.00,$0.20,$0.40,$5.40,$5," $5.40 + $5 = $10.40.
 
 A:
@@ -303,7 +303,7 @@ The toy costs $5 more than the microwave oven.
 The toy costs $5 more than the microwave oven.
 The toy costs $5 more than the microwave oven.
 The toy costs $5 more than the microwave oven.
-",$5.00,more,"[-1.951981782913208, -1.742292881011963, -0.8303709030151367, -1.4360923767089844, -1.951981782913208, -1.742292881011963, -0.8303709030151367, -1.2098407745361328]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.951981782913208,-1.742292881011963,2,total_cost,$5.40,-0.8303709030151367,False,-1.951981782913208,-1.742292881011963,False,EleutherAI/pythia-1.4b-deduped,
+",$5.00,more,,"[-1.951981782913208, -1.742292881011963, -0.8303709030151367, -1.4360923767089844, -1.951981782913208, -1.742292881011963, -0.8303709030151367, -1.2098407745361328]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.951981783,-1.742292881,2,total_cost,$5.40,-0.830370903,FALSE,-1.951981783,-1.742292881,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,23,A purse and a mixing bowl together cost $5.40. The purse costs $5 more than the mixing bowl. How much does the mixing bowl cost?,$0.20,$0.40,$5.40,$5.00,$0.20,$0.40,$5.40,$5," The mixing bowl costs $5.40.
 
 A:
@@ -312,7 +312,7 @@ The answer is $5.40.
 The reason is that the mixing bowl is a ""set"" item, and the purse is a ""non-set"" item.
 The mixing bowl is a set item, and the purse is a non-set item.
 The mixing bowl is a set item, and the purse is a non-set item.
-The mixing bowl is a set item, and the purse",The mixing bowl costs $5.,more_alt,"[-1.891239881515503, -1.6866865158081055, -0.7849273681640625, -1.490135908126831, -1.891239881515503, -1.6866865158081055, -0.7849273681640625, -1.1416149139404297]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.891239881515503,-1.6866865158081055,2,total_cost,$5.40,-0.7849273681640625,False,-1.891239881515503,-1.6866865158081055,False,EleutherAI/pythia-1.4b-deduped,
+The mixing bowl is a set item, and the purse",The mixing bowl costs $5.,more_alt,total_cost,"[-1.891239881515503, -1.6866865158081055, -0.7849273681640625, -1.490135908126831, -1.891239881515503, -1.6866865158081055, -0.7849273681640625, -1.1416149139404297]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.891239882,-1.686686516,2,total_cost,$5.40,-0.7849273682,FALSE,-1.891239882,-1.686686516,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,24,A hat and a mouse together cost $540. The hat costs $500 more than the mouse. How much does the mouse cost?,$20.00,$40.00,$540.00,$500.00,$20,$40,$540,$500," The mouse costs $100 more than the hat.
 
 A:
@@ -331,7 +331,7 @@ The mouse costs $100 more than the hat.
 
 The mouse costs $100 more than the hat.
 
-",The mouse costs $100 more than the hat.,,"[-2.4125583171844482, -2.5725903511047363, -2.050211191177368, -2.3055858612060547, -2.7614083290100098, -2.761465072631836, -1.8108739852905273, -1.9662628173828125]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.4125583171844482,-2.5725903511047363,6,total_cost_alt,$540,-1.8108739852905273,False,-2.7614083290100098,-2.761465072631836,False,EleutherAI/pythia-1.4b-deduped,
+",The mouse costs $100 more than the hat.,,,"[-2.4125583171844482, -2.5725903511047363, -2.050211191177368, -2.3055858612060547, -2.7614083290100098, -2.761465072631836, -1.8108739852905273, -1.9662628173828125]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.412558317,-2.572590351,6,total_cost_alt,$540,-1.810873985,FALSE,-2.761408329,-2.761465073,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,25,A purse and a box of cigarettes together cost $1.40. The purse costs $1 more than the box of cigarettes. How much does the box of cigarettes cost?,$0.20,$0.40,$1.40,$1.00,$0.20,$0.40,$1.40,$1," $1.40
 
 Question: A box of cigarettes costs $1.40. The box of cigarettes costs $1 more than the box of cigarettes. How much does the box of cigarettes cost?
@@ -340,7 +340,7 @@ Answer: $1.40
 Question: A box of cigarettes costs $1.40. The box of cigarettes costs $1 more than the box of cigarettes. How much does the box of cigarettes cost?
 Answer: $1.40
 
-Question: A box of cigarettes",$1.00,more,"[-1.4140288829803467, -1.322618007659912, -0.8135490417480469, -1.35382080078125, -1.4140288829803467, -1.322618007659912, -0.8135490417480469, -0.9456243515014648]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.4140288829803467,-1.322618007659912,2,total_cost,$1.40,-0.8135490417480469,False,-1.4140288829803467,-1.322618007659912,False,EleutherAI/pythia-1.4b-deduped,
+Question: A box of cigarettes",$1.00,more,total_cost,"[-1.4140288829803467, -1.322618007659912, -0.8135490417480469, -1.35382080078125, -1.4140288829803467, -1.322618007659912, -0.8135490417480469, -0.9456243515014648]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.414028883,-1.322618008,2,total_cost,$1.40,-0.8135490417,FALSE,-1.414028883,-1.322618008,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,26,A box of mascara and a microwave oven together cost $14. The box of mascara costs $10 more than the microwave oven. How much does the microwave oven cost?,$2.00,$4.00,$14.00,$10.00,$2,$4,$14,$10," $14.
 
 Question: A box of mascara and a microwave oven together cost $14. The box of mascara costs $10 more than the microwave oven. How much does the microwave oven cost?
@@ -349,7 +349,7 @@ Answer: $14.
 Question: A box of mascara and a microwave oven together cost $14. The box of mascara costs $10 more than the microwave oven. How much does the microwave oven cost?
 Answer: $14.
 
-Question: A",$14.00,total_cost,"[-1.881709098815918, -1.9740417003631592, -1.5596644878387451, -1.9583518505096436, -2.1866683959960938, -2.264108657836914, -1.3555774688720703, -1.9658737182617188]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.881709098815918,-1.9740417003631592,6,total_cost_alt,$14,-1.3555774688720703,False,-2.1866683959960938,-2.264108657836914,False,EleutherAI/pythia-1.4b-deduped,
+Question: A",$14.00,total_cost,total_cost,"[-1.881709098815918, -1.9740417003631592, -1.5596644878387451, -1.9583518505096436, -2.1866683959960938, -2.264108657836914, -1.3555774688720703, -1.9658737182617188]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.881709099,-1.9740417,6,total_cost_alt,$14,-1.355577469,FALSE,-2.186668396,-2.264108658,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,27,A bag and a food processor together cost $54. The bag costs $50 more than the food processor. How much does the food processor cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50," The food processor costs $10 more than the bag.
 
 A:
@@ -366,7 +366,7 @@ The food processor costs $10 more than the bag.
 
 The food processor costs $10 more than the bag.
 
-The food processor costs $",The food processor costs $10 more than the bag.,,"[-2.06227970123291, -2.095418930053711, -1.8636062145233154, -2.257627487182617, -2.577077865600586, -2.675826072692871, -1.8293437957763672, -2.4909138679504395]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.06227970123291,-2.095418930053711,6,total_cost_alt,$54,-1.8293437957763672,False,-2.577077865600586,-2.675826072692871,False,EleutherAI/pythia-1.4b-deduped,
+The food processor costs $",The food processor costs $10 more than the bag.,,,"[-2.06227970123291, -2.095418930053711, -1.8636062145233154, -2.257627487182617, -2.577077865600586, -2.675826072692871, -1.8293437957763672, -2.4909138679504395]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.062279701,-2.09541893,6,total_cost_alt,$54,-1.829343796,FALSE,-2.577077866,-2.675826073,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,28,A coat and a pot together cost $510. The coat costs $500 more than the pot. How much does the pot cost?,$5.00,$10.00,$510.00,$500.00,$5,$10,$510,$500," $510.
 
 A:
@@ -389,7 +389,7 @@ The coat costs $500 more than the pot.
 
 The pot is $510.
 
-The coat",$510.00,total_cost,"[-2.2297983169555664, -1.9403798580169678, -1.6162474155426025, -2.087527275085449, -2.71366024017334, -2.309131145477295, -1.4028406143188477, -1.8000354766845703]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.2297983169555664,-1.9403798580169678,6,total_cost_alt,$510,-1.4028406143188477,False,-2.71366024017334,-2.309131145477295,False,EleutherAI/pythia-1.4b-deduped,
+The coat",$510.00,total_cost,total_cost,"[-2.2297983169555664, -1.9403798580169678, -1.6162474155426025, -2.087527275085449, -2.71366024017334, -2.309131145477295, -1.4028406143188477, -1.8000354766845703]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.229798317,-1.940379858,6,total_cost_alt,$510,-1.402840614,FALSE,-2.71366024,-2.309131145,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,29,A jacket and a set of wine glasses together cost $5.10. The jacket costs $5 more than the set of wine glasses. How much does the set of wine glasses cost?,$0.05,$0.10,$5.10,$5.00,$0.05,$0.10,$5.10,$5," $5.10 + $5.10 = $10.10
 
 A:
@@ -406,7 +406,7 @@ The total is $10.10.
 
 A:
 
-The set of wine glasses is",$5.00,more,"[-1.9324951171875, -1.6417045593261719, -0.8980836868286133, -1.366258144378662, -1.9324951171875, -1.6417045593261719, -0.8980836868286133, -1.2766008377075195]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.9324951171875,-1.6417045593261719,2,total_cost,$5.10,-0.8980836868286133,False,-1.9324951171875,-1.6417045593261719,False,EleutherAI/pythia-1.4b-deduped,
+The set of wine glasses is",$5.00,more,,"[-1.9324951171875, -1.6417045593261719, -0.8980836868286133, -1.366258144378662, -1.9324951171875, -1.6417045593261719, -0.8980836868286133, -1.2766008377075195]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.932495117,-1.641704559,2,total_cost,$5.10,-0.8980836868,FALSE,-1.932495117,-1.641704559,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,30,A hat and a coffee table together cost $1.20. The hat costs $1 more than the coffee table. How much does the coffee table cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1," The coffee table costs $1.20.
 
 A:
@@ -419,7 +419,7 @@ The coffee table is $1.20.
 The coffee table is $1.20.
 The coffee table is $1.20.
 The coffee table is $1.20.
-The coffee table is $1",The coffee table costs $1.,more_alt,"[-1.7792575359344482, -1.5355429649353027, -0.8238468170166016, -1.2835652828216553, -1.7792575359344482, -1.5355429649353027, -0.8238468170166016, -0.9360160827636719]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.7792575359344482,-1.5355429649353027,2,total_cost,$1.20,-0.8238468170166016,False,-1.7792575359344482,-1.5355429649353027,False,EleutherAI/pythia-1.4b-deduped,
+The coffee table is $1",The coffee table costs $1.,more_alt,total_cost,"[-1.7792575359344482, -1.5355429649353027, -0.8238468170166016, -1.2835652828216553, -1.7792575359344482, -1.5355429649353027, -0.8238468170166016, -0.9360160827636719]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.779257536,-1.535542965,2,total_cost,$1.20,-0.823846817,FALSE,-1.779257536,-1.535542965,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,31,A pencil and a keyboard together cost $14. The pencil costs $10 more than the keyboard. How much does the keyboard cost?,$2.00,$4.00,$14.00,$10.00,$2,$4,$14,$10," The pencil costs $10 more than the keyboard.
 
 A:
@@ -438,7 +438,7 @@ The pencil costs $10 more than the keyboard.
 
 The pencil costs $10 more than the keyboard.
 
-",The pencil costs $10 more than the keyboard.,more_alt,"[-1.859050989151001, -2.028322696685791, -1.8622517585754395, -2.090907335281372, -2.0340890884399414, -2.2016429901123047, -1.5116214752197266, -1.9446086883544922]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.859050989151001,-2.028322696685791,6,total_cost_alt,$14,-1.5116214752197266,False,-2.0340890884399414,-2.2016429901123047,False,EleutherAI/pythia-1.4b-deduped,
+",The pencil costs $10 more than the keyboard.,more_alt,more,"[-1.859050989151001, -2.028322696685791, -1.8622517585754395, -2.090907335281372, -2.0340890884399414, -2.2016429901123047, -1.5116214752197266, -1.9446086883544922]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.859050989,-2.028322697,6,total_cost_alt,$14,-1.511621475,FALSE,-2.034089088,-2.20164299,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,32,A bag and a coffee table together cost $53. The bag costs $50 more than the coffee table. How much does the coffee table cost?,$1.50,$3.00,$53.00,$50.00,$1.50,$3,$53,$50," The coffee table costs $53.
 
 A:
@@ -455,7 +455,7 @@ The coffee table is $50 more than the bag.
 
 The coffee table is $50 more than the bag.
 
-The coffee table is $50 more than the",The coffee table costs $53.,total_cost_alt,"[-2.2046802043914795, -2.4101500511169434, -1.8042371273040771, -2.1596429347991943, -2.2046802043914795, -3.1072731018066406, -1.762908935546875, -2.234612464904785]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.2046802043914795,-2.4101500511169434,6,total_cost_alt,$53,-1.762908935546875,False,-2.2046802043914795,-3.1072731018066406,False,EleutherAI/pythia-1.4b-deduped,
+The coffee table is $50 more than the",The coffee table costs $53.,total_cost_alt,total_cost,"[-2.2046802043914795, -2.4101500511169434, -1.8042371273040771, -2.1596429347991943, -2.2046802043914795, -3.1072731018066406, -1.762908935546875, -2.234612464904785]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.204680204,-2.410150051,6,total_cost_alt,$53,-1.762908936,FALSE,-2.204680204,-3.107273102,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,33,A mixing bowl and a laundry detergent together cost $52. The mixing bowl costs $50 more than the laundry detergent. How much does the laundry detergent cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50," $52.
 
 Question: A mixing bowl and a laundry detergent together cost $52. The mixing bowl costs $50 more than the laundry detergent. How much does the laundry detergent cost?
@@ -464,7 +464,7 @@ Answer: $52.
 Question: A mixing bowl and a laundry detergent together cost $52. The mixing bowl costs $50 more than the laundry detergent. How much does the laundry detergent cost?
 Answer: $52.
 
-Question: A mixing bowl and a laundry detergent together cost",$52.00,total_cost,"[-1.798292875289917, -1.6531291007995605, -1.5617098808288574, -1.9425899982452393, -2.2067408561706543, -2.0351734161376953, -1.5286064147949219, -2.0583953857421875]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.798292875289917,-1.6531291007995605,6,total_cost_alt,$52,-1.5286064147949219,False,-2.2067408561706543,-2.0351734161376953,False,EleutherAI/pythia-1.4b-deduped,
+Question: A mixing bowl and a laundry detergent together cost",$52.00,total_cost,total_cost,"[-1.798292875289917, -1.6531291007995605, -1.5617098808288574, -1.9425899982452393, -2.2067408561706543, -2.0351734161376953, -1.5286064147949219, -2.0583953857421875]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.798292875,-1.653129101,6,total_cost_alt,$52,-1.528606415,FALSE,-2.206740856,-2.035173416,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,34,A perfume and a bottle of ouzo together cost $120. The perfume costs $100 more than the bottle of ouzo. How much does the bottle of ouzo cost?,$10.00,$20.00,$120.00,$100.00,$10,$20,$120,$100," The bottle of ouzo costs $10 more than the perfume.
 
 A:
@@ -473,7 +473,7 @@ The answer is $10.
 The perfume is $100 more than the bottle of ouzo.
 The bottle of ouzo costs $10 more than the perfume.
 
-The first part of the question is a little confusing.  The perfume is $100 more than the bottle of ouzo.  The bottle of ouzo costs $10 more than the perfume.  ",The bottle of ouzo costs $10 more than the perfume.,correct_alt,"[-2.047842025756836, -2.142613410949707, -1.8893969058990479, -2.140826463699341, -2.251633644104004, -2.1758060455322266, -1.8241729736328125, -2.0746726989746094]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.047842025756836,-2.142613410949707,6,total_cost_alt,$120,-1.8241729736328125,False,-2.251633644104004,-2.1758060455322266,False,EleutherAI/pythia-1.4b-deduped,
+The first part of the question is a little confusing.  The perfume is $100 more than the bottle of ouzo.  The bottle of ouzo costs $10 more than the perfume.  ",The bottle of ouzo costs $10 more than the perfume.,,,"[-2.047842025756836, -2.142613410949707, -1.8893969058990479, -2.140826463699341, -2.251633644104004, -2.1758060455322266, -1.8241729736328125, -2.0746726989746094]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.047842026,-2.142613411,6,total_cost_alt,$120,-1.824172974,FALSE,-2.251633644,-2.175806046,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,35,A bottle of bath salts and a pack of diapers together cost $510. The bottle of bath salts costs $500 more than the pack of diapers. How much does the pack of diapers cost?,$5.00,$10.00,$510.00,$500.00,$5,$10,$510,$500," $500.
 
 The answer is $500.
@@ -499,7 +499,7 @@ The answer is $500.
 The answer is $500.
 
 The answer is $500.
-",$500.00,more,"[-1.865354299545288, -1.748971939086914, -1.8592565059661865, -2.012012004852295, -2.551121234893799, -2.296539306640625, -2.225393295288086, -2.029128074645996]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.865354299545288,-1.748971939086914,1,intuitive,$10.00,-1.748971939086914,False,-2.551121234893799,-2.296539306640625,False,EleutherAI/pythia-1.4b-deduped,
+",$500.00,more,more,"[-1.865354299545288, -1.748971939086914, -1.8592565059661865, -2.012012004852295, -2.551121234893799, -2.296539306640625, -2.225393295288086, -2.029128074645996]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.8653543,-1.748971939,1,intuitive,$10.00,-1.748971939,FALSE,-2.551121235,-2.296539307,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,36,A CD and a pan together cost $13. The CD costs $10 more than the pan. How much does the pan cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10," The CD is $13. The pan is $10 more than the CD.
 
 A:
@@ -512,7 +512,7 @@ The CD is $13. The pan is $10 more than the CD.
 
 The CD is $13. The pan is $10 more than the CD.
 
-The CD is $13.",The CD is $13.,total_cost_alt,"[-1.58170747756958, -1.9302489757537842, -1.7252933979034424, -1.916083574295044, -1.58170747756958, -2.2361011505126953, -1.7098169326782227, -1.998152732849121]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.58170747756958,-1.9302489757537842,0,correct,$1.50,-1.58170747756958,True,-1.58170747756958,-2.2361011505126953,False,EleutherAI/pythia-1.4b-deduped,
+The CD is $13.",The CD is $13.,total_cost_alt,,"[-1.58170747756958, -1.9302489757537842, -1.7252933979034424, -1.916083574295044, -1.58170747756958, -2.2361011505126953, -1.7098169326782227, -1.998152732849121]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.581707478,-1.930248976,0,correct,$1.50,-1.581707478,TRUE,-1.581707478,-2.236101151,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,37,A rice cooker and a sculpture together cost $130. The rice cooker costs $100 more than the sculpture. How much does the sculpture cost?,$15.00,$30.00,$130.00,$100.00,$15,$30,$130,$100," The sculpture costs $130.
 
 A:
@@ -527,7 +527,7 @@ The sculpture is $130.
 The sculpture is $130.
 The sculpture is $130.
 The sculpture is $130.
-The sculpture is",The sculpture costs $130.,total_cost_alt,"[-2.5424184799194336, -2.3891069889068604, -1.7096586227416992, -2.120516300201416, -3.3265843391418457, -2.639598846435547, -1.5267553329467773, -2.163691520690918]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.5424184799194336,-2.3891069889068604,6,total_cost_alt,$130,-1.5267553329467773,False,-3.3265843391418457,-2.639598846435547,False,EleutherAI/pythia-1.4b-deduped,
+The sculpture is",The sculpture costs $130.,total_cost_alt,total_cost,"[-2.5424184799194336, -2.3891069889068604, -1.7096586227416992, -2.120516300201416, -3.3265843391418457, -2.639598846435547, -1.5267553329467773, -2.163691520690918]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.54241848,-2.389106989,6,total_cost_alt,$130,-1.526755333,FALSE,-3.326584339,-2.639598846,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,38,A pair of sunglasses and a toy together cost $13. The pair of sunglasses costs $10 more than the toy. How much does the toy cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10," $13
 
 Question: A pair of sunglasses and a toy together cost $13. The pair of sunglasses costs $10 more than the toy. How much does the toy cost?
@@ -536,7 +536,7 @@ Answer: $13
 Question: A pair of sunglasses and a toy together cost $13. The pair of sunglasses costs $10 more than the toy. How much does the toy cost?
 Answer: $13
 
-Question: A pair of sunglasses and a toy together cost",$13.00,total_cost,"[-1.752833366394043, -2.0820937156677246, -1.6457488536834717, -1.8964288234710693, -1.752833366394043, -2.428231716156006, -1.3454313278198242, -1.9467182159423828]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.752833366394043,-2.0820937156677246,6,total_cost_alt,$13,-1.3454313278198242,False,-1.752833366394043,-2.428231716156006,False,EleutherAI/pythia-1.4b-deduped,
+Question: A pair of sunglasses and a toy together cost",$13.00,total_cost,total_cost,"[-1.752833366394043, -2.0820937156677246, -1.6457488536834717, -1.8964288234710693, -1.752833366394043, -2.428231716156006, -1.3454313278198242, -1.9467182159423828]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.752833366,-2.082093716,6,total_cost_alt,$13,-1.345431328,FALSE,-1.752833366,-2.428231716,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,39,A speaker and a bottle of ouzo together cost $5.20. The speaker costs $5 more than the bottle of ouzo. How much does the bottle of ouzo cost?,$0.10,$0.20,$5.20,$5.00,$0.10,$0.20,$5.20,$5," The speaker costs $5.20 + $5.20 = $10.40.
 
 A:
@@ -549,7 +549,7 @@ The speaker costs $5.20 + $5.20 = $10.40.
 
 The speaker costs $5.20 + $5.20 = $10.40.
 
-The speaker costs $5.",The speaker costs $5.,more_alt,"[-1.989300012588501, -1.7834281921386719, -0.8732075691223145, -1.4060673713684082, -1.989300012588501, -1.7834281921386719, -0.8732075691223145, -1.2333450317382812]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.989300012588501,-1.7834281921386719,2,total_cost,$5.20,-0.8732075691223145,False,-1.989300012588501,-1.7834281921386719,False,EleutherAI/pythia-1.4b-deduped,
+The speaker costs $5.",The speaker costs $5.,more_alt,,"[-1.989300012588501, -1.7834281921386719, -0.8732075691223145, -1.4060673713684082, -1.989300012588501, -1.7834281921386719, -0.8732075691223145, -1.2333450317382812]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.989300013,-1.783428192,2,total_cost,$5.20,-0.8732075691,FALSE,-1.989300013,-1.783428192,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,40,A set of crayons and a wallet together cost $5.20. The set of crayons costs $5 more than the wallet. How much does the wallet cost?,$0.10,$0.20,$5.20,$5.00,$0.10,$0.20,$5.20,$5," The wallet costs $5.20.
 
 A:
@@ -570,7 +570,7 @@ The wallet costs $5.20.
 
 The wallet costs $5.20.
 
-The wallet costs $5.",The wallet costs $5.,more_alt,"[-1.9408574104309082, -1.6345024108886719, -0.7352862358093262, -1.3751907348632812, -1.9408574104309082, -1.6345024108886719, -0.7352862358093262, -1.1185102462768555]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.9408574104309082,-1.6345024108886719,2,total_cost,$5.20,-0.7352862358093262,False,-1.9408574104309082,-1.6345024108886719,False,EleutherAI/pythia-1.4b-deduped,
+The wallet costs $5.",The wallet costs $5.,more_alt,total_cost,"[-1.9408574104309082, -1.6345024108886719, -0.7352862358093262, -1.3751907348632812, -1.9408574104309082, -1.6345024108886719, -0.7352862358093262, -1.1185102462768555]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.94085741,-1.634502411,2,total_cost,$5.20,-0.7352862358,FALSE,-1.94085741,-1.634502411,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,41,A rug and a sculpture together cost $54. The rug costs $50 more than the sculpture. How much does the sculpture cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50," The sculpture costs $54.
 
 A:
@@ -587,7 +587,7 @@ The sculpture is $54.
 The sculpture is $54.
 The sculpture is $54.
 The sculpture is $54.
-",The sculpture costs $54.,total_cost_alt,"[-2.498619794845581, -2.49994158744812, -1.7680747509002686, -2.074207067489624, -3.158731460571289, -3.331535816192627, -1.6140718460083008, -2.1199350357055664]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.498619794845581,-2.49994158744812,6,total_cost_alt,$54,-1.6140718460083008,False,-3.158731460571289,-3.331535816192627,False,EleutherAI/pythia-1.4b-deduped,
+",The sculpture costs $54.,total_cost_alt,total_cost,"[-2.498619794845581, -2.49994158744812, -1.7680747509002686, -2.074207067489624, -3.158731460571289, -3.331535816192627, -1.6140718460083008, -2.1199350357055664]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.498619795,-2.499941587,6,total_cost_alt,$54,-1.614071846,FALSE,-3.158731461,-3.331535816,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,42,A pair of sunglasses and a light bulb together cost $130. The pair of sunglasses costs $100 more than the light bulb. How much does the light bulb cost?,$15.00,$30.00,$130.00,$100.00,$15,$30,$130,$100," The light bulb costs $10 more than the pair of sunglasses.
 
 A:
@@ -604,7 +604,7 @@ The answer is $130 - $100 = $30.
 
 The answer is $130 - $100 = $30.
 
-The answer is $130 -",The light bulb costs $10 more than the pair of sunglasses.,,"[-2.0988361835479736, -2.091771125793457, -1.66251802444458, -2.105515956878662, -2.6804981231689453, -2.154414176940918, -1.5361576080322266, -2.1361398696899414]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.0988361835479736,-2.091771125793457,6,total_cost_alt,$130,-1.5361576080322266,False,-2.6804981231689453,-2.154414176940918,False,EleutherAI/pythia-1.4b-deduped,
+The answer is $130 -",The light bulb costs $10 more than the pair of sunglasses.,,,"[-2.0988361835479736, -2.091771125793457, -1.66251802444458, -2.105515956878662, -2.6804981231689453, -2.154414176940918, -1.5361576080322266, -2.1361398696899414]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.098836184,-2.091771126,6,total_cost_alt,$130,-1.536157608,FALSE,-2.680498123,-2.154414177,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,43,A scarf and a ring together cost $1.20. The scarf costs $1 more than the ring. How much does the ring cost?,$0.10,$0.20,$1.20,$1.00,$0.10,$0.20,$1.20,$1," The scarf costs $1.20 + $1.20 = $2.40. The ring costs $2.40 + $1.20 = $3.20.
 
 A:
@@ -614,7 +614,7 @@ The ring is worth $2.40 + $1.20 = $3.20.
 
 A:
 
-The scarf is",The scarf costs $1.,more_alt,"[-1.8922224044799805, -1.7273306846618652, -0.9235177040100098, -1.388380765914917, -1.8922224044799805, -1.7273306846618652, -0.9235177040100098, -0.9402532577514648]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.8922224044799805,-1.7273306846618652,2,total_cost,$1.20,-0.9235177040100098,False,-1.8922224044799805,-1.7273306846618652,False,EleutherAI/pythia-1.4b-deduped,
+The scarf is",The scarf costs $1.,more_alt,,"[-1.8922224044799805, -1.7273306846618652, -0.9235177040100098, -1.388380765914917, -1.8922224044799805, -1.7273306846618652, -0.9235177040100098, -0.9402532577514648]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.892222404,-1.727330685,2,total_cost,$1.20,-0.923517704,FALSE,-1.892222404,-1.727330685,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,44,A pair of leggings and a scarf together cost $52. The pair of leggings costs $50 more than the scarf. How much does the scarf cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50," The scarf costs $52.
 
 A:
@@ -629,13 +629,13 @@ A:
 The scarf is $52.
 The leggings are $50.
 The pair of leggings is $52.
-The total is $52 + $50 + $50 = $",The scarf costs $52.,total_cost_alt,"[-2.181851625442505, -2.002453327178955, -1.7052927017211914, -2.0690784454345703, -2.8149948120117188, -2.5498275756835938, -1.6452455520629883, -2.0992393493652344]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.181851625442505,-2.002453327178955,6,total_cost_alt,$52,-1.6452455520629883,False,-2.8149948120117188,-2.5498275756835938,False,EleutherAI/pythia-1.4b-deduped,
+The total is $52 + $50 + $50 = $",The scarf costs $52.,total_cost_alt,total_cost,"[-2.181851625442505, -2.002453327178955, -1.7052927017211914, -2.0690784454345703, -2.8149948120117188, -2.5498275756835938, -1.6452455520629883, -2.0992393493652344]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.181851625,-2.002453327,6,total_cost_alt,$52,-1.645245552,FALSE,-2.814994812,-2.549827576,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,45,A wall clock and a light bulb together cost $1.30. The wall clock costs $1 more than the light bulb. How much does the light bulb cost?,$0.15,$0.30,$1.30,$1.00,$0.15,$0.30,$1.30,$1," The light bulb costs $1.30.
 
 A:
 
 The answer is $1.30.
-The light bulb is a good example of a ""commodity"" that is not a good example of a ""good"" or ""service"" item.  The light bulb is a good example of a ""commodity"" that is not a good example of a ""good"" or ""service"" item.  The light bulb is a good example of a ""commod",The light bulb costs $1.,more_alt,"[-1.772688865661621, -1.4001317024230957, -0.8128671646118164, -1.3187730312347412, -1.772688865661621, -1.4001317024230957, -0.8128671646118164, -0.952392578125]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.772688865661621,-1.4001317024230957,2,total_cost,$1.30,-0.8128671646118164,False,-1.772688865661621,-1.4001317024230957,False,EleutherAI/pythia-1.4b-deduped,
+The light bulb is a good example of a ""commodity"" that is not a good example of a ""good"" or ""service"" item.  The light bulb is a good example of a ""commodity"" that is not a good example of a ""good"" or ""service"" item.  The light bulb is a good example of a ""commod",The light bulb costs $1.,more_alt,total_cost,"[-1.772688865661621, -1.4001317024230957, -0.8128671646118164, -1.3187730312347412, -1.772688865661621, -1.4001317024230957, -0.8128671646118164, -0.952392578125]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.772688866,-1.400131702,2,total_cost,$1.30,-0.8128671646,FALSE,-1.772688866,-1.400131702,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,46,A blanket and a flashlight together cost $52. The blanket costs $50 more than the flashlight. How much does the flashlight cost?,$1.00,$2.00,$52.00,$50.00,$1,$2,$52,$50," The blanket costs $52.
 
 Question: A blanket and a flashlight together cost $52. The blanket costs $50 more than the flashlight. How much does the flashlight cost?
@@ -644,7 +644,7 @@ Answer: The blanket costs $52.
 Question: A blanket and a flashlight together cost $52. The blanket costs $50 more than the flashlight. How much does the flashlight cost?
 Answer: The blanket costs $52.
 
-Question: A blanket and a",The blanket costs $52.,total_cost_alt,"[-1.9850654602050781, -1.8754627704620361, -1.9659838676452637, -2.1431832313537598, -2.5752763748168945, -2.457366943359375, -2.2408905029296875, -2.5051708221435547]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.9850654602050781,-1.8754627704620361,1,intuitive,$2.00,-1.8754627704620361,False,-2.5752763748168945,-2.457366943359375,False,EleutherAI/pythia-1.4b-deduped,
+Question: A blanket and a",The blanket costs $52.,total_cost_alt,total_cost,"[-1.9850654602050781, -1.8754627704620361, -1.9659838676452637, -2.1431832313537598, -2.5752763748168945, -2.457366943359375, -2.2408905029296875, -2.5051708221435547]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.98506546,-1.87546277,1,intuitive,$2.00,-1.87546277,FALSE,-2.575276375,-2.457366943,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,47,A keyboard and a pair of socks together cost $54. The keyboard costs $50 more than the pair of socks. How much does the pair of socks cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50," The pair of socks cost $10 more than the keyboard.
 
 A:
@@ -661,7 +661,7 @@ The socks cost $10 more than the keyboard.
 
 The socks cost $10 more than the keyboard.
 
-The socks cost $10 more than the keyboard.",The pair of socks cost $10 more than the keyboard.,,"[-1.8956468105316162, -2.021869421005249, -1.8424806594848633, -2.293128728866577, -2.362638473510742, -2.5985941886901855, -1.6986455917358398, -2.375870704650879]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.8956468105316162,-2.021869421005249,6,total_cost_alt,$54,-1.6986455917358398,False,-2.362638473510742,-2.5985941886901855,False,EleutherAI/pythia-1.4b-deduped,
+The socks cost $10 more than the keyboard.",The pair of socks cost $10 more than the keyboard.,,,"[-1.8956468105316162, -2.021869421005249, -1.8424806594848633, -2.293128728866577, -2.362638473510742, -2.5985941886901855, -1.6986455917358398, -2.375870704650879]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.895646811,-2.021869421,6,total_cost_alt,$54,-1.698645592,FALSE,-2.362638474,-2.598594189,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,48,A set of wine glasses and a pizza together cost $53. The set of wine glasses costs $50 more than the pizza. How much does the pizza cost?,$1.50,$3.00,$53.00,$50.00,$1.50,$3,$53,$50," $53.
 
 A:
@@ -678,7 +678,7 @@ The fifth part is true.
 The sixth part is true.
 The seventh part is true.
 The eighth part is true.
-The ninth part",$53.00,total_cost,"[-1.9799625873565674, -2.2611958980560303, -1.5125536918640137, -2.14370059967041, -1.9799625873565674, -3.0158839225769043, -1.1220674514770508, -2.076324462890625]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.9799625873565674,-2.2611958980560303,6,total_cost_alt,$53,-1.1220674514770508,False,-1.9799625873565674,-3.0158839225769043,False,EleutherAI/pythia-1.4b-deduped,
+The ninth part",$53.00,total_cost,total_cost,"[-1.9799625873565674, -2.2611958980560303, -1.5125536918640137, -2.14370059967041, -1.9799625873565674, -3.0158839225769043, -1.1220674514770508, -2.076324462890625]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.979962587,-2.261195898,6,total_cost_alt,$53,-1.122067451,FALSE,-1.979962587,-3.015883923,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,49,A pear and a bottle of ouzo together cost $54. The pear costs $50 more than the bottle of ouzo. How much does the bottle of ouzo cost?,$2.00,$4.00,$54.00,$50.00,$2,$4,$54,$50," The bottle of ouzo costs $54.
 
 A:
@@ -689,7 +689,7 @@ The pear costs $50 more than the bottle of ouzo.
 The pear costs $50 more than the bottle of ouzo.
 The pear costs $50 more than the bottle of ouzo.
 The pear costs $50 more than the bottle of ouzo.
-The pear",The bottle of ouzo costs $54.,total_cost_alt,"[-2.0475127696990967, -2.1907594203948975, -1.8506591320037842, -2.2260286808013916, -2.679074287414551, -2.8778676986694336, -1.6505365371704102, -2.2410993576049805]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.0475127696990967,-2.1907594203948975,6,total_cost_alt,$54,-1.6505365371704102,False,-2.679074287414551,-2.8778676986694336,False,EleutherAI/pythia-1.4b-deduped,
+The pear",The bottle of ouzo costs $54.,total_cost_alt,total_cost,"[-2.0475127696990967, -2.1907594203948975, -1.8506591320037842, -2.2260286808013916, -2.679074287414551, -2.8778676986694336, -1.6505365371704102, -2.2410993576049805]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-2.04751277,-2.19075942,6,total_cost_alt,$54,-1.650536537,FALSE,-2.679074287,-2.877867699,FALSE,EleutherAI/pythia-1.4b-deduped,
 crt1,50,A pizza and a toy together cost $13. The pizza costs $10 more than the toy. How much does the toy cost?,$1.50,$3.00,$13.00,$10.00,$1.50,$3,$13,$10," $13.
 
 A:
@@ -700,4 +700,4 @@ The pizza and the toy are both priced at $13. The pizza is $10 more expensive th
 
 The pizza and the toy are both priced at $13. The pizza is $10 more expensive than the toy.
 
-The pizza and the toy are both priced at $13. The pizza is $",$13.00,total_cost,"[-1.5714263916015625, -1.960118293762207, -1.8497021198272705, -1.8881902694702148, -1.5714263916015625, -2.1370410919189453, -1.7292242050170898, -1.7638540267944336]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.5714263916015625,-1.960118293762207,0,correct,$1.50,-1.5714263916015625,True,-1.5714263916015625,-2.1370410919189453,False,EleutherAI/pythia-1.4b-deduped,
+The pizza and the toy are both priced at $13. The pizza is $",$13.00,total_cost,total_cost,"[-1.5714263916015625, -1.960118293762207, -1.8497021198272705, -1.8881902694702148, -1.5714263916015625, -2.1370410919189453, -1.7292242050170898, -1.7638540267944336]","['correct', 'intuitive', 'total_cost', 'more', 'correct_alt', 'intuitive_alt', 'total_cost_alt', 'more_alt']",-1.571426392,-1.960118294,0,correct,$1.50,-1.571426392,TRUE,-1.571426392,-2.137041092,FALSE,EleutherAI/pythia-1.4b-deduped,

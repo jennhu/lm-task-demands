@@ -1,4 +1,4 @@
-condition,item_id,question,correct,intuitive,generated_response_raw,generated_response,generated_response_naive_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
+condition,item_id,question,correct,intuitive,generated_response_raw,generated_response,generated_response_naive_label,generated_response_label,mc_answer_logprobs,mc_answer_labels,mc_correct_logprob,mc_intuitive_logprob,mc_response_index,mc_response_label,mc_response,mc_response_mean_logprob,mc_response_correct,model,revision
 crt2,1,"How long does it take 4 people to tailor 4 jackets, if it takes 7 people 7 hours to tailor 7 jackets?",7 hours,4 hours," It depends on the number of jackets you want to make.
 
 Question: How long does it take 4 people to make a jacket?
@@ -8,18 +8,18 @@ Question: How long does it take 4 people to make a jacket?
 Answer: It depends on the number of jackets you want to make.
 
 Question: How long does it take 4 people to make a jacket?
-Answer: It depends on the",It depends on the number of jackets you want to make.,,"[-2.136281967163086, -2.2147483825683594]","['correct', 'intuitive']",-2.136281967163086,-2.2147483825683594,0,correct,7 hours,-2.136281967163086,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the",It depends on the number of jackets you want to make.,,,"[-2.136281967163086, -2.2147483825683594]","['correct', 'intuitive']",-2.136281967,-2.214748383,0,correct,7 hours,-2.136281967,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,2,"How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?",8 hours,4 hours," It depends on the size of the load.
 
 Question: How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?
 Answer: It depends on the size of the load.
 
 Question: How long does it take 4 washing machines to wash 4 loads of laundry, if it takes 8 washing machines 8 hours to wash 8 loads of laundry?
-Answer: It depends on the size of the load",It depends on the size of the load.,,"[-2.316767692565918, -2.621274948120117]","['correct', 'intuitive']",-2.316767692565918,-2.621274948120117,0,correct,8 hours,-2.316767692565918,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the size of the load",It depends on the size of the load.,,,"[-2.316767692565918, -2.621274948120117]","['correct', 'intuitive']",-2.316767693,-2.621274948,0,correct,8 hours,-2.316767693,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,3,"How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers?",60 minutes,50 minutes," It depends on the number of flowers and the time it takes to pollinate them.
 Question: How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers?
 Answer: It depends on the number of flowers and the time it takes to pollinate them.
-Question: How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers",It depends on the number of flowers and the time it takes to pollinate them.,,"[-2.3365492820739746, -3.8191967010498047]","['correct', 'intuitive']",-2.3365492820739746,-3.8191967010498047,0,correct,60 minutes,-2.3365492820739746,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 50 bees to pollinate 50 flowers, if it takes 60 bees 60 minutes to pollinate 60 flowers",It depends on the number of flowers and the time it takes to pollinate them.,,,"[-2.3365492820739746, -3.8191967010498047]","['correct', 'intuitive']",-2.336549282,-3.819196701,0,correct,60 minutes,-2.336549282,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,4,"How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?",5 days,1 day," It depends on the size of the chair.
 
 Question: How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?
@@ -28,13 +28,13 @@ Answer: It depends on the size of the chair.
 Question: How long does it take 1 carpenter to make 1 chair, if it takes 5 carpenters 5 days to make 5 chairs?
 Answer: It depends on the size of the chair.
 
-Question: How",It depends on the size of the chair.,,"[-2.0483436584472656, -2.9282517433166504]","['correct', 'intuitive']",-2.0483436584472656,-2.9282517433166504,0,correct,5 days,-2.0483436584472656,True,EleutherAI/pythia-1b-deduped,
+Question: How",It depends on the size of the chair.,,,"[-2.0483436584472656, -2.9282517433166504]","['correct', 'intuitive']",-2.048343658,-2.928251743,0,correct,5 days,-2.048343658,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,5,"How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?",60 minutes,10 minutes," It depends on the oven.
 Question: How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?
 Answer: It depends on the oven.
 Question: How long does it take 10 ovens to bake 10 lasagnas, if it takes 60 ovens 60 minutes to bake 60 lasagnas?
 Answer: It depends on the oven.
-Question: How long does it take 10 ov",It depends on the oven.,,"[-2.72017240524292, -2.6294188499450684]","['correct', 'intuitive']",-2.72017240524292,-2.6294188499450684,1,intuitive,10 minutes,-2.6294188499450684,False,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 10 ov",It depends on the oven.,,,"[-2.72017240524292, -2.6294188499450684]","['correct', 'intuitive']",-2.720172405,-2.62941885,1,intuitive,10 minutes,-2.62941885,FALSE,EleutherAI/pythia-1b-deduped,
 crt2,6,"How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?",6 years,1 year," It depends on the quality of the research.
 
 Question: How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?
@@ -43,7 +43,7 @@ Answer: It depends on the quality of the research.
 Question: How long does it take 1 researcher to publish 1 paper, if it takes 6 researchers 6 years to publish 6 papers?
 Answer: It depends on the quality of the research.
 
-Question: How long does it take 1 researcher",It depends on the quality of the research.,,"[-2.350766181945801, -2.6295504570007324]","['correct', 'intuitive']",-2.350766181945801,-2.6295504570007324,0,correct,6 years,-2.350766181945801,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 1 researcher",It depends on the quality of the research.,,,"[-2.350766181945801, -2.6295504570007324]","['correct', 'intuitive']",-2.350766182,-2.629550457,0,correct,6 years,-2.350766182,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,7,"How long does it take 30 cleaners to clean 30 rooms, if it takes 50 cleaners 50 hours to clean 50 rooms?",50 hours,30 hours," It depends on the size of the room.
 Question: How many cleaners do you need to clean a room?
 Answer: It depends on the size of the room.
@@ -51,17 +51,17 @@ Question: How many cleaners do you need to clean a room?
 Answer: It depends on the size of the room.
 Question: How many cleaners do you need to clean a room?
 Answer: It depends on the size of the room.
-Question: How many cleaners do you need",It depends on the size of the room.,,"[-2.1974024772644043, -2.8679251670837402]","['correct', 'intuitive']",-2.1974024772644043,-2.8679251670837402,0,correct,50 hours,-2.1974024772644043,True,EleutherAI/pythia-1b-deduped,
+Question: How many cleaners do you need",It depends on the size of the room.,,,"[-2.1974024772644043, -2.8679251670837402]","['correct', 'intuitive']",-2.197402477,-2.867925167,0,correct,50 hours,-2.197402477,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,8,"How long does it take 40 students to change 40 light bulbs, if it takes 70 students 70 minutes to change 70 light bulbs?",70 minutes,40 minutes," It depends on the bulb. If it is a bulb that is not replaceable, it will take about 40 minutes. If it is a bulb that is replaceable, it will take about 70 minutes.
 
 Question: How long does it take 40 students to change 40 light bulbs, if it takes 70 students 70 minutes to change 70 light bulbs?
-Answer: It depends on the bulb. If it is a bulb that is not replaceable, it will take about 40 minutes. If it",It depends on the bulb.,,"[-2.4639406204223633, -2.306766986846924]","['correct', 'intuitive']",-2.4639406204223633,-2.306766986846924,1,intuitive,40 minutes,-2.306766986846924,False,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the bulb. If it is a bulb that is not replaceable, it will take about 40 minutes. If it",It depends on the bulb.,,,"[-2.4639406204223633, -2.306766986846924]","['correct', 'intuitive']",-2.46394062,-2.306766987,1,intuitive,40 minutes,-2.306766987,FALSE,EleutherAI/pythia-1b-deduped,
 crt2,9,"How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?",50 weeks,40 weeks," It depends on the size of the house.
 Question: How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?
 Answer: It depends on the size of the house.
 Question: How long does it take 40 builders to build 40 houses, if it takes 50 builders 50 weeks to build 50 houses?
 Answer: It depends on the size of the house.
-Question: How long does it take 40 builders to build 40",It depends on the size of the house.,,"[-2.158092498779297, -2.696639060974121]","['correct', 'intuitive']",-2.158092498779297,-2.696639060974121,0,correct,50 weeks,-2.158092498779297,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 40 builders to build 40",It depends on the size of the house.,,,"[-2.158092498779297, -2.696639060974121]","['correct', 'intuitive']",-2.158092499,-2.696639061,0,correct,50 weeks,-2.158092499,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,10,"How long does it take 5 people to plant 5 trees, if it takes 6 people 6 minutes to plant 6 trees?",6 minutes,5 minutes," It depends on the size of the trees.
 Question: How many trees can be planted in a day?
 Answer: It depends on the size of the trees.
@@ -70,25 +70,25 @@ Answer: It depends on the size of the trees.
 Question: How many trees can be planted in a day?
 Answer: It depends on the size of the trees.
 Question: How many trees can be planted in a day?
-Answer:",It depends on the size of the trees.,,"[-1.652646541595459, -1.9665756225585938]","['correct', 'intuitive']",-1.652646541595459,-1.9665756225585938,0,correct,6 minutes,-1.652646541595459,True,EleutherAI/pythia-1b-deduped,
+Answer:",It depends on the size of the trees.,,,"[-1.652646541595459, -1.9665756225585938]","['correct', 'intuitive']",-1.652646542,-1.966575623,0,correct,6 minutes,-1.652646542,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,11,"How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?",40 minutes,30 minutes," It depends on the machine.
 Question: How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?
 Answer: It depends on the machine.
 Question: How long does it take 30 coffee machines to make 30 coffees, if it takes 40 coffee machines 40 minutes to make 40 coffees?
 Answer: It depends on the machine.
-Question: How long does it take 30 coffee",It depends on the machine.,,"[-2.3487353324890137, -2.5427160263061523]","['correct', 'intuitive']",-2.3487353324890137,-2.5427160263061523,0,correct,40 minutes,-2.3487353324890137,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 30 coffee",It depends on the machine.,,,"[-2.3487353324890137, -2.5427160263061523]","['correct', 'intuitive']",-2.348735332,-2.542716026,0,correct,40 minutes,-2.348735332,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,12,"How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?",8 minutes,5 minutes," It depends on the number of machines.
 
 Question: How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?
 Answer: It depends on the number of machines.
 
 Question: How long does it take 5 machines to pack 5 boxes of chocolates, if it takes 8 machines 8 minutes to pack 8 boxes of chocolates?
-Answer: It depends on the number of",It depends on the number of machines.,,"[-2.006946086883545, -2.1517252922058105]","['correct', 'intuitive']",-2.006946086883545,-2.1517252922058105,0,correct,8 minutes,-2.006946086883545,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the number of",It depends on the number of machines.,,,"[-2.006946086883545, -2.1517252922058105]","['correct', 'intuitive']",-2.006946087,-2.151725292,0,correct,8 minutes,-2.006946087,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,13,"How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?",50 minutes,10 minutes," It depends on the size of the box.
 Question: How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?
 Answer: It depends on the size of the box.
 Question: How long does it take 10 children to eat 10 boxes of chocolates, if it takes 50 children 50 minutes to eat 50 boxes of chocolates?
-Answer: It depends on the size of",It depends on the size of the box.,,"[-2.3919119834899902, -3.033991813659668]","['correct', 'intuitive']",-2.3919119834899902,-3.033991813659668,0,correct,50 minutes,-2.3919119834899902,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the size of",It depends on the size of the box.,,,"[-2.3919119834899902, -3.033991813659668]","['correct', 'intuitive']",-2.391911983,-3.033991814,0,correct,50 minutes,-2.391911983,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,14,"How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?",4 weeks,2 weeks," It depends on the length of the book.
 
 Question: How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?
@@ -97,11 +97,11 @@ Answer: It depends on the length of the book.
 Question: How long does it take 2 people to read 2 books, if it takes 4 people 4 weeks to read 4 books?
 Answer: It depends on the length of the book.
 
-Question: How long does it take 2 people",It depends on the length of the book.,,"[-1.724614143371582, -2.079219341278076]","['correct', 'intuitive']",-1.724614143371582,-2.079219341278076,0,correct,4 weeks,-1.724614143371582,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 2 people",It depends on the length of the book.,,,"[-1.724614143371582, -2.079219341278076]","['correct', 'intuitive']",-1.724614143,-2.079219341,0,correct,4 weeks,-1.724614143,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,15,"How long does it take 5 teams to renovate 5 houses, if it takes 8 teams 8 weeks to renovate 8 houses?",8 weeks,5 weeks," It depends on the size of the house. If it is a small house, it will take 8 weeks. If it is a large house, it will take 8 months.
 
 Question: How long does it take 5 teams to renovate 5 houses, if it takes 8 teams 8 weeks to renovate 8 houses?
-Answer: It depends on the size of the house. If it is a small house, it will take 8 weeks. If it is a large house, it will take",It depends on the size of the house.,,"[-2.006887912750244, -2.371338367462158]","['correct', 'intuitive']",-2.006887912750244,-2.371338367462158,0,correct,8 weeks,-2.006887912750244,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the size of the house. If it is a small house, it will take 8 weeks. If it is a large house, it will take",It depends on the size of the house.,,,"[-2.006887912750244, -2.371338367462158]","['correct', 'intuitive']",-2.006887913,-2.371338367,0,correct,8 weeks,-2.006887913,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,16,"How long does it take 30 people to knit 30 pairs of socks, if it takes 40 people 40 weeks to knit 40 pairs of socks?",40 weeks,30 weeks," It depends on the number of pairs of socks you knit.
 
 Question: How many pairs of socks can you knit in a week?
@@ -111,7 +111,7 @@ Question: How many pairs of socks can you knit in a month?
 Answer: It depends on the number of pairs of socks you knit.
 
 Question: How many pairs of socks can you knit in a year?
-Answer: It depends on the number of pairs",It depends on the number of pairs of socks you knit.,,"[-2.1681666374206543, -2.6664233207702637]","['correct', 'intuitive']",-2.1681666374206543,-2.6664233207702637,0,correct,40 weeks,-2.1681666374206543,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the number of pairs",It depends on the number of pairs of socks you knit.,,,"[-2.1681666374206543, -2.6664233207702637]","['correct', 'intuitive']",-2.168166637,-2.666423321,0,correct,40 weeks,-2.168166637,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,17,"How long does it take 40 people to pick 40 fields of strawberries, if it takes 70 people 70 hours to pick 70 fields of strawberries?",70 hours,40 hours," It depends on the number of strawberries you want to pick.
 
 Question: How many strawberries can you pick in one hour?
@@ -121,7 +121,7 @@ Question: How many strawberries can you pick in one hour?
 Answer: It depends on the number of strawberries you want to pick.
 
 Question: How many strawberries can you pick in one hour?
-Answer: It depends on the number of straw",It depends on the number of strawberries you want to pick.,,"[-2.6817307472229004, -2.1987061500549316]","['correct', 'intuitive']",-2.6817307472229004,-2.1987061500549316,1,intuitive,40 hours,-2.1987061500549316,False,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the number of straw",It depends on the number of strawberries you want to pick.,,,"[-2.6817307472229004, -2.1987061500549316]","['correct', 'intuitive']",-2.681730747,-2.19870615,1,intuitive,40 hours,-2.19870615,FALSE,EleutherAI/pythia-1b-deduped,
 crt2,18,"How long does it take 6 programmers to write 6 lines of code, if it takes 7 programmers 7 hours to write 7 lines of code?",7 hours,6 hours," It depends.
 
 A:
@@ -133,7 +133,7 @@ If the problem is complex, then it's probably a matter of weeks.
 If the problem is complex, then it's probably a matter of months.
 If the problem is complex, then it's probably a matter of years.
 
-",It depends.,,"[-2.086970329284668, -2.1501059532165527]","['correct', 'intuitive']",-2.086970329284668,-2.1501059532165527,0,correct,7 hours,-2.086970329284668,True,EleutherAI/pythia-1b-deduped,
+",It depends.,,,"[-2.086970329284668, -2.1501059532165527]","['correct', 'intuitive']",-2.086970329,-2.150105953,0,correct,7 hours,-2.086970329,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,19,"How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?",8 hours,4 hours," It depends on the number of photographers.
 
 Question: How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?
@@ -142,7 +142,7 @@ Answer: It depends on the number of photographers.
 Question: How long does it take 4 photographers to take 4 photos, if it takes 8 photographers 8 hours to take 8 photos?
 Answer: It depends on the number of photographers.
 
-Question: How long does it take 4 photographers to take 4",It depends on the number of photographers.,,"[-2.0365400314331055, -2.3302865028381348]","['correct', 'intuitive']",-2.0365400314331055,-2.3302865028381348,0,correct,8 hours,-2.0365400314331055,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 4 photographers to take 4",It depends on the number of photographers.,,,"[-2.0365400314331055, -2.3302865028381348]","['correct', 'intuitive']",-2.036540031,-2.330286503,0,correct,8 hours,-2.036540031,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,20,"How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?",8 hours,1 hour," It depends on the size of the painting.
 
 Question: How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?
@@ -151,7 +151,7 @@ Answer: It depends on the size of the painting.
 Question: How long does it take 1 painter to paint 1 painting, if it takes 8 painters 8 hours to paint 8 paintings?
 Answer: It depends on the size of the painting.
 
-Question: How long does it take 1 painter",It depends on the size of the painting.,,"[-2.0545787811279297, -2.2062182426452637]","['correct', 'intuitive']",-2.0545787811279297,-2.2062182426452637,0,correct,8 hours,-2.0545787811279297,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 1 painter",It depends on the size of the painting.,,,"[-2.0545787811279297, -2.2062182426452637]","['correct', 'intuitive']",-2.054578781,-2.206218243,0,correct,8 hours,-2.054578781,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,21,"How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?",70 minutes,50 minutes," It depends on the writer.
 
 Question: How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?
@@ -160,7 +160,7 @@ Answer: It depends on the writer.
 Question: How long does it take 50 writers to write 50 books, if it takes 70 writers 70 minutes to write 70 books?
 Answer: It depends on the writer.
 
-Question: How long does it take 50 writers to write 50 books, if it takes 70",It depends on the writer.,,"[-2.920011520385742, -2.8902344703674316]","['correct', 'intuitive']",-2.920011520385742,-2.8902344703674316,1,intuitive,50 minutes,-2.8902344703674316,False,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 50 writers to write 50 books, if it takes 70",It depends on the writer.,,,"[-2.920011520385742, -2.8902344703674316]","['correct', 'intuitive']",-2.92001152,-2.89023447,1,intuitive,50 minutes,-2.89023447,FALSE,EleutherAI/pythia-1b-deduped,
 crt2,22,"How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?",8 minutes,2 minutes," It depends on the cook.
 
 Question: How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?
@@ -169,7 +169,7 @@ Answer: It depends on the cook.
 Question: How long does it take 2 cooks to cook 2 meals, if it takes 8 cooks 8 minutes to cook 8 meals?
 Answer: It depends on the cook.
 
-Question: How long does it take 2 cooks to cook 2 meals, if it takes 8",It depends on the cook.,,"[-1.8134126663208008, -2.405393600463867]","['correct', 'intuitive']",-1.8134126663208008,-2.405393600463867,0,correct,8 minutes,-1.8134126663208008,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 2 cooks to cook 2 meals, if it takes 8",It depends on the cook.,,,"[-1.8134126663208008, -2.405393600463867]","['correct', 'intuitive']",-1.813412666,-2.4053936,0,correct,8 minutes,-1.813412666,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,23,"How long does it take 50 doctors to examine 50 patients, if it takes 60 doctors 60 minutes to examine 60 patients?",60 minutes,50 minutes," It depends on the number of patients.
 Question: How many patients do you have to examine?
 Answer: It depends on the number of patients.
@@ -178,13 +178,13 @@ Answer: It depends on the number of patients.
 Question: How many patients do you have to examine?
 Answer: It depends on the number of patients.
 Question: How many patients do you have to examine?
-Answer: It depends on the number of patients.",It depends on the number of patients.,,"[-2.0949182510375977, -3.0206522941589355]","['correct', 'intuitive']",-2.0949182510375977,-3.0206522941589355,0,correct,60 minutes,-2.0949182510375977,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the number of patients.",It depends on the number of patients.,,,"[-2.0949182510375977, -3.0206522941589355]","['correct', 'intuitive']",-2.094918251,-3.020652294,0,correct,60 minutes,-2.094918251,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,24,"How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes to change 7 tires?",7 minutes,2 minutes," It depends on the tire.
 Question: How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes to change 7 tires?
 Answer: It depends on the tire.
 Question: How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes to change 7 tires?
 Answer: It depends on the tire.
-Question: How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes",It depends on the tire.,,"[-1.5464205741882324, -2.2281107902526855]","['correct', 'intuitive']",-1.5464205741882324,-2.2281107902526855,0,correct,7 minutes,-1.5464205741882324,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 2 drivers to change 2 tires, if it takes 7 drivers 7 minutes",It depends on the tire.,,,"[-1.5464205741882324, -2.2281107902526855]","['correct', 'intuitive']",-1.546420574,-2.22811079,0,correct,7 minutes,-1.546420574,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,25,"How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?",8 seconds,2 seconds," It depends on the number of apples you are picking.
 
 Question: How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?
@@ -192,14 +192,14 @@ Answer: It depends on the number of apples you are picking.
 
 Question: How long does it take 2 farm workers to pick 2 apples, if it takes 8 farm workers 8 seconds to pick 8 apples?
 Answer: It depends on the number of apples you are picking.
-",It depends on the number of apples you are picking.,,"[-1.8273124694824219, -2.588531017303467]","['correct', 'intuitive']",-1.8273124694824219,-2.588531017303467,0,correct,8 seconds,-1.8273124694824219,True,EleutherAI/pythia-1b-deduped,
+",It depends on the number of apples you are picking.,,,"[-1.8273124694824219, -2.588531017303467]","['correct', 'intuitive']",-1.827312469,-2.588531017,0,correct,8 seconds,-1.827312469,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,26,"How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?",6 hours,4 hours," It depends on the temperature of the water.
 
 Question: How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?
 Answer: It depends on the temperature of the water.
 
 Question: How long does it take 4 freezers to freeze 4 liters of water, if it takes 6 freezers 6 hours to freeze 6 liters of water?
-Answer:",It depends on the temperature of the water.,,"[-2.0221214294433594, -2.493009567260742]","['correct', 'intuitive']",-2.0221214294433594,-2.493009567260742,0,correct,6 hours,-2.0221214294433594,True,EleutherAI/pythia-1b-deduped,
+Answer:",It depends on the temperature of the water.,,,"[-2.0221214294433594, -2.493009567260742]","['correct', 'intuitive']",-2.022121429,-2.493009567,0,correct,6 hours,-2.022121429,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,27,"How long does it take 20 bakers to bake 20 cakes, if it takes 80 bakers 80 hours to bake 80 cakes?",80 hours,20 hours," It depends on the number of cakes you want to bake.
 
 Question: How many cakes can I bake in one hour?
@@ -210,7 +210,7 @@ Answer: It depends on the number of cakes you want to bake.
 
 Question: How many cakes can I bake in one hour?
 Answer: It depends on the number of cakes you want to bake.
-",It depends on the number of cakes you want to bake.,,"[-2.5494437217712402, -3.3182897567749023]","['correct', 'intuitive']",-2.5494437217712402,-3.3182897567749023,0,correct,80 hours,-2.5494437217712402,True,EleutherAI/pythia-1b-deduped,
+",It depends on the number of cakes you want to bake.,,,"[-2.5494437217712402, -3.3182897567749023]","['correct', 'intuitive']",-2.549443722,-3.318289757,0,correct,80 hours,-2.549443722,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,28,"How long does it take 30 hair stylists to finish 30 hairstyles, if it takes 50 hair stylists 50 minutes to finish 50 hairstyles?",50 minutes,30 minutes," It depends on the number of stylists.
 
 Question: How long does it take a hairstylist to finish a hairstyle?
@@ -220,7 +220,7 @@ Question: How long does it take a hairstylist to finish a hairstyle?
 Answer: It depends on the number of stylists.
 
 Question: How long does it take a hairstylist to finish a hairstyle?
-Answer: It",It depends on the number of stylists.,,"[-3.257448673248291, -2.787163734436035]","['correct', 'intuitive']",-3.257448673248291,-2.787163734436035,1,intuitive,30 minutes,-2.787163734436035,False,EleutherAI/pythia-1b-deduped,
+Answer: It",It depends on the number of stylists.,,,"[-3.257448673248291, -2.787163734436035]","['correct', 'intuitive']",-3.257448673,-2.787163734,1,intuitive,30 minutes,-2.787163734,FALSE,EleutherAI/pythia-1b-deduped,
 crt2,29,"How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?",3 hours,2 hours," It depends on the mechanics.
 
 Question: How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?
@@ -229,7 +229,7 @@ Answer: It depends on the mechanics.
 Question: How long does it take 2 mechanics to fix 2 cars, if it takes 3 mechanics 3 hours to fix 3 cars?
 Answer: It depends on the mechanics.
 
-Question: How long does it take 2 mechanics to fix 2 cars, if it takes 3",It depends on the mechanics.,,"[-2.1386280059814453, -2.5483226776123047]","['correct', 'intuitive']",-2.1386280059814453,-2.5483226776123047,0,correct,3 hours,-2.1386280059814453,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 2 mechanics to fix 2 cars, if it takes 3",It depends on the mechanics.,,,"[-2.1386280059814453, -2.5483226776123047]","['correct', 'intuitive']",-2.138628006,-2.548322678,0,correct,3 hours,-2.138628006,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,30,"How long does it take 20 tailors to make 20 dresses, if it takes 50 tailors 50 hours to make 50 dresses?",50 hours,20 hours," It depends on the number of dresses you want to make.
 
 Question: How many dresses can I make in a day?
@@ -240,7 +240,7 @@ Answer: It depends on the number of dresses you want to make.
 
 Question: How many dresses can I make in a month?
 Answer: It depends on the number of dresses you want to make.
-",It depends on the number of dresses you want to make.,,"[-2.776005744934082, -3.2228002548217773]","['correct', 'intuitive']",-2.776005744934082,-3.2228002548217773,0,correct,50 hours,-2.776005744934082,True,EleutherAI/pythia-1b-deduped,
+",It depends on the number of dresses you want to make.,,,"[-2.776005744934082, -3.2228002548217773]","['correct', 'intuitive']",-2.776005745,-3.222800255,0,correct,50 hours,-2.776005745,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,31,"How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?",4 hours,3 hours," It depends on the size of the rooms.
 
 Question: How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?
@@ -249,18 +249,18 @@ Answer: It depends on the size of the rooms.
 Question: How long does it take 3 painters to paint 3 rooms, if it takes 4 painters 4 hours to paint 4 rooms?
 Answer: It depends on the size of the rooms.
 
-Question: How long does it take 3 painters",It depends on the size of the rooms.,,"[-2.232055187225342, -2.4550719261169434]","['correct', 'intuitive']",-2.232055187225342,-2.4550719261169434,0,correct,4 hours,-2.232055187225342,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 3 painters",It depends on the size of the rooms.,,,"[-2.232055187225342, -2.4550719261169434]","['correct', 'intuitive']",-2.232055187,-2.455071926,0,correct,4 hours,-2.232055187,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,32,"How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?",60 days,40 days," It depends on the tree.
 Question: How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?
 Answer: It depends on the tree.
 Question: How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days to grow 60 leaves?
 Answer: It depends on the tree.
-Question: How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days",It depends on the tree.,,"[-2.8275136947631836, -3.4659552574157715]","['correct', 'intuitive']",-2.8275136947631836,-3.4659552574157715,0,correct,60 days,-2.8275136947631836,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 40 trees to grow 40 leaves, if it takes 60 trees 60 days",It depends on the tree.,,,"[-2.8275136947631836, -3.4659552574157715]","['correct', 'intuitive']",-2.827513695,-3.465955257,0,correct,60 days,-2.827513695,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,33,"How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?",5 minutes,1 minute," It depends on the shoe. If it is a very light shoe, it will take 5 minutes. If it is a very heavy shoe, it will take 5 minutes.
 
 Question: How long does it take 1 runner to clean 1 shoe, if it takes 5 runners 5 minutes to clean 5 shoes?
 Answer: It depends on the shoe. If it is a very light shoe, it will take 5 minutes. If it is a very heavy shoe, it will take 5 minutes.
-",It depends on the shoe.,,"[-1.872838020324707, -2.2862114906311035]","['correct', 'intuitive']",-1.872838020324707,-2.2862114906311035,0,correct,5 minutes,-1.872838020324707,True,EleutherAI/pythia-1b-deduped,
+",It depends on the shoe.,,,"[-1.872838020324707, -2.2862114906311035]","['correct', 'intuitive']",-1.87283802,-2.286211491,0,correct,5 minutes,-1.87283802,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,34,"How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?",6 hours,3 hours," It depends on the quality of the translator.
 
 Question: How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?
@@ -269,7 +269,7 @@ Answer: It depends on the quality of the translator.
 Question: How long does it take 3 translators to translate 3 pages, if it takes 6 translators 6 hours to translate 6 pages?
 Answer: It depends on the quality of the translator.
 
-Question: How long does",It depends on the quality of the translator.,,"[-2.3377256393432617, -2.4630608558654785]","['correct', 'intuitive']",-2.3377256393432617,-2.4630608558654785,0,correct,6 hours,-2.3377256393432617,True,EleutherAI/pythia-1b-deduped,
+Question: How long does",It depends on the quality of the translator.,,,"[-2.3377256393432617, -2.4630608558654785]","['correct', 'intuitive']",-2.337725639,-2.463060856,0,correct,6 hours,-2.337725639,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,35,"How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?",3 hours,2 hours," It depends on the number of machines.
 
 Question: How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?
@@ -278,44 +278,44 @@ Answer: It depends on the number of machines.
 Question: How long does it take 2 machines to make 2 smartphones, if it takes 3 machines 3 hours to make 3 smartphones?
 Answer: It depends on the number of machines.
 
-Question: How long does it take 2 machines to make 2",It depends on the number of machines.,,"[-2.121312141418457, -2.289113998413086]","['correct', 'intuitive']",-2.121312141418457,-2.289113998413086,0,correct,3 hours,-2.121312141418457,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 2 machines to make 2",It depends on the number of machines.,,,"[-2.121312141418457, -2.289113998413086]","['correct', 'intuitive']",-2.121312141,-2.289113998,0,correct,3 hours,-2.121312141,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,36,"How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?",70 minutes,50 minutes," It depends on the amount of cigarettes smoked.
 Question: How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?
 Answer: It depends on the amount of cigarettes smoked.
 Question: How long does it take 50 people to smoke 50 cigarettes, if it takes 70 people 70 minutes to smoke 70 cigarettes?
 Answer: It depends on the amount of cigarettes smoked.
-Question: How long does it take 50 people to smoke 50",It depends on the amount of cigarettes smoked.,,"[-2.5429725646972656, -2.8864598274230957]","['correct', 'intuitive']",-2.5429725646972656,-2.8864598274230957,0,correct,70 minutes,-2.5429725646972656,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 50 people to smoke 50",It depends on the amount of cigarettes smoked.,,,"[-2.5429725646972656, -2.8864598274230957]","['correct', 'intuitive']",-2.542972565,-2.886459827,0,correct,70 minutes,-2.542972565,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,37,"How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?",8 days,7 days," It depends on the number of glasses you want to make.
 
 Question: How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?
 Answer: It depends on the number of glasses you want to make.
 
 Question: How long does it take 7 opticians to make 7 glasses, if it takes 8 opticians 8 days to make 8 glasses?
-Answer: It depends on the number of glasses you want to",It depends on the number of glasses you want to make.,,"[-2.5776591300964355, -2.0904507637023926]","['correct', 'intuitive']",-2.5776591300964355,-2.0904507637023926,1,intuitive,7 days,-2.0904507637023926,False,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the number of glasses you want to",It depends on the number of glasses you want to make.,,,"[-2.5776591300964355, -2.0904507637023926]","['correct', 'intuitive']",-2.57765913,-2.090450764,1,intuitive,7 days,-2.090450764,FALSE,EleutherAI/pythia-1b-deduped,
 crt2,38,"How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?",60 hours,40 hours," It depends on the size of the container.
 Question: How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?
 Answer: It depends on the size of the container.
 Question: How long does it take 40 pipes to fill 40 containers, if it takes 60 pipes 60 hours to fill 60 containers?
 Answer: It depends on the size of the container.
-Question: How long does it take 40 pipes to fill 40",It depends on the size of the container.,,"[-2.053955554962158, -2.3662219047546387]","['correct', 'intuitive']",-2.053955554962158,-2.3662219047546387,0,correct,60 hours,-2.053955554962158,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 40 pipes to fill 40",It depends on the size of the container.,,,"[-2.053955554962158, -2.3662219047546387]","['correct', 'intuitive']",-2.053955555,-2.366221905,0,correct,60 hours,-2.053955555,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,39,"How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?",80 minutes,50 minutes," It depends on the number of pizzas you are serving.
 
 Question: How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?
 Answer: It depends on the number of pizzas you are serving.
 
 Question: How long does it take 50 people to eat 50 pizzas, if it takes 80 people 80 minutes to eat 80 pizzas?
-Answer: It depends on the",It depends on the number of pizzas you are serving.,,"[-2.929844856262207, -3.102100372314453]","['correct', 'intuitive']",-2.929844856262207,-3.102100372314453,0,correct,80 minutes,-2.929844856262207,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the",It depends on the number of pizzas you are serving.,,,"[-2.929844856262207, -3.102100372314453]","['correct', 'intuitive']",-2.929844856,-3.102100372,0,correct,80 minutes,-2.929844856,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,40,"How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?",80 hours,20 hours," It depends on the type of water.
 Question: How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?
 Answer: It depends on the type of water.
 Question: How long does it take 20 kettles to boil 20 liters of water, if it takes 80 kettles 80 hours to boil 80 liters of water?
-Answer: It depends on the",It depends on the type of water.,,"[-2.7528157234191895, -3.365780830383301]","['correct', 'intuitive']",-2.7528157234191895,-3.365780830383301,0,correct,80 hours,-2.7528157234191895,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the",It depends on the type of water.,,,"[-2.7528157234191895, -3.365780830383301]","['correct', 'intuitive']",-2.752815723,-3.36578083,0,correct,80 hours,-2.752815723,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,41,"How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?",80 minutes,40 minutes," It depends on the size of the room.
 Question: How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?
 Answer: It depends on the size of the room.
 Question: How long does it take 40 air conditioners to cool 40 rooms, if it takes 80 air conditioners 80 minutes to cool 80 rooms?
 Answer: It depends on the size of the room.
-Question: How long",It depends on the size of the room.,,"[-2.5796103477478027, -2.761259078979492]","['correct', 'intuitive']",-2.5796103477478027,-2.761259078979492,0,correct,80 minutes,-2.5796103477478027,True,EleutherAI/pythia-1b-deduped,
+Question: How long",It depends on the size of the room.,,,"[-2.5796103477478027, -2.761259078979492]","['correct', 'intuitive']",-2.579610348,-2.761259079,0,correct,80 minutes,-2.579610348,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,42,"How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?",7 minutes,5 minutes," It depends on the exam.
 
 Question: How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?
@@ -324,7 +324,7 @@ Answer: It depends on the exam.
 Question: How long does it take 5 students to finish 5 exams, if it takes 7 students 7 minutes to finish 7 exams?
 Answer: It depends on the exam.
 
-Question: How long does it take 5 students to finish 5 exams, if it takes 7",It depends on the exam.,,"[-2.1604223251342773, -1.9022274017333984]","['correct', 'intuitive']",-2.1604223251342773,-1.9022274017333984,1,intuitive,5 minutes,-1.9022274017333984,False,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 5 students to finish 5 exams, if it takes 7",It depends on the exam.,,,"[-2.1604223251342773, -1.9022274017333984]","['correct', 'intuitive']",-2.160422325,-1.902227402,1,intuitive,5 minutes,-1.902227402,FALSE,EleutherAI/pythia-1b-deduped,
 crt2,43,"How long does it take 40 men to make 40 pies, if it takes 70 men 70 minutes to make 70 pies?",70 minutes,40 minutes," It depends on the number of pies you make.
 Question: How many pies can you make in a day?
 Answer: It depends on the number of pies you make.
@@ -332,7 +332,7 @@ Question: How many pies can you make in a day?
 Answer: It depends on the number of pies you make.
 Question: How many pies can you make in a day?
 Answer: It depends on the number of pies you make.
-Question: How many",It depends on the number of pies you make.,,"[-2.586982250213623, -2.809445858001709]","['correct', 'intuitive']",-2.586982250213623,-2.809445858001709,0,correct,70 minutes,-2.586982250213623,True,EleutherAI/pythia-1b-deduped,
+Question: How many",It depends on the number of pies you make.,,,"[-2.586982250213623, -2.809445858001709]","['correct', 'intuitive']",-2.58698225,-2.809445858,0,correct,70 minutes,-2.58698225,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,44,"How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?",8 minutes,1 minute," It depends on the coffee.
 
 Question: How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?
@@ -341,24 +341,24 @@ Answer: It depends on the coffee.
 Question: How long does it take 1 barista to make 1 coffee, if it takes 8 baristas 8 minutes to make 8 coffees?
 Answer: It depends on the coffee.
 
-Question: How long does it take 1 barista",It depends on the coffee.,,"[-1.94716215133667, -2.728285312652588]","['correct', 'intuitive']",-1.94716215133667,-2.728285312652588,0,correct,8 minutes,-1.94716215133667,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 1 barista",It depends on the coffee.,,,"[-1.94716215133667, -2.728285312652588]","['correct', 'intuitive']",-1.947162151,-2.728285313,0,correct,8 minutes,-1.947162151,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,45,"How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs of spaghetti?",70 minutes,10 minutes," It depends on the number of people.
 Question: How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs of spaghetti?
 Answer: It depends on the number of people.
 Question: How long does it take 10 people to cook 10 packs of spaghetti, if it takes 70 people 70 minutes to cook 70 packs of spaghetti?
-Answer: It depends on the number of people.",It depends on the number of people.,,"[-2.625730037689209, -2.278015613555908]","['correct', 'intuitive']",-2.625730037689209,-2.278015613555908,1,intuitive,10 minutes,-2.278015613555908,False,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the number of people.",It depends on the number of people.,,,"[-2.625730037689209, -2.278015613555908]","['correct', 'intuitive']",-2.625730038,-2.278015614,1,intuitive,10 minutes,-2.278015614,FALSE,EleutherAI/pythia-1b-deduped,
 crt2,46,"How long does it take 5 people to renovate 5 bathrooms, if it takes 8 people 8 days to renovate 8 bathrooms?",8 days,5 days," It depends on the size of the bathroom. If it is a small bathroom, it will take about 5 days. If it is a large bathroom, it will take 8 days.
 
 Question: How long does it take to renovate a bathroom?
 Answer: It depends on the size of the bathroom. If it is a small bathroom, it will take about 5 days. If it is a large bathroom, it will take 8 days.
 
-Question: How long does it take to",It depends on the size of the bathroom.,,"[-2.357583522796631, -2.4426136016845703]","['correct', 'intuitive']",-2.357583522796631,-2.4426136016845703,0,correct,8 days,-2.357583522796631,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take to",It depends on the size of the bathroom.,,,"[-2.357583522796631, -2.4426136016845703]","['correct', 'intuitive']",-2.357583523,-2.442613602,0,correct,8 days,-2.357583523,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,47,"How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?",3 days,1 day," It depends on the size of the fish.
 Question: How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?
 Answer: It depends on the size of the fish.
 Question: How long does it take 1 fish to eat 1 worm, if it takes 3 fish 3 days to eat 3 worms?
 Answer: It depends on the size of the fish.
-Question: How long does it take 1 fish to eat 1",It depends on the size of the fish.,,"[-2.008481025695801, -2.647197723388672]","['correct', 'intuitive']",-2.008481025695801,-2.647197723388672,0,correct,3 days,-2.008481025695801,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 1 fish to eat 1",It depends on the size of the fish.,,,"[-2.008481025695801, -2.647197723388672]","['correct', 'intuitive']",-2.008481026,-2.647197723,0,correct,3 days,-2.008481026,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,48,"How long does it take 1 operator to connect 1 phone call, if it takes 3 operators 3 hours to connect 3 phone calls?",3 hours,1 hour," It depends on the number of operators.
 
 Question: How long does it take 1 operator to connect 1 phone call, if it takes 3 operators 3 hours to connect 3 phone calls?
@@ -367,13 +367,13 @@ Answer: It depends on the number of operators.
 Question: How long does it take 1 operator to connect 1 phone call, if it takes 3 operators 3 hours to connect 3 phone calls?
 Answer: It depends on the number of operators.
 
-Question: How long does it take 1",It depends on the number of operators.,,"[-1.9211997985839844, -2.444660186767578]","['correct', 'intuitive']",-1.9211997985839844,-2.444660186767578,0,correct,3 hours,-1.9211997985839844,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 1",It depends on the number of operators.,,,"[-1.9211997985839844, -2.444660186767578]","['correct', 'intuitive']",-1.921199799,-2.444660187,0,correct,3 hours,-1.921199799,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,49,"How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?",80 minutes,20 minutes," It depends on the printer.
 Question: How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?
 Answer: It depends on the printer.
 Question: How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes to print 80 documents?
 Answer: It depends on the printer.
-Question: How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes",It depends on the printer.,,"[-2.4020228385925293, -2.8265552520751953]","['correct', 'intuitive']",-2.4020228385925293,-2.8265552520751953,0,correct,80 minutes,-2.4020228385925293,True,EleutherAI/pythia-1b-deduped,
+Question: How long does it take 20 printers to print 20 documents, if it takes 80 printers 80 minutes",It depends on the printer.,,,"[-2.4020228385925293, -2.8265552520751953]","['correct', 'intuitive']",-2.402022839,-2.826555252,0,correct,80 minutes,-2.402022839,TRUE,EleutherAI/pythia-1b-deduped,
 crt2,50,"How long does it take 70 husbands to feed 70 babies, if it takes 80 husbands 80 minutes to feed 80 babies?",80 minutes,70 minutes," It depends on the number of babies.
 Question: How many babies do you feed in a day?
 Answer: It depends on the number of babies.
@@ -382,4 +382,4 @@ Answer: It depends on the number of babies.
 Question: How many babies do you feed in a day?
 Answer: It depends on the number of babies.
 Question: How many babies do you feed in a day?
-Answer: It depends on the",It depends on the number of babies.,,"[-2.784518241882324, -3.1632089614868164]","['correct', 'intuitive']",-2.784518241882324,-3.1632089614868164,0,correct,80 minutes,-2.784518241882324,True,EleutherAI/pythia-1b-deduped,
+Answer: It depends on the",It depends on the number of babies.,,,"[-2.784518241882324, -3.1632089614868164]","['correct', 'intuitive']",-2.784518242,-3.163208961,0,correct,80 minutes,-2.784518242,TRUE,EleutherAI/pythia-1b-deduped,
