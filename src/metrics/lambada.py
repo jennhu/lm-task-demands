@@ -66,12 +66,12 @@ def evaluate(dataset, model, k=100, **kwargs):
         ).item()
         res["kl_divergence"] = kl
 
-        # 3. Rank order correlation (all tokens)
+        # 2. Rank order correlation (all tokens)
         r, p = spearmanr(direct_logits.cpu().numpy(), meta_logits.cpu().numpy())
         res["spearman_r_all"] = r
         res["spearman_p_all"] = p
 
-        # 4. Rank order correlation (top 100 tokens under direct distribution)
+        # 3. Rank order correlation (top 100 tokens under direct distribution)
         _, topk_inds = torch.topk(direct_logits, k)
         sorted_topk_inds = torch.stack(sorted(topk_inds))
         direct_top = direct_logits[sorted_topk_inds]

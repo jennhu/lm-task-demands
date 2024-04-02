@@ -35,11 +35,7 @@ corpus = pd.DataFrame(corpus)
 
 print(corpus.category_fine.value_counts())
 print("Number of categories:", corpus.category_fine.nunique())
-
 print("Number of items:", len(corpus))
-
-# corpus["item_id"] = range(len(corpus))
-# corpus.to_csv("stimuli.csv", index=False)
 
 # Take a random sample from each category.
 all_rows = []

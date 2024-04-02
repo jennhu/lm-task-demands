@@ -9,10 +9,14 @@ def parse_args():
     """Parses command-line arguments for run_experiment.py."""
     parser = configargparse.ArgumentParser(description="Run experiment on LMs.")
     # File-related parameters
-    parser.add("-c", "--config", is_config_file=True, help="Path to config file")
-    parser.add("-o", "--output", type=Path, default="output", help="Path to output directory where output files will be written")
-    parser.add("--cache_dir", type=Path, default="/n/holylabs/LABS/kempner_fellows/Users/jennhu/huggingface_cache/")
-    parser.add("--hf_token_path", default="src/hf_token.txt", type=Path, help="Path to file containing Huggingface token.")
+    parser.add("-c", "--config", is_config_file=True, 
+               help="Path to config file")
+    parser.add("-o", "--output", type=Path, default="output", 
+               help="Path to output directory where output files will be written")
+    parser.add("--cache_dir", type=Path, 
+               help="Path to Huggingface cache")
+    parser.add("--hf_token_path", default="src/hf_token.txt", type=Path, 
+               help="Path to file containing Huggingface token.")
     
     # Model-related parameters
     parser.add("--model", type=str, default="gpt2")
@@ -50,7 +54,7 @@ def main():
     )
 
     # Set relevant keyword arguments for generation.
-    kwargs = dict(max_new_tokens=args.max_new_tokens) #, do_sample=False)
+    kwargs = dict(max_new_tokens=args.max_new_tokens)
 
     # Set path for output file.
     if args.revision is not None:

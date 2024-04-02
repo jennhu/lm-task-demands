@@ -14,7 +14,6 @@ def evaluate(dataset, model, **kwargs):
     # Loop over all problem indices
     N_prob = 40
     for prob_ind in tqdm(range(N_prob)):
-        # print(str(prob_ind + 1) + ' of ' + str(N_prob) + '...')
         # Loop over all problem types
         for p in range(len(all_prob_types)):
             # Problem type
