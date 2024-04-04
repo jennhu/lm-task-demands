@@ -1,6 +1,6 @@
 # Auxiliary task demands mask the capabilities of smaller language models
 
-This repository contains code and data for the paper "Auxiliary task demands mask the capabilities of smaller language models" by Jennifer Hu & Michael C. Frank.
+This repository contains code and data for the paper ["Auxiliary task demands mask the capabilities of smaller language models"](https://arxiv.org/abs/2404.02418) by Jennifer Hu & Michael C. Frank.
 
 ## 0. Code structure
 
