@@ -1,0 +1,36 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: logprob ~ model_n_params_log * eval_method + (model_n_params_log *      eval_method | model_family)
+   Data: df
+
+REML criterion at convergence: 601113.9
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-14.2209  -0.3927   0.1877   0.5132   3.1305 
+
+Random effects:
+ Groups       Name                               Variance Std.Dev. Corr             
+ model_family (Intercept)                        0.05882  0.2425                    
+              model_n_params_log                 0.06928  0.2632   -0.86            
+              eval_methodmeta                    1.62539  1.2749   -0.43  0.83      
+              model_n_params_log:eval_methodmeta 0.27400  0.5235    0.86 -1.00 -0.82
+ Residual                                        5.19793  2.2799                    
+Number of obs: 133978, groups:  model_family, 5
+
+Fixed effects:
+                                   Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)                         -1.8430     0.1119  3.6479 -16.470 0.000148 ***
+model_n_params_log                   0.6539     0.1214  2.5393   5.387 0.018978 *  
+eval_methodmeta                     -4.9230     0.5721  3.6405  -8.605 0.001511 ** 
+model_n_params_log:eval_methodmeta   1.8368     0.2400  2.9343   7.654 0.005003 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) mdl___ evl_mt
+mdl_n_prms_ -0.863              
+eval_mthdmt -0.429  0.815       
+mdl_n_pr_:_  0.857 -0.985 -0.818
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

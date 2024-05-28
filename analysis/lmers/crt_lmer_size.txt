@@ -1,0 +1,37 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: response_correct ~ model_n_params_log * eval_method + (model_n_params_log *      eval_method | model_family)
+   Data: df
+
+     AIC      BIC   logLik deviance df.resid 
+  3362.2   3449.9  -1667.1   3334.2     3886 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.0576 -0.6417 -0.2317 -0.1653  6.0488 
+
+Random effects:
+ Groups       Name                             Variance Std.Dev. Corr             
+ model_family (Intercept)                      0.1463   0.3825                    
+              model_n_params_log               1.3750   1.1726   -0.16            
+              eval_methodmc                    1.4455   1.2023    1.00 -0.19      
+              model_n_params_log:eval_methodmc 1.3800   1.1747   -0.56 -0.73 -0.53
+Number of obs: 3900, groups:  model_family, 5
+
+Fixed effects:
+                                 Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                       -3.9373     0.3063 -12.855  < 2e-16 ***
+model_n_params_log                 1.4848     0.6046   2.456   0.0141 *  
+eval_methodmc                      2.4528     0.6089   4.029 5.61e-05 ***
+model_n_params_log:eval_methodmc  -1.0015     0.6127  -1.635   0.1021    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) mdl___ evl_mt
+mdl_n_prms_ -0.425              
+eval_mthdmc  0.162  0.013       
+mdl_n_pr_:_  0.062 -0.775 -0.597
+optimizer (Nelder_Mead) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

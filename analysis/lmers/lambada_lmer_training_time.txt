@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = logprob ~ training_step_log * eval_method, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-34.111  -1.152   0.482   1.432   7.386 
+
+Coefficients:
+                                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                       -7.02057    0.10371  -67.70   <2e-16 ***
+training_step_log                  0.99472    0.01978   50.29   <2e-16 ***
+eval_methodmeta                   -7.63640    0.14666  -52.07   <2e-16 ***
+training_step_log:eval_methodmeta  0.68270    0.02797   24.41   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.474 on 103056 degrees of freedom
+Multiple R-squared:  0.436,	Adjusted R-squared:  0.436 
+F-statistic: 2.655e+04 on 3 and 103056 DF,  p-value: < 2.2e-16
+

@@ -1,0 +1,22 @@
+
+Call:
+glm(formula = response_correct ~ training_step_log * eval_method, 
+    family = binomial(link = "logit"), data = df)
+
+Coefficients:
+                                Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                     -4.58328    0.18709 -24.498  < 2e-16 ***
+training_step_log                0.88829    0.03554  24.994  < 2e-16 ***
+eval_methodmc                    1.22905    0.25871   4.751 2.03e-06 ***
+training_step_log:eval_methodmc -0.13045    0.04943  -2.639  0.00831 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 33134  on 24319  degrees of freedom
+Residual deviance: 31558  on 24316  degrees of freedom
+AIC: 31566
+
+Number of Fisher Scoring iterations: 4
+
